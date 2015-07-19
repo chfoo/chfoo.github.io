@@ -24526,6 +24526,12 @@ var audioPlayer = document.getElementById('audioPlayer');
 var messageContainer = document.getElementById('messageContainer');
 var sentenceBuilderTextbox = $('#sentenceBuilderTextbox');
 var sentenceQueue = [];
+var extension = '.ogg';
+
+if (audioPlayer.canPlayType && audioPlayer.canPlayType('audio/ogg').replace(/no/, '') == '') {
+    extension = '.mp3';
+}
+
 
 var labelsMap = {
     
@@ -30951,7 +30957,7 @@ var labelsMap = {
 
 
 function playTrack(slug) {
-    audioPlayer.src='http://nullhound.fart.website/~chris/pbrchase/sounds/' + slug + '.ogg';
+    audioPlayer.src='http://nullhound.fart.website/~chris/pbrchase/sounds/' + slug + extension;
     audioPlayer.play();
 }
 
