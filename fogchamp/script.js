@@ -298,6 +298,8 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 					return 25;
 				case 200:
 					return 100;
+				case 100:
+					return 50;
 				default:
 					return 100;
 				}
@@ -308,6 +310,8 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 					return 0;
 				case 200:
 					return 200;
+				case 50:
+					return 50;
 				default:
 					return 100;
 				}
@@ -333,7 +337,7 @@ visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,
 	var modifier = damageFactor / 100;
 	if(stab) modifier *= 1.5;
 	var damage = (2 * visualizer_Formula.LEVEL + 10) / 250 * (userAttack / foeDefense) * userBasePower + 2;
-	return damage * modifier | 0;
+	return damage * modifier;
 };
 var visualizer_Main = function() {
 	this.userMessage = new visualizer_UserMessage();
@@ -469,7 +473,10 @@ visualizer_MatchupChart.prototype = {
 	}
 	,renderVersusMatrix: function(rowElement,leftMoveIndex,leftPokemonStat,topPokemonStat) {
 		if(leftMoveIndex == -1) {
-			this.renderDividerCell(rowElement,"first");
+			var dividerCell = this.renderDividerCell(rowElement,"first");
+			var dividerCellWhoFaster;
+			if(leftPokemonStat.speed > topPokemonStat.speed) dividerCellWhoFaster = "blue"; else if(leftPokemonStat.speed < topPokemonStat.speed) dividerCellWhoFaster = "red"; else dividerCellWhoFaster = "tie";
+			dividerCell.classList.add("matchupChartDividerCellSpeed-" + dividerCellWhoFaster);
 			var topPokemonMoveSlugs = topPokemonStat.moves;
 			var _g1 = 0;
 			var _g = visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
@@ -570,6 +577,7 @@ visualizer_MatchupChart.prototype = {
 		dividerCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
 		dividerCell.classList.add("matchupChartDividerCell");
 		if(classSuffix != null) dividerCell.classList.add("matchupChartDividerCell-" + classSuffix);
+		return dividerCell;
 	}
 	,processCellEfficacy: function(cell,userMoveStat,userPokemonStat,foePokemonStat) {
 		if(userMoveStat.power == "--") return;
@@ -607,6 +615,7 @@ visualizer_MatchupChart.prototype = {
 		if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
 		var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
 		var estimatedDamage = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
+		if(userMoveStat.max_hits != null) estimatedDamage *= userMoveStat.max_hits;
 		var estimatedPercentage = estimatedDamage / foePokemonStat.hp * 100 | 0;
 		cell.innerHTML = "<span class=\"damageEfficacy-" + factor + "\">×" + factorString + "</span>\n            <br>\n            <span>" + estimatedPercentage + "%</span>";
 	}
