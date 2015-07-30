@@ -399,8 +399,7 @@ visualizer_MatchupChart.prototype = {
 			var labelCell;
 			labelCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
 			labelCell.colSpan = visualizer_MatchupChart.DIVIDER + visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
-			labelCell.classList.add("pokemonChartLabel-top");
-			this.processPokemonLabelCell(pokemonStat,labelCell);
+			this.processPokemonLabelCell(pokemonStat,labelCell,"top");
 		}
 	}
 	,renderTopPokemonMovesRow: function(rowElement) {
@@ -415,8 +414,7 @@ visualizer_MatchupChart.prototype = {
 			var _g2 = visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
 			while(_g3 < _g2) {
 				var moveIndex = _g3++;
-				var cell = this.renderMoveLabelCell(pokemonStat,moveIndex,rowElement);
-				js.JQuery(cell).wrapInner("<span class=moveLabelTop>");
+				this.renderMoveLabelCell(pokemonStat,moveIndex,rowElement,"top");
 			}
 		}
 	}
@@ -429,7 +427,7 @@ visualizer_MatchupChart.prototype = {
 			this.renderLeftPokemonLabel(leftPokemonStat,rowElement);
 			this.renderDividerCell(rowElement);
 		}
-		if(leftMoveIndex >= 0) this.renderMoveLabelCell(leftPokemonStat,leftMoveIndex,rowElement);
+		if(leftMoveIndex >= 0) this.renderMoveLabelCell(leftPokemonStat,leftMoveIndex,rowElement,"left");
 		var _g = 3;
 		while(_g < 6) {
 			var topSlotNum = _g++;
@@ -469,34 +467,59 @@ visualizer_MatchupChart.prototype = {
 		var labelCell;
 		labelCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
 		labelCell.rowSpan = visualizer_MatchupChart.DIVIDER + visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
-		labelCell.classList.add("pokemonChartLabel-left");
-		this.processPokemonLabelCell(pokemonStat,labelCell);
+		this.processPokemonLabelCell(pokemonStat,labelCell,"left");
 	}
-	,renderMoveLabelCell: function(pokemonStat,moveIndex,rowElement) {
+	,renderMoveLabelCell: function(pokemonStat,moveIndex,rowElement,position) {
 		var labelCell;
 		labelCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
 		var moveSlugs = pokemonStat.moves;
 		if(moveIndex < moveSlugs.length) {
 			var moveSlug = moveSlugs[moveIndex];
 			var moveStats = this.movesDataset.getMoveStats(moveSlug);
-			this.processMoveLabelCell(moveStats,labelCell);
+			this.processMoveLabelCell(moveStats,labelCell,position);
 		}
-		return labelCell;
 	}
-	,processPokemonLabelCell: function(pokemonStat,cell) {
-		cell.textContent = pokemonStat.name;
-	}
-	,processMoveLabelCell: function(moveStats,cell) {
-		var span;
+	,processPokemonLabelCell: function(pokemonStat,cell,position) {
+		var container;
 		var _this = window.document;
-		span = _this.createElement("span");
-		span.textContent = moveStats.name;
-		span.classList.add("pokemonType-" + Std.string(moveStats.move_type));
-		cell.appendChild(span);
+		container = _this.createElement("div");
+		container.classList.add("matchupChartLabel-" + position);
+		var span;
+		var _this1 = window.document;
+		span = _this1.createElement("span");
+		span.classList.add("matchupChartLabelRotate-" + position);
+		span.textContent = pokemonStat.name;
+		container.appendChild(span);
+		cell.appendChild(container);
+	}
+	,processMoveLabelCell: function(moveStats,cell,position) {
+		var container;
+		var _this = window.document;
+		container = _this.createElement("div");
+		container.classList.add("matchupChartMoveLabel-" + position);
+		var span;
+		var _this1 = window.document;
+		span = _this1.createElement("span");
+		span.classList.add("matchupChartMoveLabelRotate-" + position);
+		var typeIcon;
+		var _this2 = window.document;
+		typeIcon = _this2.createElement("span");
+		typeIcon.classList.add("pokemonType-" + Std.string(moveStats.move_type));
+		typeIcon.classList.add("miniPokemonTypeIcon");
+		typeIcon.textContent = " ";
+		span.appendChild(typeIcon);
+		var moveLabelText;
+		var _this3 = window.document;
+		moveLabelText = _this3.createElement("span");
+		moveLabelText.textContent = moveStats.name;
+		span.appendChild(moveLabelText);
+		container.appendChild(span);
+		cell.appendChild(container);
 	}
 	,renderDividerCell: function(rowElement) {
 		var dividerCell;
 		dividerCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
+		dividerCell.classList.add("matchupChartDividerCell");
 	}
 	,processCellEfficacy: function(cell,userMoveStat,foePokemonStat) {
 		if(userMoveStat.power == "--") return;
