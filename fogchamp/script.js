@@ -737,7 +737,7 @@ visualizer_UI.prototype = {
 	}
 	,readUrlFragment: function() {
 		var fragment = window.location.hash;
-		var pattern = new EReg("([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)-([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)","");
+		var pattern = new EReg("([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)","");
 		if(pattern.match(fragment)) {
 			var pokemonNums;
 			var this1;
