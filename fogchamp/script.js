@@ -569,6 +569,18 @@ visualizer_MatchupChart.prototype = {
 		moveLabelText = _this3.createElement("span");
 		moveLabelText.textContent = moveStats.name;
 		span.appendChild(moveLabelText);
+		span.appendChild((function($this) {
+			var $r;
+			var _this4 = window.document;
+			$r = _this4.createElement("br");
+			return $r;
+		}(this)));
+		var extraInfo;
+		var _this5 = window.document;
+		extraInfo = _this5.createElement("span");
+		extraInfo.innerHTML = "" + Std.string(moveStats.power) + "<small>pwr</small>";
+		extraInfo.classList.add("dimLabel");
+		span.appendChild(extraInfo);
 		container.appendChild(span);
 		cell.appendChild(container);
 	}
@@ -738,7 +750,7 @@ visualizer_UI.prototype = {
 				pokemonNums[i] = val;
 			}
 			this.setSelectionByNumbers(pokemonNums);
-			this.renderAll();
+			this.renderAll(false);
 		}
 	}
 	,writeUrlFragment: function() {
@@ -763,12 +775,13 @@ visualizer_UI.prototype = {
 	,selectChanged: function(slotNum) {
 		this.renderAll();
 	}
-	,renderAll: function() {
+	,renderAll: function(updateUrlFragment) {
+		if(updateUrlFragment == null) updateUrlFragment = true;
 		this.renderPokemonStats();
 		this.renderPokemonMoves();
 		this.renderChart();
 		this.attachHelpListeners();
-		this.writeUrlFragment();
+		if(updateUrlFragment) this.writeUrlFragment();
 	}
 	,getSlotSlug: function(slotNum) {
 		return js.JQuery("#selectionSelect" + slotNum).val();
