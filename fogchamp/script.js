@@ -488,7 +488,24 @@ visualizer_MatchupChart.prototype = {
 		var _this1 = window.document;
 		span = _this1.createElement("span");
 		span.classList.add("matchupChartLabelRotate-" + position);
-		span.textContent = pokemonStat.name;
+		var pokemonTypes = pokemonStat.types;
+		var _g = 0;
+		while(_g < pokemonTypes.length) {
+			var pokemonType = pokemonTypes[_g];
+			++_g;
+			var typeIcon;
+			var _this2 = window.document;
+			typeIcon = _this2.createElement("span");
+			typeIcon.classList.add("pokemonType-" + pokemonType);
+			typeIcon.classList.add("miniPokemonTypeIcon");
+			typeIcon.textContent = " ";
+			span.appendChild(typeIcon);
+		}
+		var labelText;
+		var _this3 = window.document;
+		labelText = _this3.createElement("span");
+		labelText.textContent = pokemonStat.name;
+		span.appendChild(labelText);
 		container.appendChild(span);
 		cell.appendChild(container);
 	}
