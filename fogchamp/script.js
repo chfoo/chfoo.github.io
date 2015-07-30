@@ -38,6 +38,18 @@ HxOverrides.substr = function(s,pos,len) {
 	} else if(len < 0) len = s.length + len - pos;
 	return s.substr(pos,len);
 };
+HxOverrides.indexOf = function(a,obj,i) {
+	var len = a.length;
+	if(i < 0) {
+		i += len;
+		if(i < 0) i = 0;
+	}
+	while(i < len) {
+		if(a[i] === obj) return i;
+		i++;
+	}
+	return -1;
+};
 Math.__name__ = true;
 var Reflect = function() { };
 Reflect.__name__ = true;
@@ -272,6 +284,8 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 					return 400;
 				case 50:
 					return 100;
+				case 100:
+					return 200;
 				default:
 					return 100;
 				}
@@ -284,6 +298,16 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 					return 25;
 				case 200:
 					return 100;
+				default:
+					return 100;
+				}
+				break;
+			case 100:
+				switch(pair_1) {
+				case 0:
+					return 0;
+				case 200:
+					return 200;
 				default:
 					return 100;
 				}
@@ -303,6 +327,14 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 	}
 	,__class__: visualizer_DescriptionsDataset
 });
+var visualizer_Formula = function() { };
+visualizer_Formula.__name__ = true;
+visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,stab,damageFactor) {
+	var modifier = damageFactor / 100;
+	if(stab) modifier *= 1.5;
+	var damage = (2 * visualizer_Formula.LEVEL + 10) / 250 * (userAttack / foeDefense) * userBasePower + 2;
+	return damage * modifier | 0;
+};
 var visualizer_Main = function() {
 	this.userMessage = new visualizer_UserMessage();
 	this.pokemonDataset = new visualizer_PokemonDataset();
@@ -437,7 +469,7 @@ visualizer_MatchupChart.prototype = {
 	}
 	,renderVersusMatrix: function(rowElement,leftMoveIndex,leftPokemonStat,topPokemonStat) {
 		if(leftMoveIndex == -1) {
-			this.renderDividerCell(rowElement);
+			this.renderDividerCell(rowElement,"first");
 			var topPokemonMoveSlugs = topPokemonStat.moves;
 			var _g1 = 0;
 			var _g = visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
@@ -448,7 +480,7 @@ visualizer_MatchupChart.prototype = {
 				cell.rowSpan = topMoveIndex + 1;
 				if(topMoveIndex < topPokemonMoveSlugs.length) {
 					var moveStat = this.movesDataset.getMoveStats(topPokemonMoveSlugs[topMoveIndex]);
-					this.processCellEfficacy(cell,moveStat,leftPokemonStat);
+					this.processCellEfficacy(cell,moveStat,topPokemonStat,leftPokemonStat);
 				}
 			}
 		} else {
@@ -458,7 +490,7 @@ visualizer_MatchupChart.prototype = {
 			var leftPokemonMoveSlugs = leftPokemonStat.moves;
 			if(leftMoveIndex < leftPokemonMoveSlugs.length) {
 				var moveStat1 = this.movesDataset.getMoveStats(leftPokemonMoveSlugs[leftMoveIndex]);
-				this.processCellEfficacy(cell1,moveStat1,topPokemonStat);
+				this.processCellEfficacy(cell1,moveStat1,leftPokemonStat,topPokemonStat);
 			}
 			this.renderDividerCell(rowElement);
 		}
@@ -533,16 +565,18 @@ visualizer_MatchupChart.prototype = {
 		container.appendChild(span);
 		cell.appendChild(container);
 	}
-	,renderDividerCell: function(rowElement) {
+	,renderDividerCell: function(rowElement,classSuffix) {
 		var dividerCell;
 		dividerCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
 		dividerCell.classList.add("matchupChartDividerCell");
+		if(classSuffix != null) dividerCell.classList.add("matchupChartDividerCell-" + classSuffix);
 	}
-	,processCellEfficacy: function(cell,userMoveStat,foePokemonStat) {
+	,processCellEfficacy: function(cell,userMoveStat,userPokemonStat,foePokemonStat) {
 		if(userMoveStat.power == "--") return;
-		var userType = userMoveStat.move_type;
+		var userMoveType = userMoveStat.move_type;
+		var userTypes = userPokemonStat.types;
 		var foeTypes = foePokemonStat.types;
-		var factor = this.descriptionsDataset.getTypeEfficacy(userType,foeTypes[0],foeTypes[1]);
+		var factor = this.descriptionsDataset.getTypeEfficacy(userMoveType,foeTypes[0],foeTypes[1]);
 		var factorString;
 		switch(factor) {
 		case 0:
@@ -566,7 +600,15 @@ visualizer_MatchupChart.prototype = {
 		default:
 			factorString = "Err";
 		}
-		cell.innerHTML = "<span class=\"damageEfficacy-" + factor + "\">×" + factorString + "</span>";
+		var userAttack;
+		var foeDefense;
+		var userBasePower = userMoveStat.power;
+		if(userMoveStat.move_type == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
+		if(userMoveStat.move_type == "physical") foeDefense = foePokemonStat.attack; else foeDefense = foePokemonStat.special_attack;
+		var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
+		var estimatedDamage = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
+		var estimatedPercentage = estimatedDamage / foePokemonStat.hp * 100 | 0;
+		cell.innerHTML = "<span class=\"damageEfficacy-" + factor + "\">×" + factorString + "</span>\n            <br>\n            <span>" + estimatedPercentage + "%</span>";
 	}
 	,__class__: visualizer_MatchupChart
 };
@@ -844,6 +886,9 @@ visualizer_UserMessage.prototype = {
 };
 var $_, $fid = 0;
 function $bind(o,m) { if( m == null ) return null; if( m.__id__ == null ) m.__id__ = $fid++; var f; if( o.hx__closures__ == null ) o.hx__closures__ = {}; else f = o.hx__closures__[m.__id__]; if( f == null ) { f = function(){ return f.method.apply(f.scope, arguments); }; f.scope = o; f.method = m; o.hx__closures__[m.__id__] = f; } return f; }
+if(Array.prototype.indexOf) HxOverrides.indexOf = function(a,o,i) {
+	return Array.prototype.indexOf.call(a,o,i);
+};
 String.prototype.__class__ = String;
 String.__name__ = true;
 Array.__name__ = true;
@@ -867,6 +912,7 @@ q.fn.iterator = function() {
 	}};
 };
 js_Boot.__toStr = {}.toString;
+visualizer_Formula.LEVEL = 100;
 visualizer_Main.LOAD_FAIL_MSG = "Loading dataset failed. Reload the page.";
 visualizer_MatchupChart.NUM_POKEMON_PER_TEAM = 3;
 visualizer_MatchupChart.NUM_MOVES_PER_POKEMON = 4;
