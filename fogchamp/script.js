@@ -487,7 +487,7 @@ visualizer_MatchupChart.prototype = {
 				cell.rowSpan = topMoveIndex + 1;
 				if(topMoveIndex < topPokemonMoveSlugs.length) {
 					var moveStat = this.movesDataset.getMoveStats(topPokemonMoveSlugs[topMoveIndex]);
-					this.processCellEfficacy(cell,moveStat,topPokemonStat,leftPokemonStat);
+					this.processCellEfficacy(cell,moveStat,topPokemonStat,leftPokemonStat,"top");
 				}
 			}
 		} else {
@@ -497,9 +497,9 @@ visualizer_MatchupChart.prototype = {
 			var leftPokemonMoveSlugs = leftPokemonStat.moves;
 			if(leftMoveIndex < leftPokemonMoveSlugs.length) {
 				var moveStat1 = this.movesDataset.getMoveStats(leftPokemonMoveSlugs[leftMoveIndex]);
-				this.processCellEfficacy(cell1,moveStat1,leftPokemonStat,topPokemonStat);
+				this.processCellEfficacy(cell1,moveStat1,leftPokemonStat,topPokemonStat,"left");
 			}
-			this.renderDividerCell(rowElement);
+			if(leftMoveIndex == 3) this.renderDividerCell(rowElement,"last"); else this.renderDividerCell(rowElement);
 		}
 	}
 	,renderLeftPokemonLabel: function(pokemonStat,rowElement) {
@@ -549,6 +549,7 @@ visualizer_MatchupChart.prototype = {
 		cell.appendChild(container);
 	}
 	,processMoveLabelCell: function(moveStats,cell,position) {
+		cell.classList.add("matchupChartMoveCell-" + position);
 		var container;
 		var _this = window.document;
 		container = _this.createElement("div");
@@ -591,8 +592,17 @@ visualizer_MatchupChart.prototype = {
 		if(classSuffix != null) dividerCell.classList.add("matchupChartDividerCell-" + classSuffix);
 		return dividerCell;
 	}
-	,processCellEfficacy: function(cell,userMoveStat,userPokemonStat,foePokemonStat) {
-		if(userMoveStat.power == "--") return;
+	,processCellEfficacy: function(cell,userMoveStat,userPokemonStat,foePokemonStat,position) {
+		cell.classList.add("matchupChartEfficacyCell-" + position);
+		if(userMoveStat.accuracy == "--" && userMoveStat.power == "--") return;
+		var container;
+		var _this = window.document;
+		container = _this.createElement("div");
+		container.classList.add("matchupChartEfficacy-" + position);
+		var span;
+		var _this1 = window.document;
+		span = _this1.createElement("span");
+		span.classList.add("matchupChartEfficacyRotate-" + position);
 		var userMoveType = userMoveStat.move_type;
 		var userTypes = userPokemonStat.types;
 		var foeTypes = foePokemonStat.types;
@@ -620,16 +630,23 @@ visualizer_MatchupChart.prototype = {
 		default:
 			factorString = "Err";
 		}
-		var userAttack;
-		var foeDefense;
-		var userBasePower = userMoveStat.power;
-		if(userMoveStat.damage_category == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
-		if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
-		var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
-		var estimatedDamage = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
-		if(userMoveStat.max_hits != null) estimatedDamage *= userMoveStat.max_hits;
-		var estimatedPercentage = estimatedDamage / foePokemonStat.hp * 100 | 0;
-		cell.innerHTML = "<span class=\"damageEfficacy-" + factor + "\">×" + factorString + "</span>\n            <br>\n            <span>" + estimatedPercentage + "%</span>";
+		if(userMoveStat.power == "--") {
+			if(factor == 0) span.textContent = "✕"; else span.textContent = "○";
+			span.classList.add("damageEfficacy-" + factor);
+		} else {
+			var userAttack;
+			var foeDefense;
+			var userBasePower = userMoveStat.power;
+			if(userMoveStat.damage_category == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
+			if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
+			var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
+			var estimatedDamage = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
+			if(userMoveStat.max_hits != null) estimatedDamage *= userMoveStat.max_hits;
+			var estimatedPercentage = estimatedDamage / foePokemonStat.hp * 100 | 0;
+			span.innerHTML = "<span class=\"damageEfficacy-" + factor + "\">×" + factorString + "</span>\n                <br>\n                <span>" + estimatedPercentage + "%</span>";
+		}
+		container.appendChild(span);
+		cell.appendChild(container);
 	}
 	,__class__: visualizer_MatchupChart
 };
