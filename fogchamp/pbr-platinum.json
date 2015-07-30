@@ -1413,7 +1413,7 @@
       "speed": 147,
       "types": [
         "water",
-        "fairy"
+        "normal"
       ]
     },
     "azurill": {
@@ -1437,8 +1437,7 @@
       "special_defense": 137,
       "speed": 76,
       "types": [
-        "normal",
-        "fairy"
+        "normal"
       ]
     },
     "bagon": {
@@ -2708,7 +2707,7 @@
       "special_defense": 216,
       "speed": 156,
       "types": [
-        "fairy"
+        "normal"
       ]
     },
     "clefairy": {
@@ -2732,7 +2731,7 @@
       "special_defense": 198,
       "speed": 108,
       "types": [
-        "fairy"
+        "normal"
       ]
     },
     "cleffa": {
@@ -2756,7 +2755,7 @@
       "special_defense": 162,
       "speed": 59,
       "types": [
-        "fairy"
+        "normal"
       ]
     },
     "cloyster": {
@@ -4536,7 +4535,7 @@
       "speed": 191,
       "types": [
         "psychic",
-        "fairy"
+        "normal"
       ]
     },
     "gastly": {
@@ -5054,7 +5053,7 @@
       "special_defense": 142,
       "speed": 140,
       "types": [
-        "fairy"
+        "normal"
       ]
     },
     "graveler": {
@@ -5836,8 +5835,7 @@
       "special_defense": 92,
       "speed": 82,
       "types": [
-        "normal",
-        "fairy"
+        "normal"
       ]
     },
     "illumise": {
@@ -5935,8 +5933,7 @@
       "special_defense": 105,
       "speed": 74,
       "types": [
-        "normal",
-        "fairy"
+        "normal"
       ]
     },
     "jirachi": {
@@ -6256,7 +6253,7 @@
       "speed": 154,
       "types": [
         "psychic",
-        "fairy"
+        "normal"
       ]
     },
     "koffing": {
@@ -7528,7 +7525,7 @@
       "speed": 116,
       "types": [
         "water",
-        "fairy"
+        "normal"
       ]
     },
     "marowak": {
@@ -7627,7 +7624,7 @@
       "speed": 159,
       "types": [
         "steel",
-        "fairy"
+        "normal"
       ]
     },
     "medicham": {
@@ -7992,7 +7989,7 @@
       "speed": 188,
       "types": [
         "psychic",
-        "fairy"
+        "normal"
       ]
     },
     "minun": {
@@ -8164,7 +8161,7 @@
       "speed": 217,
       "types": [
         "psychic",
-        "fairy"
+        "normal"
       ]
     },
     "mudkip": {
@@ -9728,7 +9725,7 @@
       "speed": 116,
       "types": [
         "psychic",
-        "fairy"
+        "normal"
       ]
     },
     "rampardos": {
@@ -11439,7 +11436,7 @@
       "special_defense": 132,
       "speed": 112,
       "types": [
-        "fairy"
+        "normal"
       ]
     },
     "solrock": {
@@ -12323,7 +12320,7 @@
       "special_defense": 259,
       "speed": 189,
       "types": [
-        "fairy",
+        "normal",
         "flying"
       ]
     },
@@ -12348,7 +12345,7 @@
       "special_defense": 205,
       "speed": 87,
       "types": [
-        "fairy"
+        "normal"
       ]
     },
     "togetic": {
@@ -12372,7 +12369,7 @@
       "special_defense": 252,
       "speed": 122,
       "types": [
-        "fairy",
+        "normal",
         "flying"
       ]
     },
@@ -13321,8 +13318,7 @@
       "special_defense": 140,
       "speed": 117,
       "types": [
-        "normal",
-        "fairy"
+        "normal"
       ]
     },
     "wingull": {
