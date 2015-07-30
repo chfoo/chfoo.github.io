@@ -1,0 +1,1358 @@
+{
+  "abilities": {
+    "adaptability": {
+      "description": "Powers up moves of the\nsame type as the Pok\u00e9mon.",
+      "name": "Adaptability"
+    },
+    "aerilate": {
+      "description": "Normal-type moves become\nFlying-type moves.",
+      "name": "Aerilate"
+    },
+    "aftermath": {
+      "description": "Damages the attacker\nlanding the finishing hit.",
+      "name": "Aftermath"
+    },
+    "air-lock": {
+      "description": "Eliminates the effects of\nweather.",
+      "name": "Air Lock"
+    },
+    "analytic": {
+      "description": "Boosts move power when the\nPok\u00e9mon moves after the target.",
+      "name": "Analytic"
+    },
+    "anger-point": {
+      "description": "Maxes the Attack stat after\nthe Pok\u00e9mon takes a critical hit.",
+      "name": "Anger Point"
+    },
+    "anticipation": {
+      "description": "Senses an opposing Pok\u00e9mon\u2019s\ndangerous moves.",
+      "name": "Anticipation"
+    },
+    "aqua-boost": {
+      "description": null,
+      "name": "Aqua Boost"
+    },
+    "arena-trap": {
+      "description": "Prevents opposing Pok\u00e9mon\nfrom fleeing.",
+      "name": "Arena Trap"
+    },
+    "aroma-veil": {
+      "description": "Protects allies from attacks that\nlimit their move choices.",
+      "name": "Aroma Veil"
+    },
+    "aura-break": {
+      "description": "The effects of \u201cAura\u201d Abilities\nare reversed.",
+      "name": "Aura Break"
+    },
+    "bad-dreams": {
+      "description": "Reduces the HP of sleeping\nopposing Pok\u00e9mon.",
+      "name": "Bad Dreams"
+    },
+    "battle-armor": {
+      "description": "Protects the Pok\u00e9mon\nfrom critical hits.",
+      "name": "Battle Armor"
+    },
+    "big-pecks": {
+      "description": "Protects the Pok\u00e9mon from\nDefense-lowering attacks.",
+      "name": "Big Pecks"
+    },
+    "black-hole": {
+      "description": null,
+      "name": "Black Hole"
+    },
+    "blaze": {
+      "description": "Powers up Fire-type moves when\nthe Pok\u00e9mon is in trouble.",
+      "name": "Blaze"
+    },
+    "bodyguard": {
+      "description": null,
+      "name": "Bodyguard"
+    },
+    "bonanza": {
+      "description": null,
+      "name": "Bonanza"
+    },
+    "bulletproof": {
+      "description": "Protects the Pok\u00e9mon from\nsome ball and bomb moves.",
+      "name": "Bulletproof"
+    },
+    "calming": {
+      "description": null,
+      "name": "Calming"
+    },
+    "celebrate": {
+      "description": null,
+      "name": "Celebrate"
+    },
+    "cheek-pouch": {
+      "description": "Restores HP as well when\nthe Pok\u00e9mon eats a Berry.",
+      "name": "Cheek Pouch"
+    },
+    "chlorophyll": {
+      "description": "Boosts the Pok\u00e9mon\u2019s\nSpeed stat in sunshine.",
+      "name": "Chlorophyll"
+    },
+    "clear-body": {
+      "description": "Prevents other Pok\u00e9mon\nfrom lowering its stats.",
+      "name": "Clear Body"
+    },
+    "climber": {
+      "description": null,
+      "name": "Climber"
+    },
+    "cloud-nine": {
+      "description": "Eliminates the effects of\nweather.",
+      "name": "Cloud Nine"
+    },
+    "color-change": {
+      "description": "The Pok\u00e9mon\u2019s type becomes\nthe type of the move used on it.",
+      "name": "Color Change"
+    },
+    "competitive": {
+      "description": "Boosts the Sp. Atk stat when\na stat is lowered.",
+      "name": "Competitive"
+    },
+    "compound-eyes": {
+      "description": "Boosts the Pok\u00e9mon\u2019s accuracy.",
+      "name": "Compound Eyes"
+    },
+    "confidence": {
+      "description": null,
+      "name": "Confidence"
+    },
+    "conqueror": {
+      "description": null,
+      "name": "Conqueror"
+    },
+    "contrary": {
+      "description": "Makes stat changes have\nan opposite effect.",
+      "name": "Contrary"
+    },
+    "cursed-body": {
+      "description": "May disable a move used\non the Pok\u00e9mon.",
+      "name": "Cursed Body"
+    },
+    "cute-charm": {
+      "description": "Contact with the Pok\u00e9mon\nmay cause infatuation.",
+      "name": "Cute Charm"
+    },
+    "damp": {
+      "description": "Prevents the use of\nself-destructing moves.",
+      "name": "Damp"
+    },
+    "dark-aura": {
+      "description": "Powers up each Pok\u00e9mon\u2019s\nDark-type moves.",
+      "name": "Dark Aura"
+    },
+    "daze": {
+      "description": null,
+      "name": "Daze"
+    },
+    "decoy": {
+      "description": null,
+      "name": "Decoy"
+    },
+    "deep-sleep": {
+      "description": null,
+      "name": "Deep Sleep"
+    },
+    "defeatist": {
+      "description": "Lowers stats when HP\nbecomes half or less.",
+      "name": "Defeatist"
+    },
+    "defiant": {
+      "description": "Boosts the Pok\u00e9mon\u2019s Attack stat\nwhen its stats are lowered.",
+      "name": "Defiant"
+    },
+    "disgust": {
+      "description": null,
+      "name": "Disgust"
+    },
+    "dodge": {
+      "description": null,
+      "name": "Dodge"
+    },
+    "download": {
+      "description": "Adjusts power based on an\nopposing Pok\u00e9mon\u2019s stats.",
+      "name": "Download"
+    },
+    "drizzle": {
+      "description": "The Pok\u00e9mon makes it rain\nwhen it enters a battle.",
+      "name": "Drizzle"
+    },
+    "drought": {
+      "description": "Turns the sunlight harsh when\nthe Pok\u00e9mon enters a battle.",
+      "name": "Drought"
+    },
+    "dry-skin": {
+      "description": "Reduces HP if it\u2019s hot.\nWater restores HP.",
+      "name": "Dry Skin"
+    },
+    "early-bird": {
+      "description": "The Pok\u00e9mon awakens\nquickly from sleep.",
+      "name": "Early Bird"
+    },
+    "effect-spore": {
+      "description": "Contact may poison or\ncause paralysis or sleep.",
+      "name": "Effect Spore"
+    },
+    "explode": {
+      "description": null,
+      "name": "Explode"
+    },
+    "fairy-aura": {
+      "description": "Powers up each Pok\u00e9mon\u2019s\nFairy-type moves.",
+      "name": "Fairy Aura"
+    },
+    "filter": {
+      "description": "Reduces damage from\nsupereffective attacks.",
+      "name": "Filter"
+    },
+    "flame-body": {
+      "description": "Contact with the Pok\u00e9mon\nmay burn the attacker.",
+      "name": "Flame Body"
+    },
+    "flame-boost": {
+      "description": null,
+      "name": "Flame Boost"
+    },
+    "flare-boost": {
+      "description": "Powers up special attacks when\nthe Pok\u00e9mon is burned.",
+      "name": "Flare Boost"
+    },
+    "flash-fire": {
+      "description": "Powers up the Pok\u00e9mon\u2019s Fire-\ntype moves if it\u2019s hit by one.",
+      "name": "Flash Fire"
+    },
+    "flower-gift": {
+      "description": "Powers up party Pok\u00e9mon\nwhen it is sunny.",
+      "name": "Flower Gift"
+    },
+    "flower-veil": {
+      "description": "Prevents lowering of ally\nGrass-type Pok\u00e9mon\u2019s stats.",
+      "name": "Flower Veil"
+    },
+    "forecast": {
+      "description": "Castform transforms with\nthe weather.",
+      "name": "Forecast"
+    },
+    "forewarn": {
+      "description": "Determines what moves\nan opposing Pok\u00e9mon has.",
+      "name": "Forewarn"
+    },
+    "fortune": {
+      "description": null,
+      "name": "Fortune"
+    },
+    "friend-guard": {
+      "description": "Reduces damage done\nto allies.",
+      "name": "Friend Guard"
+    },
+    "frighten": {
+      "description": null,
+      "name": "Frighten"
+    },
+    "frisk": {
+      "description": "The Pok\u00e9mon can check an\nopposing Pok\u00e9mon\u2019s held item.",
+      "name": "Frisk"
+    },
+    "frostbite": {
+      "description": null,
+      "name": "Frostbite"
+    },
+    "fur-coat": {
+      "description": "Halves damage from\nphysical moves.",
+      "name": "Fur Coat"
+    },
+    "gale-wings": {
+      "description": "Gives priority to Flying-type\nmoves.",
+      "name": "Gale Wings"
+    },
+    "gluttony": {
+      "description": "Makes the Pok\u00e9mon use a held\nBerry earlier than usual.",
+      "name": "Gluttony"
+    },
+    "gooey": {
+      "description": "Contact with the Pok\u00e9mon\nlowers the attacker\u2019s Speed stat.",
+      "name": "Gooey"
+    },
+    "grass-cloak": {
+      "description": null,
+      "name": "Grass Cloak"
+    },
+    "grass-pelt": {
+      "description": "Boosts the Defense stat\nin Grassy Terrain.",
+      "name": "Grass Pelt"
+    },
+    "gulp": {
+      "description": null,
+      "name": "Gulp"
+    },
+    "guts": {
+      "description": "Boosts the Attack stat if the\nPok\u00e9mon has a status condition.",
+      "name": "Guts"
+    },
+    "harvest": {
+      "description": "May create another\nBerry after one is used.",
+      "name": "Harvest"
+    },
+    "healer": {
+      "description": "Sometimes heals an\nally\u2019s status condition.",
+      "name": "Healer"
+    },
+    "heatproof": {
+      "description": "Weakens the power of\nFire-type moves.",
+      "name": "Heatproof"
+    },
+    "heavy-metal": {
+      "description": "Doubles the Pok\u00e9mon\u2019s weight.",
+      "name": "Heavy Metal"
+    },
+    "herbivore": {
+      "description": null,
+      "name": "Herbivore"
+    },
+    "hero": {
+      "description": null,
+      "name": "Hero"
+    },
+    "high-rise": {
+      "description": null,
+      "name": "High-rise"
+    },
+    "honey-gather": {
+      "description": "The Pok\u00e9mon may gather\nHoney from somewhere.",
+      "name": "Honey Gather"
+    },
+    "hot-blooded": {
+      "description": null,
+      "name": "Hot Blooded"
+    },
+    "huge-power": {
+      "description": "Boosts the Pok\u00e9mon\u2019s\nAttack stat.",
+      "name": "Huge Power"
+    },
+    "hustle": {
+      "description": "Boosts the Attack stat,\nbut lowers accuracy.",
+      "name": "Hustle"
+    },
+    "hydration": {
+      "description": "Heals status conditions if\nit\u2019s raining.",
+      "name": "Hydration"
+    },
+    "hyper-cutter": {
+      "description": "Prevents other Pok\u00e9mon\nfrom lowering its Attack stat.",
+      "name": "Hyper Cutter"
+    },
+    "ice-body": {
+      "description": "The Pok\u00e9mon gradually\nregains HP in a hailstorm.",
+      "name": "Ice Body"
+    },
+    "illuminate": {
+      "description": "Raises the likelihood of\nmeeting wild Pok\u00e9mon.",
+      "name": "Illuminate"
+    },
+    "illusion": {
+      "description": "Comes out disguised as the\nPok\u00e9mon in the party\u2019s last spot.",
+      "name": "Illusion"
+    },
+    "immunity": {
+      "description": "Prevents the Pok\u00e9mon\nfrom getting poisoned.",
+      "name": "Immunity"
+    },
+    "imposter": {
+      "description": "The Pok\u00e9mon transforms itself\ninto the Pok\u00e9mon it\u2019s facing.",
+      "name": "Imposter"
+    },
+    "infiltrator": {
+      "description": "Passes through the opposing\nPok\u00e9mon\u2019s barrier and strikes.",
+      "name": "Infiltrator"
+    },
+    "inner-focus": {
+      "description": "Protects the Pok\u00e9mon\nfrom flinching.",
+      "name": "Inner Focus"
+    },
+    "insomnia": {
+      "description": "Prevents the Pok\u00e9mon\nfrom falling asleep.",
+      "name": "Insomnia"
+    },
+    "instinct": {
+      "description": null,
+      "name": "Instinct"
+    },
+    "interference": {
+      "description": null,
+      "name": "Interference"
+    },
+    "intimidate": {
+      "description": "Lowers the opposing Pok\u00e9mon\u2019s\nAttack stat.",
+      "name": "Intimidate"
+    },
+    "iron-barbs": {
+      "description": "Inflicts damage to the\nattacker on contact.",
+      "name": "Iron Barbs"
+    },
+    "iron-fist": {
+      "description": "Powers up punching moves.",
+      "name": "Iron Fist"
+    },
+    "jagged-edge": {
+      "description": null,
+      "name": "Jagged Edge"
+    },
+    "justified": {
+      "description": "Boosts the Attack stat when\nit\u2019s hit by a Dark-type move.",
+      "name": "Justified"
+    },
+    "keen-eye": {
+      "description": "Prevents other Pok\u00e9mon\nfrom lowering accuracy.",
+      "name": "Keen Eye"
+    },
+    "klutz": {
+      "description": "The Pok\u00e9mon can\u2019t use\nany held items.",
+      "name": "Klutz"
+    },
+    "last-bastion": {
+      "description": null,
+      "name": "Last Bastion"
+    },
+    "leaf-guard": {
+      "description": "Prevents status conditions\nin sunny weather.",
+      "name": "Leaf Guard"
+    },
+    "levitate": {
+      "description": "Gives full immunity to all\nGround-type moves.",
+      "name": "Levitate"
+    },
+    "life-force": {
+      "description": null,
+      "name": "Life Force"
+    },
+    "light-metal": {
+      "description": "Halves the Pok\u00e9mon\u2019s weight.",
+      "name": "Light Metal"
+    },
+    "lightning-rod": {
+      "description": "Draws in all Electric-type moves\nto boost its Sp. Atk stat.",
+      "name": "Lightning Rod"
+    },
+    "limber": {
+      "description": "Protects the Pok\u00e9mon\nfrom paralysis.",
+      "name": "Limber"
+    },
+    "liquid-ooze": {
+      "description": "Damages attackers\nusing any draining move.",
+      "name": "Liquid Ooze"
+    },
+    "lullaby": {
+      "description": null,
+      "name": "Lullaby"
+    },
+    "lunchbox": {
+      "description": null,
+      "name": "Lunchbox"
+    },
+    "magic-bounce": {
+      "description": "Reflects status moves.",
+      "name": "Magic Bounce"
+    },
+    "magic-guard": {
+      "description": "The Pok\u00e9mon only takes\ndamage from attacks.",
+      "name": "Magic Guard"
+    },
+    "magician": {
+      "description": "The Pok\u00e9mon steals the held item\nof a Pok\u00e9mon it hits with a move.",
+      "name": "Magician"
+    },
+    "magma-armor": {
+      "description": "Prevents the Pok\u00e9mon\nfrom becoming frozen.",
+      "name": "Magma Armor"
+    },
+    "magnet-pull": {
+      "description": "Prevents Steel-type\nPok\u00e9mon from escaping.",
+      "name": "Magnet Pull"
+    },
+    "marvel-scale": {
+      "description": "Boosts the Defense stat if the\nPok\u00e9mon has a status condition.",
+      "name": "Marvel Scale"
+    },
+    "medic": {
+      "description": null,
+      "name": "Medic"
+    },
+    "mega-launcher": {
+      "description": "Powers up aura and pulse moves.",
+      "name": "Mega Launcher"
+    },
+    "melee": {
+      "description": null,
+      "name": "Melee"
+    },
+    "minus": {
+      "description": "Boosts the Sp. Atk stat if another\nPok\u00e9mon has Plus or Minus.",
+      "name": "Minus"
+    },
+    "mold-breaker": {
+      "description": "Moves can be used on the target\nregardless of its Abilities.",
+      "name": "Mold Breaker"
+    },
+    "mood-maker": {
+      "description": null,
+      "name": "Mood Maker"
+    },
+    "moody": {
+      "description": "Raises one stat and\nlowers another.",
+      "name": "Moody"
+    },
+    "motor-drive": {
+      "description": "Boosts the Speed stat when it\u2019s\nhit by an Electric-type move.",
+      "name": "Motor Drive"
+    },
+    "mountaineer": {
+      "description": null,
+      "name": "Mountaineer"
+    },
+    "moxie": {
+      "description": "Boosts the Attack stat after\nknocking out any Pok\u00e9mon.",
+      "name": "Moxie"
+    },
+    "multiscale": {
+      "description": "Reduces damage the Pok\u00e9mon\ntakes when its HP is full.",
+      "name": "Multiscale"
+    },
+    "multitype": {
+      "description": "Changes the Pok\u00e9mon\u2019s type\nto match the Plate it holds.",
+      "name": "Multitype"
+    },
+    "mummy": {
+      "description": "Contact with the Pok\u00e9mon\nspreads this Ability.",
+      "name": "Mummy"
+    },
+    "natural-cure": {
+      "description": "All status conditions heal when\nthe Pok\u00e9mon switches out.",
+      "name": "Natural Cure"
+    },
+    "no-guard": {
+      "description": "Ensures attacks by or\nagainst the Pok\u00e9mon land.",
+      "name": "No Guard"
+    },
+    "nomad": {
+      "description": null,
+      "name": "Nomad"
+    },
+    "normalize": {
+      "description": "All the Pok\u00e9mon\u2019s moves\nbecome Normal type.",
+      "name": "Normalize"
+    },
+    "nurse": {
+      "description": null,
+      "name": "Nurse"
+    },
+    "oblivious": {
+      "description": "Keeps the Pok\u00e9mon from being\ninfatuated or falling for taunts.",
+      "name": "Oblivious"
+    },
+    "omnipotent": {
+      "description": null,
+      "name": "Omnipotent"
+    },
+    "overcoat": {
+      "description": "Protects the Pok\u00e9mon from things\nlike sand, hail, and powder.",
+      "name": "Overcoat"
+    },
+    "overgrow": {
+      "description": "Powers up Grass-type moves\nwhen the Pok\u00e9mon is in trouble.",
+      "name": "Overgrow"
+    },
+    "own-tempo": {
+      "description": "Prevents the Pok\u00e9mon\nfrom becoming confused.",
+      "name": "Own Tempo"
+    },
+    "parental-bond": {
+      "description": "Parent and child\nattack together.",
+      "name": "Parental Bond"
+    },
+    "parry": {
+      "description": null,
+      "name": "Parry"
+    },
+    "perception": {
+      "description": null,
+      "name": "Perception"
+    },
+    "pickpocket": {
+      "description": "Steals an item from an attacker\nthat made direct contact.",
+      "name": "Pickpocket"
+    },
+    "pickup": {
+      "description": "The Pok\u00e9mon may\npick up items.",
+      "name": "Pickup"
+    },
+    "pixilate": {
+      "description": "Normal-type moves become\nFairy-type moves.",
+      "name": "Pixilate"
+    },
+    "plus": {
+      "description": "Boosts the Sp. Atk stat if another\nPok\u00e9mon has Plus or Minus.",
+      "name": "Plus"
+    },
+    "poison-heal": {
+      "description": "Restores HP if the\nPok\u00e9mon is poisoned.",
+      "name": "Poison Heal"
+    },
+    "poison-point": {
+      "description": "Contact with the Pok\u00e9mon\nmay poison the attacker.",
+      "name": "Poison Point"
+    },
+    "poison-touch": {
+      "description": "May poison a target when the\nPok\u00e9mon makes contact.",
+      "name": "Poison Touch"
+    },
+    "power-nap": {
+      "description": null,
+      "name": "Power Nap"
+    },
+    "prankster": {
+      "description": "Gives priority to a\nstatus move.",
+      "name": "Prankster"
+    },
+    "pressure": {
+      "description": "The Pok\u00e9mon raises opposing\nPok\u00e9mon\u2019s PP usage.",
+      "name": "Pressure"
+    },
+    "pride": {
+      "description": null,
+      "name": "Pride"
+    },
+    "protean": {
+      "description": "Changes the Pok\u00e9mon\u2019s type to\nthe type of the move it\u2019s using.",
+      "name": "Protean"
+    },
+    "pure-power": {
+      "description": "Boosts the Pok\u00e9mon\u2019s\nAttack stat.",
+      "name": "Pure Power"
+    },
+    "quick-feet": {
+      "description": "Boosts the Speed stat if the\nPok\u00e9mon has a status condition.",
+      "name": "Quick Feet"
+    },
+    "rain-dish": {
+      "description": "The Pok\u00e9mon gradually\nregains HP in rain.",
+      "name": "Rain Dish"
+    },
+    "rattled": {
+      "description": "Some move types scare\nit and boost its Speed stat.",
+      "name": "Rattled"
+    },
+    "reckless": {
+      "description": "Powers up moves that\nhave recoil damage.",
+      "name": "Reckless"
+    },
+    "refrigerate": {
+      "description": "Normal-type moves become\nIce-type moves.",
+      "name": "Refrigerate"
+    },
+    "regenerator": {
+      "description": "Restores a little HP when\nwithdrawn from battle.",
+      "name": "Regenerator"
+    },
+    "rivalry": {
+      "description": "Deals more damage to Pok\u00e9mon\nof the same gender.",
+      "name": "Rivalry"
+    },
+    "rock-head": {
+      "description": "Protects the Pok\u00e9mon\nfrom recoil damage.",
+      "name": "Rock Head"
+    },
+    "rough-skin": {
+      "description": "Inflicts damage to the\nattacker on contact.",
+      "name": "Rough Skin"
+    },
+    "run-away": {
+      "description": "Enables a sure getaway\nfrom wild Pok\u00e9mon.",
+      "name": "Run Away"
+    },
+    "run-up": {
+      "description": null,
+      "name": "Run Up"
+    },
+    "sand-force": {
+      "description": "Boosts certain moves\u2019\npower in a sandstorm.",
+      "name": "Sand Force"
+    },
+    "sand-rush": {
+      "description": "Boosts the Pok\u00e9mon\u2019s\nSpeed stat in a sandstorm.",
+      "name": "Sand Rush"
+    },
+    "sand-stream": {
+      "description": "The Pok\u00e9mon summons a\nsandstorm in battle.",
+      "name": "Sand Stream"
+    },
+    "sand-veil": {
+      "description": "Boosts the Pok\u00e9mon\u2019s\nevasion in a sandstorm.",
+      "name": "Sand Veil"
+    },
+    "sandpit": {
+      "description": null,
+      "name": "Sandpit"
+    },
+    "sap-sipper": {
+      "description": "Boosts the Attack stat when hit\nby a Grass-type move.",
+      "name": "Sap Sipper"
+    },
+    "scrappy": {
+      "description": "Makes Normal- and Fighting-type\nmoves hit Ghost-type Pok\u00e9mon.",
+      "name": "Scrappy"
+    },
+    "sequence": {
+      "description": null,
+      "name": "Sequence"
+    },
+    "serene-grace": {
+      "description": "Boosts the likelihood of\nadditional effects occurring.",
+      "name": "Serene Grace"
+    },
+    "shackle": {
+      "description": null,
+      "name": "Shackle"
+    },
+    "shadow-dash": {
+      "description": null,
+      "name": "Shadow Dash"
+    },
+    "shadow-tag": {
+      "description": "Prevents opposing Pok\u00e9mon\nfrom escaping.",
+      "name": "Shadow Tag"
+    },
+    "share": {
+      "description": null,
+      "name": "Share"
+    },
+    "shed-skin": {
+      "description": "The Pok\u00e9mon may heal its\nown status conditions.",
+      "name": "Shed Skin"
+    },
+    "sheer-force": {
+      "description": "Removes additional effects to\nincrease move damage.",
+      "name": "Sheer Force"
+    },
+    "shell-armor": {
+      "description": "Protects the Pok\u00e9mon\nfrom critical hits.",
+      "name": "Shell Armor"
+    },
+    "shield": {
+      "description": null,
+      "name": "Shield"
+    },
+    "shield-dust": {
+      "description": "Blocks the additional effects\nof attacks taken.",
+      "name": "Shield Dust"
+    },
+    "simple": {
+      "description": "The Pok\u00e9mon is prone to\nwild stat changes.",
+      "name": "Simple"
+    },
+    "skater": {
+      "description": null,
+      "name": "Skater"
+    },
+    "skill-link": {
+      "description": "Increases the number of times\nmulti-strike moves hit.",
+      "name": "Skill Link"
+    },
+    "slow-start": {
+      "description": "Temporarily halves the Pok\u00e9mon\u2019s\nAttack and Speed stats.",
+      "name": "Slow Start"
+    },
+    "sniper": {
+      "description": "Powers up moves if they\nbecome critical hits.",
+      "name": "Sniper"
+    },
+    "snow-cloak": {
+      "description": "Boosts evasion in a\nhailstorm.",
+      "name": "Snow Cloak"
+    },
+    "snow-warning": {
+      "description": "The Pok\u00e9mon summons a\nhailstorm when it enters a battle.",
+      "name": "Snow Warning"
+    },
+    "solar-power": {
+      "description": "Boosts the Sp. Atk stat in sunny\nweather, but HP decreases.",
+      "name": "Solar Power"
+    },
+    "solid-rock": {
+      "description": "Reduces damage from\nsupereffective attacks.",
+      "name": "Solid Rock"
+    },
+    "soundproof": {
+      "description": "Gives full immunity to all\nsound-based moves.",
+      "name": "Soundproof"
+    },
+    "speed-boost": {
+      "description": "Its Speed stat is\ngradually boosted.",
+      "name": "Speed Boost"
+    },
+    "spirit": {
+      "description": null,
+      "name": "Spirit"
+    },
+    "sponge": {
+      "description": null,
+      "name": "Sponge"
+    },
+    "sprint": {
+      "description": null,
+      "name": "Sprint"
+    },
+    "stall": {
+      "description": "The Pok\u00e9mon moves after\nall other Pok\u00e9mon do.",
+      "name": "Stall"
+    },
+    "stance-change": {
+      "description": "The Pok\u00e9mon changes form\ndepending on how it battles.",
+      "name": "Stance Change"
+    },
+    "static": {
+      "description": "Contact with the Pok\u00e9mon\nmay cause paralysis.",
+      "name": "Static"
+    },
+    "steadfast": {
+      "description": "Boosts the Speed stat each time\nthe Pok\u00e9mon flinches.",
+      "name": "Steadfast"
+    },
+    "stealth": {
+      "description": null,
+      "name": "Stealth"
+    },
+    "stench": {
+      "description": "The stench may cause\nthe target to flinch.",
+      "name": "Stench"
+    },
+    "sticky-hold": {
+      "description": "Protects the Pok\u00e9mon\nfrom item theft.",
+      "name": "Sticky Hold"
+    },
+    "storm-drain": {
+      "description": "Draws in all Water-type moves\nto boost its Sp. Atk stat.",
+      "name": "Storm Drain"
+    },
+    "strong-jaw": {
+      "description": "The Pok\u00e9mon\u2019s strong jaw gives\nit tremendous biting power.",
+      "name": "Strong Jaw"
+    },
+    "sturdy": {
+      "description": "It cannot be knocked\nout with one hit.",
+      "name": "Sturdy"
+    },
+    "suction-cups": {
+      "description": "Negates all moves and items\nthat force switching out.",
+      "name": "Suction Cups"
+    },
+    "super-luck": {
+      "description": "Boosts the critical-hit\nratios of moves.",
+      "name": "Super Luck"
+    },
+    "swarm": {
+      "description": "Powers up Bug-type moves when\nthe Pok\u00e9mon is in trouble.",
+      "name": "Swarm"
+    },
+    "sweet-veil": {
+      "description": "Prevents itself and ally Pok\u00e9mon\nfrom falling asleep.",
+      "name": "Sweet Veil"
+    },
+    "swift-swim": {
+      "description": "Boosts the Pok\u00e9mon\u2019s\nSpeed stat in rain.",
+      "name": "Swift Swim"
+    },
+    "symbiosis": {
+      "description": "The Pok\u00e9mon can pass\nan item to an ally.",
+      "name": "Symbiosis"
+    },
+    "synchronize": {
+      "description": "Passes poison, paralyze, or burn\nto the Pok\u00e9mon that inflicted it.",
+      "name": "Synchronize"
+    },
+    "tangled-feet": {
+      "description": "Raises evasion if the\nPok\u00e9mon is confused.",
+      "name": "Tangled Feet"
+    },
+    "technician": {
+      "description": "Powers up the Pok\u00e9mon\u2019s\nweaker moves.",
+      "name": "Technician"
+    },
+    "telepathy": {
+      "description": "Anticipates an ally\u2019s\nattack and dodges it.",
+      "name": "Telepathy"
+    },
+    "tenacity": {
+      "description": null,
+      "name": "Tenacity"
+    },
+    "teravolt": {
+      "description": "Moves can be used on the target\nregardless of its Abilities.",
+      "name": "Teravolt"
+    },
+    "thick-fat": {
+      "description": "Boosts resistance to Fire-\u200b\nand Ice-type moves.",
+      "name": "Thick Fat"
+    },
+    "thrust": {
+      "description": null,
+      "name": "Thrust"
+    },
+    "tinted-lens": {
+      "description": "Powers up \u201cnot very\neffective\u201d moves.",
+      "name": "Tinted Lens"
+    },
+    "torrent": {
+      "description": "Powers up Water-type moves\nwhen the Pok\u00e9mon is in trouble.",
+      "name": "Torrent"
+    },
+    "tough-claws": {
+      "description": "Powers up moves that\nmake direct contact.",
+      "name": "Tough Claws"
+    },
+    "toxic-boost": {
+      "description": "Powers up physical attacks when\nthe Pok\u00e9mon is poisoned.",
+      "name": "Toxic Boost"
+    },
+    "trace": {
+      "description": "The Pok\u00e9mon copies an\nopposing Pok\u00e9mon\u2019s Ability.",
+      "name": "Trace"
+    },
+    "truant": {
+      "description": "The Pok\u00e9mon can\u2019t attack\non consecutive turns.",
+      "name": "Truant"
+    },
+    "turboblaze": {
+      "description": "Moves can be used on the target\nregardless of its Abilities.",
+      "name": "Turboblaze"
+    },
+    "unaware": {
+      "description": "Ignores the opposing\nPok\u00e9mon\u2019s stat changes.",
+      "name": "Unaware"
+    },
+    "unburden": {
+      "description": "Boosts the Speed stat if its\nheld item is used or lost.",
+      "name": "Unburden"
+    },
+    "unnerve": {
+      "description": "Unnerves opposing Pok\u00e9mon and\nmakes them unable to eat Berries.",
+      "name": "Unnerve"
+    },
+    "vanguard": {
+      "description": null,
+      "name": "Vanguard"
+    },
+    "victory-star": {
+      "description": "Boosts the accuracy of its\nallies and itself.",
+      "name": "Victory Star"
+    },
+    "vital-spirit": {
+      "description": "Prevents the Pok\u00e9mon\nfrom falling asleep.",
+      "name": "Vital Spirit"
+    },
+    "volt-absorb": {
+      "description": "Restores HP if hit by an\nElectric-type move.",
+      "name": "Volt Absorb"
+    },
+    "warm-blanket": {
+      "description": null,
+      "name": "Warm Blanket"
+    },
+    "water-absorb": {
+      "description": "Restores HP if hit by a\nWater-type move.",
+      "name": "Water Absorb"
+    },
+    "water-veil": {
+      "description": "Prevents the Pok\u00e9mon\nfrom getting a burn.",
+      "name": "Water Veil"
+    },
+    "wave-rider": {
+      "description": null,
+      "name": "Wave Rider"
+    },
+    "weak-armor": {
+      "description": "Physical attacks lower its Defense\nstat and raise its Speed stat.",
+      "name": "Weak Armor"
+    },
+    "white-smoke": {
+      "description": "Prevents other Pok\u00e9mon\nfrom lowering its stats.",
+      "name": "White Smoke"
+    },
+    "wonder-guard": {
+      "description": "Only supereffective\nmoves will hit.",
+      "name": "Wonder Guard"
+    },
+    "wonder-skin": {
+      "description": "Makes status moves\nmore likely to miss.",
+      "name": "Wonder Skin"
+    },
+    "zen-mode": {
+      "description": "Changes the Pok\u00e9mon\u2019s\nshape when HP is half or less.",
+      "name": "Zen Mode"
+    }
+  },
+  "types_efficacy": {
+    "bug": {
+      "bug": 100,
+      "dark": 200,
+      "dragon": 100,
+      "electric": 100,
+      "fairy": 50,
+      "fighting": 50,
+      "fire": 50,
+      "flying": 50,
+      "ghost": 50,
+      "grass": 200,
+      "ground": 100,
+      "ice": 100,
+      "normal": 100,
+      "poison": 50,
+      "psychic": 200,
+      "rock": 100,
+      "steel": 50,
+      "water": 100
+    },
+    "dark": {
+      "bug": 100,
+      "dark": 50,
+      "dragon": 100,
+      "electric": 100,
+      "fairy": 50,
+      "fighting": 50,
+      "fire": 100,
+      "flying": 100,
+      "ghost": 200,
+      "grass": 100,
+      "ground": 100,
+      "ice": 100,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 200,
+      "rock": 100,
+      "steel": 100,
+      "water": 100
+    },
+    "dragon": {
+      "bug": 100,
+      "dark": 100,
+      "dragon": 200,
+      "electric": 100,
+      "fairy": 0,
+      "fighting": 100,
+      "fire": 100,
+      "flying": 100,
+      "ghost": 100,
+      "grass": 100,
+      "ground": 100,
+      "ice": 100,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 100,
+      "steel": 50,
+      "water": 100
+    },
+    "electric": {
+      "bug": 100,
+      "dark": 100,
+      "dragon": 50,
+      "electric": 50,
+      "fairy": 100,
+      "fighting": 100,
+      "fire": 100,
+      "flying": 200,
+      "ghost": 100,
+      "grass": 50,
+      "ground": 0,
+      "ice": 100,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 100,
+      "steel": 100,
+      "water": 200
+    },
+    "fairy": {
+      "bug": 100,
+      "dark": 200,
+      "dragon": 200,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 200,
+      "fire": 50,
+      "flying": 100,
+      "ghost": 100,
+      "grass": 100,
+      "ground": 100,
+      "ice": 100,
+      "normal": 100,
+      "poison": 50,
+      "psychic": 100,
+      "rock": 100,
+      "steel": 50,
+      "water": 100
+    },
+    "fighting": {
+      "bug": 50,
+      "dark": 200,
+      "dragon": 100,
+      "electric": 100,
+      "fairy": 50,
+      "fighting": 100,
+      "fire": 100,
+      "flying": 50,
+      "ghost": 0,
+      "grass": 100,
+      "ground": 100,
+      "ice": 200,
+      "normal": 200,
+      "poison": 50,
+      "psychic": 50,
+      "rock": 200,
+      "steel": 200,
+      "water": 100
+    },
+    "fire": {
+      "bug": 200,
+      "dark": 100,
+      "dragon": 50,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 100,
+      "fire": 50,
+      "flying": 100,
+      "ghost": 100,
+      "grass": 200,
+      "ground": 100,
+      "ice": 200,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 50,
+      "steel": 200,
+      "water": 50
+    },
+    "flying": {
+      "bug": 200,
+      "dark": 100,
+      "dragon": 100,
+      "electric": 50,
+      "fairy": 100,
+      "fighting": 200,
+      "fire": 100,
+      "flying": 100,
+      "ghost": 100,
+      "grass": 200,
+      "ground": 100,
+      "ice": 100,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 50,
+      "steel": 50,
+      "water": 100
+    },
+    "ghost": {
+      "bug": 100,
+      "dark": 50,
+      "dragon": 100,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 100,
+      "fire": 100,
+      "flying": 100,
+      "ghost": 200,
+      "grass": 100,
+      "ground": 100,
+      "ice": 100,
+      "normal": 0,
+      "poison": 100,
+      "psychic": 200,
+      "rock": 100,
+      "steel": 100,
+      "water": 100
+    },
+    "grass": {
+      "bug": 50,
+      "dark": 100,
+      "dragon": 50,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 100,
+      "fire": 50,
+      "flying": 50,
+      "ghost": 100,
+      "grass": 50,
+      "ground": 200,
+      "ice": 100,
+      "normal": 100,
+      "poison": 50,
+      "psychic": 100,
+      "rock": 200,
+      "steel": 50,
+      "water": 200
+    },
+    "ground": {
+      "bug": 50,
+      "dark": 100,
+      "dragon": 100,
+      "electric": 200,
+      "fairy": 100,
+      "fighting": 100,
+      "fire": 200,
+      "flying": 0,
+      "ghost": 100,
+      "grass": 50,
+      "ground": 100,
+      "ice": 100,
+      "normal": 100,
+      "poison": 200,
+      "psychic": 100,
+      "rock": 200,
+      "steel": 200,
+      "water": 100
+    },
+    "ice": {
+      "bug": 100,
+      "dark": 100,
+      "dragon": 200,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 100,
+      "fire": 50,
+      "flying": 200,
+      "ghost": 100,
+      "grass": 200,
+      "ground": 200,
+      "ice": 50,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 100,
+      "steel": 50,
+      "water": 50
+    },
+    "normal": {
+      "bug": 100,
+      "dark": 100,
+      "dragon": 100,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 100,
+      "fire": 100,
+      "flying": 100,
+      "ghost": 0,
+      "grass": 100,
+      "ground": 100,
+      "ice": 100,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 50,
+      "steel": 50,
+      "water": 100
+    },
+    "poison": {
+      "bug": 100,
+      "dark": 100,
+      "dragon": 100,
+      "electric": 100,
+      "fairy": 200,
+      "fighting": 100,
+      "fire": 100,
+      "flying": 100,
+      "ghost": 50,
+      "grass": 200,
+      "ground": 50,
+      "ice": 100,
+      "normal": 100,
+      "poison": 50,
+      "psychic": 100,
+      "rock": 50,
+      "steel": 0,
+      "water": 100
+    },
+    "psychic": {
+      "bug": 100,
+      "dark": 0,
+      "dragon": 100,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 200,
+      "fire": 100,
+      "flying": 100,
+      "ghost": 100,
+      "grass": 100,
+      "ground": 100,
+      "ice": 100,
+      "normal": 100,
+      "poison": 200,
+      "psychic": 50,
+      "rock": 100,
+      "steel": 50,
+      "water": 100
+    },
+    "rock": {
+      "bug": 200,
+      "dark": 100,
+      "dragon": 100,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 50,
+      "fire": 200,
+      "flying": 200,
+      "ghost": 100,
+      "grass": 100,
+      "ground": 50,
+      "ice": 200,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 100,
+      "steel": 50,
+      "water": 100
+    },
+    "steel": {
+      "bug": 100,
+      "dark": 100,
+      "dragon": 100,
+      "electric": 50,
+      "fairy": 200,
+      "fighting": 100,
+      "fire": 50,
+      "flying": 100,
+      "ghost": 100,
+      "grass": 100,
+      "ground": 100,
+      "ice": 200,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 200,
+      "steel": 50,
+      "water": 50
+    },
+    "water": {
+      "bug": 100,
+      "dark": 100,
+      "dragon": 50,
+      "electric": 100,
+      "fairy": 100,
+      "fighting": 100,
+      "fire": 200,
+      "flying": 100,
+      "ghost": 100,
+      "grass": 50,
+      "ground": 200,
+      "ice": 100,
+      "normal": 100,
+      "poison": 100,
+      "psychic": 100,
+      "rock": 200,
+      "steel": 100,
+      "water": 50
+    }
+  }
+}
