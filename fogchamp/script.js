@@ -603,8 +603,8 @@ visualizer_MatchupChart.prototype = {
 		var userAttack;
 		var foeDefense;
 		var userBasePower = userMoveStat.power;
-		if(userMoveStat.move_type == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
-		if(userMoveStat.move_type == "physical") foeDefense = foePokemonStat.attack; else foeDefense = foePokemonStat.special_attack;
+		if(userMoveStat.damage_category == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
+		if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
 		var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
 		var estimatedDamage = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
 		var estimatedPercentage = estimatedDamage / foePokemonStat.hp * 100 | 0;
