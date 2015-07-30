@@ -570,18 +570,6 @@ visualizer_MatchupChart.prototype = {
 		moveLabelText = _this3.createElement("span");
 		moveLabelText.textContent = moveStats.name;
 		span.appendChild(moveLabelText);
-		span.appendChild((function($this) {
-			var $r;
-			var _this4 = window.document;
-			$r = _this4.createElement("br");
-			return $r;
-		}(this)));
-		var extraInfo;
-		var _this5 = window.document;
-		extraInfo = _this5.createElement("span");
-		extraInfo.innerHTML = "" + Std.string(moveStats.power) + "<small>pwr</small>";
-		extraInfo.classList.add("dimLabel");
-		span.appendChild(extraInfo);
 		container.appendChild(span);
 		cell.appendChild(container);
 	}
@@ -643,7 +631,7 @@ visualizer_MatchupChart.prototype = {
 			var estimatedDamage = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
 			if(userMoveStat.max_hits != null) estimatedDamage *= userMoveStat.max_hits;
 			var estimatedPercentage = estimatedDamage / foePokemonStat.hp * 100 | 0;
-			span.innerHTML = "<span class=\"damageEfficacy-" + factor + "\">×" + factorString + "</span>\n                <br>\n                <span>" + estimatedPercentage + "%</span>";
+			span.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <span class=matchupChartSubEfficacy>" + estimatedPercentage + "<span class=dimLabel>%</span></span>";
 		}
 		container.appendChild(span);
 		cell.appendChild(container);
