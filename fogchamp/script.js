@@ -831,6 +831,7 @@ visualizer_UI.prototype = {
 	,renderAll: function(updateUrlFragment) {
 		if(updateUrlFragment == null) updateUrlFragment = true;
 		try {
+			this.renderMatchCommand();
 			this.renderPokemonStats();
 			this.renderPokemonMoves();
 			this.renderChart();
@@ -848,6 +849,19 @@ visualizer_UI.prototype = {
 	}
 	,setSlotSlug: function(slotNum,slug) {
 		js.JQuery("#selectionSelect" + slotNum).val(slug);
+	}
+	,renderMatchCommand: function() {
+		var numbers = [];
+		var _g = 0;
+		while(_g < 6) {
+			var i = _g++;
+			var slug = this.getSlotSlug(i);
+			var pokemonNum = this.pokemonDataset.getPokemonStats(slug).number;
+			numbers.push(pokemonNum);
+		}
+		var element;
+		element = js_Boot.__cast(window.document.getElementById("matchCommand") , HTMLDivElement);
+		element.textContent = "!match " + numbers[0] + "," + numbers[1] + "," + numbers[2] + "/" + numbers[3] + "," + numbers[4] + "," + numbers[5];
 	}
 	,renderPokemonStats: function() {
 		var template = js.JQuery("#pokemonStatsTemplate").html();
