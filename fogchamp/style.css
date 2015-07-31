@@ -37,15 +37,9 @@ a:active, a:hover {
     padding: 0.2em;
 }
 
-#pokemonSelection, #pokemonStats, #pokemonMoves, #pokemonDiamond {
+#bodyContainer {
     text-align: center;
-    width: 60em;
-    margin: auto;
-}
-
-#footer {
-    text-align: center;
-    width: 40em;
+    width: 55em;
     margin: auto;
 }
 
@@ -99,6 +93,37 @@ a:active, a:hover {
 
 .pokemonIconSlot-0, .pokemonIconSlot-1, .pokemonIconSlot-2 {
     transform: scaleX(-1);
+}
+
+.pokemonIcon-focus {
+    -moz-animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -moz-animation-name: jump;
+    -webkit-animation-name: jump;
+    animation-name: jump;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    position: relative;
+}
+
+@-moz-keyframes jump {
+  from { top: 0em; }
+  to { top: -0.5em; }
+}
+
+@-webkit-keyframes jump {
+  from { top: 0em; }
+  to { top: -0.5em; }
+}
+
+@keyframes jump {
+  from { top: 0em; }
+  to { top: -0.5em; }
 }
 
 .pokemonGender-f {

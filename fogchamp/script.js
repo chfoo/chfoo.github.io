@@ -757,9 +757,20 @@ visualizer_UI.prototype = {
 		var _g = 0;
 		while(_g < 6) {
 			var i = [_g++];
-			js.JQuery("#selectionSelect" + i[0]).change((function(i) {
+			var jquery = js.JQuery("#selectionSelect" + i[0]);
+			jquery.change((function(i) {
 				return function(event) {
 					_g1.selectChanged(i[0]);
+				};
+			})(i));
+			jquery.focus((function(i) {
+				return function(event1) {
+					js.JQuery(".pokemonIconSlot-" + i[0]).addClass("pokemonIcon-focus");
+				};
+			})(i));
+			jquery.focusout((function(i) {
+				return function(event2) {
+					js.JQuery(".pokemonIconSlot-" + i[0]).removeClass("pokemonIcon-focus");
 				};
 			})(i));
 		}
