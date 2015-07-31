@@ -657,25 +657,48 @@ visualizer_MovesDataset.prototype = $extend(visualizer_Dataset.prototype,{
 	,__class__: visualizer_MovesDataset
 });
 var visualizer_PokemonDataset = function() {
+	this.datasetIndex = 0;
 	visualizer_Dataset.call(this);
+	this.datasets = [];
 };
 visualizer_PokemonDataset.__name__ = true;
 visualizer_PokemonDataset.__super__ = visualizer_Dataset;
 visualizer_PokemonDataset.prototype = $extend(visualizer_Dataset.prototype,{
 	load: function(callback) {
-		this.makeRequest("pbr-platinum.json",callback);
+		this.loadOneDataset(callback);
+	}
+	,loadOneDataset: function(originalCallback) {
+		var _g = this;
+		var filename = visualizer_PokemonDataset.DATASET_FILES[this.datasetIndex];
+		this.makeRequest(filename,function(success) {
+			if(success) {
+				_g.datasetIndex += 1;
+				if(_g.datasetIndex < visualizer_PokemonDataset.DATASET_FILES.length) _g.loadOneDataset(originalCallback); else {
+					_g.datasetIndex -= 1;
+					originalCallback(success);
+				}
+			} else originalCallback(success);
+		});
 	}
 	,loadDone: function(data) {
-		this.slugs = Reflect.field(data,"pokemon_slugs");
-		this.stats = Reflect.field(data,"stats");
+		var slugs = Reflect.field(data,"pokemon_slugs");
+		var stats = Reflect.field(data,"stats");
+		var datasetDoc = { slugs : slugs, stats : stats};
+		this.datasets.push(datasetDoc);
 		visualizer_Dataset.prototype.loadDone.call(this,data);
 	}
+	,get_slugs: function() {
+		return this.datasets[this.datasetIndex].slugs;
+	}
+	,get_stats: function() {
+		return this.datasets[this.datasetIndex].stats;
+	}
 	,getPokemonStats: function(slug) {
-		return Reflect.field(this.stats,slug);
+		return Reflect.field(this.get_stats(),slug);
 	}
 	,getSlug: function(pokemonNum) {
 		var _g = 0;
-		var _g1 = this.slugs;
+		var _g1 = this.get_slugs();
 		while(_g < _g1.length) {
 			var slug = _g1[_g];
 			++_g;
@@ -690,6 +713,7 @@ var visualizer_UI = function(pokemonDataset,movesDataset,descriptionsDataset) {
 	this.pokemonDataset = pokemonDataset;
 	this.movesDataset = movesDataset;
 	this.descriptionsDataset = descriptionsDataset;
+	this.userMessage = new visualizer_UserMessage();
 };
 visualizer_UI.__name__ = true;
 visualizer_UI.renderTemplate = function(template,data) {
@@ -699,6 +723,7 @@ visualizer_UI.prototype = {
 	setup: function() {
 		this.renderSelectionList();
 		this.attachSelectChangeListeners();
+		this.renderEditionSelect();
 		this.attachUrlFragmentChangeListener();
 		this.setSelectionByNumbers(visualizer_UI.DEFAULT_POKEMON);
 		this.readUrlFragment();
@@ -714,7 +739,7 @@ visualizer_UI.prototype = {
 	,buildSelectionList: function() {
 		var list = [];
 		var _g = 0;
-		var _g1 = this.pokemonDataset.slugs;
+		var _g1 = this.pokemonDataset.get_slugs();
 		while(_g < _g1.length) {
 			var slug = _g1[_g];
 			++_g;
@@ -737,6 +762,27 @@ visualizer_UI.prototype = {
 			})(i));
 		}
 	}
+	,renderEditionSelect: function() {
+		var _g = this;
+		var selectElement;
+		selectElement = js_Boot.__cast(window.document.getElementById("pokemonEditionSelect") , HTMLSelectElement);
+		var _g1 = 0;
+		var _g2 = visualizer_PokemonDataset.DATASET_NAMES.length;
+		while(_g1 < _g2) {
+			var index = _g1++;
+			var optionElement;
+			var _this = window.document;
+			optionElement = _this.createElement("option");
+			optionElement.value = visualizer_PokemonDataset.DATASET_FILES[index];
+			optionElement.textContent = visualizer_PokemonDataset.DATASET_NAMES[index];
+			selectElement.add(optionElement);
+		}
+		selectElement.selectedIndex = visualizer_PokemonDataset.DATASET_FILES.length - 1;
+		js.JQuery("#pokemonEditionSelect").change(function(event) {
+			_g.pokemonDataset.datasetIndex = selectElement.selectedIndex;
+			_g.renderAll(false);
+		});
+	}
 	,attachUrlFragmentChangeListener: function() {
 		window.onhashchange = $bind(this,this.readUrlFragment);
 	}
@@ -756,7 +802,7 @@ visualizer_UI.prototype = {
 			}
 			this.setSelectionByNumbers(pokemonNums);
 			this.renderAll(false);
-		}
+		} else this.userMessage.showMessage("The URL fragment (stuff after the hash symbol) isn't valid.");
 	}
 	,writeUrlFragment: function() {
 		var fragment = "#";
@@ -782,11 +828,18 @@ visualizer_UI.prototype = {
 	}
 	,renderAll: function(updateUrlFragment) {
 		if(updateUrlFragment == null) updateUrlFragment = true;
-		this.renderPokemonStats();
-		this.renderPokemonMoves();
-		this.renderChart();
-		this.attachHelpListeners();
-		if(updateUrlFragment) this.writeUrlFragment();
+		try {
+			this.renderPokemonStats();
+			this.renderPokemonMoves();
+			this.renderChart();
+			this.attachHelpListeners();
+			if(updateUrlFragment) this.writeUrlFragment();
+			this.userMessage.hide();
+		} catch( error ) {
+			if (error instanceof js__$Boot_HaxeError) error = error.val;
+			this.userMessage.showMessage("An error occured while attempting to render the data. File a bug report if this persists.");
+			throw new js__$Boot_HaxeError(error);
+		}
 	}
 	,getSlotSlug: function(slotNum) {
 		return js.JQuery("#selectionSelect" + slotNum).val();
@@ -946,6 +999,8 @@ visualizer_MatchupChart.NUM_MOVES_PER_POKEMON = 4;
 visualizer_MatchupChart.POKEMON_LABEL = 1;
 visualizer_MatchupChart.POKEMON_MOVES_LABEL = 1;
 visualizer_MatchupChart.DIVIDER = 1;
+visualizer_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json"];
+visualizer_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum"];
 visualizer_UI.Mustache = Mustache;
 visualizer_UI.DEFAULT_POKEMON = (function($this) {
 	var $r;
