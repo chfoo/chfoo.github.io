@@ -712,6 +712,7 @@ visualizer_PokemonDataset.prototype = $extend(visualizer_Dataset.prototype,{
 	,__class__: visualizer_PokemonDataset
 });
 var visualizer_UI = function(pokemonDataset,movesDataset,descriptionsDataset) {
+	this.isSettingUrlHash = false;
 	this.pokemonDataset = pokemonDataset;
 	this.movesDataset = movesDataset;
 	this.descriptionsDataset = descriptionsDataset;
@@ -800,6 +801,10 @@ visualizer_UI.prototype = {
 		window.onhashchange = $bind(this,this.readUrlFragment);
 	}
 	,readUrlFragment: function() {
+		if(this.isSettingUrlHash) {
+			this.isSettingUrlHash = false;
+			return;
+		}
 		var fragment = window.location.hash;
 		var pattern = new EReg("([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)","");
 		if(pattern.match(fragment)) {
@@ -826,6 +831,7 @@ visualizer_UI.prototype = {
 			var pokemonNum = this.pokemonDataset.getPokemonStats(slug).number;
 			if(i == 5) fragment += "" + pokemonNum; else fragment += "" + pokemonNum + "-";
 		}
+		this.isSettingUrlHash = true;
 		window.location.hash = fragment;
 	}
 	,setSelectionByNumbers: function(pokemonNums) {
