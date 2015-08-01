@@ -64,8 +64,29 @@ Reflect.field = function(o,field) {
 Reflect.setField = function(o,field,value) {
 	o[field] = value;
 };
+Reflect.fields = function(o) {
+	var a = [];
+	if(o != null) {
+		var hasOwnProperty = Object.prototype.hasOwnProperty;
+		for( var f in o ) {
+		if(f != "__id__" && f != "hx__closures__" && hasOwnProperty.call(o,f)) a.push(f);
+		}
+	}
+	return a;
+};
 Reflect.compare = function(a,b) {
 	if(a == b) return 0; else if(a > b) return 1; else return -1;
+};
+Reflect.copy = function(o) {
+	var o2 = { };
+	var _g = 0;
+	var _g1 = Reflect.fields(o);
+	while(_g < _g1.length) {
+		var f = _g1[_g];
+		++_g;
+		Reflect.setField(o2,f,Reflect.field(o,f));
+	}
+	return o2;
 };
 var Std = function() { };
 Std.__name__ = true;
@@ -896,9 +917,10 @@ visualizer_UI.prototype = {
 			var slug = this.getSlotSlug(slotNum);
 			var pokemonStats = this.pokemonDataset.getPokemonStats(slug);
 			var abilityName = this.descriptionsDataset.getAbilityName(pokemonStats.ability);
-			pokemonStats.ability_name = abilityName;
-			pokemonStats.slot_number = slotNum;
-			statsList.push(pokemonStats);
+			var renderDoc = Reflect.copy(pokemonStats);
+			renderDoc.ability_name = abilityName;
+			renderDoc.slot_number = slotNum;
+			statsList.push(renderDoc);
 		}
 		return statsList;
 	}
@@ -923,11 +945,12 @@ visualizer_UI.prototype = {
 				var moveSlug = moveSlugs[_g2];
 				++_g2;
 				var moveStats = this.movesDataset.getMoveStats(moveSlug);
-				moveStats.move_slug = moveSlug;
-				moveStats.move_name = moveStats.name;
+				var moveRenderDoc = Reflect.copy(moveStats);
+				moveRenderDoc.move_slug = moveSlug;
+				moveRenderDoc.move_name = moveStats.name;
 				var damageCategory = moveStats.damage_category;
-				Reflect.setField(moveStats,"damage_category_short",HxOverrides.substr(damageCategory,0,2));
-				moves.push(moveStats);
+				Reflect.setField(moveRenderDoc,"damage_category_short",HxOverrides.substr(damageCategory,0,2));
+				moves.push(moveRenderDoc);
 			}
 			movesList.push({ name : name, moves : moves});
 		}
