@@ -358,7 +358,19 @@ visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,
 	var modifier = damageFactor / 100;
 	if(stab) modifier *= 1.5;
 	var damage = (2 * visualizer_Formula.LEVEL + 10) / 250 * (userAttack / foeDefense) * userBasePower + 2;
-	return damage * modifier;
+	damage = damage * modifier;
+	var minDamage = damage * visualizer_Formula.RANDOM_MIN_MODIFIER;
+	var critDamage = damage * visualizer_Formula.CRIT_MODIFIER;
+	return { minHP : minDamage, maxHP : damage, critHP : critDamage};
+};
+visualizer_Formula.modifyHits = function(damageResult,minHits,maxHits) {
+	var minDamage = damageResult.minHP * minHits;
+	var maxDamage = damageResult.maxHP * maxHits;
+	var critDamage = damageResult.critHP * maxHits;
+	return { minHP : minDamage, maxHP : maxDamage, critHP : critDamage};
+};
+visualizer_Formula.resultsToPercentages = function(damageResult,foeHP) {
+	return { minHP : damageResult.minHP, maxHP : damageResult.maxHP, critHP : damageResult.critHP, minHPPercent : damageResult.minHP / foeHP * 100 | 0, maxHPPercent : damageResult.maxHP / foeHP * 100 | 0, critHPPercent : damageResult.critHP / foeHP * 100 | 0};
 };
 var visualizer_Main = function() {
 	this.userMessage = new visualizer_UserMessage();
@@ -651,10 +663,10 @@ visualizer_MatchupChart.prototype = {
 			if(userMoveStat.damage_category == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
 			if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
 			var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
-			var estimatedDamage = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
-			if(userMoveStat.max_hits != null) estimatedDamage *= userMoveStat.max_hits;
-			var estimatedPercentage = estimatedDamage / foePokemonStat.hp * 100 | 0;
-			span.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <span class=matchupChartSubEfficacy>" + estimatedPercentage + "<span class=dimLabel>%</span></span>";
+			var damageResult = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
+			if(userMoveStat.max_hits != null) damageResult = visualizer_Formula.modifyHits(damageResult,userMoveStat.min_hits,userMoveStat.max_hits);
+			var damageResultPercent = visualizer_Formula.resultsToPercentages(damageResult,foePokemonStat.hp);
+			span.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <span class=matchupChartSubEfficacy\n                data-help-slug=\"damage:\n                " + Std.string(userPokemonStat.name) + " " + Std.string(userMoveStat.name) + ":\n                " + damageResultPercent.minHPPercent + ":" + damageResultPercent.maxHPPercent + ":" + damageResultPercent.critHPPercent + "\"\n                >" + damageResultPercent.maxHPPercent + "<span class=dimLabel>%</span>\n                </span>";
 		}
 		container.appendChild(span);
 		cell.appendChild(container);
@@ -992,10 +1004,12 @@ visualizer_UI.prototype = {
 			var move = this.movesDataset.getMoveStats(slug);
 			title = move.name;
 			text = move.description;
-		}
+		} else if(category == "damage") text = "HP damage against foe (min, max, crit):" + parts[2] + "–" + parts[3] + "–" + parts[4] + "%";
 		if(text == null || text.length == 0) text = "(no help available for this item)";
 		var jquery = js.JQuery("#helpDialog").text(text);
 		jquery.dialog();
+		var inViewport = jquery.visible();
+		if(!inViewport) jquery.dialog({ position : { my : "center top", at : "center top", of : window}});
 		jquery.dialog("option","title",title);
 	}
 	,renderChart: function() {
@@ -1049,6 +1063,8 @@ q.fn.iterator = function() {
 };
 js_Boot.__toStr = {}.toString;
 visualizer_Formula.LEVEL = 100;
+visualizer_Formula.RANDOM_MIN_MODIFIER = 0.85;
+visualizer_Formula.CRIT_MODIFIER = 2.0;
 visualizer_Main.LOAD_FAIL_MSG = "Loading dataset failed. Reload the page.";
 visualizer_MatchupChart.NUM_POKEMON_PER_TEAM = 3;
 visualizer_MatchupChart.NUM_MOVES_PER_POKEMON = 4;
