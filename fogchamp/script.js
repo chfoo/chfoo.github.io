@@ -357,6 +357,41 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 });
 var visualizer_Formula = function() { };
 visualizer_Formula.__name__ = true;
+visualizer_Formula.computeResult = function(userPokemonStat,foePokemonStat,userMoveStat,descriptionsDataset) {
+	var userMoveType = userMoveStat.move_type;
+	var userTypes = userPokemonStat.types;
+	var foeTypes = foePokemonStat.types;
+	var factor = descriptionsDataset.getTypeEfficacy(userMoveType,foeTypes[0],foeTypes[1]);
+	var userBasePower = visualizer_Formula.computeBasePower(userPokemonStat,foePokemonStat,userMoveStat);
+	var isVariableBasePower;
+	isVariableBasePower = (function($this) {
+		var $r;
+		var x = userMoveStat.slug;
+		$r = HxOverrides.indexOf(visualizer_Formula.VARIABLE_POWER_MOVE,x,0);
+		return $r;
+	}(this)) != -1;
+	var isFixedDamageMove;
+	isFixedDamageMove = (function($this) {
+		var $r;
+		var x1 = userMoveStat.slug;
+		$r = HxOverrides.indexOf(visualizer_Formula.FIXED_DAMAGE_MOVE,x1,0);
+		return $r;
+	}(this)) != -1;
+	if(userBasePower == null && !isFixedDamageMove && !isVariableBasePower) return { factor : factor, minHP : null, maxHP : null, critHP : null};
+	var userAttack;
+	var foeDefense;
+	if(userMoveStat.damage_category == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
+	if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
+	var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
+	var damageResult;
+	if(isFixedDamageMove) damageResult = { factor : factor, minHP : visualizer_Formula.LEVEL, maxHP : visualizer_Formula.LEVEL, critHP : visualizer_Formula.LEVEL}; else if(isVariableBasePower) {
+		var damageResultLow = visualizer_Formula.computeDamage(userAttack,foeDefense,10,stab,factor);
+		var damageResultHigh = visualizer_Formula.computeDamage(userAttack,foeDefense,150,stab,factor);
+		damageResult = { factor : factor, minHP : damageResultLow.minHP, maxHP : damageResultHigh.maxHP, critHP : damageResultHigh.critHP};
+	} else damageResult = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
+	if(userMoveStat.max_hits != null) damageResult = visualizer_Formula.modifyHits(damageResult,userMoveStat.min_hits,userMoveStat.max_hits);
+	return damageResult;
+};
 visualizer_Formula.computeBasePower = function(userPokemonStat,foePokemonStat,userMoveStat) {
 	var _g = userMoveStat.slug;
 	switch(_g) {
@@ -379,19 +414,16 @@ visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,
 	damage = damage * modifier;
 	var minDamage = damage * visualizer_Formula.RANDOM_MIN_MODIFIER;
 	var critDamage = damage * visualizer_Formula.CRIT_MODIFIER;
-	return { minHP : minDamage, maxHP : damage, critHP : critDamage};
-};
-visualizer_Formula.computedFixedDamage = function() {
-	return { minHP : visualizer_Formula.LEVEL, maxHP : visualizer_Formula.LEVEL, critHP : visualizer_Formula.LEVEL};
+	return { factor : damageFactor, minHP : minDamage, maxHP : damage, critHP : critDamage};
 };
 visualizer_Formula.modifyHits = function(damageResult,minHits,maxHits) {
 	var minDamage = damageResult.minHP * minHits;
 	var maxDamage = damageResult.maxHP * maxHits;
 	var critDamage = damageResult.critHP * maxHits;
-	return { minHP : minDamage, maxHP : maxDamage, critHP : critDamage};
+	return { factor : damageResult.factor, minHP : minDamage, maxHP : maxDamage, critHP : critDamage};
 };
 visualizer_Formula.resultsToPercentages = function(damageResult,foeHP) {
-	return { minHP : damageResult.minHP, maxHP : damageResult.maxHP, critHP : damageResult.critHP, minHPPercent : damageResult.minHP / foeHP * 100 | 0, maxHPPercent : damageResult.maxHP / foeHP * 100 | 0, critHPPercent : damageResult.critHP / foeHP * 100 | 0};
+	return { factor : damageResult.factor, minHP : damageResult.minHP, maxHP : damageResult.maxHP, critHP : damageResult.critHP, minHPPercent : damageResult.minHP / foeHP * 100 | 0, maxHPPercent : damageResult.maxHP / foeHP * 100 | 0, critHPPercent : damageResult.critHP / foeHP * 100 | 0};
 };
 visualizer_Formula.weightToPower = function(weight) {
 	if(weight < 10) return 20; else if(weight < 25) return 40; else if(weight < 50) return 60; else if(weight < 100) return 80; else if(weight < 200) return 100; else return 120;
@@ -648,10 +680,8 @@ visualizer_MatchupChart.prototype = {
 		var _this1 = window.document;
 		span = _this1.createElement("span");
 		span.classList.add("matchupChartEfficacyRotate-" + position);
-		var userMoveType = userMoveStat.move_type;
-		var userTypes = userPokemonStat.types;
-		var foeTypes = foePokemonStat.types;
-		var factor = this.descriptionsDataset.getTypeEfficacy(userMoveType,foeTypes[0],foeTypes[1]);
+		var damageResult = visualizer_Formula.computeResult(userPokemonStat,foePokemonStat,userMoveStat,this.descriptionsDataset);
+		var factor = damageResult.factor;
 		var factorString;
 		switch(factor) {
 		case 0:
@@ -675,28 +705,12 @@ visualizer_MatchupChart.prototype = {
 		default:
 			factorString = "Err";
 		}
-		var userBasePower = visualizer_Formula.computeBasePower(userPokemonStat,foePokemonStat,userMoveStat);
-		var isFixedDamageMove;
-		isFixedDamageMove = (function($this) {
-			var $r;
-			var x = userMoveStat.slug;
-			$r = HxOverrides.indexOf(visualizer_Formula.FIXED_DAMAGE_MOVE,x,0);
-			return $r;
-		}(this)) != -1;
-		if(userBasePower == null && !isFixedDamageMove) {
+		if(damageResult.maxHP == null) {
 			if(userMoveStat.damage_category == "status") {
 				if(factor == 0) span.textContent = "✕"; else span.textContent = "○";
 			} else span.textContent = "×" + factorString;
 			span.classList.add("damageEfficacy-" + factor);
 		} else {
-			var userAttack;
-			var foeDefense;
-			if(userMoveStat.damage_category == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
-			if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
-			var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
-			var damageResult;
-			if(isFixedDamageMove) damageResult = visualizer_Formula.computedFixedDamage(); else damageResult = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
-			if(userMoveStat.max_hits != null) damageResult = visualizer_Formula.modifyHits(damageResult,userMoveStat.min_hits,userMoveStat.max_hits);
 			var damageResultPercent = visualizer_Formula.resultsToPercentages(damageResult,foePokemonStat.hp);
 			span.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <span class=matchupChartSubEfficacy\n                data-help-slug=\"damage:\n                " + Std.string(userPokemonStat.name) + " " + Std.string(userMoveStat.name) + ":\n                " + damageResultPercent.minHPPercent + ":" + damageResultPercent.maxHPPercent + ":" + damageResultPercent.critHPPercent + "\"\n                >" + damageResultPercent.maxHPPercent + "<span class=dimLabel>%</span>\n                </span>";
 		}
@@ -1104,6 +1118,9 @@ visualizer_Formula.LEVEL = 100;
 visualizer_Formula.RANDOM_MIN_MODIFIER = 0.85;
 visualizer_Formula.CRIT_MODIFIER = 2.0;
 visualizer_Formula.FIXED_DAMAGE_MOVE = ["seismic-toss","night-shade"];
+visualizer_Formula.WEIGHT_MOVE = ["low-kick","grass-knot"];
+visualizer_Formula.HAPPINESS_MOVE = ["return","frustration"];
+visualizer_Formula.VARIABLE_POWER_MOVE = ["magnitude"];
 visualizer_Main.LOAD_FAIL_MSG = "Loading dataset failed. Reload the page.";
 visualizer_MatchupChart.NUM_POKEMON_PER_TEAM = 3;
 visualizer_MatchupChart.NUM_MOVES_PER_POKEMON = 4;
