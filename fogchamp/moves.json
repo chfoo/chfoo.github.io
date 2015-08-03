@@ -22,14 +22,14 @@
     "pp": 30
   },
   "acid-armor": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user alters its cellular structure to\nliquefy itself, sharply raising its\nDefense stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "poison",
     "name": "Acid Armor",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "acid-spray": {
@@ -55,18 +55,18 @@
     "pp": 15
   },
   "acupressure": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user applies pressure to stress\npoints, sharply boosting one of its or\nits allies\u2019 stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Acupressure",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "aerial-ace": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "physical",
     "description": "The user confounds the target with speed,\nthen slashes.\nThis attack never misses.",
     "max_hits": null,
@@ -88,25 +88,25 @@
     "pp": 5
   },
   "after-you": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user helps the target and makes it\nuse its move right after the user.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "After You",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "agility": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user relaxes and lightens its body to\nmove faster. This sharply raises the Speed stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Agility",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "air-cutter": {
@@ -132,25 +132,25 @@
     "pp": 15
   },
   "ally-switch": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user teleports using a strange\npower and switches places with one of\nits allies.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Ally Switch",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "amnesia": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user temporarily empties its mind to\nforget its concerns.\nThis sharply raises the user\u2019s Sp. Def stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Amnesia",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "ancient-power": {
@@ -176,14 +176,14 @@
     "pp": 20
   },
   "aqua-ring": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user envelops itself in a veil made\nof water. It regains some HP every turn.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "water",
     "name": "Aqua Ring",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "aqua-tail": {
@@ -209,36 +209,36 @@
     "pp": 20
   },
   "aromatherapy": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user releases a soothing scent that\nheals all status conditions affecting\nthe user\u2019s party.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "grass",
     "name": "Aromatherapy",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "aromatic-mist": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user raises the Sp. Def stat of an ally\nPok\u00e9mon by using a mysterious aroma.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Aromatic Mist",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "assist": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user hurriedly and randomly\nuses a move among those known\nby other Pok\u00e9mon in the party.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Assist",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "assurance": {
@@ -282,11 +282,11 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Attract",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "aura-sphere": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "special",
     "description": "The user lets loose a blast of aura power\nfrom deep within its body at the target.\nThis attack never misses.",
     "max_hits": null,
@@ -308,14 +308,14 @@
     "pp": 20
   },
   "autotomize": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user sheds part of its body\nto make itself lighter and sharply\nraise its Speed stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "steel",
     "name": "Autotomize",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "avalanche": {
@@ -337,7 +337,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Baby-Doll Eyes",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "barrage": {
@@ -352,25 +352,25 @@
     "pp": 20
   },
   "barrier": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user throws up a sturdy wall that\nsharply raises its Defense stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Barrier",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "baton-pass": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user switches places with a party\nPok\u00e9mon in waiting and passes along\nany stat changes.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Baton Pass",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "beat-up": {
@@ -381,7 +381,7 @@
     "min_hits": 6,
     "move_type": "dark",
     "name": "Beat Up",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "belch": {
@@ -396,36 +396,36 @@
     "pp": 10
   },
   "belly-drum": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user maximizes its Attack stat in\nexchange for HP equal to half its max HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Belly Drum",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "bestow": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user passes its held item to the\ntarget when the target isn\u2019t holding\nan item.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Bestow",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "bide": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "physical",
     "description": "The user endures attacks for two\nturns, then strikes back to cause\ndouble the damage taken.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Bide",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "bind": {
@@ -484,14 +484,14 @@
     "pp": 5
   },
   "block": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user blocks the target\u2019s way with arms\nspread wide to prevent escape.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Block",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "blue-flare": {
@@ -660,14 +660,14 @@
     "pp": 10
   },
   "bulk-up": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user tenses its muscles to bulk up\nits body, raising both its Attack and\nDefense stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "fighting",
     "name": "Bulk Up",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "bulldoze": {
@@ -704,25 +704,25 @@
     "pp": 30
   },
   "calm-mind": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk and\nSp. Def stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Calm Mind",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "camouflage": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user\u2019s type is changed depending on\nits environment, such as at water\u2019s edge,\nin grass, or in a cave.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Camouflage",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "captivate": {
@@ -733,29 +733,29 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Captivate",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "celebrate": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The Pok\u00e9mon congratulates\nyou on your special day!",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Celebrate",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "charge": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user boosts the power of the Electric\nmove it uses on the next turn. This also\nraises the user\u2019s Sp. Def stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "electric",
     "name": "Charge",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "charge-beam": {
@@ -777,7 +777,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Charm",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "chatter": {
@@ -825,7 +825,7 @@
     "pp": 15
   },
   "clear-smog": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "special",
     "description": "The user attacks by throwing a clump of\nspecial mud. All stat changes are\nreturned to normal.",
     "max_hits": null,
@@ -847,14 +847,14 @@
     "pp": 5
   },
   "coil": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user coils up and concentrates.\nThis raises its Attack and Defense stats\nas well as its accuracy.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "poison",
     "name": "Coil",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "comet-punch": {
@@ -869,14 +869,14 @@
     "pp": 15
   },
   "confide": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target\u2019s Sp. Atk stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Confide",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "confuse-ray": {
@@ -887,7 +887,7 @@
     "min_hits": null,
     "move_type": "ghost",
     "name": "Confuse Ray",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "confusion": {
@@ -913,58 +913,58 @@
     "pp": 35
   },
   "conversion": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user changes its type to become the\nsame type as the move at the top of the\nlist of moves it knows.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Conversion",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "conversion-2": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user changes its type to make itself\nresistant to the type of the attack the\nopponent used last.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Conversion 2",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "copycat": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Copycat",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "cosmic-power": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user absorbs a mystical power from\nspace to raise its Defense and\nSp. Def stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Cosmic Power",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "cotton-guard": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user protects itself by wrapping\nits body in soft cotton, which drastically\nraises the user\u2019s Defense stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "grass",
     "name": "Cotton Guard",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "cotton-spore": {
@@ -975,7 +975,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Cotton Spore",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "counter": {
@@ -986,7 +986,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Counter",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "covet": {
@@ -1012,14 +1012,14 @@
     "pp": 10
   },
   "crafty-shield": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user protects itself and its allies from\nstatus moves with a mysterious power.\nThis does not stop moves that do damage.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Crafty Shield",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "cross-chop": {
@@ -1074,18 +1074,18 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Crush Grip",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "curse": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "A move that works differently for the\nGhost type than for all other types.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ghost",
     "name": "Curse",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "cut": {
@@ -1118,7 +1118,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Dark Void",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "dazzling-gleam": {
@@ -1133,58 +1133,58 @@
     "pp": 10
   },
   "defend-order": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user calls out its underlings to\nshield its body, raising its Defense\nand Sp. Def stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "bug",
     "name": "Defend Order",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "defense-curl": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user curls up to conceal weak spots\nand raise its Defense stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Defense Curl",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "defog": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "A strong wind blows away the target\u2019s\nbarriers such as Reflect or Light Screen.\nThis also lowers the target\u2019s evasiveness.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "flying",
     "name": "Defog",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "destiny-bond": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "When this move is used, if the user faints,\nthe Pok\u00e9mon that landed the knockout\nhit also faints.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ghost",
     "name": "Destiny Bond",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "detect": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "fighting",
     "name": "Detect",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "diamond-storm": {
@@ -1217,11 +1217,11 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Disable",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "disarming-voice": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "special",
     "description": "Letting out a charming cry, the user does\nemotional damage to opposing Pok\u00e9mon.\nThis attack never misses.",
     "max_hits": null,
@@ -1320,14 +1320,14 @@
     "pp": 10
   },
   "double-team": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "By moving rapidly, the user makes illusory\ncopies of itself to raise its evasiveness.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Double Team",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "draco-meteor": {
@@ -1364,14 +1364,14 @@
     "pp": 15
   },
   "dragon-dance": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user vigorously performs a mystic,\npowerful dance that raises its Attack and\nSpeed stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "dragon",
     "name": "Dragon Dance",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "dragon-pulse": {
@@ -1393,7 +1393,7 @@
     "min_hits": null,
     "move_type": "dragon",
     "name": "Dragon Rage",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "dragon-rush": {
@@ -1536,7 +1536,7 @@
     "min_hits": null,
     "move_type": "electric",
     "name": "Eerie Impulse",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "egg-bomb": {
@@ -1551,25 +1551,25 @@
     "pp": 10
   },
   "electric-terrain": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user electrifies the ground under\neveryone\u2019s feet for five turns.\nPok\u00e9mon on the ground no longer fall asleep.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "electric",
     "name": "Electric Terrain",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "electrify": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "If the target is electrified before it uses\na move during that turn, the target\u2019s\nmove becomes Electric type.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "electric",
     "name": "Electrify",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "electro-ball": {
@@ -1580,7 +1580,7 @@
     "min_hits": null,
     "move_type": "electric",
     "name": "Electro Ball",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "electroweb": {
@@ -1602,7 +1602,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Embargo",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "ember": {
@@ -1624,7 +1624,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Encore",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "endeavor": {
@@ -1635,18 +1635,18 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Endeavor",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "endure": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Endure",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "energy-ball": {
@@ -1668,7 +1668,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Entrainment",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "eruption": {
@@ -1727,14 +1727,14 @@
     "pp": 20
   },
   "fairy-lock": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "By locking down the battlefield,\nthe user keeps all Pok\u00e9mon from\nfleeing during the next turn.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Fairy Lock",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "fairy-wind": {
@@ -1767,7 +1767,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Fake Tears",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "false-swipe": {
@@ -1789,7 +1789,7 @@
     "min_hits": null,
     "move_type": "flying",
     "name": "Feather Dance",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "feint": {
@@ -1804,7 +1804,7 @@
     "pp": 10
   },
   "feint-attack": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "physical",
     "description": "The user approaches the target\ndisarmingly, then throws a sucker punch.\nThis attack never misses.",
     "max_hits": null,
@@ -1844,7 +1844,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Final Gambit",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "fire-blast": {
@@ -1910,7 +1910,7 @@
     "min_hits": null,
     "move_type": "ground",
     "name": "Fissure",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "flail": {
@@ -1921,7 +1921,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Flail",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "flame-burst": {
@@ -1987,7 +1987,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Flash",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "flash-cannon": {
@@ -2009,7 +2009,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Flatter",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "fling": {
@@ -2020,18 +2020,18 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Fling",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "flower-shield": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user raises the Defense stat\nof all Grass-type Pok\u00e9mon in battle\nwith a mysterious power.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Flower Shield",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "fly": {
@@ -2068,14 +2068,14 @@
     "pp": 5
   },
   "focus-energy": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user takes a deep breath and\nfocuses so that critical hits land\nmore easily.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Focus Energy",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "focus-punch": {
@@ -2090,14 +2090,14 @@
     "pp": 20
   },
   "follow-me": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Follow Me",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "force-palm": {
@@ -2112,14 +2112,14 @@
     "pp": 10
   },
   "foresight": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Enables a Ghost-type target to be hit by\nNormal- and Fighting-type attacks. This also\nenables an evasive target to be hit.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Foresight",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "forests-curse": {
@@ -2130,7 +2130,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Forest's Curse",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "foul-play": {
@@ -2196,7 +2196,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Frustration",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "fury-attack": {
@@ -2273,7 +2273,7 @@
     "min_hits": null,
     "move_type": "poison",
     "name": "Gastro Acid",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "gear-grind": {
@@ -2288,14 +2288,14 @@
     "pp": 15
   },
   "geomancy": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user absorbs energy and sharply raises\nits Sp. Atk, Sp. Def, and Speed stats\non the next turn.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Geomancy",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "giga-drain": {
@@ -2339,7 +2339,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Glare",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "grass-knot": {
@@ -2350,7 +2350,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Grass Knot",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "grass-pledge": {
@@ -2372,29 +2372,29 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Grass Whistle",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "grassy-terrain": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user turns the ground under everyone\u2019s feet\nto grass for five turns. This restores the HP of\nPok\u00e9mon on the ground a little every turn.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "grass",
     "name": "Grassy Terrain",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "gravity": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Gravity",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "growl": {
@@ -2405,51 +2405,51 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Growl",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "growth": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user\u2019s body grows all at once,\nraising the Attack and Sp. Atk stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Growth",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "grudge": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "If the user faints, the user\u2019s grudge\nfully depletes the PP of the opponent\u2019s\nmove that knocked it out.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ghost",
     "name": "Grudge",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "guard-split": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user employs its psychic power to\naverage its Defense and Sp. Def stats\nwith those of the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Guard Split",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "guard-swap": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user employs its psychic power to\nswitch changes to its Defense and\nSp. Def stats with the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Guard Swap",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "guillotine": {
@@ -2460,7 +2460,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Guillotine",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "gunk-shot": {
@@ -2493,18 +2493,18 @@
     "min_hits": null,
     "move_type": "steel",
     "name": "Gyro Ball",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "hail": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user summons a hailstorm lasting five\nturns. It damages all Pok\u00e9mon except the\nIce type.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ice",
     "name": "Hail",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "hammer-arm": {
@@ -2519,36 +2519,36 @@
     "pp": 10
   },
   "happy-hour": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Using Happy Hour doubles\nthe amount of prize money\nreceived after battle.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Happy Hour",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "harden": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user stiffens all the muscles in its\nbody to raise its Defense stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Harden",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "haze": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user creates a haze that eliminates\nevery stat change among all the Pok\u00e9mon\nengaged in battle.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ice",
     "name": "Haze",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "head-charge": {
@@ -2585,14 +2585,14 @@
     "pp": 15
   },
   "heal-bell": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user makes a soothing bell chime\nto heal the status conditions of all the\nparty Pok\u00e9mon.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Heal Bell",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "heal-block": {
@@ -2603,40 +2603,40 @@
     "min_hits": null,
     "move_type": "psychic",
     "name": "Heal Block",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "heal-order": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "bug",
     "name": "Heal Order",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "heal-pulse": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user emits a healing pulse which\nrestores the target\u2019s HP by up to\nhalf of its max HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Heal Pulse",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "healing-wish": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user faints. In return, the Pok\u00e9mon\ntaking its place will have its HP restored\nand status conditions cured.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Healing Wish",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "heart-stamp": {
@@ -2651,14 +2651,14 @@
     "pp": 25
   },
   "heart-swap": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user employs its psychic power to\nswitch stat changes with the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Heart Swap",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "heat-crash": {
@@ -2669,7 +2669,7 @@
     "min_hits": null,
     "move_type": "fire",
     "name": "Heat Crash",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "heat-wave": {
@@ -2691,18 +2691,18 @@
     "min_hits": null,
     "move_type": "steel",
     "name": "Heavy Slam",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "helping-hand": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user assists an ally by boosting\nthe power of that ally\u2019s attack.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Helping Hand",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "hex": {
@@ -2750,25 +2750,25 @@
     "pp": 40
   },
   "hold-hands": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user and an ally hold hands.\nThis makes them very happy.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Hold Hands",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "hone-claws": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user sharpens its claws to\nboost its Attack stat and accuracy.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "dark",
     "name": "Hone Claws",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "horn-attack": {
@@ -2790,7 +2790,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Horn Drill",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "horn-leech": {
@@ -2805,14 +2805,14 @@
     "pp": 10
   },
   "howl": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user howls loudly to raise its spirit,\nwhich raises its Attack stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Howl",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "hurricane": {
@@ -2882,7 +2882,7 @@
     "pp": 10
   },
   "hyperspace-hole": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "special",
     "description": "Using a hyperspace hole, the user appears\nright next to the target and strikes. This\nalso hits a target using Protect or Detect.",
     "max_hits": null,
@@ -2900,7 +2900,7 @@
     "min_hits": null,
     "move_type": "psychic",
     "name": "Hypnosis",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "ice-ball": {
@@ -3003,14 +3003,14 @@
     "pp": 15
   },
   "imprison": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "If opposing Pok\u00e9mon know any move\nalso known by the user,\nthey are prevented from using it.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Imprison",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "incinerate": {
@@ -3047,36 +3047,36 @@
     "pp": 20
   },
   "ingrain": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user lays roots that restore\nits HP on every turn. Because it is\nrooted, it can\u2019t switch out.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "grass",
     "name": "Ingrain",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "ion-deluge": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user disperses electrically charged\nparticles, which changes Normal-type\nmoves to Electric-type moves.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "electric",
     "name": "Ion Deluge",
-    "power": "--",
+    "power": null,
     "pp": 25
   },
   "iron-defense": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user hardens its body\u2019s surface\nlike iron, sharply raising its\nDefense stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "steel",
     "name": "Iron Defense",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "iron-head": {
@@ -3142,18 +3142,18 @@
     "min_hits": null,
     "move_type": "psychic",
     "name": "Kinesis",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "kings-shield": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user takes a defensive stance while it protects\nitself from damage. It also harshly lowers the Attack\nstat of any attacker who makes direct contact.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "steel",
     "name": "King's Shield",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "knock-off": {
@@ -3252,7 +3252,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Leech Seed",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "leer": {
@@ -3263,7 +3263,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Leer",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "lick": {
@@ -3289,25 +3289,25 @@
     "pp": 5
   },
   "light-screen": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "A wondrous wall of light is put up to\nreduce damage from special attacks\nfor five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Light Screen",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "lock-on": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user takes sure aim at the target.\nThis ensures the next attack does not\nmiss the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Lock-On",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "lovely-kiss": {
@@ -3318,7 +3318,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Lovely Kiss",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "low-kick": {
@@ -3329,7 +3329,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Low Kick",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "low-sweep": {
@@ -3344,25 +3344,25 @@
     "pp": 20
   },
   "lucky-chant": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user chants an incantation toward\nthe sky, preventing opposing Pok\u00e9mon\nfrom landing critical hits.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Lucky Chant",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "lunar-dance": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user faints. In return, the Pok\u00e9mon\ntaking its place will have its status and\nHP fully restored.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Lunar Dance",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "luster-purge": {
@@ -3388,29 +3388,29 @@
     "pp": 30
   },
   "magic-coat": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "A barrier reflects back to the target\nmoves like Leech Seed and moves\nthat damage status.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Magic Coat",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "magic-room": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user creates a bizarre area\nin which Pok\u00e9mon\u2019s held items\nlose their effects for five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Magic Room",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "magical-leaf": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "special",
     "description": "The user scatters curious leaves\nthat chase the target.\nThis attack never misses.",
     "max_hits": null,
@@ -3432,7 +3432,7 @@
     "pp": 5
   },
   "magnet-bomb": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "physical",
     "description": "The user launches steel bombs that\nstick to the target.\nThis attack never misses.",
     "max_hits": null,
@@ -3443,25 +3443,25 @@
     "pp": 20
   },
   "magnet-rise": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user levitates using electrically\ngenerated magnetism for five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "electric",
     "name": "Magnet Rise",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "magnetic-flux": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user manipulates magnetic fields,\nwhich raises the Defense and Sp. Def stats\nof ally Pok\u00e9mon with the Plus or Minus Ability.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "electric",
     "name": "Magnetic Flux",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "magnitude": {
@@ -3472,51 +3472,51 @@
     "min_hits": null,
     "move_type": "ground",
     "name": "Magnitude",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "mat-block": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Using a pulled-up mat as a shield, the user\nprotects itself and its allies from damaging moves.\nThis does not stop status moves.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "fighting",
     "name": "Mat Block",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "me-first": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user cuts ahead of the target to steal and\nuse the target\u2019s intended move with greater power.\nThis move fails if it isn\u2019t used first.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Me First",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "mean-look": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user pins the target with a dark,\narresting look.\nThe target becomes unable to flee.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Mean Look",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "meditate": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user meditates to awaken the power\ndeep within its body and raise its\nAttack stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Meditate",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "mega-drain": {
@@ -3571,7 +3571,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Memento",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "metal-burst": {
@@ -3582,7 +3582,7 @@
     "min_hits": null,
     "move_type": "steel",
     "name": "Metal Burst",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "metal-claw": {
@@ -3604,7 +3604,7 @@
     "min_hits": null,
     "move_type": "steel",
     "name": "Metal Sound",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "meteor-mash": {
@@ -3619,69 +3619,69 @@
     "pp": 10
   },
   "metronome": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user waggles a finger and stimulates\nits brain into randomly using nearly\nany move.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Metronome",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "milk-drink": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user restores its own HP\nby up to half of its max HP.\nMay also be used in the field to heal HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Milk Drink",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "mimic": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user copies the target\u2019s last move.\nThe move can be used during battle\nuntil the Pok\u00e9mon is switched out.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Mimic",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "mind-reader": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user senses the target\u2019s movements\nwith its mind to ensure its next\nattack does not miss the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Mind Reader",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "minimize": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user compresses its body\nto make itself look smaller,\nwhich sharply raises its evasiveness.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Minimize",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "miracle-eye": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Enables a Dark-type target to be hit by\nPsychic-type attacks. This also enables\nan evasive target to be hit.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Miracle Eye",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "mirror-coat": {
@@ -3692,18 +3692,18 @@
     "min_hits": null,
     "move_type": "psychic",
     "name": "Mirror Coat",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "mirror-move": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user counters the target by mimicking\nthe target\u2019s last move.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "flying",
     "name": "Mirror Move",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "mirror-shot": {
@@ -3718,14 +3718,14 @@
     "pp": 10
   },
   "mist": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user cloaks itself and its allies in a\nwhite mist that prevents any of their stats\nfrom being lowered for five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ice",
     "name": "Mist",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "mist-ball": {
@@ -3740,14 +3740,14 @@
     "pp": 5
   },
   "misty-terrain": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user covers the ground under everyone\u2019s feet\nwith mist for five turns. This protects Pok\u00e9mon\non the ground from status conditions.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Misty Terrain",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "moonblast": {
@@ -3762,25 +3762,25 @@
     "pp": 15
   },
   "moonlight": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Moonlight",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "morning-sun": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Morning Sun",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "mud-bomb": {
@@ -3817,14 +3817,14 @@
     "pp": 10
   },
   "mud-sport": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user covers itself with mud.\nThis weakens Electric-type moves\nfor five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ground",
     "name": "Mud Sport",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "muddy-water": {
@@ -3850,14 +3850,14 @@
     "pp": 10
   },
   "nasty-plot": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user stimulates its brain by thinking\nbad thoughts.\nThis sharply raises the user\u2019s Sp. Atk.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "dark",
     "name": "Nasty Plot",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "natural-gift": {
@@ -3868,18 +3868,18 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Natural Gift",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "nature-power": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "An attack that makes use of nature\u2019s\npower. Its effects vary depending on the\nuser\u2019s environment.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Nature Power",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "needle-arm": {
@@ -3912,7 +3912,7 @@
     "min_hits": null,
     "move_type": "ghost",
     "name": "Night Shade",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "night-slash": {
@@ -3934,7 +3934,7 @@
     "min_hits": null,
     "move_type": "ghost",
     "name": "Nightmare",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "noble-roar": {
@@ -3945,7 +3945,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Noble Roar",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "nuzzle": {
@@ -3982,14 +3982,14 @@
     "pp": 10
   },
   "odor-sleuth": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Enables a Ghost-type target to be hit by\nNormal- and Fighting-type attacks. This also\nenables an evasive target to be hit.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Odor Sleuth",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "ominous-wind": {
@@ -4026,14 +4026,14 @@
     "pp": 5
   },
   "pain-split": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user adds its HP to the target\u2019s HP,\nthen equally shares the combined HP\nwith the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Pain Split",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "parabolic-charge": {
@@ -4055,7 +4055,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Parting Shot",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "pay-day": {
@@ -4092,14 +4092,14 @@
     "pp": 35
   },
   "perish-song": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Any Pok\u00e9mon that hears this song\nfaints in three turns, unless it switches\nout of battle.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Perish Song",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "petal-blizzard": {
@@ -4147,14 +4147,14 @@
     "pp": 20
   },
   "play-nice": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user and the target become friends,\nand the target loses its will to fight.\nThis lowers the target\u2019s Attack stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Play Nice",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "play-rough": {
@@ -4198,7 +4198,7 @@
     "min_hits": null,
     "move_type": "poison",
     "name": "Poison Gas",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "poison-jab": {
@@ -4220,7 +4220,7 @@
     "min_hits": null,
     "move_type": "poison",
     "name": "Poison Powder",
-    "power": "--",
+    "power": null,
     "pp": 35
   },
   "poison-sting": {
@@ -4264,7 +4264,7 @@
     "min_hits": null,
     "move_type": "bug",
     "name": "Powder",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "powder-snow": {
@@ -4290,36 +4290,36 @@
     "pp": 20
   },
   "power-split": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user employs its psychic power to\naverage its Attack and Sp. Atk stats\nwith those of the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Power Split",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "power-swap": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user employs its psychic power to\nswitch changes to its Attack and\nSp. Atk stats with the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Power Swap",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "power-trick": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Power Trick",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "power-up-punch": {
@@ -4352,18 +4352,18 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Present",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "protect": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Protect",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "psybeam": {
@@ -4378,14 +4378,14 @@
     "pp": 20
   },
   "psych-up": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Psych Up",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "psychic": {
@@ -4429,7 +4429,7 @@
     "min_hits": null,
     "move_type": "psychic",
     "name": "Psycho Shift",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "psyshock": {
@@ -4462,7 +4462,7 @@
     "min_hits": null,
     "move_type": "psychic",
     "name": "Psywave",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "punishment": {
@@ -4473,7 +4473,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Punishment",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "pursuit": {
@@ -4495,7 +4495,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Quash",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "quick-attack": {
@@ -4510,25 +4510,25 @@
     "pp": 30
   },
   "quick-guard": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user protects itself and its allies\nfrom priority moves.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "fighting",
     "name": "Quick Guard",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "quiver-dance": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user lightly performs a beautiful,\nmystic dance. This boosts the user\u2019s\nSp. Atk, Sp. Def, and Speed stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "bug",
     "name": "Quiver Dance",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "rage": {
@@ -4543,25 +4543,25 @@
     "pp": 20
   },
   "rage-powder": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "bug",
     "name": "Rage Powder",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "rain-dance": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user summons a heavy rain\nthat falls for five turns,\npowering up Water-type moves.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "water",
     "name": "Rain Dance",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "rapid-spin": {
@@ -4609,58 +4609,58 @@
     "pp": 10
   },
   "recover": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Restoring its own cells, the user\nrestores its own HP by half of\nits max HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Recover",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "recycle": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user recycles a held item that\nhas been used in battle so it can be\nused again.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Recycle",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "reflect": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "A wondrous wall of light is put up to\nreduce damage from physical attacks\nfor five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Reflect",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "reflect-type": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user reflects the target\u2019s type,\nmaking it the same type as the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Reflect Type",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "refresh": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user rests to cure itself of a\npoisoning, burn, or paralysis.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Refresh",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "relic-song": {
@@ -4675,14 +4675,14 @@
     "pp": 10
   },
   "rest": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user goes to sleep for two turns.\nThis fully restores the user\u2019s HP and\nheals any status conditions.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Rest",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "retaliate": {
@@ -4704,7 +4704,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Return",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "revenge": {
@@ -4726,18 +4726,18 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Reversal",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "roar": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The target is scared off, and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Roar",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "roar-of-time": {
@@ -4774,14 +4774,14 @@
     "pp": 20
   },
   "rock-polish": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user polishes its body to reduce drag.\nThis can sharply raise the Speed stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "rock",
     "name": "Rock Polish",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "rock-slide": {
@@ -4840,14 +4840,14 @@
     "pp": 5
   },
   "role-play": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user mimics the target completely,\ncopying the target\u2019s natural Ability.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Role Play",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "rolling-kick": {
@@ -4873,25 +4873,25 @@
     "pp": 20
   },
   "roost": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user lands and rests its body.\nIt restores the user\u2019s HP by up to\nhalf of its max HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "flying",
     "name": "Roost",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "rototiller": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Tilling the soil, the user makes it easier\nfor plants to grow. This raises the Attack\nand Sp. Atk stats of Grass-type Pok\u00e9mon.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ground",
     "name": "Rototiller",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "round": {
@@ -4928,14 +4928,14 @@
     "pp": 15
   },
   "safeguard": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user creates a protective field\nthat prevents status conditions\nfor five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Safeguard",
-    "power": "--",
+    "power": null,
     "pp": 25
   },
   "sand-attack": {
@@ -4946,7 +4946,7 @@
     "min_hits": null,
     "move_type": "ground",
     "name": "Sand Attack",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "sand-tomb": {
@@ -4961,14 +4961,14 @@
     "pp": 15
   },
   "sandstorm": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "A five-turn sandstorm is summoned\nto hurt all combatants except the\nRock, Ground, and Steel types.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "rock",
     "name": "Sandstorm",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "scald": {
@@ -4990,7 +4990,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Scary Face",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "scratch": {
@@ -5012,7 +5012,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Screech",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "searing-shot": {
@@ -5078,7 +5078,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Seismic Toss",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "self-destruct": {
@@ -5110,7 +5110,7 @@
     "move_type": "shadow",
     "name": "Shadow Blast",
     "power": 80,
-    "pp": "--"
+    "pp": null
   },
   "shadow-blitz": {
     "accuracy": 100,
@@ -5119,7 +5119,7 @@
     "move_type": "shadow",
     "name": "Shadow Blitz",
     "power": 40,
-    "pp": "--"
+    "pp": null
   },
   "shadow-bolt": {
     "accuracy": 100,
@@ -5128,7 +5128,7 @@
     "move_type": "shadow",
     "name": "Shadow Bolt",
     "power": 75,
-    "pp": "--"
+    "pp": null
   },
   "shadow-break": {
     "accuracy": 100,
@@ -5137,7 +5137,7 @@
     "move_type": "shadow",
     "name": "Shadow Break",
     "power": 75,
-    "pp": "--"
+    "pp": null
   },
   "shadow-chill": {
     "accuracy": 100,
@@ -5146,7 +5146,7 @@
     "move_type": "shadow",
     "name": "Shadow Chill",
     "power": 75,
-    "pp": "--"
+    "pp": null
   },
   "shadow-claw": {
     "accuracy": 100,
@@ -5165,8 +5165,8 @@
     "description": null,
     "move_type": "shadow",
     "name": "Shadow Down",
-    "power": "--",
-    "pp": "--"
+    "power": null,
+    "pp": null
   },
   "shadow-end": {
     "accuracy": 60,
@@ -5175,7 +5175,7 @@
     "move_type": "shadow",
     "name": "Shadow End",
     "power": 120,
-    "pp": "--"
+    "pp": null
   },
   "shadow-fire": {
     "accuracy": 100,
@@ -5184,7 +5184,7 @@
     "move_type": "shadow",
     "name": "Shadow Fire",
     "power": 75,
-    "pp": "--"
+    "pp": null
   },
   "shadow-force": {
     "accuracy": 100,
@@ -5203,17 +5203,17 @@
     "description": null,
     "move_type": "shadow",
     "name": "Shadow Half",
-    "power": "--",
-    "pp": "--"
+    "power": null,
+    "pp": null
   },
   "shadow-hold": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": null,
     "move_type": "shadow",
     "name": "Shadow Hold",
-    "power": "--",
-    "pp": "--"
+    "power": null,
+    "pp": null
   },
   "shadow-mist": {
     "accuracy": 100,
@@ -5221,8 +5221,8 @@
     "description": null,
     "move_type": "shadow",
     "name": "Shadow Mist",
-    "power": "--",
-    "pp": "--"
+    "power": null,
+    "pp": null
   },
   "shadow-panic": {
     "accuracy": 90,
@@ -5230,11 +5230,11 @@
     "description": null,
     "move_type": "shadow",
     "name": "Shadow Panic",
-    "power": "--",
-    "pp": "--"
+    "power": null,
+    "pp": null
   },
   "shadow-punch": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "physical",
     "description": "The user throws a punch from the shadows.\nThis attack never misses.",
     "max_hits": null,
@@ -5251,7 +5251,7 @@
     "move_type": "shadow",
     "name": "Shadow Rave",
     "power": 70,
-    "pp": "--"
+    "pp": null
   },
   "shadow-rush": {
     "accuracy": 100,
@@ -5260,25 +5260,25 @@
     "move_type": "shadow",
     "name": "Shadow Rush",
     "power": 55,
-    "pp": "--"
+    "pp": null
   },
   "shadow-shed": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": null,
     "move_type": "shadow",
     "name": "Shadow Shed",
-    "power": "--",
-    "pp": "--"
+    "power": null,
+    "pp": null
   },
   "shadow-sky": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": null,
     "move_type": "shadow",
     "name": "Shadow Sky",
-    "power": "--",
-    "pp": "--"
+    "power": null,
+    "pp": null
   },
   "shadow-sneak": {
     "accuracy": 100,
@@ -5298,7 +5298,7 @@
     "move_type": "shadow",
     "name": "Shadow Storm",
     "power": 95,
-    "pp": "--"
+    "pp": null
   },
   "shadow-wave": {
     "accuracy": 100,
@@ -5307,17 +5307,17 @@
     "move_type": "shadow",
     "name": "Shadow Wave",
     "power": 50,
-    "pp": "--"
+    "pp": null
   },
   "sharpen": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user lowers its polygon count to\nmake itself more jagged, raising the\nAttack stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Sharpen",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "sheer-cold": {
@@ -5328,33 +5328,33 @@
     "min_hits": null,
     "move_type": "ice",
     "name": "Sheer Cold",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "shell-smash": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user breaks its shell, which lowers\nDefense and Sp. Def stats but sharply\nraises its Attack, Sp. Atk, and Speed stats.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Shell Smash",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "shift-gear": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user rotates its gears, raising its\nAttack and sharply raising its Speed.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "steel",
     "name": "Shift Gear",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "shock-wave": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "special",
     "description": "The user strikes the target with a quick\njolt of electricity.\nThis attack never misses.",
     "max_hits": null,
@@ -5394,7 +5394,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Simple Beam",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "sing": {
@@ -5405,29 +5405,29 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Sing",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "sketch": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "It enables the user to permanently learn\nthe move last used by the target.\nOnce used, Sketch disappears.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Sketch",
-    "power": "--",
+    "power": null,
     "pp": 1
   },
   "skill-swap": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user employs its psychic power to\nexchange Abilities with the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Skill Swap",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "skull-bash": {
@@ -5475,14 +5475,14 @@
     "pp": 15
   },
   "slack-off": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user slacks off, restoring its own HP\nby up to half of its max HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Slack Off",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "slam": {
@@ -5515,18 +5515,18 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Sleep Powder",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "sleep-talk": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "While it is asleep, the user randomly uses\none of the moves it knows.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Sleep Talk",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "sludge": {
@@ -5603,7 +5603,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Smokescreen",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "snarl": {
@@ -5618,14 +5618,14 @@
     "pp": 15
   },
   "snatch": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "dark",
     "name": "Snatch",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "snore": {
@@ -5647,18 +5647,18 @@
     "min_hits": null,
     "move_type": "water",
     "name": "Soak",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "soft-boiled": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user restores its own HP\nby up to half of its max HP.\nMay also be used in the field to heal HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Soft-Boiled",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "solar-beam": {
@@ -5680,7 +5680,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Sonic Boom",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "spacial-rend": {
@@ -5706,14 +5706,14 @@
     "pp": 20
   },
   "spider-web": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user ensnares the target with thin,\ngooey silk so it can\u2019t flee from battle.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "bug",
     "name": "Spider Web",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "spike-cannon": {
@@ -5728,25 +5728,25 @@
     "pp": 15
   },
   "spikes": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user lays a trap of spikes at the\nopposing team\u2019s feet. The trap hurts\nPok\u00e9mon that switch into battle.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ground",
     "name": "Spikes",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "spiky-shield": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "In addition to protecting the user from attacks,\nthis move also damages any attacker who\nmakes direct contact.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "grass",
     "name": "Spiky Shield",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "spit-up": {
@@ -5757,7 +5757,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Spit Up",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "spite": {
@@ -5768,18 +5768,18 @@
     "min_hits": null,
     "move_type": "ghost",
     "name": "Spite",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "splash": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user just flops and splashes around\nto no effect at all...",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Splash",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "spore": {
@@ -5790,18 +5790,18 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Spore",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "stealth-rock": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user lays a trap of levitating stones\naround the opposing team. The trap hurts\nopposing Pok\u00e9mon that switch into battle.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "rock",
     "name": "Stealth Rock",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "steam-eruption": {
@@ -5838,25 +5838,25 @@
     "pp": 25
   },
   "sticky-web": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user weaves a sticky net around\nthe opposing team, which lowers their\nSpeed stat upon switching into battle.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "bug",
     "name": "Sticky Web",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "stockpile": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user charges up power and raises\nboth its Defense and Sp. Def stats.\nThe move can be used three times.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Stockpile",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "stomp": {
@@ -5922,11 +5922,11 @@
     "min_hits": null,
     "move_type": "bug",
     "name": "String Shot",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "struggle": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "physical",
     "description": "An attack that is used in desperation\nonly if the user has no PP. This also\ndamages the user a little.",
     "max_hits": null,
@@ -5934,7 +5934,7 @@
     "move_type": "normal",
     "name": "Struggle",
     "power": 50,
-    "pp": "--"
+    "pp": null
   },
   "struggle-bug": {
     "accuracy": 100,
@@ -5955,7 +5955,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Stun Spore",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "submission": {
@@ -5970,14 +5970,14 @@
     "pp": 20
   },
   "substitute": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user makes a copy of itself using\nsome of its HP.\nThe copy serves as the user\u2019s decoy.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Substitute",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "sucker-punch": {
@@ -5992,14 +5992,14 @@
     "pp": 5
   },
   "sunny-day": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user intensifies the sun\nfor five turns, powering up\nFire-type moves.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "fire",
     "name": "Sunny Day",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "super-fang": {
@@ -6010,7 +6010,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Super Fang",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "superpower": {
@@ -6032,7 +6032,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Supersonic",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "surf": {
@@ -6054,18 +6054,18 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Swagger",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "swallow": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The power stored using the move Stockpile\nis absorbed by the user to heal its HP.\nStoring more power heals more HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Swallow",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "sweet-kiss": {
@@ -6076,7 +6076,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Sweet Kiss",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "sweet-scent": {
@@ -6087,11 +6087,11 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Sweet Scent",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "swift": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "special",
     "description": "Star-shaped rays are shot at the opposing\nPok\u00e9mon. This attack never misses.",
     "max_hits": null,
@@ -6109,18 +6109,18 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Switcheroo",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "swords-dance": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "A frenetic dance to uplift the fighting\nspirit. This sharply raises the user\u2019s\nAttack stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Swords Dance",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "synchronoise": {
@@ -6135,14 +6135,14 @@
     "pp": 10
   },
   "synthesis": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "grass",
     "name": "Synthesis",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "tackle": {
@@ -6157,14 +6157,14 @@
     "pp": 35
   },
   "tail-glow": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user stares at flashing lights to\nfocus its mind, drastically raising its\nSp. Atk stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "bug",
     "name": "Tail Glow",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "tail-slap": {
@@ -6186,18 +6186,18 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Tail Whip",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "tailwind": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user whips up a turbulent whirlwind\nthat ups the Speed stat of the user and\nits allies for four turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "flying",
     "name": "Tailwind",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "take-down": {
@@ -6219,7 +6219,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Taunt",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "techno-blast": {
@@ -6241,29 +6241,29 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Teeter Dance",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "telekinesis": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user makes the target float with its\npsychic power. The target is easier to\nhit for three turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Telekinesis",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "teleport": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "Use it to flee from any wild Pok\u00e9mon.\nIt can also warp to the last Pok\u00e9mon\nCenter visited.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Teleport",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "thief": {
@@ -6362,7 +6362,7 @@
     "min_hits": null,
     "move_type": "electric",
     "name": "Thunder Wave",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "thunderbolt": {
@@ -6384,18 +6384,18 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Tickle",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "topsy-turvy": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "All stat changes affecting the target\nturn topsy-turvy and become the\nopposite of what they were.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "dark",
     "name": "Topsy-Turvy",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "torment": {
@@ -6406,7 +6406,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Torment",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "toxic": {
@@ -6417,29 +6417,29 @@
     "min_hits": null,
     "move_type": "poison",
     "name": "Toxic",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "toxic-spikes": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user lays a trap of poison spikes at the\nopposing team\u2019s feet. They poison\nopposing Pok\u00e9mon that switch into battle.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "poison",
     "name": "Toxic Spikes",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "transform": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user transforms into a copy of the\ntarget right down to having\nthe same move set.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Transform",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "tri-attack": {
@@ -6461,7 +6461,7 @@
     "min_hits": null,
     "move_type": "psychic",
     "name": "Trick",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "trick-or-treat": {
@@ -6472,18 +6472,18 @@
     "min_hits": null,
     "move_type": "ghost",
     "name": "Trick-or-Treat",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "trick-room": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user creates a bizarre area in which\nslower Pok\u00e9mon get to move first for\nfive turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Trick Room",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "triple-kick": {
@@ -6498,14 +6498,14 @@
     "pp": 10
   },
   "trump-card": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "special",
     "description": "The fewer PP this move has,\nthe greater its power.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Trump Card",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "twineedle": {
@@ -6582,7 +6582,7 @@
     "min_hits": null,
     "move_type": "poison",
     "name": "Venom Drench",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "venoshock": {
@@ -6619,7 +6619,7 @@
     "pp": 25
   },
   "vital-throw": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "physical",
     "description": "The user attacks last. In return, this throw\nmove never misses.",
     "max_hits": null,
@@ -6707,14 +6707,14 @@
     "pp": 20
   },
   "water-sport": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user soaks itself with water.\nThis weakens Fire-type moves\nfor five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "water",
     "name": "Water Sport",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "water-spout": {
@@ -6762,25 +6762,25 @@
     "pp": 15
   },
   "whirlwind": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The target is blown away, and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Whirlwind",
-    "power": "--",
+    "power": null,
     "pp": 20
   },
   "wide-guard": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user and its allies are protected from\nwide-ranging attacks for one turn.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "rock",
     "name": "Wide Guard",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "wild-charge": {
@@ -6802,7 +6802,7 @@
     "min_hits": null,
     "move_type": "fire",
     "name": "Will-O-Wisp",
-    "power": "--",
+    "power": null,
     "pp": 15
   },
   "wing-attack": {
@@ -6817,36 +6817,36 @@
     "pp": 35
   },
   "wish": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "One turn after this move is used,\nthe target\u2019s HP is restored by\nhalf the user\u2019s max HP.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Wish",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "withdraw": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user withdraws its body into its hard\nshell, raising its Defense stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "water",
     "name": "Withdraw",
-    "power": "--",
+    "power": null,
     "pp": 40
   },
   "wonder-room": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user creates a bizarre area in which\nPok\u00e9mon\u2019s Defense and Sp. Def\nstats are swapped for five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Wonder Room",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "wood-hammer": {
@@ -6861,14 +6861,14 @@
     "pp": 15
   },
   "work-up": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user is roused, and its Attack\nand Sp. Atk stats increase.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Work Up",
-    "power": "--",
+    "power": null,
     "pp": 30
   },
   "worry-seed": {
@@ -6879,7 +6879,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Worry Seed",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "wrap": {
@@ -6901,7 +6901,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Wring Out",
-    "power": "--",
+    "power": null,
     "pp": 5
   },
   "x-scissor": {
@@ -6916,14 +6916,14 @@
     "pp": 15
   },
   "yawn": {
-    "accuracy": "--",
+    "accuracy": null,
     "damage_category": "status",
     "description": "The user lets loose a huge yawn that\nlulls the target into falling asleep\non the next turn.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Yawn",
-    "power": "--",
+    "power": null,
     "pp": 10
   },
   "zap-cannon": {

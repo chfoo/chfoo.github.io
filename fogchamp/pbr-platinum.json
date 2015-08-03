@@ -547,6 +547,7 @@
       "attack": 218,
       "defense": 184,
       "gender": "f",
+      "happiness": null,
       "hp": 319,
       "item": "",
       "iv": 460,
@@ -565,13 +566,15 @@
       "types": [
         "grass",
         "ice"
-      ]
+      ],
+      "weight": 135.5
     },
     "abra": {
       "ability": "synchronize",
       "attack": 81,
       "defense": 81,
       "gender": "m",
+      "happiness": null,
       "hp": 206,
       "item": "",
       "iv": 63,
@@ -589,13 +592,15 @@
       "speed": 254,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 19.5
     },
     "absol": {
       "ability": "super-luck",
       "attack": 266,
       "defense": 156,
       "gender": "f",
+      "happiness": null,
       "hp": 271,
       "item": "",
       "iv": 359,
@@ -613,13 +618,15 @@
       "speed": 186,
       "types": [
         "dark"
-      ]
+      ],
+      "weight": 47.0
     },
     "aerodactyl": {
       "ability": "pressure",
       "attack": 242,
       "defense": 162,
       "gender": "f",
+      "happiness": null,
       "hp": 297,
       "item": "",
       "iv": 142,
@@ -638,13 +645,15 @@
       "types": [
         "rock",
         "flying"
-      ]
+      ],
+      "weight": 59.0
     },
     "aggron": {
       "ability": "sturdy",
       "attack": 225,
       "defense": 390,
       "gender": "f",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 306,
@@ -663,13 +672,15 @@
       "types": [
         "steel",
         "rock"
-      ]
+      ],
+      "weight": 360.0
     },
     "aipom": {
       "ability": "pickup",
       "attack": 207,
       "defense": 156,
       "gender": "m",
+      "happiness": null,
       "hp": 261,
       "item": "",
       "iv": 190,
@@ -687,13 +698,15 @@
       "speed": 216,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 11.5
     },
     "alakazam": {
       "ability": "inner-focus",
       "attack": 134,
       "defense": 136,
       "gender": "f",
+      "happiness": null,
       "hp": 249,
       "item": "",
       "iv": 65,
@@ -711,13 +724,15 @@
       "speed": 274,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 48.0
     },
     "altaria": {
       "ability": "natural-cure",
       "attack": 174,
       "defense": 214,
       "gender": "f",
+      "happiness": null,
       "hp": 289,
       "item": "",
       "iv": 334,
@@ -736,13 +751,15 @@
       "types": [
         "dragon",
         "flying"
-      ]
+      ],
+      "weight": 20.6
     },
     "ambipom": {
       "ability": "technician",
       "attack": 235,
       "defense": 167,
       "gender": "f",
+      "happiness": null,
       "hp": 290,
       "item": "",
       "iv": 424,
@@ -760,13 +777,15 @@
       "speed": 265,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 20.3
     },
     "ampharos": {
       "ability": "static",
       "attack": 183,
       "defense": 183,
       "gender": "f",
+      "happiness": null,
       "hp": 318,
       "item": "",
       "iv": 181,
@@ -784,13 +803,15 @@
       "speed": 143,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 61.5
     },
     "anorith": {
       "ability": "battle-armor",
       "attack": 238,
       "defense": 145,
       "gender": "m",
+      "happiness": null,
       "hp": 241,
       "item": "",
       "iv": 347,
@@ -809,13 +830,15 @@
       "types": [
         "rock",
         "bug"
-      ]
+      ],
+      "weight": 12.5
     },
     "arbok": {
       "ability": "intimidate",
       "attack": 209,
       "defense": 177,
       "gender": "f",
+      "happiness": null,
       "hp": 264,
       "item": "",
       "iv": 24,
@@ -833,13 +856,15 @@
       "speed": 199,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 65.0
     },
     "arcanine": {
       "ability": "intimidate",
       "attack": 248,
       "defense": 188,
       "gender": "f",
+      "happiness": null,
       "hp": 313,
       "item": "",
       "iv": 59,
@@ -857,13 +882,15 @@
       "speed": 218,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 155.0
     },
     "arceus-bug": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "insect-plate",
       "iv": 493,
@@ -881,13 +908,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-dark": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "dread-plate",
       "iv": 493,
@@ -905,13 +934,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-dragon": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "draco-plate",
       "iv": 493,
@@ -929,13 +960,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-electric": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "zap-plate",
       "iv": 493,
@@ -953,13 +986,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-fighting": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "fist-plate",
       "iv": 493,
@@ -977,13 +1012,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-fire": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "flame-plate",
       "iv": 493,
@@ -1001,13 +1038,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-flying": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "sky-plate",
       "iv": 493,
@@ -1025,13 +1064,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-ghost": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "spooky-plate",
       "iv": 493,
@@ -1049,13 +1090,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-grass": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "meadow-plate",
       "iv": 493,
@@ -1073,13 +1116,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-ground": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "earth-plate",
       "iv": 493,
@@ -1097,13 +1142,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-ice": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "icicle-plate",
       "iv": 493,
@@ -1121,13 +1168,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-normal": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "",
       "iv": 493,
@@ -1145,13 +1194,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-poison": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "toxic-plate",
       "iv": 493,
@@ -1169,13 +1220,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-psychic": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "mind-plate",
       "iv": 493,
@@ -1193,13 +1246,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-rock": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "stone-plate",
       "iv": 493,
@@ -1217,13 +1272,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-steel": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "iron-plate",
       "iv": 493,
@@ -1241,13 +1298,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "arceus-water": {
       "ability": "multitype",
       "attack": 245,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 350,
       "item": "splash-plate",
       "iv": 493,
@@ -1265,13 +1324,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 320.0
     },
     "ariados": {
       "ability": "swarm",
       "attack": 246,
       "defense": 165,
       "gender": "m",
+      "happiness": null,
       "hp": 289,
       "item": "",
       "iv": 168,
@@ -1290,13 +1351,15 @@
       "types": [
         "bug",
         "poison"
-      ]
+      ],
+      "weight": 33.5
     },
     "armaldo": {
       "ability": "battle-armor",
       "attack": 255,
       "defense": 234,
       "gender": "f",
+      "happiness": null,
       "hp": 289,
       "item": "",
       "iv": 348,
@@ -1315,13 +1378,15 @@
       "types": [
         "rock",
         "bug"
-      ]
+      ],
+      "weight": 68.2
     },
     "aron": {
       "ability": "rock-head",
       "attack": 207,
       "defense": 249,
       "gender": "m",
+      "happiness": null,
       "hp": 254,
       "item": "",
       "iv": 304,
@@ -1340,13 +1405,15 @@
       "types": [
         "steel",
         "rock"
-      ]
+      ],
+      "weight": 60.0
     },
     "articuno": {
       "ability": "pressure",
       "attack": 196,
       "defense": 226,
       "gender": "-",
+      "happiness": null,
       "hp": 311,
       "item": "",
       "iv": 144,
@@ -1365,13 +1432,15 @@
       "types": [
         "ice",
         "flying"
-      ]
+      ],
+      "weight": 55.4
     },
     "azelf": {
       "ability": "levitate",
       "attack": 303,
       "defense": 149,
       "gender": "-",
+      "happiness": null,
       "hp": 281,
       "item": "",
       "iv": 482,
@@ -1389,13 +1458,15 @@
       "speed": 256,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 0.3
     },
     "azumarill": {
       "ability": "huge-power",
       "attack": 120,
       "defense": 183,
       "gender": "f",
+      "happiness": null,
       "hp": 319,
       "item": "",
       "iv": 184,
@@ -1414,13 +1485,15 @@
       "types": [
         "water",
         "normal"
-      ]
+      ],
+      "weight": 28.5
     },
     "azurill": {
       "ability": "huge-power",
       "attack": 152,
       "defense": 137,
       "gender": "m",
+      "happiness": null,
       "hp": 262,
       "item": "",
       "iv": 298,
@@ -1438,13 +1511,15 @@
       "speed": 76,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 2.0
     },
     "bagon": {
       "ability": "rock-head",
       "attack": 202,
       "defense": 172,
       "gender": "f",
+      "happiness": null,
       "hp": 247,
       "item": "",
       "iv": 371,
@@ -1462,13 +1537,15 @@
       "speed": 152,
       "types": [
         "dragon"
-      ]
+      ],
+      "weight": 42.1
     },
     "baltoy": {
       "ability": "levitate",
       "attack": 132,
       "defense": 178,
       "gender": "-",
+      "happiness": null,
       "hp": 237,
       "item": "",
       "iv": 343,
@@ -1487,13 +1564,15 @@
       "types": [
         "ground",
         "psychic"
-      ]
+      ],
+      "weight": 21.5
     },
     "banette": {
       "ability": "insomnia",
       "attack": 267,
       "defense": 150,
       "gender": "f",
+      "happiness": null,
       "hp": 270,
       "item": "",
       "iv": 354,
@@ -1511,13 +1590,15 @@
       "speed": 167,
       "types": [
         "ghost"
-      ]
+      ],
+      "weight": 12.5
     },
     "barboach": {
       "ability": "oblivious",
       "attack": 163,
       "defense": 139,
       "gender": "m",
+      "happiness": null,
       "hp": 258,
       "item": "",
       "iv": 339,
@@ -1536,13 +1617,15 @@
       "types": [
         "water",
         "ground"
-      ]
+      ],
+      "weight": 1.9
     },
     "bastiodon": {
       "ability": "sturdy",
       "attack": 138,
       "defense": 333,
       "gender": "f",
+      "happiness": null,
       "hp": 259,
       "item": "",
       "iv": 411,
@@ -1561,13 +1644,15 @@
       "types": [
         "rock",
         "steel"
-      ]
+      ],
+      "weight": 149.5
     },
     "bayleef": {
       "ability": "overgrow",
       "attack": 182,
       "defense": 202,
       "gender": "f",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 153,
@@ -1585,13 +1670,15 @@
       "speed": 162,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 15.8
     },
     "beautifly": {
       "ability": "swarm",
       "attack": 165,
       "defense": 144,
       "gender": "f",
+      "happiness": null,
       "hp": 269,
       "item": "",
       "iv": 267,
@@ -1610,13 +1697,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 28.4
     },
     "beedrill": {
       "ability": "swarm",
       "attack": 224,
       "defense": 124,
       "gender": "m",
+      "happiness": null,
       "hp": 279,
       "item": "",
       "iv": 15,
@@ -1635,13 +1724,15 @@
       "types": [
         "bug",
         "poison"
-      ]
+      ],
+      "weight": 29.5
     },
     "beldum": {
       "ability": "clear-body",
       "attack": 205,
       "defense": 212,
       "gender": "-",
+      "happiness": null,
       "hp": 237,
       "item": "",
       "iv": 374,
@@ -1660,13 +1751,15 @@
       "types": [
         "steel",
         "psychic"
-      ]
+      ],
+      "weight": 95.2
     },
     "bellossom": {
       "ability": "chlorophyll",
       "attack": 214,
       "defense": 205,
       "gender": "f",
+      "happiness": null,
       "hp": 290,
       "item": "",
       "iv": 182,
@@ -1684,13 +1777,15 @@
       "speed": 121,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 5.8
     },
     "bellsprout": {
       "ability": "chlorophyll",
       "attack": 181,
       "defense": 122,
       "gender": "f",
+      "happiness": null,
       "hp": 257,
       "item": "",
       "iv": 69,
@@ -1709,13 +1804,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 4.0
     },
     "bibarel": {
       "ability": "unaware",
       "attack": 212,
       "defense": 162,
       "gender": "f",
+      "happiness": null,
       "hp": 305,
       "item": "",
       "iv": 400,
@@ -1734,13 +1831,15 @@
       "types": [
         "normal",
         "water"
-      ]
+      ],
+      "weight": 31.5
     },
     "bidoof": {
       "ability": "simple",
       "attack": 190,
       "defense": 132,
       "gender": "m",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 399,
@@ -1758,13 +1857,15 @@
       "speed": 98,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 20.0
     },
     "blastoise": {
       "ability": "torrent",
       "attack": 215,
       "defense": 230,
       "gender": "f",
+      "happiness": null,
       "hp": 293,
       "item": "",
       "iv": 9,
@@ -1782,13 +1883,15 @@
       "speed": 186,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 85.5
     },
     "blaziken": {
       "ability": "blaze",
       "attack": 243,
       "defense": 170,
       "gender": "f",
+      "happiness": null,
       "hp": 295,
       "item": "",
       "iv": 257,
@@ -1807,13 +1910,15 @@
       "types": [
         "fire",
         "fighting"
-      ]
+      ],
+      "weight": 52.0
     },
     "blissey": {
       "ability": "serene-grace",
       "attack": 100,
       "defense": 49,
       "gender": "f",
+      "happiness": null,
       "hp": 623,
       "item": "",
       "iv": 242,
@@ -1831,13 +1936,15 @@
       "speed": 139,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 46.8
     },
     "bonsly": {
       "ability": "sturdy",
       "attack": 234,
       "defense": 243,
       "gender": "m",
+      "happiness": null,
       "hp": 258,
       "item": "",
       "iv": 438,
@@ -1855,13 +1962,15 @@
       "speed": 73,
       "types": [
         "rock"
-      ]
+      ],
+      "weight": 15.0
     },
     "breloom": {
       "ability": "poison-heal",
       "attack": 276,
       "defense": 177,
       "gender": "f",
+      "happiness": null,
       "hp": 262,
       "item": "",
       "iv": 286,
@@ -1880,13 +1989,15 @@
       "types": [
         "grass",
         "fighting"
-      ]
+      ],
+      "weight": 39.2
     },
     "bronzong": {
       "ability": "levitate",
       "attack": 211,
       "defense": 238,
       "gender": "-",
+      "happiness": null,
       "hp": 272,
       "item": "",
       "iv": 437,
@@ -1905,13 +2016,15 @@
       "types": [
         "steel",
         "psychic"
-      ]
+      ],
+      "weight": 187.0
     },
     "bronzor": {
       "ability": "levitate",
       "attack": 71,
       "defense": 246,
       "gender": "-",
+      "happiness": null,
       "hp": 271,
       "item": "",
       "iv": 436,
@@ -1930,13 +2043,15 @@
       "types": [
         "steel",
         "psychic"
-      ]
+      ],
+      "weight": 60.5
     },
     "budew": {
       "ability": "poison-point",
       "attack": 89,
       "defense": 139,
       "gender": "m",
+      "happiness": null,
       "hp": 239,
       "item": "",
       "iv": 406,
@@ -1955,13 +2070,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 1.2
     },
     "buizel": {
       "ability": "swift-swim",
       "attack": 196,
       "defense": 107,
       "gender": "m",
+      "happiness": null,
       "hp": 264,
       "item": "",
       "iv": 418,
@@ -1979,13 +2096,15 @@
       "speed": 219,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 29.5
     },
     "bulbasaur": {
       "ability": "overgrow",
       "attack": 168,
       "defense": 148,
       "gender": "m",
+      "happiness": null,
       "hp": 245,
       "item": "",
       "iv": 1,
@@ -2004,13 +2123,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 6.9
     },
     "buneary": {
       "ability": "klutz",
       "attack": 224,
       "defense": 135,
       "gender": "m",
+      "happiness": 255,
       "hp": 258,
       "item": "",
       "iv": 427,
@@ -2028,13 +2149,15 @@
       "speed": 217,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 5.5
     },
     "burmy-plant": {
       "ability": "shed-skin",
       "attack": 172,
       "defense": 126,
       "gender": "m",
+      "happiness": null,
       "hp": 221,
       "item": "",
       "iv": 412,
@@ -2052,13 +2175,15 @@
       "speed": 96,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 3.4
     },
     "burmy-sand": {
       "ability": "shed-skin",
       "attack": 172,
       "defense": 125,
       "gender": "m",
+      "happiness": null,
       "hp": 221,
       "item": "",
       "iv": 412,
@@ -2076,13 +2201,15 @@
       "speed": 96,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 3.4
     },
     "burmy-trash": {
       "ability": "shed-skin",
       "attack": 172,
       "defense": 126,
       "gender": "m",
+      "happiness": null,
       "hp": 221,
       "item": "",
       "iv": 412,
@@ -2100,13 +2227,15 @@
       "speed": 97,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 3.4
     },
     "butterfree": {
       "ability": "compound-eyes",
       "attack": 120,
       "defense": 144,
       "gender": "m",
+      "happiness": null,
       "hp": 269,
       "item": "",
       "iv": 12,
@@ -2125,13 +2254,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 32.0
     },
     "cacnea": {
       "ability": "sand-veil",
       "attack": 219,
       "defense": 129,
       "gender": "m",
+      "happiness": null,
       "hp": 254,
       "item": "",
       "iv": 331,
@@ -2149,13 +2280,15 @@
       "speed": 107,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 51.3
     },
     "cacturne": {
       "ability": "sand-veil",
       "attack": 265,
       "defense": 155,
       "gender": "m",
+      "happiness": null,
       "hp": 280,
       "item": "",
       "iv": 332,
@@ -2174,13 +2307,15 @@
       "types": [
         "grass",
         "dark"
-      ]
+      ],
+      "weight": 77.4
     },
     "camerupt": {
       "ability": "solid-rock",
       "attack": 237,
       "defense": 177,
       "gender": "f",
+      "happiness": null,
       "hp": 282,
       "item": "",
       "iv": 323,
@@ -2199,13 +2334,15 @@
       "types": [
         "fire",
         "ground"
-      ]
+      ],
+      "weight": 220.0
     },
     "carnivine": {
       "ability": "levitate",
       "attack": 237,
       "defense": 181,
       "gender": "f",
+      "happiness": null,
       "hp": 290,
       "item": "",
       "iv": 455,
@@ -2223,13 +2360,15 @@
       "speed": 129,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 27.0
     },
     "carvanha": {
       "ability": "rough-skin",
       "attack": 255,
       "defense": 92,
       "gender": "f",
+      "happiness": null,
       "hp": 247,
       "item": "",
       "iv": 318,
@@ -2248,13 +2387,15 @@
       "types": [
         "water",
         "dark"
-      ]
+      ],
+      "weight": 20.8
     },
     "cascoon": {
       "ability": "shed-skin",
       "attack": 185,
       "defense": 167,
       "gender": "m",
+      "happiness": null,
       "hp": 262,
       "item": "",
       "iv": 268,
@@ -2272,13 +2413,15 @@
       "speed": 66,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 11.5
     },
     "castform": {
       "ability": "forecast",
       "attack": 144,
       "defense": 181,
       "gender": "m",
+      "happiness": null,
       "hp": 286,
       "item": "",
       "iv": 351,
@@ -2296,13 +2439,15 @@
       "speed": 221,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 0.8
     },
     "caterpie": {
       "ability": "shield-dust",
       "attack": 174,
       "defense": 120,
       "gender": "m",
+      "happiness": null,
       "hp": 245,
       "item": "",
       "iv": 10,
@@ -2319,13 +2464,15 @@
       "speed": 147,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 2.9
     },
     "celebi": {
       "ability": "natural-cure",
       "attack": 225,
       "defense": 247,
       "gender": "-",
+      "happiness": null,
       "hp": 330,
       "item": "",
       "iv": 251,
@@ -2344,13 +2491,15 @@
       "types": [
         "psychic",
         "grass"
-      ]
+      ],
+      "weight": 5.0
     },
     "chansey": {
       "ability": "serene-grace",
       "attack": 27,
       "defense": 48,
       "gender": "f",
+      "happiness": null,
       "hp": 633,
       "item": "",
       "iv": 113,
@@ -2368,13 +2517,15 @@
       "speed": 138,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 34.6
     },
     "charizard": {
       "ability": "blaze",
       "attack": 217,
       "defense": 186,
       "gender": "m",
+      "happiness": null,
       "hp": 291,
       "item": "",
       "iv": 6,
@@ -2393,13 +2544,15 @@
       "types": [
         "fire",
         "flying"
-      ]
+      ],
+      "weight": 90.5
     },
     "charmander": {
       "ability": "blaze",
       "attack": 155,
       "defense": 137,
       "gender": "f",
+      "happiness": null,
       "hp": 234,
       "item": "",
       "iv": 4,
@@ -2417,13 +2570,15 @@
       "speed": 181,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 8.5
     },
     "charmeleon": {
       "ability": "blaze",
       "attack": 187,
       "defense": 142,
       "gender": "f",
+      "happiness": null,
       "hp": 263,
       "item": "",
       "iv": 5,
@@ -2441,13 +2596,15 @@
       "speed": 202,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 19.0
     },
     "chatot": {
       "ability": "keen-eye",
       "attack": 154,
       "defense": 132,
       "gender": "m",
+      "happiness": null,
       "hp": 299,
       "item": "",
       "iv": 441,
@@ -2466,13 +2623,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 1.9
     },
     "cherrim": {
       "ability": "flower-gift",
       "attack": 173,
       "defense": 178,
       "gender": "m",
+      "happiness": 92,
       "hp": 283,
       "item": "",
       "iv": 421,
@@ -2490,13 +2649,15 @@
       "speed": 208,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 9.3
     },
     "cherubi": {
       "ability": "chlorophyll",
       "attack": 94,
       "defense": 145,
       "gender": "m",
+      "happiness": null,
       "hp": 250,
       "item": "",
       "iv": 420,
@@ -2514,13 +2675,15 @@
       "speed": 145,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 3.3
     },
     "chikorita": {
       "ability": "overgrow",
       "attack": 168,
       "defense": 174,
       "gender": "m",
+      "happiness": null,
       "hp": 239,
       "item": "",
       "iv": 152,
@@ -2538,13 +2701,15 @@
       "speed": 107,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 6.4
     },
     "chimchar": {
       "ability": "blaze",
       "attack": 131,
       "defense": 136,
       "gender": "m",
+      "happiness": null,
       "hp": 241,
       "item": "",
       "iv": 390,
@@ -2562,13 +2727,15 @@
       "speed": 190,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 6.2
     },
     "chimecho": {
       "ability": "levitate",
       "attack": 126,
       "defense": 198,
       "gender": "m",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 358,
@@ -2586,13 +2753,15 @@
       "speed": 270,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 1.0
     },
     "chinchou": {
       "ability": "volt-absorb",
       "attack": 93,
       "defense": 124,
       "gender": "m",
+      "happiness": null,
       "hp": 304,
       "item": "",
       "iv": 170,
@@ -2611,13 +2780,15 @@
       "types": [
         "water",
         "electric"
-      ]
+      ],
+      "weight": 12.0
     },
     "chingling": {
       "ability": "levitate",
       "attack": 102,
       "defense": 154,
       "gender": "m",
+      "happiness": null,
       "hp": 249,
       "item": "",
       "iv": 433,
@@ -2635,13 +2806,15 @@
       "speed": 144,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 0.6
     },
     "clamperl": {
       "ability": "shell-armor",
       "attack": 139,
       "defense": 218,
       "gender": "f",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 366,
@@ -2659,13 +2832,15 @@
       "speed": 91,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 52.5
     },
     "claydol": {
       "ability": "levitate",
       "attack": 173,
       "defense": 243,
       "gender": "-",
+      "happiness": null,
       "hp": 258,
       "item": "",
       "iv": 344,
@@ -2684,13 +2859,15 @@
       "types": [
         "ground",
         "psychic"
-      ]
+      ],
+      "weight": 108.0
     },
     "clefable": {
       "ability": "magic-guard",
       "attack": 176,
       "defense": 182,
       "gender": "f",
+      "happiness": null,
       "hp": 331,
       "item": "",
       "iv": 36,
@@ -2708,13 +2885,15 @@
       "speed": 156,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 40.0
     },
     "clefairy": {
       "ability": "cute-charm",
       "attack": 140,
       "defense": 146,
       "gender": "m",
+      "happiness": null,
       "hp": 295,
       "item": "",
       "iv": 35,
@@ -2732,13 +2911,15 @@
       "speed": 108,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 7.5
     },
     "cleffa": {
       "ability": "magic-guard",
       "attack": 163,
       "defense": 108,
       "gender": "m",
+      "happiness": null,
       "hp": 257,
       "item": "",
       "iv": 173,
@@ -2756,13 +2937,15 @@
       "speed": 59,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 3.0
     },
     "cloyster": {
       "ability": "skill-link",
       "attack": 221,
       "defense": 430,
       "gender": "m",
+      "happiness": null,
       "hp": 236,
       "item": "",
       "iv": 91,
@@ -2781,13 +2964,15 @@
       "types": [
         "water",
         "ice"
-      ]
+      ],
+      "weight": 132.5
     },
     "combee": {
       "ability": "honey-gather",
       "attack": 86,
       "defense": 141,
       "gender": "m",
+      "happiness": null,
       "hp": 222,
       "item": "",
       "iv": 415,
@@ -2806,13 +2991,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 5.5
     },
     "combusken": {
       "ability": "blaze",
       "attack": 233,
       "defense": 162,
       "gender": "f",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 256,
@@ -2831,13 +3018,15 @@
       "types": [
         "fire",
         "fighting"
-      ]
+      ],
+      "weight": 19.5
     },
     "corphish": {
       "ability": "shell-armor",
       "attack": 211,
       "defense": 181,
       "gender": "m",
+      "happiness": null,
       "hp": 242,
       "item": "",
       "iv": 341,
@@ -2855,13 +3044,15 @@
       "speed": 133,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 11.5
     },
     "corsola": {
       "ability": "hustle",
       "attack": 175,
       "defense": 215,
       "gender": "f",
+      "happiness": null,
       "hp": 260,
       "item": "",
       "iv": 222,
@@ -2880,13 +3071,15 @@
       "types": [
         "water",
         "rock"
-      ]
+      ],
+      "weight": 5.0
     },
     "cradily": {
       "ability": "suction-cups",
       "attack": 196,
       "defense": 228,
       "gender": "f",
+      "happiness": null,
       "hp": 311,
       "item": "",
       "iv": 346,
@@ -2905,13 +3098,15 @@
       "types": [
         "rock",
         "grass"
-      ]
+      ],
+      "weight": 60.4
     },
     "cranidos": {
       "ability": "mold-breaker",
       "attack": 297,
       "defense": 127,
       "gender": "m",
+      "happiness": null,
       "hp": 286,
       "item": "",
       "iv": 408,
@@ -2929,13 +3124,15 @@
       "speed": 179,
       "types": [
         "rock"
-      ]
+      ],
+      "weight": 31.5
     },
     "crawdaunt": {
       "ability": "hyper-cutter",
       "attack": 276,
       "defense": 226,
       "gender": "f",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 342,
@@ -2954,13 +3151,15 @@
       "types": [
         "water",
         "dark"
-      ]
+      ],
+      "weight": 32.8
     },
     "cresselia": {
       "ability": "levitate",
       "attack": 145,
       "defense": 245,
       "gender": "f",
+      "happiness": null,
       "hp": 350,
       "item": "",
       "iv": 488,
@@ -2978,13 +3177,15 @@
       "speed": 175,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 85.6
     },
     "croagunk": {
       "ability": "dry-skin",
       "attack": 191,
       "defense": 118,
       "gender": "f",
+      "happiness": null,
       "hp": 238,
       "item": "",
       "iv": 453,
@@ -3003,13 +3204,15 @@
       "types": [
         "poison",
         "fighting"
-      ]
+      ],
+      "weight": 23.0
     },
     "crobat": {
       "ability": "inner-focus",
       "attack": 210,
       "defense": 190,
       "gender": "f",
+      "happiness": null,
       "hp": 305,
       "item": "",
       "iv": 169,
@@ -3028,13 +3231,15 @@
       "types": [
         "poison",
         "flying"
-      ]
+      ],
+      "weight": 75.0
     },
     "croconaw": {
       "ability": "torrent",
       "attack": 202,
       "defense": 202,
       "gender": "f",
+      "happiness": null,
       "hp": 277,
       "item": "",
       "iv": 159,
@@ -3052,13 +3257,15 @@
       "speed": 173,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 25.0
     },
     "cubone": {
       "ability": "lightning-rod",
       "attack": 150,
       "defense": 240,
       "gender": "m",
+      "happiness": null,
       "hp": 255,
       "item": "",
       "iv": 104,
@@ -3076,13 +3283,15 @@
       "speed": 108,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 6.5
     },
     "cyndaquil": {
       "ability": "blaze",
       "attack": 175,
       "defense": 127,
       "gender": "m",
+      "happiness": null,
       "hp": 224,
       "item": "",
       "iv": 155,
@@ -3100,13 +3309,15 @@
       "speed": 199,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 7.9
     },
     "darkrai": {
       "ability": "bad-dreams",
       "attack": 189,
       "defense": 185,
       "gender": "-",
+      "happiness": null,
       "hp": 250,
       "item": "",
       "iv": 491,
@@ -3124,13 +3335,15 @@
       "speed": 229,
       "types": [
         "dark"
-      ]
+      ],
+      "weight": 50.5
     },
     "delcatty": {
       "ability": "cute-charm",
       "attack": 192,
       "defense": 175,
       "gender": "f",
+      "happiness": null,
       "hp": 290,
       "item": "",
       "iv": 301,
@@ -3148,13 +3361,15 @@
       "speed": 185,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 32.6
     },
     "delibird": {
       "ability": "vital-spirit",
       "attack": 159,
       "defense": 139,
       "gender": "m",
+      "happiness": null,
       "hp": 244,
       "item": "",
       "iv": 225,
@@ -3173,13 +3388,15 @@
       "types": [
         "ice",
         "flying"
-      ]
+      ],
+      "weight": 16.0
     },
     "deoxys-attack": {
       "ability": "pressure",
       "attack": 365,
       "defense": 49,
       "gender": "-",
+      "happiness": null,
       "hp": 210,
       "item": "",
       "iv": 386,
@@ -3197,13 +3414,15 @@
       "speed": 305,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 60.8
     },
     "deoxys-defense": {
       "ability": "pressure",
       "attack": 148,
       "defense": 325,
       "gender": "-",
+      "happiness": null,
       "hp": 210,
       "item": "",
       "iv": 386,
@@ -3221,13 +3440,15 @@
       "speed": 203,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 60.8
     },
     "deoxys-normal": {
       "ability": "pressure",
       "attack": 274,
       "defense": 105,
       "gender": "-",
+      "happiness": null,
       "hp": 210,
       "item": "",
       "iv": 386,
@@ -3245,13 +3466,15 @@
       "speed": 305,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 60.8
     },
     "deoxys-speed": {
       "ability": "pressure",
       "attack": 195,
       "defense": 185,
       "gender": "-",
+      "happiness": null,
       "hp": 210,
       "item": "",
       "iv": 386,
@@ -3269,13 +3492,15 @@
       "speed": 428,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 60.8
     },
     "dewgong": {
       "ability": "thick-fat",
       "attack": 157,
       "defense": 214,
       "gender": "m",
+      "happiness": null,
       "hp": 320,
       "item": "",
       "iv": 87,
@@ -3294,13 +3519,15 @@
       "types": [
         "water",
         "ice"
-      ]
+      ],
+      "weight": 120.0
     },
     "dialga": {
       "ability": "pressure",
       "attack": 220,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 310,
       "item": "",
       "iv": 483,
@@ -3319,13 +3546,15 @@
       "types": [
         "steel",
         "dragon"
-      ]
+      ],
+      "weight": 683.0
     },
     "dialga-shiny": {
       "ability": "levitate",
       "attack": 267,
       "defense": 297,
       "gender": "",
+      "happiness": null,
       "hp": 362,
       "item": "",
       "iv": 483,
@@ -3344,13 +3573,15 @@
       "types": [
         "steel",
         "dragon"
-      ]
+      ],
+      "weight": 683.0
     },
     "diglett": {
       "ability": "sand-veil",
       "attack": 207,
       "defense": 84,
       "gender": "m",
+      "happiness": null,
       "hp": 159,
       "item": "",
       "iv": 50,
@@ -3368,13 +3599,15 @@
       "speed": 315,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 0.8
     },
     "ditto": {
       "ability": "limber",
       "attack": 115,
       "defense": 128,
       "gender": "-",
+      "happiness": null,
       "hp": 296,
       "item": "quick-powder",
       "iv": 132,
@@ -3389,13 +3622,15 @@
       "speed": 210,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 4.0
     },
     "dodrio": {
       "ability": "early-bird",
       "attack": 231,
       "defense": 177,
       "gender": "f",
+      "happiness": null,
       "hp": 262,
       "item": "",
       "iv": 85,
@@ -3414,13 +3649,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 85.2
     },
     "doduo": {
       "ability": "early-bird",
       "attack": 221,
       "defense": 141,
       "gender": "m",
+      "happiness": null,
       "hp": 226,
       "item": "",
       "iv": 84,
@@ -3439,13 +3676,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 39.2
     },
     "donphan": {
       "ability": "sturdy",
       "attack": 245,
       "defense": 273,
       "gender": "f",
+      "happiness": null,
       "hp": 318,
       "item": "",
       "iv": 232,
@@ -3463,13 +3702,15 @@
       "speed": 133,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 120.0
     },
     "dragonair": {
       "ability": "shed-skin",
       "attack": 209,
       "defense": 171,
       "gender": "m",
+      "happiness": null,
       "hp": 268,
       "item": "",
       "iv": 148,
@@ -3487,13 +3728,15 @@
       "speed": 181,
       "types": [
         "dragon"
-      ]
+      ],
+      "weight": 16.5
     },
     "dragonite": {
       "ability": "inner-focus",
       "attack": 285,
       "defense": 195,
       "gender": "f",
+      "happiness": null,
       "hp": 292,
       "item": "",
       "iv": 149,
@@ -3512,13 +3755,15 @@
       "types": [
         "dragon",
         "flying"
-      ]
+      ],
+      "weight": 210.0
     },
     "drapion": {
       "ability": "sniper",
       "attack": 213,
       "defense": 227,
       "gender": "f",
+      "happiness": null,
       "hp": 278,
       "item": "",
       "iv": 452,
@@ -3537,13 +3782,15 @@
       "types": [
         "poison",
         "dark"
-      ]
+      ],
+      "weight": 61.5
     },
     "dratini": {
       "ability": "shed-skin",
       "attack": 198,
       "defense": 142,
       "gender": "f",
+      "happiness": null,
       "hp": 239,
       "item": "",
       "iv": 147,
@@ -3561,13 +3808,15 @@
       "speed": 152,
       "types": [
         "dragon"
-      ]
+      ],
+      "weight": 3.3
     },
     "drifblim": {
       "ability": "aftermath",
       "attack": 193,
       "defense": 121,
       "gender": "f",
+      "happiness": null,
       "hp": 438,
       "item": "",
       "iv": 426,
@@ -3586,13 +3835,15 @@
       "types": [
         "ghost",
         "flying"
-      ]
+      ],
+      "weight": 15.0
     },
     "drifloon": {
       "ability": "aftermath",
       "attack": 114,
       "defense": 146,
       "gender": "f",
+      "happiness": null,
       "hp": 314,
       "item": "",
       "iv": 425,
@@ -3611,13 +3862,15 @@
       "types": [
         "ghost",
         "flying"
-      ]
+      ],
+      "weight": 1.2
     },
     "drowzee": {
       "ability": "insomnia",
       "attack": 124,
       "defense": 152,
       "gender": "m",
+      "happiness": null,
       "hp": 274,
       "item": "",
       "iv": 96,
@@ -3635,13 +3888,15 @@
       "speed": 100,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 32.4
     },
     "dugtrio": {
       "ability": "arena-trap",
       "attack": 202,
       "defense": 142,
       "gender": "f",
+      "happiness": null,
       "hp": 217,
       "item": "",
       "iv": 51,
@@ -3659,13 +3914,15 @@
       "speed": 310,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 33.3
     },
     "dunsparce": {
       "ability": "serene-grace",
       "attack": 181,
       "defense": 181,
       "gender": "m",
+      "happiness": null,
       "hp": 346,
       "item": "",
       "iv": 206,
@@ -3683,13 +3940,15 @@
       "speed": 131,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 14.0
     },
     "dusclops": {
       "ability": "pressure",
       "attack": 177,
       "defense": 297,
       "gender": "f",
+      "happiness": null,
       "hp": 222,
       "item": "",
       "iv": 356,
@@ -3707,13 +3966,15 @@
       "speed": 87,
       "types": [
         "ghost"
-      ]
+      ],
+      "weight": 30.6
     },
     "dusknoir": {
       "ability": "pressure",
       "attack": 231,
       "defense": 301,
       "gender": "m",
+      "happiness": null,
       "hp": 226,
       "item": "",
       "iv": 477,
@@ -3731,13 +3992,15 @@
       "speed": 121,
       "types": [
         "ghost"
-      ]
+      ],
+      "weight": 106.6
     },
     "duskull": {
       "ability": "levitate",
       "attack": 107,
       "defense": 256,
       "gender": "m",
+      "happiness": null,
       "hp": 240,
       "item": "",
       "iv": 355,
@@ -3755,13 +4018,15 @@
       "speed": 89,
       "types": [
         "ghost"
-      ]
+      ],
+      "weight": 15.0
     },
     "dustox": {
       "ability": "shield-dust",
       "attack": 144,
       "defense": 165,
       "gender": "f",
+      "happiness": null,
       "hp": 269,
       "item": "",
       "iv": 269,
@@ -3780,13 +4045,15 @@
       "types": [
         "bug",
         "poison"
-      ]
+      ],
+      "weight": 31.6
     },
     "eevee": {
       "ability": "adaptability",
       "attack": 181,
       "defense": 150,
       "gender": "m",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 133,
@@ -3804,13 +4071,15 @@
       "speed": 176,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 6.5
     },
     "ekans": {
       "ability": "shed-skin",
       "attack": 190,
       "defense": 172,
       "gender": "m",
+      "happiness": null,
       "hp": 228,
       "item": "",
       "iv": 23,
@@ -3828,13 +4097,15 @@
       "speed": 142,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 6.9
     },
     "electabuzz": {
       "ability": "static",
       "attack": 200,
       "defense": 148,
       "gender": "f",
+      "happiness": null,
       "hp": 269,
       "item": "",
       "iv": 125,
@@ -3852,13 +4123,15 @@
       "speed": 268,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 30.0
     },
     "electivire": {
       "ability": "motor-drive",
       "attack": 247,
       "defense": 163,
       "gender": "f",
+      "happiness": null,
       "hp": 284,
       "item": "",
       "iv": 466,
@@ -3876,13 +4149,15 @@
       "speed": 219,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 138.6
     },
     "electivire-shiny": {
       "ability": "no-guard",
       "attack": 272,
       "defense": 191,
       "gender": "",
+      "happiness": null,
       "hp": 312,
       "item": "",
       "iv": 466,
@@ -3900,13 +4175,15 @@
       "speed": 247,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 138.6
     },
     "electrike": {
       "ability": "static",
       "attack": 110,
       "defense": 133,
       "gender": "m",
+      "happiness": null,
       "hp": 238,
       "item": "",
       "iv": 309,
@@ -3924,13 +4201,15 @@
       "speed": 201,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 15.2
     },
     "electrode": {
       "ability": "soundproof",
       "attack": 121,
       "defense": 175,
       "gender": "-",
+      "happiness": null,
       "hp": 260,
       "item": "",
       "iv": 101,
@@ -3948,13 +4227,15 @@
       "speed": 346,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 66.6
     },
     "elekid": {
       "ability": "static",
       "attack": 189,
       "defense": 108,
       "gender": "m",
+      "happiness": null,
       "hp": 221,
       "item": "",
       "iv": 239,
@@ -3972,13 +4253,15 @@
       "speed": 236,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 23.5
     },
     "empoleon": {
       "ability": "torrent",
       "attack": 202,
       "defense": 226,
       "gender": "f",
+      "happiness": null,
       "hp": 303,
       "item": "",
       "iv": 395,
@@ -3997,13 +4280,15 @@
       "types": [
         "water",
         "steel"
-      ]
+      ],
+      "weight": 84.5
     },
     "entei": {
       "ability": "pressure",
       "attack": 256,
       "defense": 176,
       "gender": "-",
+      "happiness": null,
       "hp": 361,
       "item": "",
       "iv": 244,
@@ -4021,13 +4306,15 @@
       "speed": 226,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 198.0
     },
     "entei-shiny": {
       "ability": "pressure",
       "attack": 258,
       "defense": 227,
       "gender": "",
+      "happiness": null,
       "hp": 392,
       "item": "",
       "iv": 244,
@@ -4045,13 +4332,15 @@
       "speed": 257,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 198.0
     },
     "espeon": {
       "ability": "synchronize",
       "attack": 161,
       "defense": 166,
       "gender": "m",
+      "happiness": null,
       "hp": 266,
       "item": "",
       "iv": 196,
@@ -4069,13 +4358,15 @@
       "speed": 251,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 26.5
     },
     "exeggcute": {
       "ability": "chlorophyll",
       "attack": 130,
       "defense": 210,
       "gender": "m",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 102,
@@ -4094,13 +4385,15 @@
       "types": [
         "grass",
         "psychic"
-      ]
+      ],
+      "weight": 2.5
     },
     "exeggutor": {
       "ability": "chlorophyll",
       "attack": 221,
       "defense": 201,
       "gender": "m",
+      "happiness": null,
       "hp": 326,
       "item": "",
       "iv": 103,
@@ -4119,13 +4412,15 @@
       "types": [
         "grass",
         "psychic"
-      ]
+      ],
+      "weight": 120.0
     },
     "exploud": {
       "ability": "soundproof",
       "attack": 217,
       "defense": 161,
       "gender": "m",
+      "happiness": null,
       "hp": 348,
       "item": "",
       "iv": 295,
@@ -4143,13 +4438,15 @@
       "speed": 171,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 84.0
     },
     "farfetchd": {
       "ability": "inner-focus",
       "attack": 177,
       "defense": 172,
       "gender": "m",
+      "happiness": null,
       "hp": 252,
       "item": "",
       "iv": 83,
@@ -4168,13 +4465,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 15.0
     },
     "fearow": {
       "ability": "keen-eye",
       "attack": 219,
       "defense": 169,
       "gender": "f",
+      "happiness": null,
       "hp": 274,
       "item": "",
       "iv": 22,
@@ -4193,13 +4492,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 38.0
     },
     "feebas": {
       "ability": "oblivious",
       "attack": 59,
       "defense": 76,
       "gender": "m",
+      "happiness": null,
       "hp": 181,
       "item": "",
       "iv": 349,
@@ -4217,13 +4518,15 @@
       "speed": 259,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 7.4
     },
     "feraligatr": {
       "ability": "torrent",
       "attack": 216,
       "defense": 230,
       "gender": "f",
+      "happiness": null,
       "hp": 305,
       "item": "",
       "iv": 160,
@@ -4241,13 +4544,15 @@
       "speed": 186,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 88.8
     },
     "finneon": {
       "ability": "swift-swim",
       "attack": 172,
       "defense": 147,
       "gender": "m",
+      "happiness": null,
       "hp": 238,
       "item": "",
       "iv": 456,
@@ -4265,13 +4570,15 @@
       "speed": 181,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 7.0
     },
     "flaaffy": {
       "ability": "static",
       "attack": 156,
       "defense": 171,
       "gender": "m",
+      "happiness": null,
       "hp": 291,
       "item": "",
       "iv": 180,
@@ -4289,13 +4596,15 @@
       "speed": 122,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 13.3
     },
     "flareon": {
       "ability": "flash-fire",
       "attack": 291,
       "defense": 166,
       "gender": "m",
+      "happiness": null,
       "hp": 266,
       "item": "",
       "iv": 136,
@@ -4313,13 +4622,15 @@
       "speed": 161,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 25.0
     },
     "floatzel": {
       "ability": "swift-swim",
       "attack": 219,
       "defense": 144,
       "gender": "f",
+      "happiness": null,
       "hp": 309,
       "item": "",
       "iv": 419,
@@ -4337,13 +4648,15 @@
       "speed": 264,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 33.5
     },
     "flygon": {
       "ability": "levitate",
       "attack": 207,
       "defense": 191,
       "gender": "m",
+      "happiness": null,
       "hp": 296,
       "item": "",
       "iv": 330,
@@ -4362,13 +4675,15 @@
       "types": [
         "ground",
         "dragon"
-      ]
+      ],
+      "weight": 82.0
     },
     "forretress": {
       "ability": "sturdy",
       "attack": 194,
       "defense": 316,
       "gender": "f",
+      "happiness": null,
       "hp": 291,
       "item": "",
       "iv": 205,
@@ -4387,13 +4702,15 @@
       "types": [
         "bug",
         "steel"
-      ]
+      ],
+      "weight": 125.8
     },
     "froslass": {
       "ability": "snow-cloak",
       "attack": 195,
       "defense": 175,
       "gender": "f",
+      "happiness": null,
       "hp": 280,
       "item": "",
       "iv": 478,
@@ -4412,13 +4729,15 @@
       "types": [
         "ice",
         "ghost"
-      ]
+      ],
+      "weight": 26.6
     },
     "furret": {
       "ability": "keen-eye",
       "attack": 193,
       "defense": 169,
       "gender": "m",
+      "happiness": null,
       "hp": 316,
       "item": "",
       "iv": 162,
@@ -4436,13 +4755,15 @@
       "speed": 243,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 32.5
     },
     "gabite": {
       "ability": "sand-veil",
       "attack": 222,
       "defense": 172,
       "gender": "f",
+      "happiness": null,
       "hp": 283,
       "item": "",
       "iv": 444,
@@ -4461,13 +4782,15 @@
       "types": [
         "dragon",
         "ground"
-      ]
+      ],
+      "weight": 56.0
     },
     "gallade": {
       "ability": "steadfast",
       "attack": 252,
       "defense": 177,
       "gender": "m",
+      "happiness": null,
       "hp": 272,
       "item": "",
       "iv": 475,
@@ -4486,13 +4809,15 @@
       "types": [
         "psychic",
         "fighting"
-      ]
+      ],
+      "weight": 52.0
     },
     "garchomp": {
       "ability": "sand-veil",
       "attack": 265,
       "defense": 195,
       "gender": "f",
+      "happiness": null,
       "hp": 326,
       "item": "",
       "iv": 445,
@@ -4511,13 +4836,15 @@
       "types": [
         "dragon",
         "ground"
-      ]
+      ],
+      "weight": 95.0
     },
     "gardevoir": {
       "ability": "trace",
       "attack": 177,
       "defense": 161,
       "gender": "f",
+      "happiness": null,
       "hp": 272,
       "item": "",
       "iv": 282,
@@ -4536,13 +4863,15 @@
       "types": [
         "psychic",
         "normal"
-      ]
+      ],
+      "weight": 48.4
     },
     "gastly": {
       "ability": "levitate",
       "attack": 108,
       "defense": 111,
       "gender": "m",
+      "happiness": null,
       "hp": 216,
       "item": "",
       "iv": 92,
@@ -4561,13 +4890,15 @@
       "types": [
         "ghost",
         "poison"
-      ]
+      ],
+      "weight": 0.1
     },
     "gastrodon-east": {
       "ability": "storm-drain",
       "attack": 201,
       "defense": 171,
       "gender": "m",
+      "happiness": null,
       "hp": 362,
       "item": "",
       "iv": 423,
@@ -4586,13 +4917,15 @@
       "types": [
         "water",
         "ground"
-      ]
+      ],
+      "weight": 29.9
     },
     "gastrodon-west": {
       "ability": "storm-drain",
       "attack": 201,
       "defense": 171,
       "gender": "m",
+      "happiness": null,
       "hp": 362,
       "item": "",
       "iv": 423,
@@ -4611,13 +4944,15 @@
       "types": [
         "water",
         "ground"
-      ]
+      ],
+      "weight": 29.9
     },
     "gengar": {
       "ability": "levitate",
       "attack": 182,
       "defense": 153,
       "gender": "f",
+      "happiness": null,
       "hp": 258,
       "item": "",
       "iv": 94,
@@ -4636,13 +4971,15 @@
       "types": [
         "ghost",
         "poison"
-      ]
+      ],
+      "weight": 40.5
     },
     "geodude": {
       "ability": "sturdy",
       "attack": 233,
       "defense": 252,
       "gender": "m",
+      "happiness": null,
       "hp": 237,
       "item": "",
       "iv": 74,
@@ -4661,13 +4998,15 @@
       "types": [
         "rock",
         "ground"
-      ]
+      ],
+      "weight": 20.0
     },
     "gible": {
       "ability": "sand-veil",
       "attack": 192,
       "defense": 142,
       "gender": "f",
+      "happiness": null,
       "hp": 273,
       "item": "",
       "iv": 443,
@@ -4686,13 +5025,15 @@
       "types": [
         "dragon",
         "ground"
-      ]
+      ],
+      "weight": 20.5
     },
     "girafarig": {
       "ability": "early-bird",
       "attack": 197,
       "defense": 167,
       "gender": "f",
+      "happiness": null,
       "hp": 282,
       "item": "",
       "iv": 203,
@@ -4711,13 +5052,15 @@
       "types": [
         "normal",
         "psychic"
-      ]
+      ],
+      "weight": 41.5
     },
     "giratina": {
       "ability": "pressure",
       "attack": 184,
       "defense": 245,
       "gender": "-",
+      "happiness": null,
       "hp": 410,
       "item": "",
       "iv": 487,
@@ -4736,13 +5079,15 @@
       "types": [
         "ghost",
         "dragon"
-      ]
+      ],
+      "weight": 750.0
     },
     "giratina-shiny": {
       "ability": "thick-fat",
       "attack": 282,
       "defense": 297,
       "gender": "",
+      "happiness": null,
       "hp": 462,
       "item": "",
       "iv": 487,
@@ -4761,13 +5106,15 @@
       "types": [
         "ghost",
         "dragon"
-      ]
+      ],
+      "weight": 750.0
     },
     "glaceon": {
       "ability": "snow-cloak",
       "attack": 166,
       "defense": 251,
       "gender": "m",
+      "happiness": null,
       "hp": 266,
       "item": "",
       "iv": 471,
@@ -4785,13 +5132,15 @@
       "speed": 161,
       "types": [
         "ice"
-      ]
+      ],
+      "weight": 25.9
     },
     "glalie": {
       "ability": "ice-body",
       "attack": 195,
       "defense": 195,
       "gender": "m",
+      "happiness": null,
       "hp": 300,
       "item": "",
       "iv": 362,
@@ -4809,13 +5158,15 @@
       "speed": 195,
       "types": [
         "ice"
-      ]
+      ],
+      "weight": 256.5
     },
     "glameow": {
       "ability": "limber",
       "attack": 203,
       "defense": 128,
       "gender": "f",
+      "happiness": null,
       "hp": 247,
       "item": "",
       "iv": 431,
@@ -4833,13 +5184,15 @@
       "speed": 243,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 3.9
     },
     "gligar": {
       "ability": "sand-veil",
       "attack": 190,
       "defense": 250,
       "gender": "m",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 207,
@@ -4858,13 +5211,15 @@
       "types": [
         "ground",
         "flying"
-      ]
+      ],
+      "weight": 64.8
     },
     "gliscor": {
       "ability": "hyper-cutter",
       "attack": 199,
       "defense": 310,
       "gender": "f",
+      "happiness": null,
       "hp": 287,
       "item": "",
       "iv": 472,
@@ -4883,13 +5238,15 @@
       "types": [
         "ground",
         "flying"
-      ]
+      ],
+      "weight": 42.5
     },
     "gloom": {
       "ability": "chlorophyll",
       "attack": 155,
       "defense": 183,
       "gender": "f",
+      "happiness": null,
       "hp": 268,
       "item": "",
       "iv": 44,
@@ -4908,13 +5265,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 8.6
     },
     "golbat": {
       "ability": "inner-focus",
       "attack": 197,
       "defense": 159,
       "gender": "f",
+      "happiness": null,
       "hp": 292,
       "item": "",
       "iv": 42,
@@ -4933,13 +5292,15 @@
       "types": [
         "poison",
         "flying"
-      ]
+      ],
+      "weight": 55.0
     },
     "goldeen": {
       "ability": "swift-swim",
       "attack": 202,
       "defense": 170,
       "gender": "f",
+      "happiness": null,
       "hp": 245,
       "item": "",
       "iv": 118,
@@ -4957,13 +5318,15 @@
       "speed": 176,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 15.0
     },
     "golduck": {
       "ability": "cloud-nine",
       "attack": 216,
       "defense": 189,
       "gender": "m",
+      "happiness": null,
       "hp": 298,
       "item": "",
       "iv": 55,
@@ -4981,13 +5344,15 @@
       "speed": 203,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 76.6
     },
     "golem": {
       "ability": "sturdy",
       "attack": 255,
       "defense": 295,
       "gender": "m",
+      "happiness": null,
       "hp": 300,
       "item": "",
       "iv": 76,
@@ -5006,13 +5371,15 @@
       "types": [
         "rock",
         "ground"
-      ]
+      ],
+      "weight": 300.0
     },
     "gorebyss": {
       "ability": "swift-swim",
       "attack": 203,
       "defense": 269,
       "gender": "m",
+      "happiness": null,
       "hp": 250,
       "item": "",
       "iv": 368,
@@ -5030,13 +5397,15 @@
       "speed": 139,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 22.6
     },
     "granbull": {
       "ability": "intimidate",
       "attack": 278,
       "defense": 188,
       "gender": "m",
+      "happiness": null,
       "hp": 323,
       "item": "",
       "iv": 210,
@@ -5054,13 +5423,15 @@
       "speed": 140,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 48.7
     },
     "graveler": {
       "ability": "rock-head",
       "attack": 234,
       "defense": 274,
       "gender": "m",
+      "happiness": null,
       "hp": 259,
       "item": "",
       "iv": 75,
@@ -5079,13 +5450,15 @@
       "types": [
         "rock",
         "ground"
-      ]
+      ],
+      "weight": 105.0
     },
     "grimer": {
       "ability": "stench",
       "attack": 231,
       "defense": 150,
       "gender": "m",
+      "happiness": null,
       "hp": 315,
       "item": "",
       "iv": 88,
@@ -5103,13 +5476,15 @@
       "speed": 100,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 30.0
     },
     "grotle": {
       "ability": "overgrow",
       "attack": 220,
       "defense": 212,
       "gender": "f",
+      "happiness": null,
       "hp": 297,
       "item": "",
       "iv": 388,
@@ -5127,13 +5502,15 @@
       "speed": 114,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 97.0
     },
     "groudon": {
       "ability": "drought",
       "attack": 305,
       "defense": 285,
       "gender": "-",
+      "happiness": null,
       "hp": 310,
       "item": "",
       "iv": 383,
@@ -5151,13 +5528,15 @@
       "speed": 203,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 950.0
     },
     "grovyle": {
       "ability": "overgrow",
       "attack": 192,
       "defense": 132,
       "gender": "f",
+      "happiness": null,
       "hp": 237,
       "item": "",
       "iv": 253,
@@ -5175,13 +5554,15 @@
       "speed": 255,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 21.6
     },
     "growlithe": {
       "ability": "intimidate",
       "attack": 217,
       "defense": 123,
       "gender": "m",
+      "happiness": null,
       "hp": 262,
       "item": "",
       "iv": 58,
@@ -5199,13 +5580,15 @@
       "speed": 146,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 19.0
     },
     "grumpig": {
       "ability": "own-tempo",
       "attack": 126,
       "defense": 166,
       "gender": "f",
+      "happiness": null,
       "hp": 301,
       "item": "",
       "iv": 326,
@@ -5223,13 +5606,15 @@
       "speed": 196,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 71.5
     },
     "gulpin": {
       "ability": "liquid-ooze",
       "attack": 168,
       "defense": 158,
       "gender": "f",
+      "happiness": null,
       "hp": 297,
       "item": "",
       "iv": 316,
@@ -5247,13 +5632,15 @@
       "speed": 132,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 10.3
     },
     "gyarados": {
       "ability": "intimidate",
       "attack": 258,
       "defense": 168,
       "gender": "f",
+      "happiness": null,
       "hp": 324,
       "item": "",
       "iv": 130,
@@ -5272,13 +5659,15 @@
       "types": [
         "water",
         "flying"
-      ]
+      ],
+      "weight": 235.0
     },
     "happiny": {
       "ability": "serene-grace",
       "attack": 41,
       "defense": 46,
       "gender": "f",
+      "happiness": null,
       "hp": 341,
       "item": "",
       "iv": 440,
@@ -5296,13 +5685,15 @@
       "speed": 96,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 24.4
     },
     "hariyama": {
       "ability": "guts",
       "attack": 248,
       "defense": 156,
       "gender": "f",
+      "happiness": null,
       "hp": 429,
       "item": "",
       "iv": 297,
@@ -5320,13 +5711,15 @@
       "speed": 149,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 253.8
     },
     "haunter": {
       "ability": "levitate",
       "attack": 127,
       "defense": 132,
       "gender": "f",
+      "happiness": null,
       "hp": 237,
       "item": "",
       "iv": 93,
@@ -5345,13 +5738,15 @@
       "types": [
         "ghost",
         "poison"
-      ]
+      ],
+      "weight": 0.1
     },
     "heatran": {
       "ability": "flash-fire",
       "attack": 203,
       "defense": 217,
       "gender": "f",
+      "happiness": null,
       "hp": 292,
       "item": "",
       "iv": 485,
@@ -5370,13 +5765,15 @@
       "types": [
         "fire",
         "steel"
-      ]
+      ],
+      "weight": 430.0
     },
     "heatran-shiny": {
       "ability": "trace",
       "attack": 213,
       "defense": 269,
       "gender": "",
+      "happiness": null,
       "hp": 344,
       "item": "",
       "iv": 485,
@@ -5395,13 +5792,15 @@
       "types": [
         "fire",
         "steel"
-      ]
+      ],
+      "weight": 430.0
     },
     "heracross": {
       "ability": "swarm",
       "attack": 254,
       "defense": 201,
       "gender": "f",
+      "happiness": null,
       "hp": 298,
       "item": "",
       "iv": 214,
@@ -5420,13 +5819,15 @@
       "types": [
         "bug",
         "fighting"
-      ]
+      ],
+      "weight": 54.0
     },
     "hippopotas": {
       "ability": "sand-stream",
       "attack": 193,
       "defense": 205,
       "gender": "m",
+      "happiness": null,
       "hp": 290,
       "item": "",
       "iv": 449,
@@ -5444,13 +5845,15 @@
       "speed": 101,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 49.5
     },
     "hippowdon": {
       "ability": "sand-stream",
       "attack": 255,
       "defense": 267,
       "gender": "m",
+      "happiness": null,
       "hp": 352,
       "item": "",
       "iv": 450,
@@ -5468,13 +5871,15 @@
       "speed": 125,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 300.0
     },
     "hitmonchan": {
       "ability": "iron-fist",
       "attack": 222,
       "defense": 214,
       "gender": "m",
+      "happiness": null,
       "hp": 242,
       "item": "",
       "iv": 107,
@@ -5492,13 +5897,15 @@
       "speed": 189,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 50.2
     },
     "hitmonlee": {
       "ability": "limber",
       "attack": 249,
       "defense": 143,
       "gender": "m",
+      "happiness": null,
       "hp": 242,
       "item": "",
       "iv": 106,
@@ -5516,13 +5923,15 @@
       "speed": 211,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 49.8
     },
     "hitmontop": {
       "ability": "technician",
       "attack": 204,
       "defense": 227,
       "gender": "f",
+      "happiness": null,
       "hp": 221,
       "item": "",
       "iv": 237,
@@ -5540,13 +5949,15 @@
       "speed": 177,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 48.0
     },
     "ho-oh": {
       "ability": "pressure",
       "attack": 265,
       "defense": 203,
       "gender": "-",
+      "happiness": null,
       "hp": 322,
       "item": "",
       "iv": 250,
@@ -5565,13 +5976,15 @@
       "types": [
         "fire",
         "flying"
-      ]
+      ],
+      "weight": 199.0
     },
     "ho-oh-shiny": {
       "ability": "pressure",
       "attack": 348,
       "defense": 237,
       "gender": "",
+      "happiness": null,
       "hp": 374,
       "item": "",
       "iv": 250,
@@ -5590,13 +6003,15 @@
       "types": [
         "fire",
         "flying"
-      ]
+      ],
+      "weight": 199.0
     },
     "honchkrow": {
       "ability": "super-luck",
       "attack": 254,
       "defense": 137,
       "gender": "f",
+      "happiness": null,
       "hp": 338,
       "item": "",
       "iv": 430,
@@ -5615,13 +6030,15 @@
       "types": [
         "dark",
         "flying"
-      ]
+      ],
+      "weight": 27.3
     },
     "honchkrow-shiny": {
       "ability": "sniper",
       "attack": 337,
       "defense": 161,
       "gender": "",
+      "happiness": null,
       "hp": 362,
       "item": "",
       "iv": 430,
@@ -5640,13 +6057,15 @@
       "types": [
         "dark",
         "flying"
-      ]
+      ],
+      "weight": 27.3
     },
     "hoothoot": {
       "ability": "insomnia",
       "attack": 85,
       "defense": 109,
       "gender": "m",
+      "happiness": null,
       "hp": 274,
       "item": "",
       "iv": 163,
@@ -5665,13 +6084,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 21.2
     },
     "hoppip": {
       "ability": "chlorophyll",
       "attack": 152,
       "defense": 116,
       "gender": "m",
+      "happiness": null,
       "hp": 211,
       "item": "",
       "iv": 187,
@@ -5690,13 +6111,15 @@
       "types": [
         "grass",
         "flying"
-      ]
+      ],
+      "weight": 0.5
     },
     "horsea": {
       "ability": "swift-swim",
       "attack": 119,
       "defense": 193,
       "gender": "m",
+      "happiness": null,
       "hp": 218,
       "item": "",
       "iv": 116,
@@ -5714,13 +6137,15 @@
       "speed": 173,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 8.0
     },
     "houndoom": {
       "ability": "flash-fire",
       "attack": 213,
       "defense": 146,
       "gender": "f",
+      "happiness": null,
       "hp": 288,
       "item": "",
       "iv": 229,
@@ -5739,13 +6164,15 @@
       "types": [
         "dark",
         "fire"
-      ]
+      ],
+      "weight": 35.0
     },
     "houndour": {
       "ability": "flash-fire",
       "attack": 152,
       "defense": 109,
       "gender": "m",
+      "happiness": null,
       "hp": 244,
       "item": "",
       "iv": 228,
@@ -5764,13 +6191,15 @@
       "types": [
         "dark",
         "fire"
-      ]
+      ],
+      "weight": 10.8
     },
     "huntail": {
       "ability": "swift-swim",
       "attack": 218,
       "defense": 245,
       "gender": "m",
+      "happiness": null,
       "hp": 250,
       "item": "",
       "iv": 367,
@@ -5788,13 +6217,15 @@
       "speed": 139,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 27.0
     },
     "hypno": {
       "ability": "insomnia",
       "attack": 162,
       "defense": 192,
       "gender": "f",
+      "happiness": null,
       "hp": 310,
       "item": "",
       "iv": 97,
@@ -5812,13 +6243,15 @@
       "speed": 169,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 75.6
     },
     "igglybuff": {
       "ability": "cute-charm",
       "attack": 174,
       "defense": 82,
       "gender": "m",
+      "happiness": null,
       "hp": 337,
       "item": "",
       "iv": 174,
@@ -5836,13 +6269,15 @@
       "speed": 82,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 1.0
     },
     "illumise": {
       "ability": "tinted-lens",
       "attack": 123,
       "defense": 153,
       "gender": "f",
+      "happiness": null,
       "hp": 278,
       "item": "",
       "iv": 314,
@@ -5860,13 +6295,15 @@
       "speed": 234,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 17.7
     },
     "infernape": {
       "ability": "blaze",
       "attack": 261,
       "defense": 154,
       "gender": "f",
+      "happiness": null,
       "hp": 287,
       "item": "",
       "iv": 392,
@@ -5885,13 +6322,15 @@
       "types": [
         "fire",
         "fighting"
-      ]
+      ],
+      "weight": 55.0
     },
     "ivysaur": {
       "ability": "overgrow",
       "attack": 149,
       "defense": 168,
       "gender": "f",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 2,
@@ -5910,13 +6349,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 13.0
     },
     "jigglypuff": {
       "ability": "cute-charm",
       "attack": 187,
       "defense": 104,
       "gender": "m",
+      "happiness": null,
       "hp": 390,
       "item": "",
       "iv": 39,
@@ -5934,13 +6375,15 @@
       "speed": 74,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 5.5
     },
     "jirachi": {
       "ability": "serene-grace",
       "attack": 225,
       "defense": 225,
       "gender": "-",
+      "happiness": null,
       "hp": 330,
       "item": "",
       "iv": 385,
@@ -5959,13 +6402,15 @@
       "types": [
         "steel",
         "psychic"
-      ]
+      ],
+      "weight": 1.1
     },
     "jolteon": {
       "ability": "volt-absorb",
       "attack": 161,
       "defense": 151,
       "gender": "m",
+      "happiness": null,
       "hp": 266,
       "item": "",
       "iv": 135,
@@ -5983,13 +6428,15 @@
       "speed": 291,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 24.5
     },
     "jumpluff": {
       "ability": "chlorophyll",
       "attack": 162,
       "defense": 178,
       "gender": "m",
+      "happiness": null,
       "hp": 293,
       "item": "",
       "iv": 189,
@@ -6008,13 +6455,15 @@
       "types": [
         "grass",
         "flying"
-      ]
+      ],
+      "weight": 3.0
     },
     "jynx": {
       "ability": "oblivious",
       "attack": 137,
       "defense": 107,
       "gender": "f",
+      "happiness": null,
       "hp": 272,
       "item": "",
       "iv": 124,
@@ -6033,13 +6482,15 @@
       "types": [
         "ice",
         "psychic"
-      ]
+      ],
+      "weight": 40.6
     },
     "kabuto": {
       "ability": "battle-armor",
       "attack": 207,
       "defense": 227,
       "gender": "m",
+      "happiness": null,
       "hp": 212,
       "item": "",
       "iv": 140,
@@ -6058,13 +6509,15 @@
       "types": [
         "rock",
         "water"
-      ]
+      ],
+      "weight": 11.5
     },
     "kabutops": {
       "ability": "battle-armor",
       "attack": 237,
       "defense": 244,
       "gender": "f",
+      "happiness": null,
       "hp": 259,
       "item": "",
       "iv": 141,
@@ -6083,13 +6536,15 @@
       "types": [
         "rock",
         "water"
-      ]
+      ],
+      "weight": 40.5
     },
     "kadabra": {
       "ability": "inner-focus",
       "attack": 113,
       "defense": 103,
       "gender": "f",
+      "happiness": null,
       "hp": 228,
       "item": "",
       "iv": 64,
@@ -6107,13 +6562,15 @@
       "speed": 253,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 56.5
     },
     "kakuna": {
       "ability": "shed-skin",
       "attack": 163,
       "defense": 157,
       "gender": "m",
+      "happiness": null,
       "hp": 252,
       "item": "",
       "iv": 14,
@@ -6132,13 +6589,15 @@
       "types": [
         "bug",
         "poison"
-      ]
+      ],
+      "weight": 10.0
     },
     "kangaskhan": {
       "ability": "scrappy",
       "attack": 224,
       "defense": 194,
       "gender": "f",
+      "happiness": null,
       "hp": 349,
       "item": "",
       "iv": 115,
@@ -6156,13 +6615,15 @@
       "speed": 192,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 80.0
     },
     "kecleon": {
       "ability": "color-change",
       "attack": 219,
       "defense": 196,
       "gender": "f",
+      "happiness": null,
       "hp": 264,
       "item": "",
       "iv": 352,
@@ -6180,13 +6641,15 @@
       "speed": 107,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 22.0
     },
     "kingdra": {
       "ability": "swift-swim",
       "attack": 219,
       "defense": 219,
       "gender": "f",
+      "happiness": null,
       "hp": 284,
       "item": "",
       "iv": 230,
@@ -6205,13 +6668,15 @@
       "types": [
         "water",
         "dragon"
-      ]
+      ],
+      "weight": 152.0
     },
     "kingler": {
       "ability": "hyper-cutter",
       "attack": 295,
       "defense": 291,
       "gender": "m",
+      "happiness": null,
       "hp": 250,
       "item": "",
       "iv": 99,
@@ -6229,13 +6694,15 @@
       "speed": 185,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 60.0
     },
     "kirlia": {
       "ability": "trace",
       "attack": 111,
       "defense": 124,
       "gender": "m",
+      "happiness": null,
       "hp": 235,
       "item": "",
       "iv": 281,
@@ -6254,13 +6721,15 @@
       "types": [
         "psychic",
         "normal"
-      ]
+      ],
+      "weight": 20.2
     },
     "koffing": {
       "ability": "levitate",
       "attack": 158,
       "defense": 238,
       "gender": "f",
+      "happiness": null,
       "hp": 233,
       "item": "",
       "iv": 109,
@@ -6278,13 +6747,15 @@
       "speed": 106,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 1.0
     },
     "krabby": {
       "ability": "shell-armor",
       "attack": 260,
       "defense": 230,
       "gender": "m",
+      "happiness": null,
       "hp": 215,
       "item": "",
       "iv": 98,
@@ -6302,13 +6773,15 @@
       "speed": 150,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 6.5
     },
     "kricketot": {
       "ability": "shed-skin",
       "attack": 163,
       "defense": 139,
       "gender": "m",
+      "happiness": null,
       "hp": 236,
       "item": "",
       "iv": 401,
@@ -6326,13 +6799,15 @@
       "speed": 77,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 2.2
     },
     "kricketune": {
       "ability": "swarm",
       "attack": 214,
       "defense": 146,
       "gender": "m",
+      "happiness": null,
       "hp": 303,
       "item": "",
       "iv": 402,
@@ -6350,13 +6825,15 @@
       "speed": 191,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 25.5
     },
     "kyogre": {
       "ability": "drizzle",
       "attack": 184,
       "defense": 198,
       "gender": "-",
+      "happiness": null,
       "hp": 310,
       "item": "",
       "iv": 382,
@@ -6374,13 +6851,15 @@
       "speed": 198,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 352.0
     },
     "lairon": {
       "ability": "rock-head",
       "attack": 220,
       "defense": 320,
       "gender": "m",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 305,
@@ -6399,13 +6878,15 @@
       "types": [
         "steel",
         "rock"
-      ]
+      ],
+      "weight": 120.0
     },
     "lanturn": {
       "ability": "volt-absorb",
       "attack": 168,
       "defense": 137,
       "gender": "f",
+      "happiness": null,
       "hp": 392,
       "item": "",
       "iv": 171,
@@ -6424,13 +6905,15 @@
       "types": [
         "water",
         "electric"
-      ]
+      ],
+      "weight": 22.5
     },
     "lapras": {
       "ability": "water-absorb",
       "attack": 220,
       "defense": 190,
       "gender": "f",
+      "happiness": null,
       "hp": 395,
       "item": "",
       "iv": 131,
@@ -6449,13 +6932,15 @@
       "types": [
         "water",
         "ice"
-      ]
+      ],
+      "weight": 220.0
     },
     "larvitar": {
       "ability": "guts",
       "attack": 180,
       "defense": 152,
       "gender": "f",
+      "happiness": null,
       "hp": 257,
       "item": "",
       "iv": 246,
@@ -6474,13 +6959,15 @@
       "types": [
         "rock",
         "ground"
-      ]
+      ],
+      "weight": 72.0
     },
     "latias": {
       "ability": "levitate",
       "attack": 203,
       "defense": 205,
       "gender": "f",
+      "happiness": 70,
       "hp": 290,
       "item": "",
       "iv": 380,
@@ -6499,13 +6986,15 @@
       "types": [
         "dragon",
         "psychic"
-      ]
+      ],
+      "weight": 40.0
     },
     "latios": {
       "ability": "levitate",
       "attack": 225,
       "defense": 185,
       "gender": "m",
+      "happiness": 70,
       "hp": 290,
       "item": "",
       "iv": 381,
@@ -6524,13 +7013,15 @@
       "types": [
         "dragon",
         "psychic"
-      ]
+      ],
+      "weight": 60.0
     },
     "leafeon": {
       "ability": "leaf-guard",
       "attack": 225,
       "defense": 291,
       "gender": "m",
+      "happiness": null,
       "hp": 266,
       "item": "",
       "iv": 470,
@@ -6548,13 +7039,15 @@
       "speed": 221,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 25.5
     },
     "ledian": {
       "ability": "early-bird",
       "attack": 102,
       "defense": 144,
       "gender": "m",
+      "happiness": null,
       "hp": 259,
       "item": "",
       "iv": 166,
@@ -6573,13 +7066,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 35.6
     },
     "ledyba": {
       "ability": "swarm",
       "attack": 80,
       "defense": 90,
       "gender": "m",
+      "happiness": null,
       "hp": 240,
       "item": "",
       "iv": 165,
@@ -6598,13 +7093,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 10.8
     },
     "lickilicky": {
       "ability": "own-tempo",
       "attack": 202,
       "defense": 222,
       "gender": "f",
+      "happiness": null,
       "hp": 357,
       "item": "",
       "iv": 463,
@@ -6622,13 +7119,15 @@
       "speed": 132,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 140.0
     },
     "lickitung": {
       "ability": "own-tempo",
       "attack": 180,
       "defense": 194,
       "gender": "m",
+      "happiness": null,
       "hp": 329,
       "item": "",
       "iv": 108,
@@ -6646,13 +7145,15 @@
       "speed": 75,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 65.5
     },
     "lileep": {
       "ability": "suction-cups",
       "attack": 116,
       "defense": 201,
       "gender": "m",
+      "happiness": null,
       "hp": 284,
       "item": "",
       "iv": 345,
@@ -6671,13 +7172,15 @@
       "types": [
         "rock",
         "grass"
-      ]
+      ],
+      "weight": 23.8
     },
     "linoone": {
       "ability": "pickup",
       "attack": 181,
       "defense": 163,
       "gender": "f",
+      "happiness": null,
       "hp": 302,
       "item": "",
       "iv": 264,
@@ -6695,13 +7198,15 @@
       "speed": 265,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 32.5
     },
     "lombre": {
       "ability": "rain-dish",
       "attack": 124,
       "defense": 148,
       "gender": "f",
+      "happiness": null,
       "hp": 273,
       "item": "",
       "iv": 271,
@@ -6720,13 +7225,15 @@
       "types": [
         "water",
         "grass"
-      ]
+      ],
+      "weight": 32.5
     },
     "lopunny": {
       "ability": "cute-charm",
       "attack": 207,
       "defense": 196,
       "gender": "m",
+      "happiness": null,
       "hp": 263,
       "item": "",
       "iv": 428,
@@ -6744,13 +7251,15 @@
       "speed": 245,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 33.3
     },
     "lotad": {
       "ability": "rain-dish",
       "attack": 86,
       "defense": 116,
       "gender": "m",
+      "happiness": null,
       "hp": 241,
       "item": "",
       "iv": 270,
@@ -6769,13 +7278,15 @@
       "types": [
         "water",
         "grass"
-      ]
+      ],
+      "weight": 2.6
     },
     "loudred": {
       "ability": "soundproof",
       "attack": 188,
       "defense": 132,
       "gender": "m",
+      "happiness": null,
       "hp": 319,
       "item": "",
       "iv": 294,
@@ -6793,13 +7304,15 @@
       "speed": 127,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 40.5
     },
     "lucario": {
       "ability": "inner-focus",
       "attack": 251,
       "defense": 171,
       "gender": "m",
+      "happiness": null,
       "hp": 276,
       "item": "",
       "iv": 448,
@@ -6818,13 +7331,15 @@
       "types": [
         "fighting",
         "steel"
-      ]
+      ],
+      "weight": 54.0
     },
     "ludicolo": {
       "ability": "swift-swim",
       "attack": 175,
       "defense": 157,
       "gender": "m",
+      "happiness": null,
       "hp": 300,
       "item": "",
       "iv": 272,
@@ -6843,13 +7358,15 @@
       "types": [
         "water",
         "grass"
-      ]
+      ],
+      "weight": 55.0
     },
     "lugia": {
       "ability": "pressure",
       "attack": 203,
       "defense": 265,
       "gender": "-",
+      "happiness": null,
       "hp": 322,
       "item": "",
       "iv": 249,
@@ -6868,13 +7385,15 @@
       "types": [
         "psychic",
         "flying"
-      ]
+      ],
+      "weight": 216.0
     },
     "lugia-shiny": {
       "ability": "pressure",
       "attack": 260,
       "defense": 317,
       "gender": "",
+      "happiness": null,
       "hp": 374,
       "item": "",
       "iv": 249,
@@ -6893,13 +7412,15 @@
       "types": [
         "psychic",
         "flying"
-      ]
+      ],
+      "weight": 216.0
     },
     "lumineon": {
       "ability": "swift-swim",
       "attack": 175,
       "defense": 189,
       "gender": "f",
+      "happiness": null,
       "hp": 280,
       "item": "",
       "iv": 457,
@@ -6917,13 +7438,15 @@
       "speed": 219,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 24.0
     },
     "lunatone": {
       "ability": "levitate",
       "attack": 185,
       "defense": 169,
       "gender": "-",
+      "happiness": null,
       "hp": 284,
       "item": "",
       "iv": 337,
@@ -6942,13 +7465,15 @@
       "types": [
         "rock",
         "psychic"
-      ]
+      ],
+      "weight": 168.0
     },
     "luvdisc": {
       "ability": "swift-swim",
       "attack": 166,
       "defense": 152,
       "gender": "m",
+      "happiness": null,
       "hp": 233,
       "item": "",
       "iv": 370,
@@ -6966,13 +7491,15 @@
       "speed": 243,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 8.7
     },
     "luxio": {
       "ability": "intimidate",
       "attack": 216,
       "defense": 129,
       "gender": "m",
+      "happiness": null,
       "hp": 271,
       "item": "",
       "iv": 404,
@@ -6990,13 +7517,15 @@
       "speed": 156,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 30.5
     },
     "luxray": {
       "ability": "rivalry",
       "attack": 171,
       "defense": 189,
       "gender": "m",
+      "happiness": null,
       "hp": 296,
       "item": "",
       "iv": 405,
@@ -7014,13 +7543,15 @@
       "speed": 171,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 42.0
     },
     "machamp": {
       "ability": "no-guard",
       "attack": 263,
       "defense": 193,
       "gender": "f",
+      "happiness": null,
       "hp": 318,
       "item": "",
       "iv": 68,
@@ -7038,13 +7569,15 @@
       "speed": 143,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 130.0
     },
     "machoke": {
       "ability": "no-guard",
       "attack": 242,
       "defense": 182,
       "gender": "f",
+      "happiness": null,
       "hp": 307,
       "item": "",
       "iv": 67,
@@ -7062,13 +7595,15 @@
       "speed": 118,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 70.5
     },
     "machop": {
       "ability": "no-guard",
       "attack": 233,
       "defense": 152,
       "gender": "f",
+      "happiness": null,
       "hp": 297,
       "item": "",
       "iv": 66,
@@ -7086,13 +7621,15 @@
       "speed": 109,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 19.5
     },
     "magby": {
       "ability": "flame-body",
       "attack": 196,
       "defense": 120,
       "gender": "m",
+      "happiness": null,
       "hp": 231,
       "item": "",
       "iv": 240,
@@ -7110,13 +7647,15 @@
       "speed": 233,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 21.4
     },
     "magcargo": {
       "ability": "flame-body",
       "attack": 142,
       "defense": 282,
       "gender": "f",
+      "happiness": null,
       "hp": 247,
       "item": "",
       "iv": 219,
@@ -7135,13 +7674,15 @@
       "types": [
         "fire",
         "rock"
-      ]
+      ],
+      "weight": 55.0
     },
     "magikarp": {
       "ability": "swift-swim",
       "attack": 130,
       "defense": 146,
       "gender": "m",
+      "happiness": null,
       "hp": 181,
       "item": "",
       "iv": 129,
@@ -7159,13 +7700,15 @@
       "speed": 259,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 10.0
     },
     "magmar": {
       "ability": "flame-body",
       "attack": 201,
       "defense": 148,
       "gender": "f",
+      "happiness": null,
       "hp": 269,
       "item": "",
       "iv": 126,
@@ -7183,13 +7726,15 @@
       "speed": 242,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 44.5
     },
     "magmortar": {
       "ability": "flame-body",
       "attack": 197,
       "defense": 163,
       "gender": "f",
+      "happiness": null,
       "hp": 284,
       "item": "",
       "iv": 467,
@@ -7207,13 +7752,15 @@
       "speed": 214,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 68.0
     },
     "magnemite": {
       "ability": "sturdy",
       "attack": 120,
       "defense": 190,
       "gender": "-",
+      "happiness": null,
       "hp": 205,
       "item": "",
       "iv": 81,
@@ -7232,13 +7779,15 @@
       "types": [
         "electric",
         "steel"
-      ]
+      ],
+      "weight": 6.0
     },
     "magneton": {
       "ability": "sturdy",
       "attack": 171,
       "defense": 226,
       "gender": "-",
+      "happiness": null,
       "hp": 241,
       "item": "",
       "iv": 82,
@@ -7257,13 +7806,15 @@
       "types": [
         "electric",
         "steel"
-      ]
+      ],
+      "weight": 60.0
     },
     "magnezone": {
       "ability": "sturdy",
       "attack": 170,
       "defense": 260,
       "gender": "-",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 462,
@@ -7282,13 +7833,15 @@
       "types": [
         "electric",
         "steel"
-      ]
+      ],
+      "weight": 180.0
     },
     "makuhita": {
       "ability": "thick-fat",
       "attack": 194,
       "defense": 117,
       "gender": "m",
+      "happiness": null,
       "hp": 306,
       "item": "",
       "iv": 296,
@@ -7306,13 +7859,15 @@
       "speed": 103,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 86.4
     },
     "mamoswine": {
       "ability": "snow-cloak",
       "attack": 261,
       "defense": 190,
       "gender": "f",
+      "happiness": null,
       "hp": 355,
       "item": "",
       "iv": 473,
@@ -7331,13 +7886,15 @@
       "types": [
         "ice",
         "ground"
-      ]
+      ],
+      "weight": 291.0
     },
     "manaphy": {
       "ability": "hydration",
       "attack": 225,
       "defense": 225,
       "gender": "-",
+      "happiness": null,
       "hp": 330,
       "item": "",
       "iv": 490,
@@ -7355,13 +7912,15 @@
       "speed": 225,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 1.4
     },
     "manaphy-shiny": {
       "ability": "hydration",
       "attack": 231,
       "defense": 257,
       "gender": "",
+      "happiness": null,
       "hp": 362,
       "item": "",
       "iv": 490,
@@ -7379,13 +7938,15 @@
       "speed": 257,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 1.4
     },
     "manectric": {
       "ability": "static",
       "attack": 203,
       "defense": 155,
       "gender": "m",
+      "happiness": null,
       "hp": 280,
       "item": "",
       "iv": 310,
@@ -7403,13 +7964,15 @@
       "speed": 245,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 40.2
     },
     "mankey": {
       "ability": "vital-spirit",
       "attack": 212,
       "defense": 122,
       "gender": "m",
+      "happiness": null,
       "hp": 237,
       "item": "",
       "iv": 56,
@@ -7427,13 +7990,15 @@
       "speed": 211,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 28.0
     },
     "mantine": {
       "ability": "water-absorb",
       "attack": 116,
       "defense": 176,
       "gender": "f",
+      "happiness": null,
       "hp": 271,
       "item": "",
       "iv": 226,
@@ -7452,13 +8017,15 @@
       "types": [
         "water",
         "flying"
-      ]
+      ],
+      "weight": 220.0
     },
     "mantyke": {
       "ability": "water-absorb",
       "attack": 79,
       "defense": 148,
       "gender": "f",
+      "happiness": null,
       "hp": 243,
       "item": "",
       "iv": 458,
@@ -7477,13 +8044,15 @@
       "types": [
         "water",
         "flying"
-      ]
+      ],
+      "weight": 65.0
     },
     "mareep": {
       "ability": "static",
       "attack": 134,
       "defense": 134,
       "gender": "m",
+      "happiness": null,
       "hp": 269,
       "item": "",
       "iv": 179,
@@ -7501,13 +8070,15 @@
       "speed": 111,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 7.8
     },
     "marill": {
       "ability": "huge-power",
       "attack": 152,
       "defense": 157,
       "gender": "m",
+      "happiness": null,
       "hp": 302,
       "item": "",
       "iv": 183,
@@ -7526,13 +8097,15 @@
       "types": [
         "water",
         "normal"
-      ]
+      ],
+      "weight": 8.5
     },
     "marowak": {
       "ability": "rock-head",
       "attack": 200,
       "defense": 286,
       "gender": "m",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 105,
@@ -7550,13 +8123,15 @@
       "speed": 130,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 45.0
     },
     "marshtomp": {
       "ability": "torrent",
       "attack": 212,
       "defense": 182,
       "gender": "f",
+      "happiness": null,
       "hp": 287,
       "item": "",
       "iv": 259,
@@ -7575,13 +8150,15 @@
       "types": [
         "water",
         "ground"
-      ]
+      ],
+      "weight": 28.0
     },
     "masquerain": {
       "ability": "intimidate",
       "attack": 144,
       "defense": 165,
       "gender": "m",
+      "happiness": null,
       "hp": 286,
       "item": "",
       "iv": 284,
@@ -7600,13 +8177,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 3.6
     },
     "mawile": {
       "ability": "intimidate",
       "attack": 215,
       "defense": 215,
       "gender": "f",
+      "happiness": null,
       "hp": 250,
       "item": "",
       "iv": 303,
@@ -7625,13 +8204,15 @@
       "types": [
         "steel",
         "normal"
-      ]
+      ],
+      "weight": 11.5
     },
     "medicham": {
       "ability": "pure-power",
       "attack": 126,
       "defense": 234,
       "gender": "f",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 308,
@@ -7650,13 +8231,15 @@
       "types": [
         "fighting",
         "psychic"
-      ]
+      ],
+      "weight": 31.5
     },
     "meditite": {
       "ability": "pure-power",
       "attack": 134,
       "defense": 164,
       "gender": "m",
+      "happiness": null,
       "hp": 219,
       "item": "",
       "iv": 307,
@@ -7675,13 +8258,15 @@
       "types": [
         "fighting",
         "psychic"
-      ]
+      ],
+      "weight": 11.2
     },
     "meganium": {
       "ability": "overgrow",
       "attack": 214,
       "defense": 231,
       "gender": "m",
+      "happiness": null,
       "hp": 296,
       "item": "",
       "iv": 154,
@@ -7699,13 +8284,15 @@
       "speed": 171,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 100.5
     },
     "meowth": {
       "ability": "pickup",
       "attack": 203,
       "defense": 118,
       "gender": "m",
+      "happiness": null,
       "hp": 238,
       "item": "",
       "iv": 52,
@@ -7723,13 +8310,15 @@
       "speed": 228,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 4.2
     },
     "mesprit": {
       "ability": "levitate",
       "attack": 236,
       "defense": 236,
       "gender": "-",
+      "happiness": null,
       "hp": 291,
       "item": "",
       "iv": 481,
@@ -7747,13 +8336,15 @@
       "speed": 186,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 0.3
     },
     "metagross": {
       "ability": "clear-body",
       "attack": 275,
       "defense": 265,
       "gender": "-",
+      "happiness": null,
       "hp": 270,
       "item": "",
       "iv": 376,
@@ -7772,13 +8363,15 @@
       "types": [
         "steel",
         "psychic"
-      ]
+      ],
+      "weight": 550.0
     },
     "metang": {
       "ability": "clear-body",
       "attack": 210,
       "defense": 241,
       "gender": "-",
+      "happiness": null,
       "hp": 266,
       "item": "",
       "iv": 375,
@@ -7797,13 +8390,15 @@
       "types": [
         "steel",
         "psychic"
-      ]
+      ],
+      "weight": 202.5
     },
     "metapod": {
       "ability": "shed-skin",
       "attack": 152,
       "defense": 167,
       "gender": "m",
+      "happiness": null,
       "hp": 262,
       "item": "",
       "iv": 11,
@@ -7821,13 +8416,15 @@
       "speed": 96,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 9.9
     },
     "mew": {
       "ability": "synchronize",
       "attack": 225,
       "defense": 225,
       "gender": "-",
+      "happiness": null,
       "hp": 330,
       "item": "",
       "iv": 151,
@@ -7845,13 +8442,15 @@
       "speed": 225,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 4.0
     },
     "mewtwo": {
       "ability": "pressure",
       "attack": 237,
       "defense": 197,
       "gender": "-",
+      "happiness": null,
       "hp": 334,
       "item": "",
       "iv": 150,
@@ -7869,13 +8468,15 @@
       "speed": 277,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 122.0
     },
     "mewtwo-shiny": {
       "ability": "pressure",
       "attack": 304,
       "defense": 237,
       "gender": "",
+      "happiness": null,
       "hp": 374,
       "item": "",
       "iv": 150,
@@ -7893,13 +8494,15 @@
       "speed": 317,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 122.0
     },
     "mightyena": {
       "ability": "intimidate",
       "attack": 221,
       "defense": 181,
       "gender": "m",
+      "happiness": null,
       "hp": 286,
       "item": "",
       "iv": 262,
@@ -7917,13 +8520,15 @@
       "speed": 199,
       "types": [
         "dark"
-      ]
+      ],
+      "weight": 37.0
     },
     "milotic": {
       "ability": "marvel-scale",
       "attack": 210,
       "defense": 187,
       "gender": "f",
+      "happiness": null,
       "hp": 303,
       "item": "",
       "iv": 350,
@@ -7941,13 +8546,15 @@
       "speed": 191,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 162.0
     },
     "miltank": {
       "ability": "scrappy",
       "attack": 194,
       "defense": 244,
       "gender": "f",
+      "happiness": null,
       "hp": 329,
       "item": "",
       "iv": 241,
@@ -7965,13 +8572,15 @@
       "speed": 234,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 75.5
     },
     "mime-jr": {
       "ability": "filter",
       "attack": 90,
       "defense": 141,
       "gender": "m",
+      "happiness": null,
       "hp": 196,
       "item": "",
       "iv": 439,
@@ -7990,13 +8599,15 @@
       "types": [
         "psychic",
         "normal"
-      ]
+      ],
+      "weight": 13.0
     },
     "minun": {
       "ability": "minus",
       "attack": 109,
       "defense": 142,
       "gender": "m",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 312,
@@ -8014,13 +8625,15 @@
       "speed": 255,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 4.2
     },
     "misdreavus": {
       "ability": "levitate",
       "attack": 159,
       "defense": 159,
       "gender": "f",
+      "happiness": null,
       "hp": 264,
       "item": "",
       "iv": 200,
@@ -8038,13 +8651,15 @@
       "speed": 209,
       "types": [
         "ghost"
-      ]
+      ],
+      "weight": 1.0
     },
     "mismagius": {
       "ability": "levitate",
       "attack": 154,
       "defense": 138,
       "gender": "f",
+      "happiness": null,
       "hp": 259,
       "item": "",
       "iv": 429,
@@ -8062,13 +8677,15 @@
       "speed": 268,
       "types": [
         "ghost"
-      ]
+      ],
+      "weight": 4.4
     },
     "moltres": {
       "ability": "pressure",
       "attack": 248,
       "defense": 208,
       "gender": "-",
+      "happiness": null,
       "hp": 311,
       "item": "",
       "iv": 146,
@@ -8087,13 +8704,15 @@
       "types": [
         "fire",
         "flying"
-      ]
+      ],
+      "weight": 60.0
     },
     "monferno": {
       "ability": "blaze",
       "attack": 213,
       "defense": 146,
       "gender": "f",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 391,
@@ -8112,13 +8731,15 @@
       "types": [
         "fire",
         "fighting"
-      ]
+      ],
+      "weight": 22.0
     },
     "mothim": {
       "ability": "swarm",
       "attack": 205,
       "defense": 140,
       "gender": "m",
+      "happiness": null,
       "hp": 285,
       "item": "",
       "iv": 414,
@@ -8137,13 +8758,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 23.3
     },
     "mr-mime": {
       "ability": "filter",
       "attack": 114,
       "defense": 183,
       "gender": "m",
+      "happiness": null,
       "hp": 222,
       "item": "",
       "iv": 122,
@@ -8162,13 +8785,15 @@
       "types": [
         "psychic",
         "normal"
-      ]
+      ],
+      "weight": 54.5
     },
     "mudkip": {
       "ability": "torrent",
       "attack": 210,
       "defense": 151,
       "gender": "m",
+      "happiness": null,
       "hp": 256,
       "item": "",
       "iv": 258,
@@ -8186,13 +8811,15 @@
       "speed": 131,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 7.6
     },
     "muk": {
       "ability": "sticky-hold",
       "attack": 218,
       "defense": 201,
       "gender": "f",
+      "happiness": null,
       "hp": 348,
       "item": "",
       "iv": 89,
@@ -8210,13 +8837,15 @@
       "speed": 133,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 30.0
     },
     "munchlax": {
       "ability": "thick-fat",
       "attack": 214,
       "defense": 124,
       "gender": "m",
+      "happiness": null,
       "hp": 419,
       "item": "",
       "iv": 446,
@@ -8234,13 +8863,15 @@
       "speed": 48,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 105.0
     },
     "murkrow": {
       "ability": "insomnia",
       "attack": 212,
       "defense": 113,
       "gender": "f",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 198,
@@ -8259,13 +8890,15 @@
       "types": [
         "dark",
         "flying"
-      ]
+      ],
+      "weight": 2.1
     },
     "natu": {
       "ability": "early-bird",
       "attack": 135,
       "defense": 140,
       "gender": "m",
+      "happiness": null,
       "hp": 235,
       "item": "",
       "iv": 177,
@@ -8284,13 +8917,15 @@
       "types": [
         "psychic",
         "flying"
-      ]
+      ],
+      "weight": 2.0
     },
     "nidoking": {
       "ability": "rivalry",
       "attack": 218,
       "defense": 188,
       "gender": "m",
+      "happiness": null,
       "hp": 301,
       "item": "",
       "iv": 34,
@@ -8309,13 +8944,15 @@
       "types": [
         "poison",
         "ground"
-      ]
+      ],
+      "weight": 62.0
     },
     "nidoqueen": {
       "ability": "rivalry",
       "attack": 178,
       "defense": 208,
       "gender": "f",
+      "happiness": null,
       "hp": 319,
       "item": "",
       "iv": 31,
@@ -8334,13 +8971,15 @@
       "types": [
         "poison",
         "ground"
-      ]
+      ],
+      "weight": 60.0
     },
     "nidoran-f": {
       "ability": "poison-point",
       "attack": 179,
       "defense": 174,
       "gender": "f",
+      "happiness": null,
       "hp": 270,
       "item": "",
       "iv": 29,
@@ -8358,13 +8997,15 @@
       "speed": 128,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 7.0
     },
     "nidoran-m": {
       "ability": "poison-point",
       "attack": 185,
       "defense": 145,
       "gender": "m",
+      "happiness": null,
       "hp": 252,
       "item": "",
       "iv": 32,
@@ -8382,13 +9023,15 @@
       "speed": 146,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 9.0
     },
     "nidorina": {
       "ability": "rivalry",
       "attack": 134,
       "defense": 180,
       "gender": "f",
+      "happiness": null,
       "hp": 291,
       "item": "",
       "iv": 30,
@@ -8406,13 +9049,15 @@
       "speed": 137,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 20.0
     },
     "nidorino": {
       "ability": "rivalry",
       "attack": 152,
       "defense": 160,
       "gender": "m",
+      "happiness": null,
       "hp": 273,
       "item": "",
       "iv": 33,
@@ -8430,13 +9075,15 @@
       "speed": 155,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 19.5
     },
     "nincada": {
       "ability": "compound-eyes",
       "attack": 145,
       "defense": 258,
       "gender": "m",
+      "happiness": null,
       "hp": 222,
       "item": "",
       "iv": 290,
@@ -8455,13 +9102,15 @@
       "types": [
         "bug",
         "ground"
-      ]
+      ],
+      "weight": 5.5
     },
     "ninetales": {
       "ability": "flash-fire",
       "attack": 185,
       "defense": 201,
       "gender": "f",
+      "happiness": null,
       "hp": 284,
       "item": "",
       "iv": 38,
@@ -8479,13 +9128,15 @@
       "speed": 233,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 19.9
     },
     "ninjask": {
       "ability": "speed-boost",
       "attack": 195,
       "defense": 127,
       "gender": "f",
+      "happiness": null,
       "hp": 264,
       "item": "",
       "iv": 291,
@@ -8504,13 +9155,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 12.0
     },
     "noctowl": {
       "ability": "insomnia",
       "attack": 125,
       "defense": 139,
       "gender": "f",
+      "happiness": null,
       "hp": 344,
       "item": "",
       "iv": 164,
@@ -8529,13 +9182,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 40.8
     },
     "nosepass": {
       "ability": "sturdy",
       "attack": 177,
       "defense": 294,
       "gender": "f",
+      "happiness": null,
       "hp": 189,
       "item": "",
       "iv": 299,
@@ -8553,13 +9208,15 @@
       "speed": 75,
       "types": [
         "rock"
-      ]
+      ],
+      "weight": 97.0
     },
     "numel": {
       "ability": "simple",
       "attack": 172,
       "defense": 132,
       "gender": "f",
+      "happiness": null,
       "hp": 277,
       "item": "",
       "iv": 322,
@@ -8578,13 +9235,15 @@
       "types": [
         "fire",
         "ground"
-      ]
+      ],
+      "weight": 24.0
     },
     "nuzleaf": {
       "ability": "chlorophyll",
       "attack": 151,
       "defense": 128,
       "gender": "f",
+      "happiness": null,
       "hp": 293,
       "item": "",
       "iv": 274,
@@ -8603,13 +9262,15 @@
       "types": [
         "grass",
         "dark"
-      ]
+      ],
+      "weight": 28.0
     },
     "octillery": {
       "ability": "suction-cups",
       "attack": 245,
       "defense": 185,
       "gender": "m",
+      "happiness": null,
       "hp": 290,
       "item": "",
       "iv": 224,
@@ -8627,13 +9288,15 @@
       "speed": 125,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 28.5
     },
     "oddish": {
       "ability": "chlorophyll",
       "attack": 135,
       "defense": 160,
       "gender": "m",
+      "happiness": null,
       "hp": 245,
       "item": "",
       "iv": 43,
@@ -8652,13 +9315,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 5.4
     },
     "omanyte": {
       "ability": "swift-swim",
       "attack": 127,
       "defense": 247,
       "gender": "m",
+      "happiness": null,
       "hp": 222,
       "item": "",
       "iv": 138,
@@ -8677,13 +9342,15 @@
       "types": [
         "rock",
         "water"
-      ]
+      ],
+      "weight": 7.5
     },
     "omastar": {
       "ability": "shell-armor",
       "attack": 154,
       "defense": 284,
       "gender": "m",
+      "happiness": null,
       "hp": 279,
       "item": "",
       "iv": 139,
@@ -8702,13 +9369,15 @@
       "types": [
         "rock",
         "water"
-      ]
+      ],
+      "weight": 35.0
     },
     "onix": {
       "ability": "sturdy",
       "attack": 193,
       "defense": 364,
       "gender": "m",
+      "happiness": null,
       "hp": 219,
       "item": "",
       "iv": 95,
@@ -8727,13 +9396,15 @@
       "types": [
         "rock",
         "ground"
-      ]
+      ],
+      "weight": 210.0
     },
     "pachirisu": {
       "ability": "run-away",
       "attack": 99,
       "defense": 182,
       "gender": "f",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 417,
@@ -8751,13 +9422,15 @@
       "speed": 232,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 3.9
     },
     "palkia": {
       "ability": "pressure",
       "attack": 220,
       "defense": 225,
       "gender": "-",
+      "happiness": null,
       "hp": 290,
       "item": "",
       "iv": 484,
@@ -8776,13 +9449,15 @@
       "types": [
         "water",
         "dragon"
-      ]
+      ],
+      "weight": 336.0
     },
     "palkia-shiny": {
       "ability": "insomnia",
       "attack": 267,
       "defense": 257,
       "gender": "",
+      "happiness": null,
       "hp": 342,
       "item": "",
       "iv": 484,
@@ -8801,13 +9476,15 @@
       "types": [
         "water",
         "dragon"
-      ]
+      ],
+      "weight": 336.0
     },
     "paras": {
       "ability": "dry-skin",
       "attack": 194,
       "defense": 164,
       "gender": "m",
+      "happiness": null,
       "hp": 229,
       "item": "",
       "iv": 46,
@@ -8826,13 +9503,15 @@
       "types": [
         "bug",
         "grass"
-      ]
+      ],
+      "weight": 5.4
     },
     "parasect": {
       "ability": "effect-spore",
       "attack": 255,
       "defense": 202,
       "gender": "f",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 47,
@@ -8851,13 +9530,15 @@
       "types": [
         "bug",
         "grass"
-      ]
+      ],
+      "weight": 29.5
     },
     "pelipper": {
       "ability": "keen-eye",
       "attack": 140,
       "defense": 240,
       "gender": "m",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 279,
@@ -8876,13 +9557,15 @@
       "types": [
         "water",
         "flying"
-      ]
+      ],
+      "weight": 28.0
     },
     "persian": {
       "ability": "limber",
       "attack": 179,
       "defense": 143,
       "gender": "f",
+      "happiness": null,
       "hp": 274,
       "item": "",
       "iv": 53,
@@ -8900,13 +9583,15 @@
       "speed": 269,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 32.0
     },
     "phanpy": {
       "ability": "pickup",
       "attack": 207,
       "defense": 169,
       "gender": "m",
+      "happiness": null,
       "hp": 334,
       "item": "",
       "iv": 231,
@@ -8924,13 +9609,15 @@
       "speed": 129,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 33.5
     },
     "phione": {
       "ability": "hydration",
       "attack": 175,
       "defense": 195,
       "gender": "-",
+      "happiness": null,
       "hp": 300,
       "item": "",
       "iv": 489,
@@ -8948,13 +9635,15 @@
       "speed": 214,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 3.1
     },
     "pichu": {
       "ability": "static",
       "attack": 196,
       "defense": 66,
       "gender": "m",
+      "happiness": null,
       "hp": 181,
       "item": "",
       "iv": 172,
@@ -8972,13 +9661,15 @@
       "speed": 219,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 2.0
     },
     "pidgeot": {
       "ability": "tangled-feet",
       "attack": 196,
       "defense": 167,
       "gender": "f",
+      "happiness": null,
       "hp": 307,
       "item": "",
       "iv": 18,
@@ -8997,13 +9688,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 39.5
     },
     "pidgeotto": {
       "ability": "keen-eye",
       "attack": 177,
       "defense": 157,
       "gender": "m",
+      "happiness": null,
       "hp": 278,
       "item": "",
       "iv": 17,
@@ -9022,13 +9715,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 30.0
     },
     "pidgey": {
       "ability": "keen-eye",
       "attack": 113,
       "defense": 130,
       "gender": "m",
+      "happiness": null,
       "hp": 235,
       "item": "",
       "iv": 16,
@@ -9047,13 +9742,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 1.8
     },
     "pikachu": {
       "ability": "static",
       "attack": 141,
       "defense": 118,
       "gender": "f",
+      "happiness": null,
       "hp": 213,
       "item": "",
       "iv": 25,
@@ -9071,13 +9768,15 @@
       "speed": 232,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 6.0
     },
     "piloswine": {
       "ability": "oblivious",
       "attack": 214,
       "defense": 198,
       "gender": "m",
+      "happiness": null,
       "hp": 343,
       "item": "",
       "iv": 221,
@@ -9096,13 +9795,15 @@
       "types": [
         "ice",
         "ground"
-      ]
+      ],
+      "weight": 55.8
     },
     "pineco": {
       "ability": "sturdy",
       "attack": 183,
       "defense": 256,
       "gender": "m",
+      "happiness": null,
       "hp": 258,
       "item": "",
       "iv": 204,
@@ -9120,13 +9821,15 @@
       "speed": 31,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 7.2
     },
     "pinsir": {
       "ability": "hyper-cutter",
       "attack": 254,
       "defense": 256,
       "gender": "f",
+      "happiness": null,
       "hp": 268,
       "item": "",
       "iv": 127,
@@ -9144,13 +9847,15 @@
       "speed": 203,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 55.0
     },
     "piplup": {
       "ability": "torrent",
       "attack": 118,
       "defense": 157,
       "gender": "m",
+      "happiness": null,
       "hp": 253,
       "item": "",
       "iv": 393,
@@ -9168,13 +9873,15 @@
       "speed": 131,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 5.2
     },
     "plusle": {
       "ability": "plus",
       "attack": 127,
       "defense": 122,
       "gender": "m",
+      "happiness": null,
       "hp": 267,
       "item": "",
       "iv": 311,
@@ -9192,13 +9899,15 @@
       "speed": 255,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 4.2
     },
     "politoed": {
       "ability": "water-absorb",
       "attack": 164,
       "defense": 201,
       "gender": "f",
+      "happiness": null,
       "hp": 318,
       "item": "",
       "iv": 186,
@@ -9216,13 +9925,15 @@
       "speed": 173,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 33.9
     },
     "poliwag": {
       "ability": "water-absorb",
       "attack": 117,
       "defense": 125,
       "gender": "f",
+      "happiness": null,
       "hp": 230,
       "item": "",
       "iv": 60,
@@ -9240,13 +9951,15 @@
       "speed": 255,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 12.4
     },
     "poliwhirl": {
       "ability": "water-absorb",
       "attack": 137,
       "defense": 153,
       "gender": "m",
+      "happiness": null,
       "hp": 279,
       "item": "",
       "iv": 61,
@@ -9264,13 +9977,15 @@
       "speed": 224,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 20.0
     },
     "poliwrath": {
       "ability": "water-absorb",
       "attack": 203,
       "defense": 200,
       "gender": "f",
+      "happiness": null,
       "hp": 318,
       "item": "",
       "iv": 62,
@@ -9289,13 +10004,15 @@
       "types": [
         "water",
         "fighting"
-      ]
+      ],
+      "weight": 54.0
     },
     "ponyta": {
       "ability": "flash-fire",
       "attack": 212,
       "defense": 152,
       "gender": "f",
+      "happiness": null,
       "hp": 247,
       "item": "",
       "iv": 77,
@@ -9313,13 +10030,15 @@
       "speed": 244,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 30.0
     },
     "poochyena": {
       "ability": "quick-feet",
       "attack": 183,
       "defense": 127,
       "gender": "m",
+      "happiness": null,
       "hp": 232,
       "item": "",
       "iv": 261,
@@ -9337,13 +10056,15 @@
       "speed": 127,
       "types": [
         "dark"
-      ]
+      ],
+      "weight": 13.6
     },
     "porygon": {
       "ability": "download",
       "attack": 179,
       "defense": 183,
       "gender": "m",
+      "happiness": 80,
       "hp": 278,
       "item": "",
       "iv": 137,
@@ -9361,13 +10082,15 @@
       "speed": 110,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 36.5
     },
     "porygon-z": {
       "ability": "adaptability",
       "attack": 209,
       "defense": 170,
       "gender": "-",
+      "happiness": null,
       "hp": 305,
       "item": "",
       "iv": 474,
@@ -9385,13 +10108,15 @@
       "speed": 210,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 34.0
     },
     "porygon2": {
       "ability": "trace",
       "attack": 192,
       "defense": 212,
       "gender": "-",
+      "happiness": null,
       "hp": 307,
       "item": "",
       "iv": 233,
@@ -9409,13 +10134,15 @@
       "speed": 152,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 32.5
     },
     "primeape": {
       "ability": "vital-spirit",
       "attack": 222,
       "defense": 157,
       "gender": "m",
+      "happiness": null,
       "hp": 272,
       "item": "",
       "iv": 57,
@@ -9433,13 +10160,15 @@
       "speed": 227,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 32.0
     },
     "prinplup": {
       "ability": "torrent",
       "attack": 156,
       "defense": 195,
       "gender": "f",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 394,
@@ -9457,13 +10186,15 @@
       "speed": 142,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 23.0
     },
     "probopass": {
       "ability": "sturdy",
       "attack": 141,
       "defense": 321,
       "gender": "m",
+      "happiness": null,
       "hp": 256,
       "item": "",
       "iv": 476,
@@ -9482,13 +10213,15 @@
       "types": [
         "rock",
         "steel"
-      ]
+      ],
+      "weight": 340.0
     },
     "psyduck": {
       "ability": "cloud-nine",
       "attack": 138,
       "defense": 146,
       "gender": "m",
+      "happiness": null,
       "hp": 255,
       "item": "",
       "iv": 54,
@@ -9506,13 +10239,15 @@
       "speed": 160,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 19.6
     },
     "pupitar": {
       "ability": "shed-skin",
       "attack": 210,
       "defense": 200,
       "gender": "f",
+      "happiness": null,
       "hp": 287,
       "item": "",
       "iv": 247,
@@ -9531,13 +10266,15 @@
       "types": [
         "rock",
         "ground"
-      ]
+      ],
+      "weight": 152.0
     },
     "purugly": {
       "ability": "own-tempo",
       "attack": 202,
       "defense": 166,
       "gender": "f",
+      "happiness": null,
       "hp": 285,
       "item": "",
       "iv": 432,
@@ -9555,13 +10292,15 @@
       "speed": 288,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 43.8
     },
     "quagsire": {
       "ability": "damp",
       "attack": 210,
       "defense": 210,
       "gender": "m",
+      "happiness": null,
       "hp": 335,
       "item": "",
       "iv": 195,
@@ -9580,13 +10319,15 @@
       "types": [
         "water",
         "ground"
-      ]
+      ],
+      "weight": 75.0
     },
     "quilava": {
       "ability": "blaze",
       "attack": 170,
       "defense": 158,
       "gender": "f",
+      "happiness": null,
       "hp": 263,
       "item": "",
       "iv": 156,
@@ -9604,13 +10345,15 @@
       "speed": 202,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 19.0
     },
     "qwilfish": {
       "ability": "poison-point",
       "attack": 253,
       "defense": 190,
       "gender": "m",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 211,
@@ -9629,13 +10372,15 @@
       "types": [
         "water",
         "poison"
-      ]
+      ],
+      "weight": 3.9
     },
     "raichu": {
       "ability": "static",
       "attack": 215,
       "defense": 145,
       "gender": "m",
+      "happiness": null,
       "hp": 260,
       "item": "",
       "iv": 26,
@@ -9653,13 +10398,15 @@
       "speed": 235,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 30.0
     },
     "raikou": {
       "ability": "pressure",
       "attack": 215,
       "defense": 176,
       "gender": "-",
+      "happiness": null,
       "hp": 311,
       "item": "",
       "iv": 243,
@@ -9677,13 +10424,15 @@
       "speed": 256,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 178.0
     },
     "raikou-shiny": {
       "ability": "pressure",
       "attack": 204,
       "defense": 207,
       "gender": "",
+      "happiness": null,
       "hp": 342,
       "item": "",
       "iv": 243,
@@ -9701,13 +10450,15 @@
       "speed": 287,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 178.0
     },
     "ralts": {
       "ability": "synchronize",
       "attack": 77,
       "defense": 86,
       "gender": "m",
+      "happiness": null,
       "hp": 260,
       "item": "",
       "iv": 280,
@@ -9726,13 +10477,15 @@
       "types": [
         "psychic",
         "normal"
-      ]
+      ],
+      "weight": 6.6
     },
     "rampardos": {
       "ability": "mold-breaker",
       "attack": 327,
       "defense": 154,
       "gender": "f",
+      "happiness": null,
       "hp": 333,
       "item": "",
       "iv": 409,
@@ -9750,13 +10503,15 @@
       "speed": 150,
       "types": [
         "rock"
-      ]
+      ],
+      "weight": 102.5
     },
     "rapidash": {
       "ability": "flash-fire",
       "attack": 233,
       "defense": 155,
       "gender": "f",
+      "happiness": null,
       "hp": 268,
       "item": "",
       "iv": 78,
@@ -9774,13 +10529,15 @@
       "speed": 267,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 95.0
     },
     "raticate": {
       "ability": "guts",
       "attack": 223,
       "defense": 161,
       "gender": "m",
+      "happiness": null,
       "hp": 256,
       "item": "",
       "iv": 20,
@@ -9798,13 +10555,15 @@
       "speed": 235,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 18.5
     },
     "rattata": {
       "ability": "guts",
       "attack": 189,
       "defense": 127,
       "gender": "m",
+      "happiness": 102,
       "hp": 222,
       "item": "",
       "iv": 19,
@@ -9822,13 +10581,15 @@
       "speed": 221,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 3.5
     },
     "rayquaza": {
       "ability": "air-lock",
       "attack": 274,
       "defense": 185,
       "gender": "-",
+      "happiness": null,
       "hp": 320,
       "item": "",
       "iv": 384,
@@ -9847,13 +10608,15 @@
       "types": [
         "dragon",
         "flying"
-      ]
+      ],
+      "weight": 206.5
     },
     "regice": {
       "ability": "clear-body",
       "attack": 161,
       "defense": 226,
       "gender": "-",
+      "happiness": null,
       "hp": 291,
       "item": "",
       "iv": 378,
@@ -9871,13 +10634,15 @@
       "speed": 126,
       "types": [
         "ice"
-      ]
+      ],
+      "weight": 175.0
     },
     "regigigas": {
       "ability": "slow-start",
       "attack": 338,
       "defense": 238,
       "gender": "-",
+      "happiness": null,
       "hp": 343,
       "item": "",
       "iv": 486,
@@ -9895,13 +10660,15 @@
       "speed": 196,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 420.0
     },
     "regigigas-shiny": {
       "ability": "iron-fist",
       "attack": 414,
       "defense": 277,
       "gender": "",
+      "happiness": null,
       "hp": 382,
       "item": "",
       "iv": 486,
@@ -9919,13 +10686,15 @@
       "speed": 257,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 420.0
     },
     "regirock": {
       "ability": "clear-body",
       "attack": 203,
       "defense": 405,
       "gender": "-",
+      "happiness": null,
       "hp": 270,
       "item": "",
       "iv": 377,
@@ -9943,13 +10712,15 @@
       "speed": 126,
       "types": [
         "rock"
-      ]
+      ],
+      "weight": 230.0
     },
     "registeel": {
       "ability": "clear-body",
       "attack": 158,
       "defense": 308,
       "gender": "-",
+      "happiness": null,
       "hp": 291,
       "item": "",
       "iv": 379,
@@ -9967,13 +10738,15 @@
       "speed": 126,
       "types": [
         "steel"
-      ]
+      ],
+      "weight": 205.0
     },
     "relicanth": {
       "ability": "rock-head",
       "attack": 166,
       "defense": 295,
       "gender": "m",
+      "happiness": null,
       "hp": 340,
       "item": "",
       "iv": 369,
@@ -9992,13 +10765,15 @@
       "types": [
         "water",
         "rock"
-      ]
+      ],
+      "weight": 23.4
     },
     "remoraid": {
       "ability": "sniper",
       "attack": 202,
       "defense": 108,
       "gender": "f",
+      "happiness": null,
       "hp": 213,
       "item": "",
       "iv": 223,
@@ -10016,13 +10791,15 @@
       "speed": 200,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 12.0
     },
     "rhydon": {
       "ability": "rock-head",
       "attack": 295,
       "defense": 254,
       "gender": "m",
+      "happiness": null,
       "hp": 350,
       "item": "",
       "iv": 112,
@@ -10041,13 +10818,15 @@
       "types": [
         "ground",
         "rock"
-      ]
+      ],
+      "weight": 120.0
     },
     "rhyhorn": {
       "ability": "rock-head",
       "attack": 239,
       "defense": 238,
       "gender": "f",
+      "happiness": null,
       "hp": 313,
       "item": "",
       "iv": 111,
@@ -10066,13 +10845,15 @@
       "types": [
         "ground",
         "rock"
-      ]
+      ],
+      "weight": 115.0
     },
     "rhyperior": {
       "ability": "lightning-rod",
       "attack": 279,
       "defense": 269,
       "gender": "f",
+      "happiness": null,
       "hp": 344,
       "item": "",
       "iv": 464,
@@ -10091,13 +10872,15 @@
       "types": [
         "ground",
         "rock"
-      ]
+      ],
+      "weight": 282.8
     },
     "rhyperior-shiny": {
       "ability": "lightning-rod",
       "attack": 370,
       "defense": 317,
       "gender": "",
+      "happiness": null,
       "hp": 392,
       "item": "",
       "iv": 464,
@@ -10116,13 +10899,15 @@
       "types": [
         "ground",
         "rock"
-      ]
+      ],
+      "weight": 282.8
     },
     "riolu": {
       "ability": "steadfast",
       "attack": 194,
       "defense": 134,
       "gender": "m",
+      "happiness": null,
       "hp": 239,
       "item": "",
       "iv": 447,
@@ -10140,13 +10925,15 @@
       "speed": 191,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 20.2
     },
     "roselia": {
       "ability": "poison-point",
       "attack": 163,
       "defense": 146,
       "gender": "f",
+      "happiness": null,
       "hp": 248,
       "item": "",
       "iv": 315,
@@ -10165,13 +10952,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 2.0
     },
     "roserade": {
       "ability": "poison-point",
       "attack": 190,
       "defense": 143,
       "gender": "f",
+      "happiness": null,
       "hp": 258,
       "item": "",
       "iv": 407,
@@ -10190,13 +10979,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 14.5
     },
     "rotom": {
       "ability": "levitate",
       "attack": 139,
       "defense": 173,
       "gender": "-",
+      "happiness": null,
       "hp": 244,
       "item": "",
       "iv": 479,
@@ -10215,13 +11006,15 @@
       "types": [
         "electric",
         "ghost"
-      ]
+      ],
+      "weight": 0.3
     },
     "sableye": {
       "ability": "stall",
       "attack": 195,
       "defense": 195,
       "gender": "f",
+      "happiness": null,
       "hp": 250,
       "item": "",
       "iv": 302,
@@ -10240,13 +11033,15 @@
       "types": [
         "dark",
         "ghost"
-      ]
+      ],
+      "weight": 11.0
     },
     "salamence": {
       "ability": "intimidate",
       "attack": 247,
       "defense": 165,
       "gender": "f",
+      "happiness": null,
       "hp": 300,
       "item": "",
       "iv": 373,
@@ -10265,13 +11060,15 @@
       "types": [
         "dragon",
         "flying"
-      ]
+      ],
+      "weight": 102.6
     },
     "sandshrew": {
       "ability": "sand-veil",
       "attack": 202,
       "defense": 244,
       "gender": "f",
+      "happiness": null,
       "hp": 257,
       "item": "",
       "iv": 27,
@@ -10289,13 +11086,15 @@
       "speed": 132,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 12.0
     },
     "sandslash": {
       "ability": "sand-veil",
       "attack": 214,
       "defense": 258,
       "gender": "m",
+      "happiness": null,
       "hp": 293,
       "item": "",
       "iv": 28,
@@ -10313,13 +11112,15 @@
       "speed": 168,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 29.5
     },
     "sceptile": {
       "ability": "overgrow",
       "attack": 210,
       "defense": 160,
       "gender": "f",
+      "happiness": null,
       "hp": 275,
       "item": "",
       "iv": 254,
@@ -10337,13 +11138,15 @@
       "speed": 270,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 52.2
     },
     "scizor": {
       "ability": "technician",
       "attack": 263,
       "defense": 233,
       "gender": "f",
+      "happiness": null,
       "hp": 278,
       "item": "",
       "iv": 212,
@@ -10362,13 +11165,15 @@
       "types": [
         "bug",
         "steel"
-      ]
+      ],
+      "weight": 118.0
     },
     "scyther": {
       "ability": "technician",
       "attack": 253,
       "defense": 193,
       "gender": "f",
+      "happiness": null,
       "hp": 278,
       "item": "",
       "iv": 123,
@@ -10387,13 +11192,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 56.0
     },
     "seadra": {
       "ability": "sniper",
       "attack": 169,
       "defense": 206,
       "gender": "f",
+      "happiness": null,
       "hp": 254,
       "item": "",
       "iv": 117,
@@ -10411,13 +11218,15 @@
       "speed": 229,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 25.0
     },
     "seaking": {
       "ability": "swift-swim",
       "attack": 222,
       "defense": 184,
       "gender": "m",
+      "happiness": null,
       "hp": 303,
       "item": "",
       "iv": 119,
@@ -10435,13 +11244,15 @@
       "speed": 174,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 39.0
     },
     "sealeo": {
       "ability": "ice-body",
       "attack": 162,
       "defense": 182,
       "gender": "f",
+      "happiness": null,
       "hp": 327,
       "item": "",
       "iv": 364,
@@ -10460,13 +11271,15 @@
       "types": [
         "ice",
         "water"
-      ]
+      ],
+      "weight": 87.6
     },
     "seedot": {
       "ability": "chlorophyll",
       "attack": 196,
       "defense": 136,
       "gender": "m",
+      "happiness": null,
       "hp": 221,
       "item": "",
       "iv": 273,
@@ -10484,13 +11297,15 @@
       "speed": 159,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 4.0
     },
     "seel": {
       "ability": "hydration",
       "attack": 126,
       "defense": 176,
       "gender": "m",
+      "happiness": null,
       "hp": 285,
       "item": "",
       "iv": 86,
@@ -10508,13 +11323,15 @@
       "speed": 140,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 90.0
     },
     "sentret": {
       "ability": "keen-eye",
       "attack": 196,
       "defense": 125,
       "gender": "m",
+      "happiness": null,
       "hp": 232,
       "item": "",
       "iv": 161,
@@ -10532,13 +11349,15 @@
       "speed": 88,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 6.0
     },
     "seviper": {
       "ability": "shed-skin",
       "attack": 260,
       "defense": 157,
       "gender": "f",
+      "happiness": null,
       "hp": 288,
       "item": "",
       "iv": 336,
@@ -10556,13 +11375,15 @@
       "speed": 167,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 52.5
     },
     "sharpedo": {
       "ability": "rough-skin",
       "attack": 277,
       "defense": 117,
       "gender": "f",
+      "happiness": null,
       "hp": 282,
       "item": "",
       "iv": 319,
@@ -10581,13 +11402,15 @@
       "types": [
         "water",
         "dark"
-      ]
+      ],
+      "weight": 88.8
     },
     "shaymin": {
       "ability": "natural-cure",
       "attack": 205,
       "defense": 205,
       "gender": "-",
+      "happiness": null,
       "hp": 310,
       "item": "",
       "iv": 492,
@@ -10605,13 +11428,15 @@
       "speed": 225,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 2.1
     },
     "shaymin-shiny": {
       "ability": "serene-grace",
       "attack": 257,
       "defense": 257,
       "gender": "",
+      "happiness": null,
       "hp": 362,
       "item": "",
       "iv": 492,
@@ -10629,13 +11454,15 @@
       "speed": 257,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 2.1
     },
     "shedinja": {
       "ability": "wonder-guard",
       "attack": 260,
       "defense": 147,
       "gender": "-",
+      "happiness": null,
       "hp": 1,
       "item": "",
       "iv": 292,
@@ -10654,13 +11481,15 @@
       "types": [
         "bug",
         "ghost"
-      ]
+      ],
+      "weight": 1.2
     },
     "shelgon": {
       "ability": "rock-head",
       "attack": 231,
       "defense": 241,
       "gender": "m",
+      "happiness": null,
       "hp": 276,
       "item": "",
       "iv": 372,
@@ -10678,13 +11507,15 @@
       "speed": 141,
       "types": [
         "dragon"
-      ]
+      ],
+      "weight": 110.5
     },
     "shellder": {
       "ability": "shell-armor",
       "attack": 177,
       "defense": 247,
       "gender": "f",
+      "happiness": null,
       "hp": 217,
       "item": "",
       "iv": 90,
@@ -10702,13 +11533,15 @@
       "speed": 99,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 4.0
     },
     "shellos-east": {
       "ability": "storm-drain",
       "attack": 131,
       "defense": 146,
       "gender": "m",
+      "happiness": null,
       "hp": 307,
       "item": "",
       "iv": 422,
@@ -10726,13 +11559,15 @@
       "speed": 118,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 6.3
     },
     "shellos-west": {
       "ability": "storm-drain",
       "attack": 146,
       "defense": 160,
       "gender": "m",
+      "happiness": null,
       "hp": 307,
       "item": "",
       "iv": 422,
@@ -10750,13 +11585,15 @@
       "speed": 118,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 6.3
     },
     "shieldon": {
       "ability": "sturdy",
       "attack": 190,
       "defense": 254,
       "gender": "m",
+      "happiness": null,
       "hp": 212,
       "item": "",
       "iv": 410,
@@ -10775,13 +11612,15 @@
       "types": [
         "rock",
         "steel"
-      ]
+      ],
+      "weight": 57.0
     },
     "shiftry": {
       "ability": "early-bird",
       "attack": 258,
       "defense": 155,
       "gender": "m",
+      "happiness": null,
       "hp": 320,
       "item": "",
       "iv": 275,
@@ -10800,13 +11639,15 @@
       "types": [
         "grass",
         "dark"
-      ]
+      ],
+      "weight": 59.6
     },
     "shiftry-shiny": {
       "ability": "serene-grace",
       "attack": 231,
       "defense": 177,
       "gender": "",
+      "happiness": null,
       "hp": 342,
       "item": "",
       "iv": 275,
@@ -10825,13 +11666,15 @@
       "types": [
         "grass",
         "dark"
-      ]
+      ],
+      "weight": 59.6
     },
     "shinx": {
       "ability": "intimidate",
       "attack": 187,
       "defense": 101,
       "gender": "m",
+      "happiness": null,
       "hp": 240,
       "item": "",
       "iv": 403,
@@ -10849,13 +11692,15 @@
       "speed": 135,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 9.5
     },
     "shroomish": {
       "ability": "effect-spore",
       "attack": 175,
       "defense": 190,
       "gender": "m",
+      "happiness": null,
       "hp": 278,
       "item": "",
       "iv": 285,
@@ -10873,13 +11718,15 @@
       "speed": 102,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 4.5
     },
     "shuckle": {
       "ability": "sturdy",
       "attack": 104,
       "defense": 472,
       "gender": "f",
+      "happiness": null,
       "hp": 220,
       "item": "",
       "iv": 213,
@@ -10898,13 +11745,15 @@
       "types": [
         "bug",
         "rock"
-      ]
+      ],
+      "weight": 20.5
     },
     "shuckle-shiny": {
       "ability": "pure-power",
       "attack": 84,
       "defense": 517,
       "gender": "",
+      "happiness": null,
       "hp": 202,
       "item": "metronome",
       "iv": 213,
@@ -10923,13 +11772,15 @@
       "types": [
         "bug",
         "rock"
-      ]
+      ],
+      "weight": 20.5
     },
     "shuppet": {
       "ability": "insomnia",
       "attack": 245,
       "defense": 102,
       "gender": "m",
+      "happiness": null,
       "hp": 225,
       "item": "",
       "iv": 353,
@@ -10947,13 +11798,15 @@
       "speed": 122,
       "types": [
         "ghost"
-      ]
+      ],
+      "weight": 2.3
     },
     "silcoon": {
       "ability": "shed-skin",
       "attack": 185,
       "defense": 167,
       "gender": "m",
+      "happiness": null,
       "hp": 262,
       "item": "",
       "iv": 266,
@@ -10971,13 +11824,15 @@
       "speed": 66,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 10.0
     },
     "skarmory": {
       "ability": "sturdy",
       "attack": 196,
       "defense": 284,
       "gender": "f",
+      "happiness": null,
       "hp": 271,
       "item": "",
       "iv": 227,
@@ -10996,13 +11851,15 @@
       "types": [
         "steel",
         "flying"
-      ]
+      ],
+      "weight": 50.5
     },
     "skiploom": {
       "ability": "chlorophyll",
       "attack": 180,
       "defense": 139,
       "gender": "f",
+      "happiness": null,
       "hp": 242,
       "item": "",
       "iv": 188,
@@ -11021,13 +11878,15 @@
       "types": [
         "grass",
         "flying"
-      ]
+      ],
+      "weight": 1.0
     },
     "skitty": {
       "ability": "normalize",
       "attack": 188,
       "defense": 139,
       "gender": "m",
+      "happiness": null,
       "hp": 254,
       "item": "",
       "iv": 300,
@@ -11045,13 +11904,15 @@
       "speed": 156,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 11.0
     },
     "skorupi": {
       "ability": "sniper",
       "attack": 189,
       "defense": 223,
       "gender": "m",
+      "happiness": null,
       "hp": 228,
       "item": "",
       "iv": 451,
@@ -11070,13 +11931,15 @@
       "types": [
         "poison",
         "bug"
-      ]
+      ],
+      "weight": 12.0
     },
     "skuntank": {
       "ability": "stench",
       "attack": 221,
       "defense": 169,
       "gender": "m",
+      "happiness": null,
       "hp": 346,
       "item": "",
       "iv": 435,
@@ -11095,13 +11958,15 @@
       "types": [
         "poison",
         "dark"
-      ]
+      ],
+      "weight": 38.0
     },
     "slaking": {
       "ability": "truant",
       "attack": 346,
       "defense": 203,
       "gender": "f",
+      "happiness": null,
       "hp": 431,
       "item": "",
       "iv": 289,
@@ -11119,13 +11984,15 @@
       "speed": 248,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 130.5
     },
     "slaking-shiny": {
       "ability": "early-bird",
       "attack": 414,
       "defense": 257,
       "gender": "",
+      "happiness": null,
       "hp": 462,
       "item": "",
       "iv": 289,
@@ -11143,13 +12010,15 @@
       "speed": 257,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 130.5
     },
     "slakoth": {
       "ability": "truant",
       "attack": 191,
       "defense": 174,
       "gender": "m",
+      "happiness": null,
       "hp": 279,
       "item": "",
       "iv": 287,
@@ -11167,13 +12036,15 @@
       "speed": 114,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 24.0
     },
     "slowbro": {
       "ability": "own-tempo",
       "attack": 202,
       "defense": 254,
       "gender": "f",
+      "happiness": null,
       "hp": 329,
       "item": "",
       "iv": 80,
@@ -11192,13 +12063,15 @@
       "types": [
         "water",
         "psychic"
-      ]
+      ],
+      "weight": 78.5
     },
     "slowking": {
       "ability": "oblivious",
       "attack": 202,
       "defense": 174,
       "gender": "f",
+      "happiness": null,
       "hp": 329,
       "item": "",
       "iv": 199,
@@ -11217,13 +12090,15 @@
       "types": [
         "water",
         "psychic"
-      ]
+      ],
+      "weight": 79.5
     },
     "slowpoke": {
       "ability": "own-tempo",
       "attack": 181,
       "defense": 181,
       "gender": "m",
+      "happiness": null,
       "hp": 336,
       "item": "",
       "iv": 79,
@@ -11242,13 +12117,15 @@
       "types": [
         "water",
         "psychic"
-      ]
+      ],
+      "weight": 36.0
     },
     "slugma": {
       "ability": "magma-armor",
       "attack": 104,
       "defense": 162,
       "gender": "m",
+      "happiness": null,
       "hp": 238,
       "item": "",
       "iv": 218,
@@ -11266,13 +12143,15 @@
       "speed": 76,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 35.0
     },
     "smeargle": {
       "ability": "own-tempo",
       "attack": 97,
       "defense": 127,
       "gender": "m",
+      "happiness": null,
       "hp": 272,
       "item": "",
       "iv": 235,
@@ -11290,13 +12169,15 @@
       "speed": 227,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 58.0
     },
     "smoochum": {
       "ability": "oblivious",
       "attack": 100,
       "defense": 82,
       "gender": "f",
+      "happiness": null,
       "hp": 247,
       "item": "",
       "iv": 238,
@@ -11315,13 +12196,15 @@
       "types": [
         "ice",
         "psychic"
-      ]
+      ],
+      "weight": 6.0
     },
     "sneasel": {
       "ability": "keen-eye",
       "attack": 253,
       "defense": 150,
       "gender": "m",
+      "happiness": null,
       "hp": 255,
       "item": "",
       "iv": 215,
@@ -11340,13 +12223,15 @@
       "types": [
         "dark",
         "ice"
-      ]
+      ],
+      "weight": 28.0
     },
     "snorlax": {
       "ability": "thick-fat",
       "attack": 224,
       "defense": 159,
       "gender": "f",
+      "happiness": null,
       "hp": 454,
       "item": "",
       "iv": 143,
@@ -11364,13 +12249,15 @@
       "speed": 97,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 460.0
     },
     "snorunt": {
       "ability": "ice-body",
       "attack": 154,
       "defense": 142,
       "gender": "f",
+      "happiness": null,
       "hp": 247,
       "item": "",
       "iv": 361,
@@ -11388,13 +12275,15 @@
       "speed": 142,
       "types": [
         "ice"
-      ]
+      ],
+      "weight": 16.8
     },
     "snover": {
       "ability": "snow-warning",
       "attack": 155,
       "defense": 163,
       "gender": "m",
+      "happiness": null,
       "hp": 274,
       "item": "",
       "iv": 459,
@@ -11413,13 +12302,15 @@
       "types": [
         "grass",
         "ice"
-      ]
+      ],
+      "weight": 50.5
     },
     "snubbull": {
       "ability": "intimidate",
       "attack": 233,
       "defense": 152,
       "gender": "f",
+      "happiness": null,
       "hp": 277,
       "item": "",
       "iv": 209,
@@ -11437,13 +12328,15 @@
       "speed": 112,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 7.8
     },
     "solrock": {
       "ability": "levitate",
       "attack": 249,
       "defense": 209,
       "gender": "-",
+      "happiness": null,
       "hp": 284,
       "item": "",
       "iv": 338,
@@ -11462,13 +12355,15 @@
       "types": [
         "rock",
         "psychic"
-      ]
+      ],
+      "weight": 154.0
     },
     "spearow": {
       "ability": "keen-eye",
       "attack": 193,
       "defense": 116,
       "gender": "m",
+      "happiness": 90,
       "hp": 241,
       "item": "",
       "iv": 21,
@@ -11487,13 +12382,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 2.0
     },
     "spheal": {
       "ability": "ice-body",
       "attack": 119,
       "defense": 153,
       "gender": "m",
+      "happiness": null,
       "hp": 298,
       "item": "",
       "iv": 363,
@@ -11512,13 +12409,15 @@
       "types": [
         "ice",
         "water"
-      ]
+      ],
+      "weight": 39.5
     },
     "spinarak": {
       "ability": "swarm",
       "attack": 194,
       "defense": 157,
       "gender": "m",
+      "happiness": null,
       "hp": 242,
       "item": "",
       "iv": 167,
@@ -11537,13 +12436,15 @@
       "types": [
         "bug",
         "poison"
-      ]
+      ],
+      "weight": 8.5
     },
     "spinda": {
       "ability": "tangled-feet",
       "attack": 208,
       "defense": 159,
       "gender": "m",
+      "happiness": null,
       "hp": 264,
       "item": "",
       "iv": 327,
@@ -11561,13 +12462,15 @@
       "speed": 182,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 5.0
     },
     "spiritomb": {
       "ability": "pressure",
       "attack": 219,
       "defense": 251,
       "gender": "m",
+      "happiness": null,
       "hp": 240,
       "item": "",
       "iv": 442,
@@ -11586,13 +12489,15 @@
       "types": [
         "ghost",
         "dark"
-      ]
+      ],
+      "weight": 108.0
     },
     "spiritomb-shiny": {
       "ability": "wonder-guard",
       "attack": 241,
       "defense": 273,
       "gender": "",
+      "happiness": null,
       "hp": 262,
       "item": "toxic-orb",
       "iv": 442,
@@ -11611,13 +12516,15 @@
       "types": [
         "ghost",
         "dark"
-      ]
+      ],
+      "weight": 108.0
     },
     "spoink": {
       "ability": "thick-fat",
       "attack": 89,
       "defense": 119,
       "gender": "m",
+      "happiness": null,
       "hp": 274,
       "item": "",
       "iv": 325,
@@ -11635,13 +12542,15 @@
       "speed": 169,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 30.6
     },
     "squirtle": {
       "ability": "torrent",
       "attack": 159,
       "defense": 180,
       "gender": "m",
+      "happiness": null,
       "hp": 223,
       "item": "",
       "iv": 7,
@@ -11659,13 +12568,15 @@
       "speed": 116,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 9.0
     },
     "stantler": {
       "ability": "intimidate",
       "attack": 226,
       "defense": 160,
       "gender": "f",
+      "happiness": null,
       "hp": 287,
       "item": "",
       "iv": 234,
@@ -11683,13 +12594,15 @@
       "speed": 206,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 71.2
     },
     "staraptor": {
       "ability": "intimidate",
       "attack": 247,
       "defense": 175,
       "gender": "m",
+      "happiness": 75,
       "hp": 310,
       "item": "",
       "iv": 398,
@@ -11708,13 +12621,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 24.9
     },
     "staravia": {
       "ability": "intimidate",
       "attack": 217,
       "defense": 148,
       "gender": "f",
+      "happiness": 92,
       "hp": 263,
       "item": "",
       "iv": 397,
@@ -11733,13 +12648,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 15.5
     },
     "starly": {
       "ability": "keen-eye",
       "attack": 167,
       "defense": 117,
       "gender": "m",
+      "happiness": null,
       "hp": 242,
       "item": "",
       "iv": 396,
@@ -11758,13 +12675,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 2.0
     },
     "starmie": {
       "ability": "natural-cure",
       "attack": 181,
       "defense": 221,
       "gender": "-",
+      "happiness": null,
       "hp": 256,
       "item": "",
       "iv": 121,
@@ -11783,13 +12702,15 @@
       "types": [
         "water",
         "psychic"
-      ]
+      ],
+      "weight": 80.0
     },
     "staryu": {
       "ability": "illuminate",
       "attack": 124,
       "defense": 158,
       "gender": "-",
+      "happiness": null,
       "hp": 213,
       "item": "",
       "iv": 120,
@@ -11807,13 +12728,15 @@
       "speed": 239,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 34.5
     },
     "steelix": {
       "ability": "sturdy",
       "attack": 181,
       "defense": 411,
       "gender": "f",
+      "happiness": null,
       "hp": 287,
       "item": "",
       "iv": 208,
@@ -11832,13 +12755,15 @@
       "types": [
         "steel",
         "ground"
-      ]
+      ],
+      "weight": 400.0
     },
     "stunky": {
       "ability": "stench",
       "attack": 175,
       "defense": 128,
       "gender": "m",
+      "happiness": null,
       "hp": 280,
       "item": "",
       "iv": 434,
@@ -11857,13 +12782,15 @@
       "types": [
         "poison",
         "dark"
-      ]
+      ],
+      "weight": 19.2
     },
     "sudowoodo": {
       "ability": "rock-head",
       "attack": 242,
       "defense": 272,
       "gender": "f",
+      "happiness": null,
       "hp": 287,
       "item": "",
       "iv": 185,
@@ -11881,13 +12808,15 @@
       "speed": 102,
       "types": [
         "rock"
-      ]
+      ],
+      "weight": 38.0
     },
     "suicune": {
       "ability": "pressure",
       "attack": 176,
       "defense": 256,
       "gender": "-",
+      "happiness": null,
       "hp": 331,
       "item": "",
       "iv": 245,
@@ -11905,13 +12834,15 @@
       "speed": 196,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 187.0
     },
     "suicune-shiny": {
       "ability": "pressure",
       "attack": 186,
       "defense": 287,
       "gender": "",
+      "happiness": null,
       "hp": 362,
       "item": "",
       "iv": 245,
@@ -11929,13 +12860,15 @@
       "speed": 227,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 187.0
     },
     "sunflora": {
       "ability": "chlorophyll",
       "attack": 190,
       "defense": 135,
       "gender": "f",
+      "happiness": null,
       "hp": 295,
       "item": "",
       "iv": 192,
@@ -11953,13 +12886,15 @@
       "speed": 110,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 8.5
     },
     "sunkern": {
       "ability": "chlorophyll",
       "attack": 87,
       "defense": 117,
       "gender": "m",
+      "happiness": null,
       "hp": 222,
       "item": "",
       "iv": 191,
@@ -11977,13 +12912,15 @@
       "speed": 150,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 1.8
     },
     "surskit": {
       "ability": "swift-swim",
       "attack": 94,
       "defense": 119,
       "gender": "m",
+      "happiness": null,
       "hp": 240,
       "item": "",
       "iv": 283,
@@ -12002,13 +12939,15 @@
       "types": [
         "bug",
         "water"
-      ]
+      ],
+      "weight": 1.7
     },
     "swablu": {
       "ability": "natural-cure",
       "attack": 173,
       "defense": 182,
       "gender": "m",
+      "happiness": null,
       "hp": 241,
       "item": "",
       "iv": 333,
@@ -12027,13 +12966,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 1.2
     },
     "swalot": {
       "ability": "liquid-ooze",
       "attack": 182,
       "defense": 202,
       "gender": "f",
+      "happiness": null,
       "hp": 341,
       "item": "",
       "iv": 317,
@@ -12051,13 +12992,15 @@
       "speed": 131,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 80.0
     },
     "swampert": {
       "ability": "torrent",
       "attack": 250,
       "defense": 189,
       "gender": "f",
+      "happiness": null,
       "hp": 335,
       "item": "",
       "iv": 260,
@@ -12076,13 +13019,15 @@
       "types": [
         "water",
         "ground"
-      ]
+      ],
+      "weight": 81.9
     },
     "swellow": {
       "ability": "guts",
       "attack": 210,
       "defense": 144,
       "gender": "m",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 277,
@@ -12101,13 +13046,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 19.8
     },
     "swinub": {
       "ability": "snow-cloak",
       "attack": 175,
       "defense": 116,
       "gender": "m",
+      "happiness": null,
       "hp": 241,
       "item": "",
       "iv": 220,
@@ -12126,13 +13073,15 @@
       "types": [
         "ice",
         "ground"
-      ]
+      ],
+      "weight": 6.5
     },
     "taillow": {
       "ability": "guts",
       "attack": 191,
       "defense": 94,
       "gender": "m",
+      "happiness": 90,
       "hp": 219,
       "item": "",
       "iv": 276,
@@ -12151,13 +13100,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 2.3
     },
     "tangela": {
       "ability": "chlorophyll",
       "attack": 134,
       "defense": 295,
       "gender": "f",
+      "happiness": null,
       "hp": 274,
       "item": "",
       "iv": 114,
@@ -12175,13 +13126,15 @@
       "speed": 159,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 35.0
     },
     "tangrowth": {
       "ability": "leaf-guard",
       "attack": 230,
       "defense": 280,
       "gender": "f",
+      "happiness": null,
       "hp": 335,
       "item": "",
       "iv": 465,
@@ -12199,13 +13152,15 @@
       "speed": 143,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 128.6
     },
     "tauros": {
       "ability": "anger-point",
       "attack": 234,
       "defense": 224,
       "gender": "m",
+      "happiness": null,
       "hp": 289,
       "item": "",
       "iv": 128,
@@ -12223,13 +13178,15 @@
       "speed": 279,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 88.4
     },
     "teddiursa": {
       "ability": "quick-feet",
       "attack": 229,
       "defense": 149,
       "gender": "m",
+      "happiness": null,
       "hp": 274,
       "item": "",
       "iv": 216,
@@ -12247,13 +13204,15 @@
       "speed": 116,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 8.8
     },
     "tentacool": {
       "ability": "clear-body",
       "attack": 108,
       "defense": 99,
       "gender": "m",
+      "happiness": null,
       "hp": 234,
       "item": "",
       "iv": 72,
@@ -12272,13 +13231,15 @@
       "types": [
         "water",
         "poison"
-      ]
+      ],
+      "weight": 45.5
     },
     "tentacruel": {
       "ability": "liquid-ooze",
       "attack": 172,
       "defense": 162,
       "gender": "f",
+      "happiness": null,
       "hp": 297,
       "item": "",
       "iv": 73,
@@ -12297,13 +13258,15 @@
       "types": [
         "water",
         "poison"
-      ]
+      ],
+      "weight": 55.0
     },
     "togekiss": {
       "ability": "hustle",
       "attack": 141,
       "defense": 219,
       "gender": "f",
+      "happiness": null,
       "hp": 304,
       "item": "",
       "iv": 468,
@@ -12322,13 +13285,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 38.0
     },
     "togepi": {
       "ability": "serene-grace",
       "attack": 97,
       "defense": 187,
       "gender": "m",
+      "happiness": null,
       "hp": 232,
       "item": "",
       "iv": 175,
@@ -12346,13 +13311,15 @@
       "speed": 87,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 1.5
     },
     "togetic": {
       "ability": "serene-grace",
       "attack": 122,
       "defense": 212,
       "gender": "f",
+      "happiness": null,
       "hp": 257,
       "item": "",
       "iv": 176,
@@ -12371,13 +13338,15 @@
       "types": [
         "normal",
         "flying"
-      ]
+      ],
+      "weight": 3.2
     },
     "torchic": {
       "ability": "blaze",
       "attack": 171,
       "defense": 131,
       "gender": "m",
+      "happiness": null,
       "hp": 246,
       "item": "",
       "iv": 255,
@@ -12395,13 +13364,15 @@
       "speed": 155,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 2.5
     },
     "torkoal": {
       "ability": "white-smoke",
       "attack": 206,
       "defense": 316,
       "gender": "f",
+      "happiness": null,
       "hp": 281,
       "item": "",
       "iv": 324,
@@ -12419,13 +13390,15 @@
       "speed": 68,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 80.4
     },
     "torterra": {
       "ability": "overgrow",
       "attack": 224,
       "defense": 241,
       "gender": "m",
+      "happiness": null,
       "hp": 326,
       "item": "",
       "iv": 389,
@@ -12444,13 +13417,15 @@
       "types": [
         "grass",
         "ground"
-      ]
+      ],
+      "weight": 310.0
     },
     "totodile": {
       "ability": "torrent",
       "attack": 162,
       "defense": 179,
       "gender": "m",
+      "happiness": null,
       "hp": 256,
       "item": "",
       "iv": 158,
@@ -12468,13 +13443,15 @@
       "speed": 137,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 9.5
     },
     "toxicroak": {
       "ability": "dry-skin",
       "attack": 246,
       "defense": 164,
       "gender": "f",
+      "happiness": null,
       "hp": 305,
       "item": "",
       "iv": 454,
@@ -12493,13 +13470,15 @@
       "types": [
         "poison",
         "fighting"
-      ]
+      ],
+      "weight": 44.4
     },
     "trapinch": {
       "ability": "hyper-cutter",
       "attack": 278,
       "defense": 143,
       "gender": "m",
+      "happiness": null,
       "hp": 248,
       "item": "",
       "iv": 328,
@@ -12517,13 +13496,15 @@
       "speed": 73,
       "types": [
         "ground"
-      ]
+      ],
+      "weight": 15.0
     },
     "treecko": {
       "ability": "overgrow",
       "attack": 201,
       "defense": 100,
       "gender": "m",
+      "happiness": null,
       "hp": 215,
       "item": "",
       "iv": 252,
@@ -12541,13 +13522,15 @@
       "speed": 170,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 5.0
     },
     "tropius": {
       "ability": "solar-power",
       "attack": 155,
       "defense": 203,
       "gender": "f",
+      "happiness": null,
       "hp": 340,
       "item": "",
       "iv": 357,
@@ -12566,13 +13549,15 @@
       "types": [
         "grass",
         "flying"
-      ]
+      ],
+      "weight": 100.0
     },
     "turtwig": {
       "ability": "overgrow",
       "attack": 204,
       "defense": 178,
       "gender": "m",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 387,
@@ -12590,13 +13575,15 @@
       "speed": 112,
       "types": [
         "grass"
-      ]
+      ],
+      "weight": 10.2
     },
     "typhlosion": {
       "ability": "blaze",
       "attack": 198,
       "defense": 186,
       "gender": "f",
+      "happiness": null,
       "hp": 291,
       "item": "",
       "iv": 157,
@@ -12614,13 +13601,15 @@
       "speed": 230,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 79.5
     },
     "tyranitar": {
       "ability": "sand-stream",
       "attack": 273,
       "defense": 225,
       "gender": "f",
+      "happiness": null,
       "hp": 310,
       "item": "",
       "iv": 248,
@@ -12639,13 +13628,15 @@
       "types": [
         "rock",
         "dark"
-      ]
+      ],
+      "weight": 202.0
     },
     "tyrogue": {
       "ability": "guts",
       "attack": 185,
       "defense": 106,
       "gender": "m",
+      "happiness": null,
       "hp": 211,
       "item": "",
       "iv": 236,
@@ -12663,13 +13654,15 @@
       "speed": 169,
       "types": [
         "fighting"
-      ]
+      ],
+      "weight": 21.0
     },
     "umbreon": {
       "ability": "synchronize",
       "attack": 211,
       "defense": 230,
       "gender": "m",
+      "happiness": null,
       "hp": 305,
       "item": "",
       "iv": 197,
@@ -12687,13 +13680,15 @@
       "speed": 146,
       "types": [
         "dark"
-      ]
+      ],
+      "weight": 27.0
     },
     "unown": {
       "ability": "levitate",
       "attack": 154,
       "defense": 140,
       "gender": "-",
+      "happiness": null,
       "hp": 244,
       "item": "choice-specs",
       "iv": 201,
@@ -12708,13 +13703,15 @@
       "speed": 139,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 5.0
     },
     "ursaring": {
       "ability": "guts",
       "attack": 293,
       "defense": 183,
       "gender": "f",
+      "happiness": null,
       "hp": 318,
       "item": "",
       "iv": 217,
@@ -12732,13 +13729,15 @@
       "speed": 143,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 125.8
     },
     "uxie": {
       "ability": "levitate",
       "attack": 158,
       "defense": 314,
       "gender": "-",
+      "happiness": null,
       "hp": 281,
       "item": "",
       "iv": 480,
@@ -12756,13 +13755,15 @@
       "speed": 216,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 0.3
     },
     "vaporeon": {
       "ability": "water-absorb",
       "attack": 200,
       "defense": 130,
       "gender": "f",
+      "happiness": null,
       "hp": 375,
       "item": "",
       "iv": 134,
@@ -12780,13 +13781,15 @@
       "speed": 161,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 29.0
     },
     "venomoth": {
       "ability": "tinted-lens",
       "attack": 151,
       "defense": 173,
       "gender": "m",
+      "happiness": null,
       "hp": 283,
       "item": "",
       "iv": 49,
@@ -12805,13 +13808,15 @@
       "types": [
         "bug",
         "poison"
-      ]
+      ],
+      "weight": 12.5
     },
     "venonat": {
       "ability": "tinted-lens",
       "attack": 126,
       "defense": 147,
       "gender": "f",
+      "happiness": null,
       "hp": 277,
       "item": "",
       "iv": 48,
@@ -12830,13 +13835,15 @@
       "types": [
         "bug",
         "poison"
-      ]
+      ],
+      "weight": 30.0
     },
     "venusaur": {
       "ability": "overgrow",
       "attack": 195,
       "defense": 197,
       "gender": "m",
+      "happiness": null,
       "hp": 296,
       "item": "",
       "iv": 3,
@@ -12855,13 +13862,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 100.0
     },
     "vespiquen": {
       "ability": "pressure",
       "attack": 196,
       "defense": 216,
       "gender": "f",
+      "happiness": null,
       "hp": 281,
       "item": "",
       "iv": 416,
@@ -12880,13 +13889,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 38.5
     },
     "vibrava": {
       "ability": "levitate",
       "attack": 206,
       "defense": 148,
       "gender": "f",
+      "happiness": null,
       "hp": 253,
       "item": "",
       "iv": 329,
@@ -12905,13 +13916,15 @@
       "types": [
         "ground",
         "dragon"
-      ]
+      ],
+      "weight": 15.3
     },
     "victreebel": {
       "ability": "chlorophyll",
       "attack": 269,
       "defense": 165,
       "gender": "m",
+      "happiness": null,
       "hp": 300,
       "item": "",
       "iv": 71,
@@ -12930,13 +13943,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 15.5
     },
     "vigoroth": {
       "ability": "vital-spirit",
       "attack": 199,
       "defense": 199,
       "gender": "f",
+      "happiness": null,
       "hp": 304,
       "item": "",
       "iv": 288,
@@ -12954,13 +13969,15 @@
       "speed": 219,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 46.5
     },
     "vileplume": {
       "ability": "chlorophyll",
       "attack": 195,
       "defense": 205,
       "gender": "m",
+      "happiness": 60,
       "hp": 290,
       "item": "",
       "iv": 45,
@@ -12979,13 +13996,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 18.6
     },
     "volbeat": {
       "ability": "swarm",
       "attack": 189,
       "defense": 153,
       "gender": "m",
+      "happiness": null,
       "hp": 278,
       "item": "",
       "iv": 313,
@@ -13003,13 +14022,15 @@
       "speed": 213,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 17.7
     },
     "voltorb": {
       "ability": "static",
       "attack": 109,
       "defense": 134,
       "gender": "-",
+      "happiness": null,
       "hp": 234,
       "item": "",
       "iv": 100,
@@ -13027,13 +14048,15 @@
       "speed": 273,
       "types": [
         "electric"
-      ]
+      ],
+      "weight": 10.4
     },
     "vulpix": {
       "ability": "flash-fire",
       "attack": 101,
       "defense": 132,
       "gender": "f",
+      "happiness": null,
       "hp": 233,
       "item": "",
       "iv": 37,
@@ -13051,13 +14074,15 @@
       "speed": 192,
       "types": [
         "fire"
-      ]
+      ],
+      "weight": 9.9
     },
     "wailmer": {
       "ability": "water-veil",
       "attack": 183,
       "defense": 113,
       "gender": "f",
+      "happiness": null,
       "hp": 408,
       "item": "",
       "iv": 320,
@@ -13075,13 +14100,15 @@
       "speed": 146,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 130.0
     },
     "wailord": {
       "ability": "water-veil",
       "attack": 213,
       "defense": 123,
       "gender": "f",
+      "happiness": null,
       "hp": 478,
       "item": "",
       "iv": 321,
@@ -13099,13 +14126,15 @@
       "speed": 153,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 398.0
     },
     "walrein": {
       "ability": "thick-fat",
       "attack": 190,
       "defense": 210,
       "gender": "f",
+      "happiness": null,
       "hp": 355,
       "item": "",
       "iv": 365,
@@ -13124,13 +14153,15 @@
       "types": [
         "ice",
         "water"
-      ]
+      ],
+      "weight": 150.6
     },
     "wartortle": {
       "ability": "torrent",
       "attack": 184,
       "defense": 202,
       "gender": "f",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 8,
@@ -13148,13 +14179,15 @@
       "speed": 142,
       "types": [
         "water"
-      ]
+      ],
+      "weight": 22.5
     },
     "weavile": {
       "ability": "pressure",
       "attack": 244,
       "defense": 162,
       "gender": "f",
+      "happiness": null,
       "hp": 277,
       "item": "",
       "iv": 461,
@@ -13173,13 +14206,15 @@
       "types": [
         "dark",
         "ice"
-      ]
+      ],
+      "weight": 34.0
     },
     "weedle": {
       "ability": "shield-dust",
       "attack": 185,
       "defense": 110,
       "gender": "m",
+      "happiness": null,
       "hp": 235,
       "item": "",
       "iv": 13,
@@ -13197,13 +14232,15 @@
       "types": [
         "bug",
         "poison"
-      ]
+      ],
+      "weight": 3.2
     },
     "weepinbell": {
       "ability": "chlorophyll",
       "attack": 246,
       "defense": 144,
       "gender": "m",
+      "happiness": null,
       "hp": 279,
       "item": "",
       "iv": 70,
@@ -13222,13 +14259,15 @@
       "types": [
         "grass",
         "poison"
-      ]
+      ],
+      "weight": 6.4
     },
     "weezing": {
       "ability": "levitate",
       "attack": 214,
       "defense": 274,
       "gender": "f",
+      "happiness": null,
       "hp": 269,
       "item": "",
       "iv": 110,
@@ -13246,13 +14285,15 @@
       "speed": 154,
       "types": [
         "poison"
-      ]
+      ],
+      "weight": 9.5
     },
     "whiscash": {
       "ability": "oblivious",
       "attack": 192,
       "defense": 182,
       "gender": "f",
+      "happiness": null,
       "hp": 361,
       "item": "",
       "iv": 340,
@@ -13271,13 +14312,15 @@
       "types": [
         "water",
         "ground"
-      ]
+      ],
+      "weight": 23.6
     },
     "whismur": {
       "ability": "soundproof",
       "attack": 143,
       "defense": 123,
       "gender": "m",
+      "happiness": null,
       "hp": 290,
       "item": "",
       "iv": 293,
@@ -13295,13 +14338,15 @@
       "speed": 93,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 16.3
     },
     "wigglytuff": {
       "ability": "cute-charm",
       "attack": 180,
       "defense": 130,
       "gender": "m",
+      "happiness": null,
       "hp": 425,
       "item": "",
       "iv": 40,
@@ -13319,13 +14364,15 @@
       "speed": 117,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 12.0
     },
     "wingull": {
       "ability": "keen-eye",
       "attack": 85,
       "defense": 115,
       "gender": "m",
+      "happiness": null,
       "hp": 240,
       "item": "",
       "iv": 278,
@@ -13344,13 +14391,15 @@
       "types": [
         "water",
         "flying"
-      ]
+      ],
+      "weight": 9.5
     },
     "wobbuffet": {
       "ability": "shadow-tag",
       "attack": 97,
       "defense": 158,
       "gender": "f",
+      "happiness": null,
       "hp": 527,
       "item": "",
       "iv": 202,
@@ -13368,13 +14417,15 @@
       "speed": 118,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 28.5
     },
     "wobbuffet-shiny": {
       "ability": "pure-power",
       "attack": 110,
       "defense": 173,
       "gender": "",
+      "happiness": null,
       "hp": 542,
       "item": "",
       "iv": 202,
@@ -13392,13 +14443,15 @@
       "speed": 135,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 28.5
     },
     "wooper": {
       "ability": "water-absorb",
       "attack": 189,
       "defense": 126,
       "gender": "m",
+      "happiness": null,
       "hp": 251,
       "item": "",
       "iv": 194,
@@ -13417,13 +14470,15 @@
       "types": [
         "water",
         "ground"
-      ]
+      ],
+      "weight": 8.5
     },
     "wormadam-plant": {
       "ability": "anticipation",
       "attack": 173,
       "defense": 210,
       "gender": "f",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 413,
@@ -13442,13 +14497,15 @@
       "types": [
         "bug",
         "grass"
-      ]
+      ],
+      "weight": 6.5
     },
     "wormadam-sandy": {
       "ability": "anticipation",
       "attack": 198,
       "defense": 250,
       "gender": "f",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 413,
@@ -13467,13 +14524,15 @@
       "types": [
         "bug",
         "grass"
-      ]
+      ],
+      "weight": 6.5
     },
     "wormadam-trash": {
       "ability": "anticipation",
       "attack": 178,
       "defense": 230,
       "gender": "f",
+      "happiness": null,
       "hp": 265,
       "item": "",
       "iv": 413,
@@ -13492,13 +14551,15 @@
       "types": [
         "bug",
         "grass"
-      ]
+      ],
+      "weight": 6.5
     },
     "wurmple": {
       "ability": "shield-dust",
       "attack": 161,
       "defense": 127,
       "gender": "m",
+      "happiness": null,
       "hp": 247,
       "item": "",
       "iv": 265,
@@ -13516,13 +14577,15 @@
       "speed": 97,
       "types": [
         "bug"
-      ]
+      ],
+      "weight": 3.6
     },
     "wynaut": {
       "ability": "shadow-tag",
       "attack": 102,
       "defense": 152,
       "gender": "m",
+      "happiness": null,
       "hp": 351,
       "item": "",
       "iv": 360,
@@ -13540,13 +14603,15 @@
       "speed": 102,
       "types": [
         "psychic"
-      ]
+      ],
+      "weight": 14.0
     },
     "xatu": {
       "ability": "early-bird",
       "attack": 186,
       "defense": 193,
       "gender": "f",
+      "happiness": null,
       "hp": 271,
       "item": "",
       "iv": 178,
@@ -13565,13 +14630,15 @@
       "types": [
         "psychic",
         "flying"
-      ]
+      ],
+      "weight": 15.0
     },
     "xatu-shiny": {
       "ability": "hustle",
       "attack": 186,
       "defense": 197,
       "gender": "",
+      "happiness": null,
       "hp": 292,
       "item": "leftovers",
       "iv": 178,
@@ -13590,13 +14657,15 @@
       "types": [
         "psychic",
         "flying"
-      ]
+      ],
+      "weight": 15.0
     },
     "yanma": {
       "ability": "speed-boost",
       "attack": 174,
       "defense": 147,
       "gender": "m",
+      "happiness": null,
       "hp": 279,
       "item": "",
       "iv": 193,
@@ -13615,13 +14684,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 38.0
     },
     "yanmega": {
       "ability": "tinted-lens",
       "attack": 202,
       "defense": 183,
       "gender": "f",
+      "happiness": null,
       "hp": 309,
       "item": "",
       "iv": 469,
@@ -13640,13 +14711,15 @@
       "types": [
         "bug",
         "flying"
-      ]
+      ],
+      "weight": 51.5
     },
     "zangoose": {
       "ability": "immunity",
       "attack": 267,
       "defense": 157,
       "gender": "f",
+      "happiness": null,
       "hp": 288,
       "item": "",
       "iv": 335,
@@ -13664,13 +14737,15 @@
       "speed": 217,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 40.3
     },
     "zapdos": {
       "ability": "pressure",
       "attack": 226,
       "defense": 196,
       "gender": "-",
+      "happiness": null,
       "hp": 311,
       "item": "",
       "iv": 145,
@@ -13689,13 +14764,15 @@
       "types": [
         "electric",
         "flying"
-      ]
+      ],
+      "weight": 52.6
     },
     "zigzagoon": {
       "ability": "gluttony",
       "attack": 174,
       "defense": 134,
       "gender": "m",
+      "happiness": null,
       "hp": 233,
       "item": "",
       "iv": 263,
@@ -13713,13 +14790,15 @@
       "speed": 172,
       "types": [
         "normal"
-      ]
+      ],
+      "weight": 17.5
     },
     "zubat": {
       "ability": "inner-focus",
       "attack": 207,
       "defense": 106,
       "gender": "m",
+      "happiness": null,
       "hp": 221,
       "item": "",
       "iv": 41,
@@ -13738,7 +14817,8 @@
       "types": [
         "poison",
         "flying"
-      ]
+      ],
+      "weight": 7.5
     }
   }
 }

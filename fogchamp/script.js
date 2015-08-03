@@ -93,6 +93,9 @@ Std.__name__ = true;
 Std.string = function(s) {
 	return js_Boot.__string_rec(s,"");
 };
+Std["int"] = function(x) {
+	return x | 0;
+};
 Std.parseInt = function(x) {
 	var v = parseInt(x,10);
 	if(v == 0 && (HxOverrides.cca(x,1) == 120 || HxOverrides.cca(x,1) == 88)) v = parseInt(x);
@@ -354,6 +357,21 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 });
 var visualizer_Formula = function() { };
 visualizer_Formula.__name__ = true;
+visualizer_Formula.computeBasePower = function(userPokemonStat,foePokemonStat,userMoveStat) {
+	var _g = userMoveStat.slug;
+	switch(_g) {
+	case "low-kick":case "grass-knot":
+		if(foePokemonStat.weight != null) return visualizer_Formula.weightToPower(foePokemonStat.weight);
+		break;
+	case "return":
+		if(userPokemonStat.happiness != null) return Std["int"](Math.max(1,userPokemonStat.happiness / 2.5));
+		break;
+	case "frustration":
+		if(userPokemonStat.happiness != null) return Std["int"](Math.max(1,(255 - userPokemonStat.happiness) / 2.5));
+		break;
+	}
+	return userMoveStat.power;
+};
 visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,stab,damageFactor) {
 	var modifier = damageFactor / 100;
 	if(stab) modifier *= 1.5;
@@ -371,6 +389,9 @@ visualizer_Formula.modifyHits = function(damageResult,minHits,maxHits) {
 };
 visualizer_Formula.resultsToPercentages = function(damageResult,foeHP) {
 	return { minHP : damageResult.minHP, maxHP : damageResult.maxHP, critHP : damageResult.critHP, minHPPercent : damageResult.minHP / foeHP * 100 | 0, maxHPPercent : damageResult.maxHP / foeHP * 100 | 0, critHPPercent : damageResult.critHP / foeHP * 100 | 0};
+};
+visualizer_Formula.weightToPower = function(weight) {
+	if(weight < 10) return 20; else if(weight < 25) return 40; else if(weight < 50) return 60; else if(weight < 100) return 80; else if(weight < 200) return 100; else return 120;
 };
 var visualizer_Main = function() {
 	this.userMessage = new visualizer_UserMessage();
@@ -615,7 +636,7 @@ visualizer_MatchupChart.prototype = {
 	}
 	,processCellEfficacy: function(cell,userMoveStat,userPokemonStat,foePokemonStat,position) {
 		cell.classList.add("matchupChartEfficacyCell-" + position);
-		if(userMoveStat.accuracy == "--" && userMoveStat.power == "--") return;
+		if(userMoveStat.accuracy == null && userMoveStat.power == null) return;
 		var container;
 		var _this = window.document;
 		container = _this.createElement("div");
@@ -651,7 +672,8 @@ visualizer_MatchupChart.prototype = {
 		default:
 			factorString = "Err";
 		}
-		if(userMoveStat.power == "--") {
+		var userBasePower = visualizer_Formula.computeBasePower(userPokemonStat,foePokemonStat,userMoveStat);
+		if(userBasePower == null) {
 			if(userMoveStat.damage_category == "status") {
 				if(factor == 0) span.textContent = "✕"; else span.textContent = "○";
 			} else span.textContent = "×" + factorString;
@@ -659,7 +681,6 @@ visualizer_MatchupChart.prototype = {
 		} else {
 			var userAttack;
 			var foeDefense;
-			var userBasePower = userMoveStat.power;
 			if(userMoveStat.damage_category == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
 			if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
 			var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
@@ -687,7 +708,9 @@ visualizer_MovesDataset.prototype = $extend(visualizer_Dataset.prototype,{
 		visualizer_Dataset.prototype.loadDone.call(this,data);
 	}
 	,getMoveStats: function(slug) {
-		return Reflect.field(this.moves,slug);
+		var moveStat = Reflect.field(this.moves,slug);
+		moveStat.slug = slug;
+		return moveStat;
 	}
 	,__class__: visualizer_MovesDataset
 });
@@ -729,7 +752,9 @@ visualizer_PokemonDataset.prototype = $extend(visualizer_Dataset.prototype,{
 		return this.datasets[this.datasetIndex].stats;
 	}
 	,getPokemonStats: function(slug) {
-		return Reflect.field(this.get_stats(),slug);
+		var pokemonStat = Reflect.field(this.get_stats(),slug);
+		pokemonStat.slug = slug;
+		return pokemonStat;
 	}
 	,getSlug: function(pokemonNum) {
 		var _g = 0;
@@ -962,6 +987,8 @@ visualizer_UI.prototype = {
 				moveRenderDoc.move_name = moveStats.name;
 				var damageCategory = moveStats.damage_category;
 				Reflect.setField(moveRenderDoc,"damage_category_short",HxOverrides.substr(damageCategory,0,2));
+				if(moveRenderDoc.power == null) moveRenderDoc.power = "--";
+				if(moveRenderDoc.accuracy == null) moveRenderDoc.accuracy = "--";
 				moves.push(moveRenderDoc);
 			}
 			movesList.push({ name : name, moves : moves});
