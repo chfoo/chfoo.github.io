@@ -575,7 +575,7 @@ visualizer_MatchupChart.prototype = {
 				cell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
 				cell.rowSpan = topMoveIndex + 1;
 				if(topMoveIndex < topPokemonMoveSlugs.length) {
-					var moveStat = this.movesDataset.getMoveStats(topPokemonMoveSlugs[topMoveIndex]);
+					var moveStat = this.movesDataset.getMoveStats(topPokemonMoveSlugs[topMoveIndex],topPokemonStat);
 					this.processCellEfficacy(cell,moveStat,topPokemonStat,leftPokemonStat,"top");
 				}
 			}
@@ -585,7 +585,7 @@ visualizer_MatchupChart.prototype = {
 			cell1.colSpan = leftMoveIndex + 1;
 			var leftPokemonMoveSlugs = leftPokemonStat.moves;
 			if(leftMoveIndex < leftPokemonMoveSlugs.length) {
-				var moveStat1 = this.movesDataset.getMoveStats(leftPokemonMoveSlugs[leftMoveIndex]);
+				var moveStat1 = this.movesDataset.getMoveStats(leftPokemonMoveSlugs[leftMoveIndex],leftPokemonStat);
 				this.processCellEfficacy(cell1,moveStat1,leftPokemonStat,topPokemonStat,"left");
 			}
 			if(leftMoveIndex == 3) this.renderDividerCell(rowElement,"last"); else this.renderDividerCell(rowElement);
@@ -603,7 +603,7 @@ visualizer_MatchupChart.prototype = {
 		var moveSlugs = pokemonStat.moves;
 		if(moveIndex < moveSlugs.length) {
 			var moveSlug = moveSlugs[moveIndex];
-			var moveStats = this.movesDataset.getMoveStats(moveSlug);
+			var moveStats = this.movesDataset.getMoveStats(moveSlug,pokemonStat);
 			this.processMoveLabelCell(moveStats,labelCell,position);
 		}
 	}
@@ -732,9 +732,10 @@ visualizer_MovesDataset.prototype = $extend(visualizer_Dataset.prototype,{
 		this.moves = data;
 		visualizer_Dataset.prototype.loadDone.call(this,data);
 	}
-	,getMoveStats: function(slug) {
+	,getMoveStats: function(slug,pokemonStat) {
 		var moveStat = Reflect.field(this.moves,slug);
 		moveStat.slug = slug;
+		if(pokemonStat != null && slug == "hidden-power" && Object.prototype.hasOwnProperty.call(pokemonStat,"move_type_override")) moveStat.move_type = pokemonStat.move_type_override;
 		return moveStat;
 	}
 	,__class__: visualizer_MovesDataset
@@ -999,14 +1000,15 @@ visualizer_UI.prototype = {
 			var slotNum = _g1[_g];
 			++_g;
 			var slug = this.getSlotSlug(slotNum);
-			var name = this.pokemonDataset.getPokemonStats(slug).name;
-			var moveSlugs = this.pokemonDataset.getPokemonStats(slug).moves;
+			var pokemonStat = this.pokemonDataset.getPokemonStats(slug);
+			var name = pokemonStat.name;
+			var moveSlugs = pokemonStat.moves;
 			var moves = [];
 			var _g2 = 0;
 			while(_g2 < moveSlugs.length) {
 				var moveSlug = moveSlugs[_g2];
 				++_g2;
-				var moveStats = this.movesDataset.getMoveStats(moveSlug);
+				var moveStats = this.movesDataset.getMoveStats(moveSlug,pokemonStat);
 				var moveRenderDoc = Reflect.copy(moveStats);
 				moveRenderDoc.move_slug = moveSlug;
 				moveRenderDoc.move_name = moveStats.name;

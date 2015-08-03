@@ -13692,6 +13692,7 @@
       "hp": 244,
       "item": "choice-specs",
       "iv": 201,
+      "move_type_override": "psychic",
       "moves": [
         "hidden-power"
       ],
