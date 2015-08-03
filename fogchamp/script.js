@@ -381,6 +381,9 @@ visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,
 	var critDamage = damage * visualizer_Formula.CRIT_MODIFIER;
 	return { minHP : minDamage, maxHP : damage, critHP : critDamage};
 };
+visualizer_Formula.computedFixedDamage = function() {
+	return { minHP : visualizer_Formula.LEVEL, maxHP : visualizer_Formula.LEVEL, critHP : visualizer_Formula.LEVEL};
+};
 visualizer_Formula.modifyHits = function(damageResult,minHits,maxHits) {
 	var minDamage = damageResult.minHP * minHits;
 	var maxDamage = damageResult.maxHP * maxHits;
@@ -673,7 +676,14 @@ visualizer_MatchupChart.prototype = {
 			factorString = "Err";
 		}
 		var userBasePower = visualizer_Formula.computeBasePower(userPokemonStat,foePokemonStat,userMoveStat);
-		if(userBasePower == null) {
+		var isFixedDamageMove;
+		isFixedDamageMove = (function($this) {
+			var $r;
+			var x = userMoveStat.slug;
+			$r = HxOverrides.indexOf(visualizer_Formula.FIXED_DAMAGE_MOVE,x,0);
+			return $r;
+		}(this)) != -1;
+		if(userBasePower == null && !isFixedDamageMove) {
 			if(userMoveStat.damage_category == "status") {
 				if(factor == 0) span.textContent = "✕"; else span.textContent = "○";
 			} else span.textContent = "×" + factorString;
@@ -684,7 +694,8 @@ visualizer_MatchupChart.prototype = {
 			if(userMoveStat.damage_category == "physical") userAttack = userPokemonStat.attack; else userAttack = userPokemonStat.special_attack;
 			if(userMoveStat.damage_category == "physical") foeDefense = foePokemonStat.defense; else foeDefense = foePokemonStat.special_defense;
 			var stab = HxOverrides.indexOf(userTypes,userMoveType,0) != -1;
-			var damageResult = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
+			var damageResult;
+			if(isFixedDamageMove) damageResult = visualizer_Formula.computedFixedDamage(); else damageResult = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
 			if(userMoveStat.max_hits != null) damageResult = visualizer_Formula.modifyHits(damageResult,userMoveStat.min_hits,userMoveStat.max_hits);
 			var damageResultPercent = visualizer_Formula.resultsToPercentages(damageResult,foePokemonStat.hp);
 			span.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <span class=matchupChartSubEfficacy\n                data-help-slug=\"damage:\n                " + Std.string(userPokemonStat.name) + " " + Std.string(userMoveStat.name) + ":\n                " + damageResultPercent.minHPPercent + ":" + damageResultPercent.maxHPPercent + ":" + damageResultPercent.critHPPercent + "\"\n                >" + damageResultPercent.maxHPPercent + "<span class=dimLabel>%</span>\n                </span>";
@@ -1092,6 +1103,7 @@ js_Boot.__toStr = {}.toString;
 visualizer_Formula.LEVEL = 100;
 visualizer_Formula.RANDOM_MIN_MODIFIER = 0.85;
 visualizer_Formula.CRIT_MODIFIER = 2.0;
+visualizer_Formula.FIXED_DAMAGE_MOVE = ["seismic-toss","night-shade"];
 visualizer_Main.LOAD_FAIL_MSG = "Loading dataset failed. Reload the page.";
 visualizer_MatchupChart.NUM_POKEMON_PER_TEAM = 3;
 visualizer_MatchupChart.NUM_MOVES_PER_POKEMON = 4;
