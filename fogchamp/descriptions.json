@@ -1031,7 +1031,7 @@
       "poison": 100,
       "psychic": 200,
       "rock": 100,
-      "steel": 100,
+      "steel": 50,
       "water": 100
     },
     "dragon": {
@@ -1171,7 +1171,7 @@
       "poison": 100,
       "psychic": 200,
       "rock": 100,
-      "steel": 100,
+      "steel": 50,
       "water": 100
     },
     "grass": {
