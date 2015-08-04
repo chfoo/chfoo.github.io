@@ -946,6 +946,7 @@ visualizer_UI.prototype = {
 			this.renderChart();
 			this.attachHelpListeners();
 			if(updateUrlFragment) this.writeUrlFragment();
+			this.renderExtraUrls();
 			this.userMessage.hide();
 		} catch( error ) {
 			if (error instanceof js__$Boot_HaxeError) error = error.val;
@@ -960,6 +961,12 @@ visualizer_UI.prototype = {
 		js.JQuery("#selectionSelect" + slotNum).val(slug);
 	}
 	,renderMatchCommand: function() {
+		var numbers = this.getMatchNumbers();
+		var element;
+		element = js_Boot.__cast(window.document.getElementById("matchCommand") , HTMLDivElement);
+		element.textContent = "!match " + numbers[0] + "," + numbers[1] + "," + numbers[2] + "/" + numbers[3] + "," + numbers[4] + "," + numbers[5];
+	}
+	,getMatchNumbers: function() {
 		var numbers = [];
 		var _g = 0;
 		while(_g < 6) {
@@ -968,9 +975,7 @@ visualizer_UI.prototype = {
 			var pokemonNum = this.pokemonDataset.getPokemonStats(slug).number;
 			numbers.push(pokemonNum);
 		}
-		var element;
-		element = js_Boot.__cast(window.document.getElementById("matchCommand") , HTMLDivElement);
-		element.textContent = "!match " + numbers[0] + "," + numbers[1] + "," + numbers[2] + "/" + numbers[3] + "," + numbers[4] + "," + numbers[5];
+		return numbers;
 	}
 	,renderPokemonStats: function() {
 		var template = js.JQuery("#pokemonStatsTemplate").html();
@@ -1087,6 +1092,10 @@ visualizer_UI.prototype = {
 			_g.formulaOptions.typeImmunities = checked;
 			_g.renderAll(false);
 		});
+	}
+	,renderExtraUrls: function() {
+		var numbers = this.getMatchNumbers();
+		js.JQuery("#extraUrls").html("\n            <a href=\"http://www.tppvisuals.com/pbr/visualizer.htm#" + numbers[0] + "-" + numbers[1] + "-" + numbers[2] + "-" + numbers[3] + "-" + numbers[4] + "-" + numbers[5] + "\">\n            View Dhason visualizer\n            </a>\n        ");
 	}
 	,__class__: visualizer_UI
 };
