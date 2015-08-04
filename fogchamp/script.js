@@ -355,9 +355,16 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 	}
 	,__class__: visualizer_DescriptionsDataset
 });
+var visualizer_FormulaOptions = function() {
+	this.typeImmunities = true;
+};
+visualizer_FormulaOptions.__name__ = true;
+visualizer_FormulaOptions.prototype = {
+	__class__: visualizer_FormulaOptions
+};
 var visualizer_Formula = function() { };
 visualizer_Formula.__name__ = true;
-visualizer_Formula.computeResult = function(userPokemonStat,foePokemonStat,userMoveStat,descriptionsDataset) {
+visualizer_Formula.computeResult = function(userPokemonStat,foePokemonStat,userMoveStat,descriptionsDataset,formulaOptions) {
 	var userMoveType = userMoveStat.move_type;
 	var userTypes = userPokemonStat.types;
 	var foeTypes = foePokemonStat.types;
@@ -377,6 +384,7 @@ visualizer_Formula.computeResult = function(userPokemonStat,foePokemonStat,userM
 		$r = HxOverrides.indexOf(visualizer_Formula.FIXED_DAMAGE_MOVE,x1,0);
 		return $r;
 	}(this)) != -1;
+	if(!formulaOptions.typeImmunities && factor == 0) factor = 100;
 	if(userBasePower == null && !isFixedDamageMove && !isVariableBasePower) return { factor : factor, minHP : null, maxHP : null, critHP : null};
 	var userAttack;
 	var foeDefense;
@@ -486,10 +494,11 @@ visualizer_Orientation.Vertical = ["Vertical",0];
 visualizer_Orientation.Vertical.__enum__ = visualizer_Orientation;
 visualizer_Orientation.Horizontal = ["Horizontal",1];
 visualizer_Orientation.Horizontal.__enum__ = visualizer_Orientation;
-var visualizer_MatchupChart = function(pokemonDataset,movesDataset,descriptionsDataset) {
+var visualizer_MatchupChart = function(pokemonDataset,movesDataset,descriptionsDataset,formulaOptions) {
 	this.pokemonDataset = pokemonDataset;
 	this.movesDataset = movesDataset;
 	this.descriptionsDataset = descriptionsDataset;
+	this.formulaOptions = formulaOptions;
 };
 visualizer_MatchupChart.__name__ = true;
 visualizer_MatchupChart.prototype = {
@@ -680,7 +689,7 @@ visualizer_MatchupChart.prototype = {
 		var _this1 = window.document;
 		span = _this1.createElement("span");
 		span.classList.add("matchupChartEfficacyRotate-" + position);
-		var damageResult = visualizer_Formula.computeResult(userPokemonStat,foePokemonStat,userMoveStat,this.descriptionsDataset);
+		var damageResult = visualizer_Formula.computeResult(userPokemonStat,foePokemonStat,userMoveStat,this.descriptionsDataset,this.formulaOptions);
 		var factor = damageResult.factor;
 		var factorString;
 		switch(factor) {
@@ -796,11 +805,12 @@ visualizer_PokemonDataset.prototype = $extend(visualizer_Dataset.prototype,{
 	,__class__: visualizer_PokemonDataset
 });
 var visualizer_UI = function(pokemonDataset,movesDataset,descriptionsDataset) {
-	this.isSettingUrlHash = false;
+	this.previousUrlHash = null;
 	this.pokemonDataset = pokemonDataset;
 	this.movesDataset = movesDataset;
 	this.descriptionsDataset = descriptionsDataset;
 	this.userMessage = new visualizer_UserMessage();
+	this.formulaOptions = new visualizer_FormulaOptions();
 };
 visualizer_UI.__name__ = true;
 visualizer_UI.renderTemplate = function(template,data) {
@@ -813,6 +823,7 @@ visualizer_UI.prototype = {
 		this.renderEditionSelect();
 		this.attachUrlFragmentChangeListener();
 		this.setSelectionByNumbers(visualizer_UI.DEFAULT_POKEMON);
+		this.attachOptionsListeners();
 		this.readUrlFragment();
 		this.renderAll();
 	}
@@ -885,11 +896,8 @@ visualizer_UI.prototype = {
 		window.onhashchange = $bind(this,this.readUrlFragment);
 	}
 	,readUrlFragment: function() {
-		if(this.isSettingUrlHash) {
-			this.isSettingUrlHash = false;
-			return;
-		}
 		var fragment = window.location.hash;
+		if(fragment == this.previousUrlHash) return;
 		var pattern = new EReg("([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]+([0-9]+)","");
 		if(pattern.match(fragment)) {
 			var pokemonNums;
@@ -915,7 +923,7 @@ visualizer_UI.prototype = {
 			var pokemonNum = this.pokemonDataset.getPokemonStats(slug).number;
 			if(i == 5) fragment += "" + pokemonNum; else fragment += "" + pokemonNum + "-";
 		}
-		this.isSettingUrlHash = true;
+		this.previousUrlHash = "#" + fragment;
 		window.location.hash = fragment;
 	}
 	,setSelectionByNumbers: function(pokemonNums) {
@@ -1067,10 +1075,18 @@ visualizer_UI.prototype = {
 		jquery.dialog("option","title",title);
 	}
 	,renderChart: function() {
-		var matchupChart = new visualizer_MatchupChart(this.pokemonDataset,this.movesDataset,this.descriptionsDataset);
+		var matchupChart = new visualizer_MatchupChart(this.pokemonDataset,this.movesDataset,this.descriptionsDataset,this.formulaOptions);
 		matchupChart.setPokemon(this.buildStats());
 		var tableElement = matchupChart.renderTable();
 		js.JQuery("#pokemonDiamond").empty().append(tableElement);
+	}
+	,attachOptionsListeners: function() {
+		var _g = this;
+		js.JQuery("#formulaOptions-typeImmunities").change(function(event) {
+			var checked = js.JQuery("#formulaOptions-typeImmunities").prop("checked");
+			_g.formulaOptions.typeImmunities = checked;
+			_g.renderAll(false);
+		});
 	}
 	,__class__: visualizer_UI
 };
