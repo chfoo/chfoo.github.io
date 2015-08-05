@@ -426,7 +426,7 @@
     "shieldon",
     "bastiodon",
     "burmy-plant",
-    "burmy-sand",
+    "burmy-sandy",
     "burmy-trash",
     "wormadam-plant",
     "wormadam-sandy",
@@ -2177,7 +2177,7 @@
       ],
       "weight": 3.4
     },
-    "burmy-sand": {
+    "burmy-sandy": {
       "ability": "shed-skin",
       "attack": 126,
       "defense": 147,
