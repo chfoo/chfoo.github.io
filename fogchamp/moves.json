@@ -117,7 +117,7 @@
     "min_hits": null,
     "move_type": "flying",
     "name": "Air Cutter",
-    "power": 60,
+    "power": 55,
     "pp": 25
   },
   "air-slash": {
@@ -249,7 +249,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Assurance",
-    "power": 60,
+    "power": 50,
     "pp": 10
   },
   "astonish": {
@@ -293,7 +293,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Aura Sphere",
-    "power": 80,
+    "power": 90,
     "pp": 20
   },
   "aurora-beam": {
@@ -381,7 +381,7 @@
     "min_hits": 6,
     "move_type": "dark",
     "name": "Beat Up",
-    "power": null,
+    "power": 10,
     "pp": 10
   },
   "belch": {
@@ -429,7 +429,7 @@
     "pp": 10
   },
   "bind": {
-    "accuracy": 85,
+    "accuracy": 75,
     "damage_category": "physical",
     "description": "Things such as long bodies or tentacles\nare used to bind and squeeze\nthe target for four to five turns.",
     "max_hits": null,
@@ -480,7 +480,7 @@
     "min_hits": null,
     "move_type": "ice",
     "name": "Blizzard",
-    "power": 110,
+    "power": 120,
     "pp": 5
   },
   "block": {
@@ -539,7 +539,7 @@
     "pp": 20
   },
   "bone-rush": {
-    "accuracy": 90,
+    "accuracy": 80,
     "damage_category": "physical",
     "description": "The user strikes the target with a hard\nbone two to five times in a row.",
     "max_hits": 5,
@@ -623,7 +623,7 @@
     "min_hits": null,
     "move_type": "water",
     "name": "Bubble",
-    "power": 40,
+    "power": 20,
     "pp": 30
   },
   "bubble-beam": {
@@ -700,7 +700,7 @@
     "min_hits": 2,
     "move_type": "grass",
     "name": "Bullet Seed",
-    "power": 25,
+    "power": 10,
     "pp": 30
   },
   "calm-mind": {
@@ -788,7 +788,7 @@
     "min_hits": null,
     "move_type": "flying",
     "name": "Chatter",
-    "power": 65,
+    "power": 60,
     "pp": 20
   },
   "chip-away": {
@@ -814,7 +814,7 @@
     "pp": 10
   },
   "clamp": {
-    "accuracy": 85,
+    "accuracy": 75,
     "damage_category": "physical",
     "description": "The target is clamped and squeezed by\nthe user\u2019s very thick and sturdy shell for\nfour to five turns.",
     "max_hits": null,
@@ -968,7 +968,7 @@
     "pp": 10
   },
   "cotton-spore": {
-    "accuracy": 100,
+    "accuracy": 85,
     "damage_category": "status",
     "description": "The user releases cotton-like spores\nthat cling to the opposing Pok\u00e9mon,\nwhich harshly lowers their Speed stats.",
     "max_hits": null,
@@ -997,18 +997,18 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Covet",
-    "power": 60,
+    "power": 40,
     "pp": 25
   },
   "crabhammer": {
-    "accuracy": 90,
+    "accuracy": 85,
     "damage_category": "physical",
     "description": "The target is hammered with a large pincer.\nCritical hits land more easily.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "water",
     "name": "Crabhammer",
-    "power": 100,
+    "power": 90,
     "pp": 10
   },
   "crafty-shield": {
@@ -1210,7 +1210,7 @@
     "pp": 10
   },
   "disable": {
-    "accuracy": 100,
+    "accuracy": 80,
     "damage_category": "status",
     "description": "For four turns, this move prevents the\ntarget from using the move it last used.",
     "max_hits": null,
@@ -1265,14 +1265,14 @@
     "pp": 10
   },
   "doom-desire": {
-    "accuracy": 100,
+    "accuracy": 85,
     "damage_category": "special",
     "description": "Two turns after this move is used, the\nuser blasts the target with a\nconcentrated bundle of light.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "steel",
     "name": "Doom Desire",
-    "power": 140,
+    "power": 120,
     "pp": 5
   },
   "double-edge": {
@@ -1338,7 +1338,7 @@
     "min_hits": null,
     "move_type": "dragon",
     "name": "Draco Meteor",
-    "power": 130,
+    "power": 140,
     "pp": 5
   },
   "dragon-breath": {
@@ -1382,7 +1382,7 @@
     "min_hits": null,
     "move_type": "dragon",
     "name": "Dragon Pulse",
-    "power": 85,
+    "power": 90,
     "pp": 10
   },
   "dragon-rage": {
@@ -1426,7 +1426,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Drain Punch",
-    "power": 75,
+    "power": 60,
     "pp": 10
   },
   "draining-kiss": {
@@ -1657,7 +1657,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Energy Ball",
-    "power": 90,
+    "power": 80,
     "pp": 10
   },
   "entrainment": {
@@ -1800,7 +1800,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Feint",
-    "power": 30,
+    "power": 50,
     "pp": 10
   },
   "feint-attack": {
@@ -1855,7 +1855,7 @@
     "min_hits": null,
     "move_type": "fire",
     "name": "Fire Blast",
-    "power": 110,
+    "power": 120,
     "pp": 5
   },
   "fire-fang": {
@@ -1877,7 +1877,7 @@
     "min_hits": null,
     "move_type": "fire",
     "name": "Fire Pledge",
-    "power": 80,
+    "power": 50,
     "pp": 10
   },
   "fire-punch": {
@@ -1892,14 +1892,14 @@
     "pp": 15
   },
   "fire-spin": {
-    "accuracy": 85,
+    "accuracy": 70,
     "damage_category": "special",
     "description": "The target becomes trapped within a\nfierce vortex of fire that rages for four\nto five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "fire",
     "name": "Fire Spin",
-    "power": 35,
+    "power": 15,
     "pp": 15
   },
   "fissure": {
@@ -1965,7 +1965,7 @@
     "min_hits": null,
     "move_type": "fire",
     "name": "Flamethrower",
-    "power": 90,
+    "power": 95,
     "pp": 15
   },
   "flare-blitz": {
@@ -2185,7 +2185,7 @@
     "min_hits": null,
     "move_type": "ice",
     "name": "Frost Breath",
-    "power": 60,
+    "power": 40,
     "pp": 10
   },
   "frustration": {
@@ -2218,7 +2218,7 @@
     "min_hits": null,
     "move_type": "bug",
     "name": "Fury Cutter",
-    "power": 40,
+    "power": 10,
     "pp": 20
   },
   "fury-swipes": {
@@ -2255,14 +2255,14 @@
     "pp": 5
   },
   "future-sight": {
-    "accuracy": 100,
+    "accuracy": 90,
     "damage_category": "special",
     "description": "Two turns after this move is used,\na hunk of psychic energy\nattacks the target.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
     "name": "Future Sight",
-    "power": 120,
+    "power": 80,
     "pp": 10
   },
   "gastro-acid": {
@@ -2306,7 +2306,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Giga Drain",
-    "power": 75,
+    "power": 60,
     "pp": 10
   },
   "giga-impact": {
@@ -2332,7 +2332,7 @@
     "pp": 10
   },
   "glare": {
-    "accuracy": 100,
+    "accuracy": 75,
     "damage_category": "status",
     "description": "The user intimidates the target with the\npattern on its belly to cause paralysis.",
     "max_hits": null,
@@ -2361,7 +2361,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Grass Pledge",
-    "power": 80,
+    "power": 50,
     "pp": 10
   },
   "grass-whistle": {
@@ -2464,7 +2464,7 @@
     "pp": 5
   },
   "gunk-shot": {
-    "accuracy": 80,
+    "accuracy": 70,
     "damage_category": "physical",
     "description": "The user shoots filthy garbage\nat the target to attack.\nThis may also poison the target.",
     "max_hits": null,
@@ -2680,7 +2680,7 @@
     "min_hits": null,
     "move_type": "fire",
     "name": "Heat Wave",
-    "power": 95,
+    "power": 100,
     "pp": 10
   },
   "heavy-slam": {
@@ -2713,7 +2713,7 @@
     "min_hits": null,
     "move_type": "ghost",
     "name": "Hex",
-    "power": 65,
+    "power": 50,
     "pp": 10
   },
   "hidden-power": {
@@ -2735,7 +2735,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "High Jump Kick",
-    "power": 130,
+    "power": 100,
     "pp": 10
   },
   "hold-back": {
@@ -2823,7 +2823,7 @@
     "min_hits": null,
     "move_type": "flying",
     "name": "Hurricane",
-    "power": 110,
+    "power": 120,
     "pp": 10
   },
   "hydro-cannon": {
@@ -2845,7 +2845,7 @@
     "min_hits": null,
     "move_type": "water",
     "name": "Hydro Pump",
-    "power": 110,
+    "power": 120,
     "pp": 5
   },
   "hyper-beam": {
@@ -2922,7 +2922,7 @@
     "min_hits": null,
     "move_type": "ice",
     "name": "Ice Beam",
-    "power": 90,
+    "power": 95,
     "pp": 10
   },
   "ice-burn": {
@@ -2988,7 +2988,7 @@
     "min_hits": 2,
     "move_type": "ice",
     "name": "Icicle Spear",
-    "power": 25,
+    "power": 10,
     "pp": 30
   },
   "icy-wind": {
@@ -3021,7 +3021,7 @@
     "min_hits": null,
     "move_type": "fire",
     "name": "Incinerate",
-    "power": 60,
+    "power": 30,
     "pp": 15
   },
   "inferno": {
@@ -3120,7 +3120,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Jump Kick",
-    "power": 100,
+    "power": 85,
     "pp": 10
   },
   "karate-chop": {
@@ -3164,7 +3164,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Knock Off",
-    "power": 65,
+    "power": 20,
     "pp": 20
   },
   "lands-wrath": {
@@ -3186,7 +3186,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Last Resort",
-    "power": 140,
+    "power": 130,
     "pp": 5
   },
   "lava-plume": {
@@ -3219,7 +3219,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Leaf Storm",
-    "power": 130,
+    "power": 140,
     "pp": 5
   },
   "leaf-tornado": {
@@ -3274,7 +3274,7 @@
     "min_hits": null,
     "move_type": "ghost",
     "name": "Lick",
-    "power": 30,
+    "power": 20,
     "pp": 30
   },
   "light-of-ruin": {
@@ -3340,7 +3340,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Low Sweep",
-    "power": 65,
+    "power": 60,
     "pp": 20
   },
   "lucky-chant": {
@@ -3421,14 +3421,14 @@
     "pp": 20
   },
   "magma-storm": {
-    "accuracy": 75,
+    "accuracy": 70,
     "damage_category": "special",
     "description": "The target becomes trapped\nwithin a maelstrom of fire that rages\nfor four to five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "fire",
     "name": "Magma Storm",
-    "power": 100,
+    "power": 120,
     "pp": 5
   },
   "magnet-bomb": {
@@ -3608,14 +3608,14 @@
     "pp": 40
   },
   "meteor-mash": {
-    "accuracy": 90,
+    "accuracy": 85,
     "damage_category": "physical",
     "description": "The target is hit with a hard punch fired\nlike a meteor. This may also raise\nthe user\u2019s Attack stat.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "steel",
     "name": "Meteor Mash",
-    "power": 90,
+    "power": 100,
     "pp": 10
   },
   "metronome": {
@@ -3835,7 +3835,7 @@
     "min_hits": null,
     "move_type": "water",
     "name": "Muddy Water",
-    "power": 90,
+    "power": 95,
     "pp": 10
   },
   "mystical-fire": {
@@ -4022,7 +4022,7 @@
     "min_hits": null,
     "move_type": "fire",
     "name": "Overheat",
-    "power": 130,
+    "power": 140,
     "pp": 5
   },
   "pain-split": {
@@ -4121,7 +4121,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Petal Dance",
-    "power": 120,
+    "power": 90,
     "pp": 10
   },
   "phantom-force": {
@@ -4136,14 +4136,14 @@
     "pp": 10
   },
   "pin-missile": {
-    "accuracy": 95,
+    "accuracy": 85,
     "damage_category": "physical",
     "description": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
     "max_hits": 5,
     "min_hits": 2,
     "move_type": "bug",
     "name": "Pin Missile",
-    "power": 25,
+    "power": 14,
     "pp": 20
   },
   "play-nice": {
@@ -4191,7 +4191,7 @@
     "pp": 15
   },
   "poison-gas": {
-    "accuracy": 90,
+    "accuracy": 55,
     "damage_category": "status",
     "description": "A cloud of poison gas is sprayed\nin the face of opposing Pok\u00e9mon.\nThis may also poison those hit.",
     "max_hits": null,
@@ -4286,7 +4286,7 @@
     "min_hits": null,
     "move_type": "rock",
     "name": "Power Gem",
-    "power": 80,
+    "power": 70,
     "pp": 20
   },
   "power-split": {
@@ -4422,7 +4422,7 @@
     "pp": 20
   },
   "psycho-shift": {
-    "accuracy": 100,
+    "accuracy": 90,
     "damage_category": "status",
     "description": "Using its psychic power of suggestion,\nthe user transfers its status conditions\nto the target.",
     "max_hits": null,
@@ -4455,7 +4455,7 @@
     "pp": 10
   },
   "psywave": {
-    "accuracy": 100,
+    "accuracy": 80,
     "damage_category": "special",
     "description": "The target is attacked with an odd\npsychic wave.\nThe attack varies in intensity.",
     "max_hits": null,
@@ -4730,7 +4730,7 @@
     "pp": 15
   },
   "roar": {
-    "accuracy": null,
+    "accuracy": 100,
     "damage_category": "status",
     "description": "The target is scared off, and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
     "max_hits": null,
@@ -4752,7 +4752,7 @@
     "pp": 5
   },
   "rock-blast": {
-    "accuracy": 90,
+    "accuracy": 80,
     "damage_category": "physical",
     "description": "The user hurls hard rocks at the target.\nTwo to five rocks are launched in a row.",
     "max_hits": 5,
@@ -4818,14 +4818,14 @@
     "pp": 15
   },
   "rock-tomb": {
-    "accuracy": 95,
+    "accuracy": 80,
     "damage_category": "physical",
     "description": "Boulders are hurled at the target. This also\nlowers the target\u2019s Speed stat by preventing\nits movement.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "rock",
     "name": "Rock Tomb",
-    "power": 60,
+    "power": 50,
     "pp": 15
   },
   "rock-wrecker": {
@@ -4950,14 +4950,14 @@
     "pp": 15
   },
   "sand-tomb": {
-    "accuracy": 85,
+    "accuracy": 70,
     "damage_category": "physical",
     "description": "The user traps the target inside a harshly\nraging sandstorm for four to five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "ground",
     "name": "Sand Tomb",
-    "power": 35,
+    "power": 15,
     "pp": 15
   },
   "sandstorm": {
@@ -4983,7 +4983,7 @@
     "pp": 15
   },
   "scary-face": {
-    "accuracy": 100,
+    "accuracy": 90,
     "damage_category": "status",
     "description": "The user frightens the target with a scary\nface to harshly lower its Speed stat.",
     "max_hits": null,
@@ -5438,7 +5438,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Skull Bash",
-    "power": 130,
+    "power": 100,
     "pp": 10
   },
   "sky-attack": {
@@ -5581,7 +5581,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Smelling Salts",
-    "power": 70,
+    "power": 60,
     "pp": 10
   },
   "smog": {
@@ -5592,7 +5592,7 @@
     "min_hits": null,
     "move_type": "poison",
     "name": "Smog",
-    "power": 30,
+    "power": 20,
     "pp": 20
   },
   "smokescreen": {
@@ -5636,7 +5636,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Snore",
-    "power": 50,
+    "power": 40,
     "pp": 15
   },
   "soak": {
@@ -5900,7 +5900,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Storm Throw",
-    "power": 60,
+    "power": 40,
     "pp": 10
   },
   "strength": {
@@ -5944,7 +5944,7 @@
     "min_hits": null,
     "move_type": "bug",
     "name": "Struggle Bug",
-    "power": 50,
+    "power": 30,
     "pp": 20
   },
   "stun-spore": {
@@ -6043,7 +6043,7 @@
     "min_hits": null,
     "move_type": "water",
     "name": "Surf",
-    "power": 90,
+    "power": 95,
     "pp": 15
   },
   "swagger": {
@@ -6146,14 +6146,14 @@
     "pp": 5
   },
   "tackle": {
-    "accuracy": 100,
+    "accuracy": 95,
     "damage_category": "physical",
     "description": "A physical attack in which the user\ncharges and slams into the target\nwith its whole body.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
     "name": "Tackle",
-    "power": 50,
+    "power": 35,
     "pp": 35
   },
   "tail-glow": {
@@ -6230,7 +6230,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Techno Blast",
-    "power": 120,
+    "power": 85,
     "pp": 5
   },
   "teeter-dance": {
@@ -6274,7 +6274,7 @@
     "min_hits": null,
     "move_type": "dark",
     "name": "Thief",
-    "power": 60,
+    "power": 40,
     "pp": 25
   },
   "thousand-arrows": {
@@ -6307,7 +6307,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Thrash",
-    "power": 120,
+    "power": 90,
     "pp": 10
   },
   "thunder": {
@@ -6318,7 +6318,7 @@
     "min_hits": null,
     "move_type": "electric",
     "name": "Thunder",
-    "power": 110,
+    "power": 120,
     "pp": 10
   },
   "thunder-fang": {
@@ -6373,7 +6373,7 @@
     "min_hits": null,
     "move_type": "electric",
     "name": "Thunderbolt",
-    "power": 90,
+    "power": 95,
     "pp": 15
   },
   "tickle": {
@@ -6410,7 +6410,7 @@
     "pp": 15
   },
   "toxic": {
-    "accuracy": 90,
+    "accuracy": 85,
     "damage_category": "status",
     "description": "A move that leaves the target\nbadly poisoned.\nIts poison damage worsens every turn.",
     "max_hits": null,
@@ -6549,7 +6549,7 @@
     "min_hits": null,
     "move_type": "normal",
     "name": "Uproar",
-    "power": 90,
+    "power": 50,
     "pp": 10
   },
   "v-create": {
@@ -6615,7 +6615,7 @@
     "min_hits": null,
     "move_type": "grass",
     "name": "Vine Whip",
-    "power": 45,
+    "power": 35,
     "pp": 25
   },
   "vital-throw": {
@@ -6659,7 +6659,7 @@
     "min_hits": null,
     "move_type": "fighting",
     "name": "Wake-Up Slap",
-    "power": 70,
+    "power": 60,
     "pp": 10
   },
   "water-gun": {
@@ -6681,7 +6681,7 @@
     "min_hits": null,
     "move_type": "water",
     "name": "Water Pledge",
-    "power": 80,
+    "power": 50,
     "pp": 10
   },
   "water-pulse": {
@@ -6751,18 +6751,18 @@
     "pp": 10
   },
   "whirlpool": {
-    "accuracy": 85,
+    "accuracy": 70,
     "damage_category": "special",
     "description": "The user traps the target in a violent swirling\nwhirlpool for four to five turns.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "water",
     "name": "Whirlpool",
-    "power": 35,
+    "power": 15,
     "pp": 15
   },
   "whirlwind": {
-    "accuracy": null,
+    "accuracy": 100,
     "damage_category": "status",
     "description": "The target is blown away, and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
     "max_hits": null,
@@ -6795,7 +6795,7 @@
     "pp": 15
   },
   "will-o-wisp": {
-    "accuracy": 85,
+    "accuracy": 75,
     "damage_category": "status",
     "description": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
     "max_hits": null,
@@ -6883,7 +6883,7 @@
     "pp": 10
   },
   "wrap": {
-    "accuracy": 90,
+    "accuracy": 85,
     "damage_category": "physical",
     "description": "A long body or vines are used to wrap and\nsqueeze the target for four to five turns.",
     "max_hits": null,
