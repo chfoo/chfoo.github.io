@@ -439,8 +439,8 @@
     "floatzel",
     "cherubi",
     "cherrim",
-    "shellos-east",
     "shellos-west",
+    "shellos-east",
     "gastrodon-east",
     "gastrodon-west",
     "ambipom",
@@ -559,7 +559,7 @@
       "name": "Abomasnow",
       "number": 460,
       "special_attack": 218,
-      "special_defense": 154,
+      "special_defense": 204,
       "speed": 154,
       "types": [
         "grass",
@@ -584,7 +584,7 @@
       "name": "Abra",
       "number": 63,
       "special_attack": 261,
-      "special_defense": 279,
+      "special_defense": 161,
       "speed": 279,
       "types": [
         "psychic"
@@ -608,7 +608,7 @@
       "name": "Absol",
       "number": 359,
       "special_attack": 204,
-      "special_defense": 186,
+      "special_defense": 156,
       "speed": 186,
       "types": [
         "dark"
@@ -632,7 +632,7 @@
       "name": "Aerodactyl",
       "number": 142,
       "special_attack": 152,
-      "special_defense": 292,
+      "special_defense": 182,
       "speed": 292,
       "types": [
         "rock",
@@ -657,7 +657,7 @@
       "name": "Aggron",
       "number": 306,
       "special_attack": 222,
-      "special_defense": 139,
+      "special_defense": 161,
       "speed": 139,
       "types": [
         "steel",
@@ -682,7 +682,7 @@
       "name": "Aipom",
       "number": 190,
       "special_attack": 116,
-      "special_defense": 227,
+      "special_defense": 167,
       "speed": 227,
       "types": [
         "normal"
@@ -706,7 +706,7 @@
       "name": "Alakazam",
       "number": 65,
       "special_attack": 254,
-      "special_defense": 274,
+      "special_defense": 204,
       "speed": 274,
       "types": [
         "psychic"
@@ -730,7 +730,7 @@
       "name": "Altaria",
       "number": 334,
       "special_attack": 160,
-      "special_defense": 180,
+      "special_defense": 230,
       "speed": 180,
       "types": [
         "dragon",
@@ -755,7 +755,7 @@
       "name": "Ambipom",
       "number": 424,
       "special_attack": 155,
-      "special_defense": 265,
+      "special_defense": 167,
       "speed": 265,
       "types": [
         "normal"
@@ -779,7 +779,7 @@
       "name": "Ampharos",
       "number": 181,
       "special_attack": 247,
-      "special_defense": 155,
+      "special_defense": 247,
       "speed": 155,
       "types": [
         "electric"
@@ -803,7 +803,7 @@
       "name": "Anorith",
       "number": 347,
       "special_attack": 131,
-      "special_defense": 216,
+      "special_defense": 130,
       "speed": 216,
       "types": [
         "rock",
@@ -828,7 +828,7 @@
       "name": "Arbok",
       "number": 24,
       "special_attack": 169,
-      "special_defense": 199,
+      "special_defense": 197,
       "speed": 199,
       "types": [
         "poison"
@@ -852,7 +852,7 @@
       "name": "Arcanine",
       "number": 59,
       "special_attack": 205,
-      "special_defense": 218,
+      "special_defense": 206,
       "speed": 218,
       "types": [
         "fire"
@@ -876,7 +876,7 @@
       "name": "Arceus (Bug)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -900,7 +900,7 @@
       "name": "Arceus (Dark)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -924,7 +924,7 @@
       "name": "Arceus (Dragon)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -948,7 +948,7 @@
       "name": "Arceus (Electric)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -972,7 +972,7 @@
       "name": "Arceus (Fighting)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -996,7 +996,7 @@
       "name": "Arceus (Fire)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1020,7 +1020,7 @@
       "name": "Arceus (Flying)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1044,7 +1044,7 @@
       "name": "Arceus (Ghost)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1068,7 +1068,7 @@
       "name": "Arceus (Grass)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1092,7 +1092,7 @@
       "name": "Arceus (Ground)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1116,7 +1116,7 @@
       "name": "Arceus (Ice)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1140,7 +1140,7 @@
       "name": "Arceus (Normal)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1164,7 +1164,7 @@
       "name": "Arceus (Poison)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1188,7 +1188,7 @@
       "name": "Arceus (Psychic)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1212,7 +1212,7 @@
       "name": "Arceus (Rock)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1236,7 +1236,7 @@
       "name": "Arceus (Steel)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1260,7 +1260,7 @@
       "name": "Arceus (Water)",
       "number": 493,
       "special_attack": 220,
-      "special_defense": 269,
+      "special_defense": 245,
       "speed": 269,
       "types": [
         "normal"
@@ -1284,7 +1284,7 @@
       "name": "Ariados",
       "number": 168,
       "special_attack": 143,
-      "special_defense": 124,
+      "special_defense": 175,
       "speed": 124,
       "types": [
         "bug",
@@ -1309,7 +1309,7 @@
       "name": "Armaldo",
       "number": 348,
       "special_attack": 191,
-      "special_defense": 124,
+      "special_defense": 194,
       "speed": 124,
       "types": [
         "rock",
@@ -1334,7 +1334,7 @@
       "name": "Aron",
       "number": 304,
       "special_attack": 104,
-      "special_defense": 135,
+      "special_defense": 141,
       "speed": 135,
       "types": [
         "steel",
@@ -1359,7 +1359,7 @@
       "name": "Articuno",
       "number": 144,
       "special_attack": 216,
-      "special_defense": 196,
+      "special_defense": 276,
       "speed": 196,
       "types": [
         "ice",
@@ -1384,7 +1384,7 @@
       "name": "Azelf",
       "number": 482,
       "special_attack": 260,
-      "special_defense": 240,
+      "special_defense": 150,
       "speed": 240,
       "types": [
         "psychic"
@@ -1408,7 +1408,7 @@
       "name": "Azumarill",
       "number": 184,
       "special_attack": 176,
-      "special_defense": 147,
+      "special_defense": 183,
       "speed": 147,
       "types": [
         "water",
@@ -1433,7 +1433,7 @@
       "name": "Azurill",
       "number": 298,
       "special_attack": 68,
-      "special_defense": 76,
+      "special_defense": 137,
       "speed": 76,
       "types": [
         "normal"
@@ -1457,7 +1457,7 @@
       "name": "Bagon",
       "number": 371,
       "special_attack": 117,
-      "special_defense": 152,
+      "special_defense": 143,
       "speed": 152,
       "types": [
         "dragon"
@@ -1481,7 +1481,7 @@
       "name": "Baltoy",
       "number": 343,
       "special_attack": 116,
-      "special_defense": 103,
+      "special_defense": 228,
       "speed": 103,
       "types": [
         "ground",
@@ -1506,7 +1506,7 @@
       "name": "Banette",
       "number": 354,
       "special_attack": 223,
-      "special_defense": 167,
+      "special_defense": 163,
       "speed": 167,
       "types": [
         "ghost"
@@ -1530,7 +1530,7 @@
       "name": "Barboach",
       "number": 339,
       "special_attack": 130,
-      "special_defense": 173,
+      "special_defense": 135,
       "speed": 173,
       "types": [
         "water",
@@ -1555,7 +1555,7 @@
       "name": "Bastiodon",
       "number": 411,
       "special_attack": 155,
-      "special_defense": 58,
+      "special_defense": 281,
       "speed": 58,
       "types": [
         "rock",
@@ -1580,7 +1580,7 @@
       "name": "Bayleef",
       "number": 153,
       "special_attack": 145,
-      "special_defense": 178,
+      "special_defense": 218,
       "speed": 178,
       "types": [
         "grass"
@@ -1604,7 +1604,7 @@
       "name": "Beautifly",
       "number": 267,
       "special_attack": 260,
-      "special_defense": 187,
+      "special_defense": 136,
       "speed": 187,
       "types": [
         "bug",
@@ -1629,7 +1629,7 @@
       "name": "Beedrill",
       "number": 15,
       "special_attack": 120,
-      "special_defense": 194,
+      "special_defense": 204,
       "speed": 194,
       "types": [
         "bug",
@@ -1654,7 +1654,7 @@
       "name": "Beldum",
       "number": 374,
       "special_attack": 90,
-      "special_defense": 108,
+      "special_defense": 172,
       "speed": 108,
       "types": [
         "steel",
@@ -1679,7 +1679,7 @@
       "name": "Bellossom",
       "number": 182,
       "special_attack": 236,
-      "special_defense": 102,
+      "special_defense": 246,
       "speed": 102,
       "types": [
         "grass"
@@ -1703,7 +1703,7 @@
       "name": "Bellsprout",
       "number": 69,
       "special_attack": 239,
-      "special_defense": 196,
+      "special_defense": 96,
       "speed": 196,
       "types": [
         "grass",
@@ -1728,7 +1728,7 @@
       "name": "Bibarel",
       "number": 400,
       "special_attack": 193,
-      "special_defense": 196,
+      "special_defense": 174,
       "speed": 196,
       "types": [
         "normal",
@@ -1753,7 +1753,7 @@
       "name": "Bidoof",
       "number": 399,
       "special_attack": 95,
-      "special_defense": 98,
+      "special_defense": 163,
       "speed": 98,
       "types": [
         "normal"
@@ -1777,7 +1777,7 @@
       "name": "Blastoise",
       "number": 9,
       "special_attack": 200,
-      "special_defense": 186,
+      "special_defense": 276,
       "speed": 186,
       "types": [
         "water"
@@ -1801,7 +1801,7 @@
       "name": "Blaziken",
       "number": 257,
       "special_attack": 250,
-      "special_defense": 209,
+      "special_defense": 170,
       "speed": 209,
       "types": [
         "fire",
@@ -1826,7 +1826,7 @@
       "name": "Blissey",
       "number": 242,
       "special_attack": 175,
-      "special_defense": 160,
+      "special_defense": 284,
       "speed": 160,
       "types": [
         "normal"
@@ -1850,7 +1850,7 @@
       "name": "Bonsly",
       "number": 438,
       "special_attack": 50,
-      "special_defense": 56,
+      "special_defense": 169,
       "speed": 56,
       "types": [
         "rock"
@@ -1874,7 +1874,7 @@
       "name": "Breloom",
       "number": 286,
       "special_attack": 195,
-      "special_defense": 177,
+      "special_defense": 157,
       "speed": 177,
       "types": [
         "grass",
@@ -1899,7 +1899,7 @@
       "name": "Bronzong",
       "number": 437,
       "special_attack": 212,
-      "special_defense": 90,
+      "special_defense": 267,
       "speed": 90,
       "types": [
         "steel",
@@ -1924,7 +1924,7 @@
       "name": "Bronzor",
       "number": 436,
       "special_attack": 156,
-      "special_defense": 45,
+      "special_defense": 208,
       "speed": 45,
       "types": [
         "steel",
@@ -1949,7 +1949,7 @@
       "name": "Budew",
       "number": 406,
       "special_attack": 218,
-      "special_defense": 209,
+      "special_defense": 176,
       "speed": 209,
       "types": [
         "grass",
@@ -1974,7 +1974,7 @@
       "name": "Buizel",
       "number": 418,
       "special_attack": 169,
-      "special_defense": 219,
+      "special_defense": 109,
       "speed": 219,
       "types": [
         "water"
@@ -1998,7 +1998,7 @@
       "name": "Bulbasaur",
       "number": 1,
       "special_attack": 148,
-      "special_defense": 140,
+      "special_defense": 190,
       "speed": 140,
       "types": [
         "grass",
@@ -2023,7 +2023,7 @@
       "name": "Buneary",
       "number": 427,
       "special_attack": 111,
-      "special_defense": 269,
+      "special_defense": 148,
       "speed": 269,
       "types": [
         "normal"
@@ -2047,7 +2047,7 @@
       "name": "Burmy (Plant)",
       "number": 412,
       "special_attack": 156,
-      "special_defense": 96,
+      "special_defense": 125,
       "speed": 96,
       "types": [
         "bug"
@@ -2071,7 +2071,7 @@
       "name": "Burmy (Sandy)",
       "number": 412,
       "special_attack": 157,
-      "special_defense": 96,
+      "special_defense": 125,
       "speed": 96,
       "types": [
         "bug"
@@ -2095,7 +2095,7 @@
       "name": "Burmy (Trash)",
       "number": 412,
       "special_attack": 157,
-      "special_defense": 97,
+      "special_defense": 126,
       "speed": 97,
       "types": [
         "bug"
@@ -2119,7 +2119,7 @@
       "name": "Butterfree",
       "number": 12,
       "special_attack": 183,
-      "special_defense": 202,
+      "special_defense": 204,
       "speed": 202,
       "types": [
         "bug",
@@ -2144,7 +2144,7 @@
       "name": "Cacnea",
       "number": 331,
       "special_attack": 219,
-      "special_defense": 107,
+      "special_defense": 141,
       "speed": 107,
       "types": [
         "grass"
@@ -2168,7 +2168,7 @@
       "name": "Cacturne",
       "number": 332,
       "special_attack": 265,
-      "special_defense": 145,
+      "special_defense": 155,
       "speed": 145,
       "types": [
         "grass",
@@ -2193,7 +2193,7 @@
       "name": "Camerupt",
       "number": 323,
       "special_attack": 247,
-      "special_defense": 117,
+      "special_defense": 187,
       "speed": 117,
       "types": [
         "fire",
@@ -2218,7 +2218,7 @@
       "name": "Carnivine",
       "number": 455,
       "special_attack": 196,
-      "special_defense": 129,
+      "special_defense": 192,
       "speed": 129,
       "types": [
         "grass"
@@ -2242,7 +2242,7 @@
       "name": "Carvanha",
       "number": 318,
       "special_attack": 166,
-      "special_defense": 186,
+      "special_defense": 113,
       "speed": 186,
       "types": [
         "water",
@@ -2267,7 +2267,7 @@
       "name": "Cascoon",
       "number": 268,
       "special_attack": 77,
-      "special_defense": 66,
+      "special_defense": 107,
       "speed": 66,
       "types": [
         "bug"
@@ -2291,7 +2291,7 @@
       "name": "Castform",
       "number": 351,
       "special_attack": 181,
-      "special_defense": 221,
+      "special_defense": 181,
       "speed": 221,
       "types": [
         "normal"
@@ -2315,7 +2315,7 @@
       "name": "Caterpie",
       "number": 10,
       "special_attack": 68,
-      "special_defense": 147,
+      "special_defense": 90,
       "speed": 147,
       "types": [
         "bug"
@@ -2364,7 +2364,7 @@
       "name": "Chansey",
       "number": 113,
       "special_attack": 148,
-      "special_defense": 157,
+      "special_defense": 246,
       "speed": 157,
       "types": [
         "normal"
@@ -2388,7 +2388,7 @@
       "name": "Charizard",
       "number": 6,
       "special_attack": 321,
-      "special_defense": 212,
+      "special_defense": 232,
       "speed": 212,
       "types": [
         "fire",
@@ -2413,7 +2413,7 @@
       "name": "Charmander",
       "number": 4,
       "special_attack": 140,
-      "special_defense": 219,
+      "special_defense": 136,
       "speed": 219,
       "types": [
         "fire"
@@ -2437,7 +2437,7 @@
       "name": "Charmeleon",
       "number": 5,
       "special_attack": 196,
-      "special_defense": 203,
+      "special_defense": 196,
       "speed": 203,
       "types": [
         "fire"
@@ -2461,7 +2461,7 @@
       "name": "Chatot",
       "number": 441,
       "special_attack": 226,
-      "special_defense": 246,
+      "special_defense": 126,
       "speed": 246,
       "types": [
         "normal",
@@ -2486,7 +2486,7 @@
       "name": "Cherrim",
       "number": 421,
       "special_attack": 189,
-      "special_defense": 231,
+      "special_defense": 217,
       "speed": 231,
       "types": [
         "grass"
@@ -2510,7 +2510,7 @@
       "name": "Cherubi",
       "number": 420,
       "special_attack": 245,
-      "special_defense": 139,
+      "special_defense": 147,
       "speed": 139,
       "types": [
         "grass"
@@ -2534,7 +2534,7 @@
       "name": "Chikorita",
       "number": 152,
       "special_attack": 134,
-      "special_defense": 126,
+      "special_defense": 251,
       "speed": 126,
       "types": [
         "grass"
@@ -2558,7 +2558,7 @@
       "name": "Chimchar",
       "number": 390,
       "special_attack": 136,
-      "special_defense": 220,
+      "special_defense": 124,
       "speed": 220,
       "types": [
         "fire"
@@ -2582,7 +2582,7 @@
       "name": "Chimecho",
       "number": 358,
       "special_attack": 230,
-      "special_defense": 170,
+      "special_defense": 200,
       "speed": 170,
       "types": [
         "psychic"
@@ -2606,7 +2606,7 @@
       "name": "Chinchou",
       "number": 170,
       "special_attack": 153,
-      "special_defense": 202,
+      "special_defense": 185,
       "speed": 202,
       "types": [
         "water",
@@ -2631,7 +2631,7 @@
       "name": "Chingling",
       "number": 433,
       "special_attack": 166,
-      "special_defense": 126,
+      "special_defense": 168,
       "speed": 126,
       "types": [
         "psychic"
@@ -2655,7 +2655,7 @@
       "name": "Clamperl",
       "number": 366,
       "special_attack": 271,
-      "special_defense": 100,
+      "special_defense": 147,
       "speed": 100,
       "types": [
         "water"
@@ -2679,7 +2679,7 @@
       "name": "Claydol",
       "number": 344,
       "special_attack": 173,
-      "special_defense": 183,
+      "special_defense": 273,
       "speed": 183,
       "types": [
         "ground",
@@ -2704,7 +2704,7 @@
       "name": "Clefable",
       "number": 36,
       "special_attack": 166,
-      "special_defense": 156,
+      "special_defense": 216,
       "speed": 156,
       "types": [
         "normal"
@@ -2728,7 +2728,7 @@
       "name": "Clefairy",
       "number": 35,
       "special_attack": 210,
-      "special_defense": 106,
+      "special_defense": 194,
       "speed": 106,
       "types": [
         "normal"
@@ -2752,7 +2752,7 @@
       "name": "Cleffa",
       "number": 173,
       "special_attack": 126,
-      "special_defense": 70,
+      "special_defense": 167,
       "speed": 70,
       "types": [
         "normal"
@@ -2776,7 +2776,7 @@
       "name": "Cloyster",
       "number": 91,
       "special_attack": 180,
-      "special_defense": 171,
+      "special_defense": 156,
       "speed": 171,
       "types": [
         "water",
@@ -2801,7 +2801,7 @@
       "name": "Combee",
       "number": 415,
       "special_attack": 138,
-      "special_defense": 216,
+      "special_defense": 141,
       "speed": 216,
       "types": [
         "bug",
@@ -2826,7 +2826,7 @@
       "name": "Combusken",
       "number": 256,
       "special_attack": 227,
-      "special_defense": 167,
+      "special_defense": 177,
       "speed": 167,
       "types": [
         "fire",
@@ -2851,7 +2851,7 @@
       "name": "Corphish",
       "number": 341,
       "special_attack": 122,
-      "special_defense": 148,
+      "special_defense": 139,
       "speed": 148,
       "types": [
         "water"
@@ -2875,7 +2875,7 @@
       "name": "Corsola",
       "number": 222,
       "special_attack": 192,
-      "special_defense": 85,
+      "special_defense": 215,
       "speed": 85,
       "types": [
         "water",
@@ -2900,7 +2900,7 @@
       "name": "Cradily",
       "number": 346,
       "special_attack": 196,
-      "special_defense": 120,
+      "special_defense": 248,
       "speed": 120,
       "types": [
         "rock",
@@ -2925,7 +2925,7 @@
       "name": "Cranidos",
       "number": 408,
       "special_attack": 96,
-      "special_defense": 179,
+      "special_defense": 107,
       "speed": 179,
       "types": [
         "rock"
@@ -2949,7 +2949,7 @@
       "name": "Crawdaunt",
       "number": 342,
       "special_attack": 216,
-      "special_defense": 146,
+      "special_defense": 131,
       "speed": 146,
       "types": [
         "water",
@@ -2974,7 +2974,7 @@
       "name": "Cresselia",
       "number": 488,
       "special_attack": 164,
-      "special_defense": 175,
+      "special_defense": 265,
       "speed": 175,
       "types": [
         "psychic"
@@ -2998,7 +2998,7 @@
       "name": "Croagunk",
       "number": 453,
       "special_attack": 142,
-      "special_defense": 161,
+      "special_defense": 141,
       "speed": 161,
       "types": [
         "poison",
@@ -3023,7 +3023,7 @@
       "name": "Crobat",
       "number": 169,
       "special_attack": 170,
-      "special_defense": 290,
+      "special_defense": 190,
       "speed": 290,
       "types": [
         "poison",
@@ -3048,7 +3048,7 @@
       "name": "Croconaw",
       "number": 159,
       "special_attack": 144,
-      "special_defense": 173,
+      "special_defense": 168,
       "speed": 173,
       "types": [
         "water"
@@ -3072,7 +3072,7 @@
       "name": "Cubone",
       "number": 104,
       "special_attack": 130,
-      "special_defense": 108,
+      "special_defense": 165,
       "speed": 108,
       "types": [
         "ground"
@@ -3096,7 +3096,7 @@
       "name": "Cyndaquil",
       "number": 155,
       "special_attack": 194,
-      "special_defense": 229,
+      "special_defense": 157,
       "speed": 229,
       "types": [
         "fire"
@@ -3120,7 +3120,7 @@
       "name": "Darkrai",
       "number": 491,
       "special_attack": 302,
-      "special_defense": 229,
+      "special_defense": 185,
       "speed": 229,
       "types": [
         "dark"
@@ -3144,7 +3144,7 @@
       "name": "Delcatty",
       "number": 301,
       "special_attack": 195,
-      "special_defense": 239,
+      "special_defense": 131,
       "speed": 239,
       "types": [
         "normal"
@@ -3168,7 +3168,7 @@
       "name": "Delibird",
       "number": 225,
       "special_attack": 149,
-      "special_defense": 228,
+      "special_defense": 126,
       "speed": 228,
       "types": [
         "ice",
@@ -3193,7 +3193,7 @@
       "name": "Deoxys (Attack)",
       "number": 386,
       "special_attack": 365,
-      "special_defense": 335,
+      "special_defense": 45,
       "speed": 335,
       "types": [
         "psychic"
@@ -3217,7 +3217,7 @@
       "name": "Deoxys (Defense)",
       "number": 386,
       "special_attack": 130,
-      "special_defense": 217,
+      "special_defense": 348,
       "speed": 217,
       "types": [
         "psychic"
@@ -3241,7 +3241,7 @@
       "name": "Deoxys (Normal)",
       "number": 386,
       "special_attack": 305,
-      "special_defense": 335,
+      "special_defense": 145,
       "speed": 335,
       "types": [
         "psychic"
@@ -3265,7 +3265,7 @@
       "name": "Deoxys (Speed)",
       "number": 386,
       "special_attack": 195,
-      "special_defense": 365,
+      "special_defense": 185,
       "speed": 365,
       "types": [
         "psychic"
@@ -3289,7 +3289,7 @@
       "name": "Dewgong",
       "number": 87,
       "special_attack": 175,
-      "special_defense": 175,
+      "special_defense": 225,
       "speed": 175,
       "types": [
         "water",
@@ -3339,7 +3339,7 @@
       "name": "Dialga (Shiny)",
       "number": 483,
       "special_attack": 392,
-      "special_defense": 237,
+      "special_defense": 257,
       "speed": 237,
       "types": [
         "steel",
@@ -3364,7 +3364,7 @@
       "name": "Diglett",
       "number": 50,
       "special_attack": 95,
-      "special_defense": 317,
+      "special_defense": 126,
       "speed": 317,
       "types": [
         "ground"
@@ -3385,7 +3385,7 @@
       "name": "Ditto",
       "number": 132,
       "special_attack": 128,
-      "special_defense": 210,
+      "special_defense": 128,
       "speed": 210,
       "types": [
         "normal"
@@ -3409,7 +3409,7 @@
       "name": "Dodrio",
       "number": 85,
       "special_attack": 172,
-      "special_defense": 216,
+      "special_defense": 178,
       "speed": 216,
       "types": [
         "normal",
@@ -3434,7 +3434,7 @@
       "name": "Doduo",
       "number": 84,
       "special_attack": 95,
-      "special_defense": 227,
+      "special_defense": 138,
       "speed": 227,
       "types": [
         "normal",
@@ -3459,7 +3459,7 @@
       "name": "Donphan",
       "number": 232,
       "special_attack": 137,
-      "special_defense": 133,
+      "special_defense": 168,
       "speed": 133,
       "types": [
         "ground"
@@ -3507,7 +3507,7 @@
       "name": "Dragonite",
       "number": 149,
       "special_attack": 225,
-      "special_defense": 165,
+      "special_defense": 205,
       "speed": 165,
       "types": [
         "dragon",
@@ -3532,7 +3532,7 @@
       "name": "Drapion",
       "number": 452,
       "special_attack": 168,
-      "special_defense": 223,
+      "special_defense": 183,
       "speed": 223,
       "types": [
         "poison",
@@ -3557,7 +3557,7 @@
       "name": "Dratini",
       "number": 147,
       "special_attack": 136,
-      "special_defense": 157,
+      "special_defense": 141,
       "speed": 157,
       "types": [
         "dragon"
@@ -3581,7 +3581,7 @@
       "name": "Drifblim",
       "number": 426,
       "special_attack": 216,
-      "special_defense": 197,
+      "special_defense": 145,
       "speed": 197,
       "types": [
         "ghost",
@@ -3606,7 +3606,7 @@
       "name": "Drifloon",
       "number": 425,
       "special_attack": 198,
-      "special_defense": 240,
+      "special_defense": 145,
       "speed": 240,
       "types": [
         "ghost",
@@ -3631,7 +3631,7 @@
       "name": "Drowzee",
       "number": 96,
       "special_attack": 177,
-      "special_defense": 100,
+      "special_defense": 229,
       "speed": 100,
       "types": [
         "psychic"
@@ -3655,7 +3655,7 @@
       "name": "Dugtrio",
       "number": 51,
       "special_attack": 127,
-      "special_defense": 310,
+      "special_defense": 182,
       "speed": 310,
       "types": [
         "ground"
@@ -3679,7 +3679,7 @@
       "name": "Dunsparce",
       "number": 206,
       "special_attack": 171,
-      "special_defense": 131,
+      "special_defense": 171,
       "speed": 131,
       "types": [
         "normal"
@@ -3703,7 +3703,7 @@
       "name": "Dusclops",
       "number": 356,
       "special_attack": 157,
-      "special_defense": 87,
+      "special_defense": 297,
       "speed": 87,
       "types": [
         "ghost"
@@ -3727,7 +3727,7 @@
       "name": "Dusknoir",
       "number": 477,
       "special_attack": 166,
-      "special_defense": 85,
+      "special_defense": 307,
       "speed": 85,
       "types": [
         "ghost"
@@ -3751,7 +3751,7 @@
       "name": "Duskull",
       "number": 355,
       "special_attack": 99,
-      "special_defense": 89,
+      "special_defense": 233,
       "speed": 89,
       "types": [
         "ghost"
@@ -3775,7 +3775,7 @@
       "name": "Dustox",
       "number": 269,
       "special_attack": 174,
-      "special_defense": 189,
+      "special_defense": 239,
       "speed": 189,
       "types": [
         "bug",
@@ -3800,7 +3800,7 @@
       "name": "Eevee",
       "number": 133,
       "special_attack": 113,
-      "special_defense": 160,
+      "special_defense": 166,
       "speed": 160,
       "types": [
         "normal"
@@ -3824,7 +3824,7 @@
       "name": "Ekans",
       "number": 23,
       "special_attack": 103,
-      "special_defense": 146,
+      "special_defense": 205,
       "speed": 146,
       "types": [
         "poison"
@@ -3848,7 +3848,7 @@
       "name": "Electabuzz",
       "number": 125,
       "special_attack": 224,
-      "special_defense": 268,
+      "special_defense": 183,
       "speed": 268,
       "types": [
         "electric"
@@ -3872,7 +3872,7 @@
       "name": "Electivire",
       "number": 466,
       "special_attack": 219,
-      "special_defense": 219,
+      "special_defense": 218,
       "speed": 219,
       "types": [
         "electric"
@@ -3896,7 +3896,7 @@
       "name": "Electivire (Shiny)",
       "number": 466,
       "special_attack": 271,
-      "special_defense": 247,
+      "special_defense": 227,
       "speed": 247,
       "types": [
         "electric"
@@ -3920,7 +3920,7 @@
       "name": "Electrike",
       "number": 309,
       "special_attack": 229,
-      "special_defense": 229,
+      "special_defense": 116,
       "speed": 229,
       "types": [
         "electric"
@@ -3944,7 +3944,7 @@
       "name": "Electrode",
       "number": 101,
       "special_attack": 195,
-      "special_defense": 323,
+      "special_defense": 195,
       "speed": 323,
       "types": [
         "electric"
@@ -3968,7 +3968,7 @@
       "name": "Elekid",
       "number": 239,
       "special_attack": 196,
-      "special_defense": 236,
+      "special_defense": 156,
       "speed": 236,
       "types": [
         "electric"
@@ -3992,7 +3992,7 @@
       "name": "Empoleon",
       "number": 395,
       "special_attack": 227,
-      "special_defense": 135,
+      "special_defense": 232,
       "speed": 135,
       "types": [
         "water",
@@ -4017,7 +4017,7 @@
       "name": "Entei",
       "number": 244,
       "special_attack": 306,
-      "special_defense": 236,
+      "special_defense": 186,
       "speed": 236,
       "types": [
         "fire"
@@ -4041,7 +4041,7 @@
       "name": "Entei (Shiny)",
       "number": 244,
       "special_attack": 260,
-      "special_defense": 257,
+      "special_defense": 207,
       "speed": 257,
       "types": [
         "fire"
@@ -4065,7 +4065,7 @@
       "name": "Espeon",
       "number": 196,
       "special_attack": 261,
-      "special_defense": 251,
+      "special_defense": 221,
       "speed": 251,
       "types": [
         "psychic"
@@ -4089,7 +4089,7 @@
       "name": "Exeggcute",
       "number": 102,
       "special_attack": 140,
-      "special_defense": 116,
+      "special_defense": 184,
       "speed": 116,
       "types": [
         "grass",
@@ -4114,7 +4114,7 @@
       "name": "Exeggutor",
       "number": 103,
       "special_attack": 252,
-      "special_defense": 141,
+      "special_defense": 177,
       "speed": 141,
       "types": [
         "grass",
@@ -4139,7 +4139,7 @@
       "name": "Exploud",
       "number": 295,
       "special_attack": 309,
-      "special_defense": 172,
+      "special_defense": 183,
       "speed": 172,
       "types": [
         "normal"
@@ -4163,7 +4163,7 @@
       "name": "Farfetch'D",
       "number": 83,
       "special_attack": 127,
-      "special_defense": 194,
+      "special_defense": 171,
       "speed": 194,
       "types": [
         "normal",
@@ -4188,7 +4188,7 @@
       "name": "Fearow",
       "number": 22,
       "special_attack": 144,
-      "special_defense": 239,
+      "special_defense": 177,
       "speed": 239,
       "types": [
         "normal",
@@ -4213,7 +4213,7 @@
       "name": "Feebas",
       "number": 349,
       "special_attack": 50,
-      "special_defense": 259,
+      "special_defense": 146,
       "speed": 259,
       "types": [
         "water"
@@ -4237,7 +4237,7 @@
       "name": "Feraligatr",
       "number": 160,
       "special_attack": 188,
-      "special_defense": 186,
+      "special_defense": 215,
       "speed": 186,
       "types": [
         "water"
@@ -4261,7 +4261,7 @@
       "name": "Finneon",
       "number": 456,
       "special_attack": 120,
-      "special_defense": 168,
+      "special_defense": 179,
       "speed": 168,
       "types": [
         "water"
@@ -4285,7 +4285,7 @@
       "name": "Flaaffy",
       "number": 180,
       "special_attack": 176,
-      "special_defense": 126,
+      "special_defense": 188,
       "speed": 126,
       "types": [
         "electric"
@@ -4309,7 +4309,7 @@
       "name": "Flareon",
       "number": 136,
       "special_attack": 198,
-      "special_defense": 161,
+      "special_defense": 251,
       "speed": 161,
       "types": [
         "fire"
@@ -4333,7 +4333,7 @@
       "name": "Floatzel",
       "number": 419,
       "special_attack": 204,
-      "special_defense": 264,
+      "special_defense": 147,
       "speed": 264,
       "types": [
         "water"
@@ -4357,7 +4357,7 @@
       "name": "Flygon",
       "number": 330,
       "special_attack": 191,
-      "special_defense": 254,
+      "special_defense": 191,
       "speed": 254,
       "types": [
         "ground",
@@ -4382,7 +4382,7 @@
       "name": "Forretress",
       "number": 205,
       "special_attack": 125,
-      "special_defense": 85,
+      "special_defense": 219,
       "speed": 85,
       "types": [
         "bug",
@@ -4407,7 +4407,7 @@
       "name": "Froslass",
       "number": 478,
       "special_attack": 234,
-      "special_defense": 271,
+      "special_defense": 191,
       "speed": 271,
       "types": [
         "ice",
@@ -4432,7 +4432,7 @@
       "name": "Furret",
       "number": 162,
       "special_attack": 172,
-      "special_defense": 225,
+      "special_defense": 135,
       "speed": 225,
       "types": [
         "normal"
@@ -4456,7 +4456,7 @@
       "name": "Gabite",
       "number": 444,
       "special_attack": 142,
-      "special_defense": 206,
+      "special_defense": 152,
       "speed": 206,
       "types": [
         "dragon",
@@ -4481,7 +4481,7 @@
       "name": "Gallade",
       "number": 475,
       "special_attack": 161,
-      "special_defense": 191,
+      "special_defense": 261,
       "speed": 191,
       "types": [
         "psychic",
@@ -4506,7 +4506,7 @@
       "name": "Garchomp",
       "number": 445,
       "special_attack": 181,
-      "special_defense": 209,
+      "special_defense": 192,
       "speed": 209,
       "types": [
         "dragon",
@@ -4531,7 +4531,7 @@
       "name": "Gardevoir",
       "number": 282,
       "special_attack": 252,
-      "special_defense": 191,
+      "special_defense": 261,
       "speed": 191,
       "types": [
         "psychic",
@@ -4556,7 +4556,7 @@
       "name": "Gastly",
       "number": 92,
       "special_attack": 251,
-      "special_defense": 232,
+      "special_defense": 121,
       "speed": 232,
       "types": [
         "ghost",
@@ -4581,7 +4581,7 @@
       "name": "Gastrodon (East)",
       "number": 423,
       "special_attack": 219,
-      "special_defense": 113,
+      "special_defense": 199,
       "speed": 113,
       "types": [
         "water",
@@ -4606,7 +4606,7 @@
       "name": "Gastrodon (West)",
       "number": 423,
       "special_attack": 219,
-      "special_defense": 113,
+      "special_defense": 199,
       "speed": 113,
       "types": [
         "water",
@@ -4631,7 +4631,7 @@
       "name": "Gengar",
       "number": 94,
       "special_attack": 267,
-      "special_defense": 253,
+      "special_defense": 164,
       "speed": 253,
       "types": [
         "ghost",
@@ -4656,7 +4656,7 @@
       "name": "Geodude",
       "number": 74,
       "special_attack": 86,
-      "special_defense": 76,
+      "special_defense": 174,
       "speed": 76,
       "types": [
         "rock",
@@ -4681,7 +4681,7 @@
       "name": "Gible",
       "number": 443,
       "special_attack": 104,
-      "special_defense": 141,
+      "special_defense": 147,
       "speed": 141,
       "types": [
         "dragon",
@@ -4706,7 +4706,7 @@
       "name": "Girafarig",
       "number": 203,
       "special_attack": 216,
-      "special_defense": 206,
+      "special_defense": 198,
       "speed": 206,
       "types": [
         "normal",
@@ -4731,7 +4731,7 @@
       "name": "Giratina",
       "number": 487,
       "special_attack": 225,
-      "special_defense": 185,
+      "special_defense": 245,
       "speed": 185,
       "types": [
         "ghost",
@@ -4756,7 +4756,7 @@
       "name": "Giratina (Shiny)",
       "number": 487,
       "special_attack": 231,
-      "special_defense": 237,
+      "special_defense": 297,
       "speed": 237,
       "types": [
         "ghost",
@@ -4781,7 +4781,7 @@
       "name": "Glaceon",
       "number": 471,
       "special_attack": 261,
-      "special_defense": 161,
+      "special_defense": 221,
       "speed": 161,
       "types": [
         "ice"
@@ -4827,7 +4827,7 @@
       "name": "Glameow",
       "number": 431,
       "special_attack": 102,
-      "special_defense": 243,
+      "special_defense": 118,
       "speed": 243,
       "types": [
         "normal"
@@ -4851,7 +4851,7 @@
       "name": "Gligar",
       "number": 207,
       "special_attack": 106,
-      "special_defense": 269,
+      "special_defense": 191,
       "speed": 269,
       "types": [
         "ground",
@@ -4876,7 +4876,7 @@
       "name": "Gliscor",
       "number": 472,
       "special_attack": 116,
-      "special_defense": 216,
+      "special_defense": 176,
       "speed": 216,
       "types": [
         "ground",
@@ -4901,7 +4901,7 @@
       "name": "Gloom",
       "number": 44,
       "special_attack": 213,
-      "special_defense": 135,
+      "special_defense": 193,
       "speed": 135,
       "types": [
         "grass",
@@ -4926,7 +4926,7 @@
       "name": "Golbat",
       "number": 42,
       "special_attack": 180,
-      "special_defense": 253,
+      "special_defense": 186,
       "speed": 253,
       "types": [
         "poison",
@@ -4951,7 +4951,7 @@
       "name": "Goldeen",
       "number": 118,
       "special_attack": 108,
-      "special_defense": 176,
+      "special_defense": 150,
       "speed": 176,
       "types": [
         "water"
@@ -4975,7 +4975,7 @@
       "name": "Golduck",
       "number": 55,
       "special_attack": 200,
-      "special_defense": 203,
+      "special_defense": 193,
       "speed": 203,
       "types": [
         "water"
@@ -4999,7 +4999,7 @@
       "name": "Golem",
       "number": 76,
       "special_attack": 146,
-      "special_defense": 126,
+      "special_defense": 251,
       "speed": 126,
       "types": [
         "rock",
@@ -5024,7 +5024,7 @@
       "name": "Gorebyss",
       "number": 368,
       "special_attack": 231,
-      "special_defense": 133,
+      "special_defense": 179,
       "speed": 133,
       "types": [
         "water"
@@ -5048,7 +5048,7 @@
       "name": "Granbull",
       "number": 210,
       "special_attack": 158,
-      "special_defense": 140,
+      "special_defense": 142,
       "speed": 140,
       "types": [
         "normal"
@@ -5072,7 +5072,7 @@
       "name": "Graveler",
       "number": 75,
       "special_attack": 101,
-      "special_defense": 118,
+      "special_defense": 151,
       "speed": 118,
       "types": [
         "rock",
@@ -5097,7 +5097,7 @@
       "name": "Grimer",
       "number": 88,
       "special_attack": 98,
-      "special_defense": 100,
+      "special_defense": 160,
       "speed": 100,
       "types": [
         "poison"
@@ -5121,7 +5121,7 @@
       "name": "Grotle",
       "number": 388,
       "special_attack": 229,
-      "special_defense": 97,
+      "special_defense": 187,
       "speed": 97,
       "types": [
         "grass"
@@ -5145,7 +5145,7 @@
       "name": "Groudon",
       "number": 383,
       "special_attack": 184,
-      "special_defense": 203,
+      "special_defense": 185,
       "speed": 203,
       "types": [
         "ground"
@@ -5169,7 +5169,7 @@
       "name": "Grovyle",
       "number": 253,
       "special_attack": 185,
-      "special_defense": 247,
+      "special_defense": 187,
       "speed": 247,
       "types": [
         "grass"
@@ -5193,7 +5193,7 @@
       "name": "Growlithe",
       "number": 58,
       "special_attack": 158,
-      "special_defense": 217,
+      "special_defense": 157,
       "speed": 217,
       "types": [
         "fire"
@@ -5217,7 +5217,7 @@
       "name": "Grumpig",
       "number": 326,
       "special_attack": 216,
-      "special_defense": 196,
+      "special_defense": 256,
       "speed": 196,
       "types": [
         "psychic"
@@ -5241,7 +5241,7 @@
       "name": "Gulpin",
       "number": 316,
       "special_attack": 110,
-      "special_defense": 132,
+      "special_defense": 158,
       "speed": 132,
       "types": [
         "poison"
@@ -5265,7 +5265,7 @@
       "name": "Gyarados",
       "number": 130,
       "special_attack": 240,
-      "special_defense": 179,
+      "special_defense": 205,
       "speed": 179,
       "types": [
         "water",
@@ -5290,7 +5290,7 @@
       "name": "Happiny",
       "number": 440,
       "special_attack": 66,
-      "special_defense": 96,
+      "special_defense": 167,
       "speed": 96,
       "types": [
         "normal"
@@ -5314,7 +5314,7 @@
       "name": "Hariyama",
       "number": 297,
       "special_attack": 104,
-      "special_defense": 172,
+      "special_defense": 156,
       "speed": 172,
       "types": [
         "fighting"
@@ -5338,7 +5338,7 @@
       "name": "Haunter",
       "number": 93,
       "special_attack": 272,
-      "special_defense": 255,
+      "special_defense": 152,
       "speed": 255,
       "types": [
         "ghost",
@@ -5363,7 +5363,7 @@
       "name": "Heatran",
       "number": 485,
       "special_attack": 238,
-      "special_defense": 159,
+      "special_defense": 217,
       "speed": 159,
       "types": [
         "fire",
@@ -5388,7 +5388,7 @@
       "name": "Heatran (Shiny)",
       "number": 485,
       "special_attack": 348,
-      "special_defense": 211,
+      "special_defense": 269,
       "speed": 211,
       "types": [
         "fire",
@@ -5413,7 +5413,7 @@
       "name": "Heracross",
       "number": 214,
       "special_attack": 93,
-      "special_defense": 175,
+      "special_defense": 216,
       "speed": 175,
       "types": [
         "bug",
@@ -5438,7 +5438,7 @@
       "name": "Hippopotas",
       "number": 449,
       "special_attack": 129,
-      "special_defense": 121,
+      "special_defense": 154,
       "speed": 121,
       "types": [
         "ground"
@@ -5462,7 +5462,7 @@
       "name": "Hippowdon",
       "number": 450,
       "special_attack": 141,
-      "special_defense": 117,
+      "special_defense": 212,
       "speed": 117,
       "types": [
         "ground"
@@ -5486,7 +5486,7 @@
       "name": "Hitmonchan",
       "number": 107,
       "special_attack": 107,
-      "special_defense": 189,
+      "special_defense": 231,
       "speed": 189,
       "types": [
         "fighting"
@@ -5510,7 +5510,7 @@
       "name": "Hitmonlee",
       "number": 106,
       "special_attack": 117,
-      "special_defense": 211,
+      "special_defense": 257,
       "speed": 211,
       "types": [
         "fighting"
@@ -5534,7 +5534,7 @@
       "name": "Hitmontop",
       "number": 237,
       "special_attack": 104,
-      "special_defense": 174,
+      "special_defense": 254,
       "speed": 174,
       "types": [
         "fighting"
@@ -5558,7 +5558,7 @@
       "name": "Ho (Oh)",
       "number": 250,
       "special_attack": 202,
-      "special_defense": 185,
+      "special_defense": 313,
       "speed": 185,
       "types": [
         "fire",
@@ -5583,7 +5583,7 @@
       "name": "Ho (Oh) (Shiny)",
       "number": 250,
       "special_attack": 249,
-      "special_defense": 237,
+      "special_defense": 365,
       "speed": 237,
       "types": [
         "fire",
@@ -5608,7 +5608,7 @@
       "name": "Honchkrow",
       "number": 430,
       "special_attack": 236,
-      "special_defense": 184,
+      "special_defense": 130,
       "speed": 184,
       "types": [
         "dark",
@@ -5633,7 +5633,7 @@
       "name": "Honchkrow (Shiny)",
       "number": 430,
       "special_attack": 240,
-      "special_defense": 199,
+      "special_defense": 161,
       "speed": 199,
       "types": [
         "dark",
@@ -5658,7 +5658,7 @@
       "name": "Hoothoot",
       "number": 163,
       "special_attack": 171,
-      "special_defense": 218,
+      "special_defense": 148,
       "speed": 218,
       "types": [
         "normal",
@@ -5683,7 +5683,7 @@
       "name": "Hoppip",
       "number": 187,
       "special_attack": 106,
-      "special_defense": 150,
+      "special_defense": 181,
       "speed": 150,
       "types": [
         "grass",
@@ -5708,7 +5708,7 @@
       "name": "Horsea",
       "number": 116,
       "special_attack": 212,
-      "special_defense": 173,
+      "special_defense": 103,
       "speed": 173,
       "types": [
         "water"
@@ -5732,7 +5732,7 @@
       "name": "Houndoom",
       "number": 229,
       "special_attack": 227,
-      "special_defense": 223,
+      "special_defense": 193,
       "speed": 223,
       "types": [
         "dark",
@@ -5757,7 +5757,7 @@
       "name": "Houndour",
       "number": 228,
       "special_attack": 238,
-      "special_defense": 228,
+      "special_defense": 136,
       "speed": 228,
       "types": [
         "dark",
@@ -5782,7 +5782,7 @@
       "name": "Huntail",
       "number": 367,
       "special_attack": 224,
-      "special_defense": 126,
+      "special_defense": 246,
       "speed": 126,
       "types": [
         "water"
@@ -5806,7 +5806,7 @@
       "name": "Hypno",
       "number": 97,
       "special_attack": 160,
-      "special_defense": 176,
+      "special_defense": 272,
       "speed": 176,
       "types": [
         "psychic"
@@ -5830,7 +5830,7 @@
       "name": "Igglybuff",
       "number": 174,
       "special_attack": 117,
-      "special_defense": 66,
+      "special_defense": 139,
       "speed": 66,
       "types": [
         "normal"
@@ -5854,7 +5854,7 @@
       "name": "Illumise",
       "number": 314,
       "special_attack": 189,
-      "special_defense": 234,
+      "special_defense": 193,
       "speed": 234,
       "types": [
         "bug"
@@ -5878,7 +5878,7 @@
       "name": "Infernape",
       "number": 392,
       "special_attack": 200,
-      "special_defense": 231,
+      "special_defense": 157,
       "speed": 231,
       "types": [
         "fire",
@@ -5903,7 +5903,7 @@
       "name": "Ivysaur",
       "number": 2,
       "special_attack": 222,
-      "special_defense": 162,
+      "special_defense": 202,
       "speed": 162,
       "types": [
         "grass",
@@ -5928,7 +5928,7 @@
       "name": "Jigglypuff",
       "number": 39,
       "special_attack": 113,
-      "special_defense": 76,
+      "special_defense": 149,
       "speed": 76,
       "types": [
         "normal"
@@ -5952,7 +5952,7 @@
       "name": "Jirachi",
       "number": 385,
       "special_attack": 225,
-      "special_defense": 225,
+      "special_defense": 205,
       "speed": 225,
       "types": [
         "steel",
@@ -5977,7 +5977,7 @@
       "name": "Jolteon",
       "number": 135,
       "special_attack": 251,
-      "special_defense": 291,
+      "special_defense": 221,
       "speed": 291,
       "types": [
         "electric"
@@ -6001,7 +6001,7 @@
       "name": "Jumpluff",
       "number": 189,
       "special_attack": 114,
-      "special_defense": 258,
+      "special_defense": 208,
       "speed": 258,
       "types": [
         "grass",
@@ -6026,7 +6026,7 @@
       "name": "Jynx",
       "number": 124,
       "special_attack": 240,
-      "special_defense": 249,
+      "special_defense": 227,
       "speed": 249,
       "types": [
         "ice",
@@ -6051,7 +6051,7 @@
       "name": "Kabuto",
       "number": 140,
       "special_attack": 131,
-      "special_defense": 146,
+      "special_defense": 184,
       "speed": 146,
       "types": [
         "rock",
@@ -6076,7 +6076,7 @@
       "name": "Kabutops",
       "number": 141,
       "special_attack": 198,
-      "special_defense": 194,
+      "special_defense": 193,
       "speed": 194,
       "types": [
         "rock",
@@ -6101,7 +6101,7 @@
       "name": "Kadabra",
       "number": 64,
       "special_attack": 254,
-      "special_defense": 253,
+      "special_defense": 201,
       "speed": 253,
       "types": [
         "psychic"
@@ -6125,7 +6125,7 @@
       "name": "Kakuna",
       "number": 14,
       "special_attack": 77,
-      "special_defense": 169,
+      "special_defense": 86,
       "speed": 169,
       "types": [
         "bug",
@@ -6150,7 +6150,7 @@
       "name": "Kangaskhan",
       "number": 115,
       "special_attack": 125,
-      "special_defense": 192,
+      "special_defense": 194,
       "speed": 192,
       "types": [
         "normal"
@@ -6174,7 +6174,7 @@
       "name": "Kecleon",
       "number": 352,
       "special_attack": 152,
-      "special_defense": 89,
+      "special_defense": 258,
       "speed": 89,
       "types": [
         "normal"
@@ -6198,7 +6198,7 @@
       "name": "Kingdra",
       "number": 230,
       "special_attack": 258,
-      "special_defense": 227,
+      "special_defense": 246,
       "speed": 227,
       "types": [
         "water",
@@ -6223,7 +6223,7 @@
       "name": "Kingler",
       "number": 99,
       "special_attack": 121,
-      "special_defense": 185,
+      "special_defense": 135,
       "speed": 185,
       "types": [
         "water"
@@ -6247,7 +6247,7 @@
       "name": "Kirlia",
       "number": 281,
       "special_attack": 202,
-      "special_defense": 154,
+      "special_defense": 164,
       "speed": 154,
       "types": [
         "psychic",
@@ -6272,7 +6272,7 @@
       "name": "Koffing",
       "number": 109,
       "special_attack": 168,
-      "special_defense": 87,
+      "special_defense": 174,
       "speed": 87,
       "types": [
         "poison"
@@ -6296,7 +6296,7 @@
       "name": "Krabby",
       "number": 98,
       "special_attack": 71,
-      "special_defense": 130,
+      "special_defense": 156,
       "speed": 130,
       "types": [
         "water"
@@ -6320,7 +6320,7 @@
       "name": "Kricketot",
       "number": 401,
       "special_attack": 77,
-      "special_defense": 86,
+      "special_defense": 176,
       "speed": 86,
       "types": [
         "bug"
@@ -6344,7 +6344,7 @@
       "name": "Kricketune",
       "number": 402,
       "special_attack": 138,
-      "special_defense": 191,
+      "special_defense": 146,
       "speed": 191,
       "types": [
         "bug"
@@ -6368,7 +6368,7 @@
       "name": "Kyogre",
       "number": 382,
       "special_attack": 275,
-      "special_defense": 185,
+      "special_defense": 285,
       "speed": 185,
       "types": [
         "water"
@@ -6392,7 +6392,7 @@
       "name": "Lairon",
       "number": 305,
       "special_attack": 122,
-      "special_defense": 158,
+      "special_defense": 173,
       "speed": 158,
       "types": [
         "steel",
@@ -6417,7 +6417,7 @@
       "name": "Lanturn",
       "number": 171,
       "special_attack": 189,
-      "special_defense": 171,
+      "special_defense": 189,
       "speed": 171,
       "types": [
         "water",
@@ -6442,7 +6442,7 @@
       "name": "Lapras",
       "number": 131,
       "special_attack": 180,
-      "special_defense": 150,
+      "special_defense": 220,
       "speed": 150,
       "types": [
         "water",
@@ -6467,7 +6467,7 @@
       "name": "Larvitar",
       "number": 246,
       "special_attack": 113,
-      "special_defense": 156,
+      "special_defense": 136,
       "speed": 156,
       "types": [
         "rock",
@@ -6492,7 +6492,7 @@
       "name": "Latias",
       "number": 380,
       "special_attack": 225,
-      "special_defense": 225,
+      "special_defense": 265,
       "speed": 225,
       "types": [
         "dragon",
@@ -6542,7 +6542,7 @@
       "name": "Leafeon",
       "number": 470,
       "special_attack": 166,
-      "special_defense": 221,
+      "special_defense": 161,
       "speed": 221,
       "types": [
         "grass"
@@ -6566,7 +6566,7 @@
       "name": "Ledian",
       "number": 166,
       "special_attack": 131,
-      "special_defense": 206,
+      "special_defense": 256,
       "speed": 206,
       "types": [
         "bug",
@@ -6591,7 +6591,7 @@
       "name": "Ledyba",
       "number": 165,
       "special_attack": 177,
-      "special_defense": 227,
+      "special_defense": 194,
       "speed": 227,
       "types": [
         "bug",
@@ -6616,7 +6616,7 @@
       "name": "Lickilicky",
       "number": 463,
       "special_attack": 192,
-      "special_defense": 132,
+      "special_defense": 222,
       "speed": 132,
       "types": [
         "normal"
@@ -6640,7 +6640,7 @@
       "name": "Lickitung",
       "number": 108,
       "special_attack": 143,
-      "special_defense": 124,
+      "special_defense": 173,
       "speed": 124,
       "types": [
         "normal"
@@ -6664,7 +6664,7 @@
       "name": "Lileep",
       "number": 345,
       "special_attack": 169,
-      "special_defense": 93,
+      "special_defense": 243,
       "speed": 93,
       "types": [
         "rock",
@@ -6689,7 +6689,7 @@
       "name": "Linoone",
       "number": 264,
       "special_attack": 126,
-      "special_defense": 265,
+      "special_defense": 163,
       "speed": 265,
       "types": [
         "normal"
@@ -6713,7 +6713,7 @@
       "name": "Lombre",
       "number": 271,
       "special_attack": 156,
-      "special_defense": 136,
+      "special_defense": 239,
       "speed": 136,
       "types": [
         "water",
@@ -6738,7 +6738,7 @@
       "name": "Lopunny",
       "number": 428,
       "special_attack": 143,
-      "special_defense": 245,
+      "special_defense": 220,
       "speed": 245,
       "types": [
         "normal"
@@ -6762,7 +6762,7 @@
       "name": "Lotad",
       "number": 270,
       "special_attack": 173,
-      "special_defense": 124,
+      "special_defense": 149,
       "speed": 124,
       "types": [
         "water",
@@ -6787,7 +6787,7 @@
       "name": "Loudred",
       "number": 294,
       "special_attack": 225,
-      "special_defense": 157,
+      "special_defense": 147,
       "speed": 157,
       "types": [
         "normal"
@@ -6811,7 +6811,7 @@
       "name": "Lucario",
       "number": 448,
       "special_attack": 261,
-      "special_defense": 211,
+      "special_defense": 171,
       "speed": 211,
       "types": [
         "fighting",
@@ -6836,7 +6836,7 @@
       "name": "Ludicolo",
       "number": 272,
       "special_attack": 215,
-      "special_defense": 175,
+      "special_defense": 235,
       "speed": 175,
       "types": [
         "water",
@@ -6861,7 +6861,7 @@
       "name": "Lugia",
       "number": 249,
       "special_attack": 185,
-      "special_defense": 225,
+      "special_defense": 281,
       "speed": 225,
       "types": [
         "psychic",
@@ -6886,7 +6886,7 @@
       "name": "Lugia (Shiny)",
       "number": 249,
       "special_attack": 237,
-      "special_defense": 277,
+      "special_defense": 328,
       "speed": 277,
       "types": [
         "psychic",
@@ -6911,7 +6911,7 @@
       "name": "Lumineon",
       "number": 457,
       "special_attack": 206,
-      "special_defense": 232,
+      "special_defense": 222,
       "speed": 232,
       "types": [
         "water"
@@ -6935,7 +6935,7 @@
       "name": "Lunatone",
       "number": 337,
       "special_attack": 229,
-      "special_defense": 143,
+      "special_defense": 209,
       "speed": 143,
       "types": [
         "rock",
@@ -6960,7 +6960,7 @@
       "name": "Luvdisc",
       "number": 370,
       "special_attack": 97,
-      "special_defense": 243,
+      "special_defense": 172,
       "speed": 243,
       "types": [
         "water"
@@ -6984,7 +6984,7 @@
       "name": "Luxio",
       "number": 404,
       "special_attack": 140,
-      "special_defense": 165,
+      "special_defense": 167,
       "speed": 165,
       "types": [
         "electric"
@@ -7008,7 +7008,7 @@
       "name": "Luxray",
       "number": 405,
       "special_attack": 231,
-      "special_defense": 160,
+      "special_defense": 178,
       "speed": 160,
       "types": [
         "electric"
@@ -7032,7 +7032,7 @@
       "name": "Machamp",
       "number": 68,
       "special_attack": 179,
-      "special_defense": 143,
+      "special_defense": 203,
       "speed": 143,
       "types": [
         "fighting"
@@ -7056,7 +7056,7 @@
       "name": "Machoke",
       "number": 67,
       "special_attack": 142,
-      "special_defense": 118,
+      "special_defense": 178,
       "speed": 118,
       "types": [
         "fighting"
@@ -7080,7 +7080,7 @@
       "name": "Machop",
       "number": 66,
       "special_attack": 122,
-      "special_defense": 109,
+      "special_defense": 122,
       "speed": 109,
       "types": [
         "fighting"
@@ -7104,7 +7104,7 @@
       "name": "Magby",
       "number": 240,
       "special_attack": 196,
-      "special_defense": 233,
+      "special_defense": 140,
       "speed": 233,
       "types": [
         "fire"
@@ -7128,7 +7128,7 @@
       "name": "Magcargo",
       "number": 219,
       "special_attack": 223,
-      "special_defense": 81,
+      "special_defense": 245,
       "speed": 81,
       "types": [
         "fire",
@@ -7153,7 +7153,7 @@
       "name": "Magikarp",
       "number": 129,
       "special_attack": 141,
-      "special_defense": 259,
+      "special_defense": 76,
       "speed": 259,
       "types": [
         "water"
@@ -7177,7 +7177,7 @@
       "name": "Magmar",
       "number": 126,
       "special_attack": 234,
-      "special_defense": 242,
+      "special_defense": 204,
       "speed": 242,
       "types": [
         "fire"
@@ -7201,7 +7201,7 @@
       "name": "Magmortar",
       "number": 467,
       "special_attack": 251,
-      "special_defense": 195,
+      "special_defense": 219,
       "speed": 195,
       "types": [
         "fire"
@@ -7225,7 +7225,7 @@
       "name": "Magnemite",
       "number": 81,
       "special_attack": 264,
-      "special_defense": 140,
+      "special_defense": 144,
       "speed": 140,
       "types": [
         "electric",
@@ -7250,7 +7250,7 @@
       "name": "Magneton",
       "number": 82,
       "special_attack": 276,
-      "special_defense": 176,
+      "special_defense": 158,
       "speed": 176,
       "types": [
         "electric",
@@ -7275,7 +7275,7 @@
       "name": "Magnezone",
       "number": 462,
       "special_attack": 261,
-      "special_defense": 165,
+      "special_defense": 210,
       "speed": 165,
       "types": [
         "electric",
@@ -7300,7 +7300,7 @@
       "name": "Makuhita",
       "number": 296,
       "special_attack": 68,
-      "special_defense": 86,
+      "special_defense": 117,
       "speed": 86,
       "types": [
         "fighting"
@@ -7324,7 +7324,7 @@
       "name": "Mamoswine",
       "number": 473,
       "special_attack": 187,
-      "special_defense": 190,
+      "special_defense": 150,
       "speed": 190,
       "types": [
         "ice",
@@ -7349,7 +7349,7 @@
       "name": "Manaphy",
       "number": 490,
       "special_attack": 328,
-      "special_defense": 212,
+      "special_defense": 268,
       "speed": 212,
       "types": [
         "water"
@@ -7397,7 +7397,7 @@
       "name": "Manectric",
       "number": 310,
       "special_attack": 234,
-      "special_defense": 261,
+      "special_defense": 171,
       "speed": 261,
       "types": [
         "electric"
@@ -7421,7 +7421,7 @@
       "name": "Mankey",
       "number": 56,
       "special_attack": 109,
-      "special_defense": 211,
+      "special_defense": 142,
       "speed": 211,
       "types": [
         "fighting"
@@ -7445,7 +7445,7 @@
       "name": "Mantine",
       "number": 226,
       "special_attack": 196,
-      "special_defense": 158,
+      "special_defense": 295,
       "speed": 158,
       "types": [
         "water",
@@ -7470,7 +7470,7 @@
       "name": "Mantyke",
       "number": 458,
       "special_attack": 184,
-      "special_defense": 148,
+      "special_defense": 288,
       "speed": 148,
       "types": [
         "water",
@@ -7495,7 +7495,7 @@
       "name": "Mareep",
       "number": 179,
       "special_attack": 248,
-      "special_defense": 103,
+      "special_defense": 141,
       "speed": 103,
       "types": [
         "electric"
@@ -7519,7 +7519,7 @@
       "name": "Marill",
       "number": 183,
       "special_attack": 68,
-      "special_defense": 116,
+      "special_defense": 157,
       "speed": 116,
       "types": [
         "water",
@@ -7544,7 +7544,7 @@
       "name": "Marowak",
       "number": 105,
       "special_attack": 122,
-      "special_defense": 140,
+      "special_defense": 231,
       "speed": 140,
       "types": [
         "ground"
@@ -7568,7 +7568,7 @@
       "name": "Marshtomp",
       "number": 259,
       "special_attack": 201,
-      "special_defense": 142,
+      "special_defense": 182,
       "speed": 142,
       "types": [
         "water",
@@ -7593,7 +7593,7 @@
       "name": "Masquerain",
       "number": 284,
       "special_attack": 201,
-      "special_defense": 161,
+      "special_defense": 225,
       "speed": 161,
       "types": [
         "bug",
@@ -7618,7 +7618,7 @@
       "name": "Mawile",
       "number": 303,
       "special_attack": 139,
-      "special_defense": 159,
+      "special_defense": 155,
       "speed": 159,
       "types": [
         "steel",
@@ -7643,7 +7643,7 @@
       "name": "Medicham",
       "number": 308,
       "special_attack": 141,
-      "special_defense": 202,
+      "special_defense": 213,
       "speed": 202,
       "types": [
         "fighting",
@@ -7668,7 +7668,7 @@
       "name": "Meditite",
       "number": 307,
       "special_attack": 120,
-      "special_defense": 191,
+      "special_defense": 164,
       "speed": 191,
       "types": [
         "fighting",
@@ -7693,7 +7693,7 @@
       "name": "Meganium",
       "number": 154,
       "special_attack": 197,
-      "special_defense": 171,
+      "special_defense": 231,
       "speed": 171,
       "types": [
         "grass"
@@ -7717,7 +7717,7 @@
       "name": "Meowth",
       "number": 52,
       "special_attack": 100,
-      "special_defense": 256,
+      "special_defense": 112,
       "speed": 256,
       "types": [
         "normal"
@@ -7741,7 +7741,7 @@
       "name": "Mesprit",
       "number": 481,
       "special_attack": 220,
-      "special_defense": 170,
+      "special_defense": 220,
       "speed": 170,
       "types": [
         "psychic"
@@ -7765,7 +7765,7 @@
       "name": "Metagross",
       "number": 376,
       "special_attack": 175,
-      "special_defense": 159,
+      "special_defense": 185,
       "speed": 159,
       "types": [
         "steel",
@@ -7790,7 +7790,7 @@
       "name": "Metang",
       "number": 375,
       "special_attack": 135,
-      "special_defense": 141,
+      "special_defense": 201,
       "speed": 141,
       "types": [
         "steel",
@@ -7815,7 +7815,7 @@
       "name": "Metapod",
       "number": 11,
       "special_attack": 77,
-      "special_defense": 96,
+      "special_defense": 148,
       "speed": 96,
       "types": [
         "bug"
@@ -7863,7 +7863,7 @@
       "name": "Mewtwo",
       "number": 150,
       "special_attack": 325,
-      "special_defense": 277,
+      "special_defense": 197,
       "speed": 277,
       "types": [
         "psychic"
@@ -7887,7 +7887,7 @@
       "name": "Mewtwo (Shiny)",
       "number": 150,
       "special_attack": 328,
-      "special_defense": 317,
+      "special_defense": 237,
       "speed": 317,
       "types": [
         "psychic"
@@ -7911,7 +7911,7 @@
       "name": "Mightyena",
       "number": 262,
       "special_attack": 144,
-      "special_defense": 199,
+      "special_defense": 161,
       "speed": 199,
       "types": [
         "dark"
@@ -7935,7 +7935,7 @@
       "name": "Milotic",
       "number": 350,
       "special_attack": 229,
-      "special_defense": 191,
+      "special_defense": 279,
       "speed": 191,
       "types": [
         "water"
@@ -7959,7 +7959,7 @@
       "name": "Miltank",
       "number": 241,
       "special_attack": 83,
-      "special_defense": 234,
+      "special_defense": 174,
       "speed": 234,
       "types": [
         "normal"
@@ -7983,7 +7983,7 @@
       "name": "Mime Jr.",
       "number": 439,
       "special_attack": 255,
-      "special_defense": 200,
+      "special_defense": 216,
       "speed": 200,
       "types": [
         "psychic",
@@ -8008,7 +8008,7 @@
       "name": "Minun",
       "number": 312,
       "special_attack": 192,
-      "special_defense": 255,
+      "special_defense": 212,
       "speed": 255,
       "types": [
         "electric"
@@ -8056,7 +8056,7 @@
       "name": "Mismagius",
       "number": 429,
       "special_attack": 219,
-      "special_defense": 245,
+      "special_defense": 233,
       "speed": 245,
       "types": [
         "ghost"
@@ -8080,7 +8080,7 @@
       "name": "Moltres",
       "number": 146,
       "special_attack": 248,
-      "special_defense": 206,
+      "special_defense": 196,
       "speed": 206,
       "types": [
         "fire",
@@ -8105,7 +8105,7 @@
       "name": "Monferno",
       "number": 391,
       "special_attack": 174,
-      "special_defense": 197,
+      "special_defense": 171,
       "speed": 197,
       "types": [
         "fire",
@@ -8130,7 +8130,7 @@
       "name": "Mothim",
       "number": 414,
       "special_attack": 224,
-      "special_defense": 199,
+      "special_defense": 168,
       "speed": 199,
       "types": [
         "bug",
@@ -8155,7 +8155,7 @@
       "name": "Mr. Mime",
       "number": 122,
       "special_attack": 237,
-      "special_defense": 217,
+      "special_defense": 277,
       "speed": 217,
       "types": [
         "psychic",
@@ -8180,7 +8180,7 @@
       "name": "Mudkip",
       "number": 258,
       "special_attack": 122,
-      "special_defense": 116,
+      "special_defense": 157,
       "speed": 116,
       "types": [
         "water"
@@ -8204,7 +8204,7 @@
       "name": "Muk",
       "number": 89,
       "special_attack": 179,
-      "special_defense": 133,
+      "special_defense": 254,
       "speed": 133,
       "types": [
         "poison"
@@ -8228,7 +8228,7 @@
       "name": "Munchlax",
       "number": 446,
       "special_attack": 103,
-      "special_defense": 68,
+      "special_defense": 235,
       "speed": 68,
       "types": [
         "normal"
@@ -8252,7 +8252,7 @@
       "name": "Murkrow",
       "number": 198,
       "special_attack": 212,
-      "special_defense": 246,
+      "special_defense": 126,
       "speed": 246,
       "types": [
         "dark",
@@ -8277,7 +8277,7 @@
       "name": "Natu",
       "number": 177,
       "special_attack": 198,
-      "special_defense": 239,
+      "special_defense": 126,
       "speed": 239,
       "types": [
         "psychic",
@@ -8302,7 +8302,7 @@
       "name": "Nidoking",
       "number": 34,
       "special_attack": 204,
-      "special_defense": 183,
+      "special_defense": 202,
       "speed": 183,
       "types": [
         "poison",
@@ -8327,7 +8327,7 @@
       "name": "Nidoqueen",
       "number": 31,
       "special_attack": 202,
-      "special_defense": 186,
+      "special_defense": 204,
       "speed": 186,
       "types": [
         "poison",
@@ -8352,7 +8352,7 @@
       "name": "Nidoran-F",
       "number": 29,
       "special_attack": 104,
-      "special_defense": 161,
+      "special_defense": 119,
       "speed": 161,
       "types": [
         "poison"
@@ -8376,7 +8376,7 @@
       "name": "Nidoran-M",
       "number": 32,
       "special_attack": 104,
-      "special_defense": 188,
+      "special_defense": 130,
       "speed": 188,
       "types": [
         "poison"
@@ -8400,7 +8400,7 @@
       "name": "Nidorina",
       "number": 30,
       "special_attack": 217,
-      "special_defense": 137,
+      "special_defense": 156,
       "speed": 137,
       "types": [
         "poison"
@@ -8424,7 +8424,7 @@
       "name": "Nidorino",
       "number": 33,
       "special_attack": 194,
-      "special_defense": 155,
+      "special_defense": 167,
       "speed": 155,
       "types": [
         "poison"
@@ -8448,7 +8448,7 @@
       "name": "Nincada",
       "number": 290,
       "special_attack": 86,
-      "special_defense": 116,
+      "special_defense": 97,
       "speed": 116,
       "types": [
         "bug",
@@ -8473,7 +8473,7 @@
       "name": "Ninetales",
       "number": 38,
       "special_attack": 195,
-      "special_defense": 233,
+      "special_defense": 209,
       "speed": 233,
       "types": [
         "fire"
@@ -8497,7 +8497,7 @@
       "name": "Ninjask",
       "number": 291,
       "special_attack": 149,
-      "special_defense": 320,
+      "special_defense": 178,
       "speed": 320,
       "types": [
         "bug",
@@ -8522,7 +8522,7 @@
       "name": "Noctowl",
       "number": 164,
       "special_attack": 191,
-      "special_defense": 196,
+      "special_defense": 231,
       "speed": 196,
       "types": [
         "normal",
@@ -8547,7 +8547,7 @@
       "name": "Nosepass",
       "number": 299,
       "special_attack": 147,
-      "special_defense": 86,
+      "special_defense": 261,
       "speed": 86,
       "types": [
         "rock"
@@ -8571,7 +8571,7 @@
       "name": "Numel",
       "number": 322,
       "special_attack": 182,
-      "special_defense": 185,
+      "special_defense": 142,
       "speed": 185,
       "types": [
         "fire",
@@ -8596,7 +8596,7 @@
       "name": "Nuzleaf",
       "number": 274,
       "special_attack": 188,
-      "special_defense": 184,
+      "special_defense": 128,
       "speed": 184,
       "types": [
         "grass",
@@ -8621,7 +8621,7 @@
       "name": "Octillery",
       "number": 224,
       "special_attack": 275,
-      "special_defense": 113,
+      "special_defense": 229,
       "speed": 113,
       "types": [
         "water"
@@ -8645,7 +8645,7 @@
       "name": "Oddish",
       "number": 43,
       "special_attack": 239,
-      "special_defense": 128,
+      "special_defense": 166,
       "speed": 128,
       "types": [
         "grass",
@@ -8670,7 +8670,7 @@
       "name": "Omanyte",
       "number": 138,
       "special_attack": 239,
-      "special_defense": 145,
+      "special_defense": 182,
       "speed": 145,
       "types": [
         "rock",
@@ -8695,7 +8695,7 @@
       "name": "Omastar",
       "number": 139,
       "special_attack": 264,
-      "special_defense": 144,
+      "special_defense": 174,
       "speed": 144,
       "types": [
         "rock",
@@ -8720,7 +8720,7 @@
       "name": "Onix",
       "number": 95,
       "special_attack": 74,
-      "special_defense": 184,
+      "special_defense": 124,
       "speed": 184,
       "types": [
         "rock",
@@ -8745,7 +8745,7 @@
       "name": "Pachirisu",
       "number": 417,
       "special_attack": 172,
-      "special_defense": 232,
+      "special_defense": 218,
       "speed": 232,
       "types": [
         "electric"
@@ -8769,7 +8769,7 @@
       "name": "Palkia",
       "number": 484,
       "special_attack": 335,
-      "special_defense": 205,
+      "special_defense": 245,
       "speed": 205,
       "types": [
         "water",
@@ -8794,7 +8794,7 @@
       "name": "Palkia (Shiny)",
       "number": 484,
       "special_attack": 392,
-      "special_defense": 257,
+      "special_defense": 297,
       "speed": 257,
       "types": [
         "water",
@@ -8819,7 +8819,7 @@
       "name": "Paras",
       "number": 46,
       "special_attack": 113,
-      "special_defense": 149,
+      "special_defense": 146,
       "speed": 149,
       "types": [
         "bug",
@@ -8844,7 +8844,7 @@
       "name": "Parasect",
       "number": 47,
       "special_attack": 140,
-      "special_defense": 151,
+      "special_defense": 196,
       "speed": 151,
       "types": [
         "bug",
@@ -8869,7 +8869,7 @@
       "name": "Pelipper",
       "number": 279,
       "special_attack": 210,
-      "special_defense": 190,
+      "special_defense": 200,
       "speed": 190,
       "types": [
         "water",
@@ -8894,7 +8894,7 @@
       "name": "Persian",
       "number": 53,
       "special_attack": 169,
-      "special_defense": 269,
+      "special_defense": 169,
       "speed": 269,
       "types": [
         "normal"
@@ -8918,7 +8918,7 @@
       "name": "Phanpy",
       "number": 231,
       "special_attack": 104,
-      "special_defense": 160,
+      "special_defense": 148,
       "speed": 160,
       "types": [
         "ground"
@@ -8942,7 +8942,7 @@
       "name": "Phione",
       "number": 489,
       "special_attack": 195,
-      "special_defense": 214,
+      "special_defense": 195,
       "speed": 214,
       "types": [
         "water"
@@ -8966,7 +8966,7 @@
       "name": "Pichu",
       "number": 172,
       "special_attack": 95,
-      "special_defense": 240,
+      "special_defense": 107,
       "speed": 240,
       "types": [
         "electric"
@@ -8990,7 +8990,7 @@
       "name": "Pidgeot",
       "number": 18,
       "special_attack": 139,
-      "special_defense": 239,
+      "special_defense": 187,
       "speed": 239,
       "types": [
         "normal",
@@ -9015,7 +9015,7 @@
       "name": "Pidgeotto",
       "number": 17,
       "special_attack": 218,
-      "special_defense": 241,
+      "special_defense": 136,
       "speed": 241,
       "types": [
         "normal",
@@ -9040,7 +9040,7 @@
       "name": "Pidgey",
       "number": 16,
       "special_attack": 95,
-      "special_defense": 211,
+      "special_defense": 106,
       "speed": 211,
       "types": [
         "normal",
@@ -9065,7 +9065,7 @@
       "name": "Pikachu",
       "number": 25,
       "special_attack": 218,
-      "special_defense": 246,
+      "special_defense": 124,
       "speed": 246,
       "types": [
         "electric"
@@ -9089,7 +9089,7 @@
       "name": "Piloswine",
       "number": 221,
       "special_attack": 201,
-      "special_defense": 122,
+      "special_defense": 176,
       "speed": 122,
       "types": [
         "ice",
@@ -9114,7 +9114,7 @@
       "name": "Pineco",
       "number": 204,
       "special_attack": 106,
-      "special_defense": 31,
+      "special_defense": 151,
       "speed": 31,
       "types": [
         "bug"
@@ -9138,7 +9138,7 @@
       "name": "Pinsir",
       "number": 127,
       "special_attack": 143,
-      "special_defense": 203,
+      "special_defense": 173,
       "speed": 203,
       "types": [
         "bug"
@@ -9162,7 +9162,7 @@
       "name": "Piplup",
       "number": 393,
       "special_attack": 243,
-      "special_defense": 158,
+      "special_defense": 148,
       "speed": 158,
       "types": [
         "water"
@@ -9186,7 +9186,7 @@
       "name": "Plusle",
       "number": 311,
       "special_attack": 212,
-      "special_defense": 255,
+      "special_defense": 192,
       "speed": 255,
       "types": [
         "electric"
@@ -9210,7 +9210,7 @@
       "name": "Politoed",
       "number": 186,
       "special_attack": 213,
-      "special_defense": 173,
+      "special_defense": 233,
       "speed": 173,
       "types": [
         "water"
@@ -9234,7 +9234,7 @@
       "name": "Poliwag",
       "number": 60,
       "special_attack": 174,
-      "special_defense": 255,
+      "special_defense": 125,
       "speed": 255,
       "types": [
         "water"
@@ -9258,7 +9258,7 @@
       "name": "Poliwhirl",
       "number": 61,
       "special_attack": 110,
-      "special_defense": 224,
+      "special_defense": 144,
       "speed": 224,
       "types": [
         "water"
@@ -9282,7 +9282,7 @@
       "name": "Poliwrath",
       "number": 62,
       "special_attack": 190,
-      "special_defense": 173,
+      "special_defense": 213,
       "speed": 173,
       "types": [
         "water",
@@ -9307,7 +9307,7 @@
       "name": "Ponyta",
       "number": 77,
       "special_attack": 154,
-      "special_defense": 244,
+      "special_defense": 172,
       "speed": 244,
       "types": [
         "fire"
@@ -9331,7 +9331,7 @@
       "name": "Poochyena",
       "number": 261,
       "special_attack": 86,
-      "special_defense": 106,
+      "special_defense": 117,
       "speed": 106,
       "types": [
         "dark"
@@ -9355,7 +9355,7 @@
       "name": "Porygon",
       "number": 137,
       "special_attack": 206,
-      "special_defense": 76,
+      "special_defense": 249,
       "speed": 76,
       "types": [
         "normal"
@@ -9379,7 +9379,7 @@
       "name": "Porygon-Z",
       "number": 474,
       "special_attack": 270,
-      "special_defense": 210,
+      "special_defense": 180,
       "speed": 210,
       "types": [
         "normal"
@@ -9403,7 +9403,7 @@
       "name": "Porygon2",
       "number": 233,
       "special_attack": 242,
-      "special_defense": 152,
+      "special_defense": 222,
       "speed": 152,
       "types": [
         "normal"
@@ -9427,7 +9427,7 @@
       "name": "Primeape",
       "number": 57,
       "special_attack": 172,
-      "special_defense": 227,
+      "special_defense": 177,
       "speed": 227,
       "types": [
         "fighting"
@@ -9451,7 +9451,7 @@
       "name": "Prinplup",
       "number": 394,
       "special_attack": 204,
-      "special_defense": 142,
+      "special_defense": 194,
       "speed": 142,
       "types": [
         "water"
@@ -9475,7 +9475,7 @@
       "name": "Probopass",
       "number": 476,
       "special_attack": 181,
-      "special_defense": 111,
+      "special_defense": 331,
       "speed": 111,
       "types": [
         "rock",
@@ -9500,7 +9500,7 @@
       "name": "Psyduck",
       "number": 54,
       "special_attack": 198,
-      "special_defense": 160,
+      "special_defense": 150,
       "speed": 160,
       "types": [
         "water"
@@ -9524,7 +9524,7 @@
       "name": "Pupitar",
       "number": 247,
       "special_attack": 166,
-      "special_defense": 138,
+      "special_defense": 217,
       "speed": 138,
       "types": [
         "rock",
@@ -9549,7 +9549,7 @@
       "name": "Purugly",
       "number": 432,
       "special_attack": 149,
-      "special_defense": 288,
+      "special_defense": 156,
       "speed": 288,
       "types": [
         "normal"
@@ -9573,7 +9573,7 @@
       "name": "Quagsire",
       "number": 195,
       "special_attack": 170,
-      "special_defense": 110,
+      "special_defense": 170,
       "speed": 110,
       "types": [
         "water",
@@ -9598,7 +9598,7 @@
       "name": "Quilava",
       "number": 156,
       "special_attack": 176,
-      "special_defense": 221,
+      "special_defense": 193,
       "speed": 221,
       "types": [
         "fire"
@@ -9622,7 +9622,7 @@
       "name": "Qwilfish",
       "number": 211,
       "special_attack": 150,
-      "special_defense": 210,
+      "special_defense": 135,
       "speed": 210,
       "types": [
         "water",
@@ -9647,7 +9647,7 @@
       "name": "Raichu",
       "number": 26,
       "special_attack": 215,
-      "special_defense": 235,
+      "special_defense": 195,
       "speed": 235,
       "types": [
         "electric"
@@ -9671,7 +9671,7 @@
       "name": "Raikou",
       "number": 243,
       "special_attack": 360,
-      "special_defense": 235,
+      "special_defense": 195,
       "speed": 235,
       "types": [
         "electric"
@@ -9695,7 +9695,7 @@
       "name": "Raikou (Shiny)",
       "number": 243,
       "special_attack": 315,
-      "special_defense": 287,
+      "special_defense": 257,
       "speed": 287,
       "types": [
         "electric"
@@ -9719,7 +9719,7 @@
       "name": "Ralts",
       "number": 280,
       "special_attack": 189,
-      "special_defense": 196,
+      "special_defense": 106,
       "speed": 196,
       "types": [
         "psychic",
@@ -9744,7 +9744,7 @@
       "name": "Rampardos",
       "number": 409,
       "special_attack": 143,
-      "special_defense": 150,
+      "special_defense": 179,
       "speed": 150,
       "types": [
         "rock"
@@ -9768,7 +9768,7 @@
       "name": "Rapidash",
       "number": 78,
       "special_attack": 193,
-      "special_defense": 267,
+      "special_defense": 193,
       "speed": 267,
       "types": [
         "fire"
@@ -9792,7 +9792,7 @@
       "name": "Raticate",
       "number": 20,
       "special_attack": 108,
-      "special_defense": 239,
+      "special_defense": 185,
       "speed": 239,
       "types": [
         "normal"
@@ -9816,7 +9816,7 @@
       "name": "Rattata",
       "number": 19,
       "special_attack": 77,
-      "special_defense": 267,
+      "special_defense": 106,
       "speed": 267,
       "types": [
         "normal"
@@ -9840,7 +9840,7 @@
       "name": "Rayquaza",
       "number": 384,
       "special_attack": 346,
-      "special_defense": 205,
+      "special_defense": 185,
       "speed": 205,
       "types": [
         "dragon",
@@ -9865,7 +9865,7 @@
       "name": "Regice",
       "number": 378,
       "special_attack": 215,
-      "special_defense": 115,
+      "special_defense": 365,
       "speed": 115,
       "types": [
         "ice"
@@ -9889,7 +9889,7 @@
       "name": "Regigigas",
       "number": 486,
       "special_attack": 181,
-      "special_defense": 206,
+      "special_defense": 319,
       "speed": 206,
       "types": [
         "normal"
@@ -9913,7 +9913,7 @@
       "name": "Regigigas (Shiny)",
       "number": 486,
       "special_attack": 195,
-      "special_defense": 257,
+      "special_defense": 277,
       "speed": 257,
       "types": [
         "normal"
@@ -9937,7 +9937,7 @@
       "name": "Regirock",
       "number": 377,
       "special_attack": 125,
-      "special_defense": 115,
+      "special_defense": 215,
       "speed": 115,
       "types": [
         "rock"
@@ -9961,7 +9961,7 @@
       "name": "Registeel",
       "number": 379,
       "special_attack": 160,
-      "special_defense": 110,
+      "special_defense": 310,
       "speed": 110,
       "types": [
         "steel"
@@ -9985,7 +9985,7 @@
       "name": "Relicanth",
       "number": 369,
       "special_attack": 160,
-      "special_defense": 146,
+      "special_defense": 165,
       "speed": 146,
       "types": [
         "water",
@@ -10010,7 +10010,7 @@
       "name": "Remoraid",
       "number": 223,
       "special_attack": 224,
-      "special_defense": 246,
+      "special_defense": 101,
       "speed": 246,
       "types": [
         "water"
@@ -10034,7 +10034,7 @@
       "name": "Rhydon",
       "number": 112,
       "special_attack": 207,
-      "special_defense": 137,
+      "special_defense": 147,
       "speed": 137,
       "types": [
         "ground",
@@ -10059,7 +10059,7 @@
       "name": "Rhyhorn",
       "number": 111,
       "special_attack": 86,
-      "special_defense": 86,
+      "special_defense": 174,
       "speed": 86,
       "types": [
         "ground",
@@ -10084,7 +10084,7 @@
       "name": "Rhyperior",
       "number": 464,
       "special_attack": 161,
-      "special_defense": 121,
+      "special_defense": 161,
       "speed": 121,
       "types": [
         "ground",
@@ -10109,7 +10109,7 @@
       "name": "Rhyperior (Shiny)",
       "number": 464,
       "special_attack": 150,
-      "special_defense": 137,
+      "special_defense": 167,
       "speed": 137,
       "types": [
         "ground",
@@ -10134,7 +10134,7 @@
       "name": "Riolu",
       "number": 447,
       "special_attack": 95,
-      "special_defense": 201,
+      "special_defense": 141,
       "speed": 201,
       "types": [
         "fighting"
@@ -10158,7 +10158,7 @@
       "name": "Roselia",
       "number": 315,
       "special_attack": 243,
-      "special_defense": 155,
+      "special_defense": 203,
       "speed": 155,
       "types": [
         "grass",
@@ -10183,7 +10183,7 @@
       "name": "Roserade",
       "number": 407,
       "special_attack": 254,
-      "special_defense": 213,
+      "special_defense": 243,
       "speed": 213,
       "types": [
         "grass",
@@ -10208,7 +10208,7 @@
       "name": "Rotom",
       "number": 479,
       "special_attack": 229,
-      "special_defense": 221,
+      "special_defense": 212,
       "speed": 221,
       "types": [
         "electric",
@@ -10233,7 +10233,7 @@
       "name": "Sableye",
       "number": 302,
       "special_attack": 228,
-      "special_defense": 122,
+      "special_defense": 177,
       "speed": 122,
       "types": [
         "dark",
@@ -10258,7 +10258,7 @@
       "name": "Salamence",
       "number": 373,
       "special_attack": 225,
-      "special_defense": 225,
+      "special_defense": 165,
       "speed": 225,
       "types": [
         "dragon",
@@ -10283,7 +10283,7 @@
       "name": "Sandshrew",
       "number": 27,
       "special_attack": 68,
-      "special_defense": 148,
+      "special_defense": 149,
       "speed": 148,
       "types": [
         "ground"
@@ -10307,7 +10307,7 @@
       "name": "Sandslash",
       "number": 28,
       "special_attack": 115,
-      "special_defense": 168,
+      "special_defense": 162,
       "speed": 168,
       "types": [
         "ground"
@@ -10331,7 +10331,7 @@
       "name": "Sceptile",
       "number": 254,
       "special_attack": 230,
-      "special_defense": 270,
+      "special_defense": 200,
       "speed": 270,
       "types": [
         "grass"
@@ -10355,7 +10355,7 @@
       "name": "Scizor",
       "number": 212,
       "special_attack": 115,
-      "special_defense": 148,
+      "special_defense": 165,
       "speed": 148,
       "types": [
         "bug",
@@ -10380,7 +10380,7 @@
       "name": "Scyther",
       "number": 123,
       "special_attack": 143,
-      "special_defense": 243,
+      "special_defense": 193,
       "speed": 243,
       "types": [
         "bug",
@@ -10405,7 +10405,7 @@
       "name": "Seadra",
       "number": 117,
       "special_attack": 229,
-      "special_defense": 229,
+      "special_defense": 129,
       "speed": 229,
       "types": [
         "water"
@@ -10429,7 +10429,7 @@
       "name": "Seaking",
       "number": 119,
       "special_attack": 195,
-      "special_defense": 147,
+      "special_defense": 198,
       "speed": 147,
       "types": [
         "water"
@@ -10453,7 +10453,7 @@
       "name": "Sealeo",
       "number": 364,
       "special_attack": 213,
-      "special_defense": 151,
+      "special_defense": 201,
       "speed": 151,
       "types": [
         "ice",
@@ -10478,7 +10478,7 @@
       "name": "Seedot",
       "number": 273,
       "special_attack": 86,
-      "special_defense": 159,
+      "special_defense": 96,
       "speed": 159,
       "types": [
         "grass"
@@ -10502,7 +10502,7 @@
       "name": "Seel",
       "number": 86,
       "special_attack": 157,
-      "special_defense": 126,
+      "special_defense": 208,
       "speed": 126,
       "types": [
         "water"
@@ -10526,7 +10526,7 @@
       "name": "Sentret",
       "number": 161,
       "special_attack": 95,
-      "special_defense": 76,
+      "special_defense": 127,
       "speed": 76,
       "types": [
         "normal"
@@ -10550,7 +10550,7 @@
       "name": "Seviper",
       "number": 336,
       "special_attack": 213,
-      "special_defense": 167,
+      "special_defense": 157,
       "speed": 167,
       "types": [
         "poison"
@@ -10574,7 +10574,7 @@
       "name": "Sharpedo",
       "number": 319,
       "special_attack": 227,
-      "special_defense": 227,
+      "special_defense": 117,
       "speed": 227,
       "types": [
         "water",
@@ -10599,7 +10599,7 @@
       "name": "Shaymin",
       "number": 492,
       "special_attack": 185,
-      "special_defense": 205,
+      "special_defense": 225,
       "speed": 205,
       "types": [
         "grass"
@@ -10647,7 +10647,7 @@
       "name": "Shedinja",
       "number": 292,
       "special_attack": 105,
-      "special_defense": 137,
+      "special_defense": 117,
       "speed": 137,
       "types": [
         "bug",
@@ -10672,7 +10672,7 @@
       "name": "Shelgon",
       "number": 372,
       "special_attack": 144,
-      "special_defense": 141,
+      "special_defense": 155,
       "speed": 141,
       "types": [
         "dragon"
@@ -10696,7 +10696,7 @@
       "name": "Shellder",
       "number": 90,
       "special_attack": 108,
-      "special_defense": 111,
+      "special_defense": 124,
       "speed": 111,
       "types": [
         "water"
@@ -10720,7 +10720,7 @@
       "name": "Shellos (East)",
       "number": 422,
       "special_attack": 135,
-      "special_defense": 129,
+      "special_defense": 185,
       "speed": 129,
       "types": [
         "water"
@@ -10744,7 +10744,7 @@
       "name": "Shellos (West)",
       "number": 422,
       "special_attack": 194,
-      "special_defense": 129,
+      "special_defense": 185,
       "speed": 129,
       "types": [
         "water"
@@ -10768,7 +10768,7 @@
       "name": "Shieldon",
       "number": 410,
       "special_attack": 120,
-      "special_defense": 58,
+      "special_defense": 233,
       "speed": 58,
       "types": [
         "rock",
@@ -10793,7 +10793,7 @@
       "name": "Shiftry",
       "number": 275,
       "special_attack": 193,
-      "special_defense": 195,
+      "special_defense": 155,
       "speed": 195,
       "types": [
         "grass",
@@ -10818,7 +10818,7 @@
       "name": "Shiftry (Shiny)",
       "number": 275,
       "special_attack": 260,
-      "special_defense": 217,
+      "special_defense": 177,
       "speed": 217,
       "types": [
         "grass",
@@ -10843,7 +10843,7 @@
       "name": "Shinx",
       "number": 403,
       "special_attack": 104,
-      "special_defense": 126,
+      "special_defense": 125,
       "speed": 126,
       "types": [
         "electric"
@@ -10867,7 +10867,7 @@
       "name": "Shroomish",
       "number": 285,
       "special_attack": 104,
-      "special_defense": 106,
+      "special_defense": 158,
       "speed": 106,
       "types": [
         "grass"
@@ -10891,7 +10891,7 @@
       "name": "Shuckle",
       "number": 213,
       "special_attack": 56,
-      "special_defense": 13,
+      "special_defense": 496,
       "speed": 13,
       "types": [
         "bug",
@@ -10916,7 +10916,7 @@
       "name": "Shuckle (Shiny)",
       "number": 213,
       "special_attack": 69,
-      "special_defense": 67,
+      "special_defense": 517,
       "speed": 67,
       "types": [
         "bug",
@@ -10941,7 +10941,7 @@
       "name": "Shuppet",
       "number": 353,
       "special_attack": 225,
-      "special_defense": 207,
+      "special_defense": 102,
       "speed": 207,
       "types": [
         "ghost"
@@ -10965,7 +10965,7 @@
       "name": "Silcoon",
       "number": 266,
       "special_attack": 77,
-      "special_defense": 66,
+      "special_defense": 107,
       "speed": 66,
       "types": [
         "bug"
@@ -10989,7 +10989,7 @@
       "name": "Skarmory",
       "number": 227,
       "special_attack": 116,
-      "special_defense": 176,
+      "special_defense": 193,
       "speed": 176,
       "types": [
         "steel",
@@ -11014,7 +11014,7 @@
       "name": "Skiploom",
       "number": 188,
       "special_attack": 105,
-      "special_defense": 250,
+      "special_defense": 157,
       "speed": 250,
       "types": [
         "grass",
@@ -11039,7 +11039,7 @@
       "name": "Skitty",
       "number": 300,
       "special_attack": 95,
-      "special_defense": 136,
+      "special_defense": 150,
       "speed": 136,
       "types": [
         "normal"
@@ -11063,7 +11063,7 @@
       "name": "Skorupi",
       "number": 451,
       "special_attack": 86,
-      "special_defense": 228,
+      "special_defense": 167,
       "speed": 228,
       "types": [
         "poison",
@@ -11088,7 +11088,7 @@
       "name": "Skuntank",
       "number": 435,
       "special_attack": 194,
-      "special_defense": 182,
+      "special_defense": 157,
       "speed": 182,
       "types": [
         "poison",
@@ -11113,7 +11113,7 @@
       "name": "Slaking",
       "number": 289,
       "special_attack": 216,
-      "special_defense": 248,
+      "special_defense": 156,
       "speed": 248,
       "types": [
         "normal"
@@ -11137,7 +11137,7 @@
       "name": "Slaking (Shiny)",
       "number": 289,
       "special_attack": 222,
-      "special_defense": 257,
+      "special_defense": 187,
       "speed": 257,
       "types": [
         "normal"
@@ -11161,7 +11161,7 @@
       "name": "Slakoth",
       "number": 287,
       "special_attack": 95,
-      "special_defense": 117,
+      "special_defense": 127,
       "speed": 117,
       "types": [
         "normal"
@@ -11185,7 +11185,7 @@
       "name": "Slowbro",
       "number": 80,
       "special_attack": 234,
-      "special_defense": 94,
+      "special_defense": 174,
       "speed": 94,
       "types": [
         "water",
@@ -11210,7 +11210,7 @@
       "name": "Slowking",
       "number": 199,
       "special_attack": 234,
-      "special_defense": 94,
+      "special_defense": 254,
       "speed": 94,
       "types": [
         "water",
@@ -11235,7 +11235,7 @@
       "name": "Slowpoke",
       "number": 79,
       "special_attack": 117,
-      "special_defense": 81,
+      "special_defense": 144,
       "speed": 81,
       "types": [
         "water",
@@ -11260,7 +11260,7 @@
       "name": "Slugma",
       "number": 218,
       "special_attack": 212,
-      "special_defense": 76,
+      "special_defense": 162,
       "speed": 76,
       "types": [
         "fire"
@@ -11284,7 +11284,7 @@
       "name": "Smeargle",
       "number": 235,
       "special_attack": 68,
-      "special_defense": 249,
+      "special_defense": 126,
       "speed": 249,
       "types": [
         "normal"
@@ -11308,7 +11308,7 @@
       "name": "Smoochum",
       "number": 238,
       "special_attack": 228,
-      "special_defense": 217,
+      "special_defense": 175,
       "speed": 217,
       "types": [
         "ice",
@@ -11333,7 +11333,7 @@
       "name": "Sneasel",
       "number": 215,
       "special_attack": 110,
-      "special_defense": 243,
+      "special_defense": 190,
       "speed": 243,
       "types": [
         "dark",
@@ -11358,7 +11358,7 @@
       "name": "Snorlax",
       "number": 143,
       "special_attack": 149,
-      "special_defense": 97,
+      "special_defense": 249,
       "speed": 97,
       "types": [
         "normal"
@@ -11382,7 +11382,7 @@
       "name": "Snorunt",
       "number": 361,
       "special_attack": 122,
-      "special_defense": 136,
+      "special_defense": 158,
       "speed": 136,
       "types": [
         "ice"
@@ -11406,7 +11406,7 @@
       "name": "Snover",
       "number": 459,
       "special_attack": 173,
-      "special_defense": 129,
+      "special_defense": 169,
       "speed": 129,
       "types": [
         "grass",
@@ -11431,7 +11431,7 @@
       "name": "Snubbull",
       "number": 209,
       "special_attack": 104,
-      "special_defense": 117,
+      "special_defense": 182,
       "speed": 117,
       "types": [
         "normal"
@@ -11455,7 +11455,7 @@
       "name": "Solrock",
       "number": 338,
       "special_attack": 163,
-      "special_defense": 143,
+      "special_defense": 169,
       "speed": 143,
       "types": [
         "rock",
@@ -11480,7 +11480,7 @@
       "name": "Spearow",
       "number": 21,
       "special_attack": 88,
-      "special_defense": 262,
+      "special_defense": 98,
       "speed": 262,
       "types": [
         "normal",
@@ -11505,7 +11505,7 @@
       "name": "Spheal",
       "number": 363,
       "special_attack": 179,
-      "special_defense": 103,
+      "special_defense": 153,
       "speed": 103,
       "types": [
         "ice",
@@ -11530,7 +11530,7 @@
       "name": "Spinarak",
       "number": 167,
       "special_attack": 104,
-      "special_defense": 96,
+      "special_defense": 140,
       "speed": 96,
       "types": [
         "bug",
@@ -11579,7 +11579,7 @@
       "name": "Spiritomb",
       "number": 442,
       "special_attack": 219,
-      "special_defense": 115,
+      "special_defense": 225,
       "speed": 115,
       "types": [
         "ghost",
@@ -11604,7 +11604,7 @@
       "name": "Spiritomb (Shiny)",
       "number": 442,
       "special_attack": 241,
-      "special_defense": 139,
+      "special_defense": 245,
       "speed": 139,
       "types": [
         "ghost",
@@ -11629,7 +11629,7 @@
       "name": "Spoink",
       "number": 325,
       "special_attack": 177,
-      "special_defense": 177,
+      "special_defense": 284,
       "speed": 177,
       "types": [
         "psychic"
@@ -11653,7 +11653,7 @@
       "name": "Squirtle",
       "number": 7,
       "special_attack": 218,
-      "special_defense": 122,
+      "special_defense": 164,
       "speed": 122,
       "types": [
         "water"
@@ -11677,7 +11677,7 @@
       "name": "Stantler",
       "number": 234,
       "special_attack": 206,
-      "special_defense": 206,
+      "special_defense": 166,
       "speed": 206,
       "types": [
         "normal"
@@ -11701,7 +11701,7 @@
       "name": "Staraptor",
       "number": 398,
       "special_attack": 105,
-      "special_defense": 240,
+      "special_defense": 115,
       "speed": 240,
       "types": [
         "normal",
@@ -11726,7 +11726,7 @@
       "name": "Staravia",
       "number": 397,
       "special_attack": 104,
-      "special_defense": 245,
+      "special_defense": 141,
       "speed": 245,
       "types": [
         "normal",
@@ -11751,7 +11751,7 @@
       "name": "Starly",
       "number": 396,
       "special_attack": 86,
-      "special_defense": 219,
+      "special_defense": 96,
       "speed": 219,
       "types": [
         "normal",
@@ -11776,7 +11776,7 @@
       "name": "Starmie",
       "number": 121,
       "special_attack": 207,
-      "special_defense": 261,
+      "special_defense": 201,
       "speed": 261,
       "types": [
         "water",
@@ -11801,7 +11801,7 @@
       "name": "Staryu",
       "number": 120,
       "special_attack": 218,
-      "special_defense": 238,
+      "special_defense": 183,
       "speed": 238,
       "types": [
         "water"
@@ -11825,7 +11825,7 @@
       "name": "Steelix",
       "number": 208,
       "special_attack": 179,
-      "special_defense": 92,
+      "special_defense": 162,
       "speed": 92,
       "types": [
         "steel",
@@ -11850,7 +11850,7 @@
       "name": "Stunky",
       "number": 434,
       "special_attack": 106,
-      "special_defense": 199,
+      "special_defense": 142,
       "speed": 199,
       "types": [
         "poison",
@@ -11875,7 +11875,7 @@
       "name": "Sudowoodo",
       "number": 185,
       "special_attack": 102,
-      "special_defense": 102,
+      "special_defense": 172,
       "speed": 102,
       "types": [
         "rock"
@@ -11899,7 +11899,7 @@
       "name": "Suicune",
       "number": 245,
       "special_attack": 240,
-      "special_defense": 188,
+      "special_defense": 269,
       "speed": 188,
       "types": [
         "water"
@@ -11923,7 +11923,7 @@
       "name": "Suicune (Shiny)",
       "number": 245,
       "special_attack": 260,
-      "special_defense": 227,
+      "special_defense": 287,
       "speed": 227,
       "types": [
         "water"
@@ -11947,7 +11947,7 @@
       "name": "Sunflora",
       "number": 192,
       "special_attack": 267,
-      "special_defense": 117,
+      "special_defense": 249,
       "speed": 117,
       "types": [
         "grass"
@@ -11971,7 +11971,7 @@
       "name": "Sunkern",
       "number": 191,
       "special_attack": 96,
-      "special_defense": 174,
+      "special_defense": 128,
       "speed": 174,
       "types": [
         "grass"
@@ -11995,7 +11995,7 @@
       "name": "Surskit",
       "number": 283,
       "special_attack": 218,
-      "special_defense": 166,
+      "special_defense": 140,
       "speed": 166,
       "types": [
         "bug",
@@ -12020,7 +12020,7 @@
       "name": "Swablu",
       "number": 333,
       "special_attack": 104,
-      "special_defense": 136,
+      "special_defense": 218,
       "speed": 136,
       "types": [
         "normal",
@@ -12045,7 +12045,7 @@
       "name": "Swalot",
       "number": 317,
       "special_attack": 200,
-      "special_defense": 131,
+      "special_defense": 202,
       "speed": 131,
       "types": [
         "poison"
@@ -12069,7 +12069,7 @@
       "name": "Swampert",
       "number": 260,
       "special_attack": 220,
-      "special_defense": 150,
+      "special_defense": 210,
       "speed": 150,
       "types": [
         "water",
@@ -12094,7 +12094,7 @@
       "name": "Swellow",
       "number": 277,
       "special_attack": 218,
-      "special_defense": 286,
+      "special_defense": 157,
       "speed": 286,
       "types": [
         "normal",
@@ -12119,7 +12119,7 @@
       "name": "Swinub",
       "number": 220,
       "special_attack": 86,
-      "special_defense": 136,
+      "special_defense": 128,
       "speed": 136,
       "types": [
         "ice",
@@ -12144,7 +12144,7 @@
       "name": "Taillow",
       "number": 276,
       "special_attack": 86,
-      "special_defense": 248,
+      "special_defense": 96,
       "speed": 248,
       "types": [
         "normal",
@@ -12169,7 +12169,7 @@
       "name": "Tangela",
       "number": 114,
       "special_attack": 239,
-      "special_defense": 159,
+      "special_defense": 140,
       "speed": 159,
       "types": [
         "grass"
@@ -12193,7 +12193,7 @@
       "name": "Tangrowth",
       "number": 465,
       "special_attack": 228,
-      "special_defense": 134,
+      "special_defense": 149,
       "speed": 134,
       "types": [
         "grass"
@@ -12217,7 +12217,7 @@
       "name": "Tauros",
       "number": 128,
       "special_attack": 102,
-      "special_defense": 254,
+      "special_defense": 174,
       "speed": 254,
       "types": [
         "normal"
@@ -12241,7 +12241,7 @@
       "name": "Teddiursa",
       "number": 216,
       "special_attack": 122,
-      "special_defense": 157,
+      "special_defense": 161,
       "speed": 157,
       "types": [
         "normal"
@@ -12265,7 +12265,7 @@
       "name": "Tentacool",
       "number": 72,
       "special_attack": 191,
-      "special_defense": 189,
+      "special_defense": 273,
       "speed": 189,
       "types": [
         "water",
@@ -12290,7 +12290,7 @@
       "name": "Tentacruel",
       "number": 73,
       "special_attack": 192,
-      "special_defense": 232,
+      "special_defense": 272,
       "speed": 232,
       "types": [
         "water",
@@ -12315,7 +12315,7 @@
       "name": "Togekiss",
       "number": 468,
       "special_attack": 220,
-      "special_defense": 165,
+      "special_defense": 235,
       "speed": 165,
       "types": [
         "normal",
@@ -12340,7 +12340,7 @@
       "name": "Togepi",
       "number": 175,
       "special_attack": 116,
-      "special_defense": 76,
+      "special_defense": 207,
       "speed": 76,
       "types": [
         "normal"
@@ -12364,7 +12364,7 @@
       "name": "Togetic",
       "number": 176,
       "special_attack": 202,
-      "special_defense": 122,
+      "special_defense": 252,
       "speed": 122,
       "types": [
         "normal",
@@ -12389,7 +12389,7 @@
       "name": "Torchic",
       "number": 255,
       "special_attack": 240,
-      "special_defense": 168,
+      "special_defense": 122,
       "speed": 168,
       "types": [
         "fire"
@@ -12413,7 +12413,7 @@
       "name": "Torkoal",
       "number": 324,
       "special_attack": 249,
-      "special_defense": 76,
+      "special_defense": 216,
       "speed": 76,
       "types": [
         "fire"
@@ -12437,7 +12437,7 @@
       "name": "Torterra",
       "number": 389,
       "special_attack": 238,
-      "special_defense": 133,
+      "special_defense": 238,
       "speed": 133,
       "types": [
         "grass",
@@ -12462,7 +12462,7 @@
       "name": "Totodile",
       "number": 158,
       "special_attack": 111,
-      "special_defense": 147,
+      "special_defense": 157,
       "speed": 147,
       "types": [
         "water"
@@ -12486,7 +12486,7 @@
       "name": "Toxicroak",
       "number": 454,
       "special_attack": 226,
-      "special_defense": 204,
+      "special_defense": 164,
       "speed": 204,
       "types": [
         "poison",
@@ -12511,7 +12511,7 @@
       "name": "Trapinch",
       "number": 328,
       "special_attack": 128,
-      "special_defense": 73,
+      "special_defense": 143,
       "speed": 73,
       "types": [
         "ground"
@@ -12535,7 +12535,7 @@
       "name": "Treecko",
       "number": 252,
       "special_attack": 229,
-      "special_defense": 262,
+      "special_defense": 146,
       "speed": 262,
       "types": [
         "grass"
@@ -12559,7 +12559,7 @@
       "name": "Tropius",
       "number": 357,
       "special_attack": 199,
-      "special_defense": 139,
+      "special_defense": 211,
       "speed": 139,
       "types": [
         "grass",
@@ -12584,7 +12584,7 @@
       "name": "Turtwig",
       "number": 387,
       "special_attack": 113,
-      "special_defense": 98,
+      "special_defense": 146,
       "speed": 98,
       "types": [
         "grass"
@@ -12608,7 +12608,7 @@
       "name": "Typhlosion",
       "number": 157,
       "special_attack": 204,
-      "special_defense": 234,
+      "special_defense": 224,
       "speed": 234,
       "types": [
         "fire"
@@ -12632,7 +12632,7 @@
       "name": "Tyranitar",
       "number": 248,
       "special_attack": 195,
-      "special_defense": 154,
+      "special_defense": 184,
       "speed": 154,
       "types": [
         "rock",
@@ -12657,7 +12657,7 @@
       "name": "Tyrogue",
       "number": 236,
       "special_attack": 95,
-      "special_defense": 169,
+      "special_defense": 106,
       "speed": 169,
       "types": [
         "fighting"
@@ -12681,7 +12681,7 @@
       "name": "Umbreon",
       "number": 197,
       "special_attack": 200,
-      "special_defense": 121,
+      "special_defense": 285,
       "speed": 121,
       "types": [
         "dark"
@@ -12703,7 +12703,7 @@
       "name": "Unown",
       "number": 201,
       "special_attack": 258,
-      "special_defense": 139,
+      "special_defense": 140,
       "speed": 139,
       "types": [
         "psychic"
@@ -12727,7 +12727,7 @@
       "name": "Ursaring",
       "number": 217,
       "special_attack": 186,
-      "special_defense": 160,
+      "special_defense": 207,
       "speed": 160,
       "types": [
         "normal"
@@ -12751,7 +12751,7 @@
       "name": "Uxie",
       "number": 480,
       "special_attack": 176,
-      "special_defense": 216,
+      "special_defense": 286,
       "speed": 216,
       "types": [
         "psychic"
@@ -12775,7 +12775,7 @@
       "name": "Vaporeon",
       "number": 134,
       "special_attack": 225,
-      "special_defense": 135,
+      "special_defense": 195,
       "speed": 135,
       "types": [
         "water"
@@ -12799,7 +12799,7 @@
       "name": "Venomoth",
       "number": 49,
       "special_attack": 218,
-      "special_defense": 218,
+      "special_defense": 188,
       "speed": 218,
       "types": [
         "bug",
@@ -12824,7 +12824,7 @@
       "name": "Venonat",
       "number": 48,
       "special_attack": 174,
-      "special_defense": 202,
+      "special_defense": 141,
       "speed": 202,
       "types": [
         "bug",
@@ -12849,7 +12849,7 @@
       "name": "Venusaur",
       "number": 3,
       "special_attack": 305,
-      "special_defense": 220,
+      "special_defense": 198,
       "speed": 220,
       "types": [
         "grass",
@@ -12874,7 +12874,7 @@
       "name": "Vespiquen",
       "number": 416,
       "special_attack": 197,
-      "special_defense": 170,
+      "special_defense": 241,
       "speed": 170,
       "types": [
         "bug",
@@ -12899,7 +12899,7 @@
       "name": "Vibrava",
       "number": 329,
       "special_attack": 133,
-      "special_defense": 188,
+      "special_defense": 148,
       "speed": 188,
       "types": [
         "ground",
@@ -12924,7 +12924,7 @@
       "name": "Victreebel",
       "number": 71,
       "special_attack": 212,
-      "special_defense": 197,
+      "special_defense": 167,
       "speed": 197,
       "types": [
         "grass",
@@ -12949,7 +12949,7 @@
       "name": "Vigoroth",
       "number": 288,
       "special_attack": 134,
-      "special_defense": 219,
+      "special_defense": 149,
       "speed": 219,
       "types": [
         "normal"
@@ -12973,7 +12973,7 @@
       "name": "Vileplume",
       "number": 45,
       "special_attack": 328,
-      "special_defense": 136,
+      "special_defense": 237,
       "speed": 136,
       "types": [
         "grass",
@@ -12998,7 +12998,7 @@
       "name": "Volbeat",
       "number": 313,
       "special_attack": 137,
-      "special_defense": 213,
+      "special_defense": 193,
       "speed": 213,
       "types": [
         "bug"
@@ -13022,7 +13022,7 @@
       "name": "Voltorb",
       "number": 100,
       "special_attack": 209,
-      "special_defense": 297,
+      "special_defense": 138,
       "speed": 297,
       "types": [
         "electric"
@@ -13070,7 +13070,7 @@
       "name": "Wailmer",
       "number": 320,
       "special_attack": 183,
-      "special_defense": 179,
+      "special_defense": 101,
       "speed": 179,
       "types": [
         "water"
@@ -13094,7 +13094,7 @@
       "name": "Wailord",
       "number": 321,
       "special_attack": 185,
-      "special_defense": 112,
+      "special_defense": 189,
       "speed": 112,
       "types": [
         "water"
@@ -13118,7 +13118,7 @@
       "name": "Walrein",
       "number": 365,
       "special_attack": 220,
-      "special_defense": 160,
+      "special_defense": 210,
       "speed": 160,
       "types": [
         "ice",
@@ -13143,7 +13143,7 @@
       "name": "Wartortle",
       "number": 8,
       "special_attack": 187,
-      "special_defense": 155,
+      "special_defense": 238,
       "speed": 155,
       "types": [
         "water"
@@ -13167,7 +13167,7 @@
       "name": "Weavile",
       "number": 461,
       "special_attack": 150,
-      "special_defense": 282,
+      "special_defense": 187,
       "speed": 282,
       "types": [
         "dark",
@@ -13191,7 +13191,7 @@
       "name": "Weedle",
       "number": 13,
       "special_attack": 68,
-      "special_defense": 157,
+      "special_defense": 90,
       "speed": 157,
       "types": [
         "bug",
@@ -13216,7 +13216,7 @@
       "name": "Weepinbell",
       "number": 70,
       "special_attack": 295,
-      "special_defense": 146,
+      "special_defense": 147,
       "speed": 146,
       "types": [
         "grass",
@@ -13241,7 +13241,7 @@
       "name": "Weezing",
       "number": 110,
       "special_attack": 204,
-      "special_defense": 154,
+      "special_defense": 174,
       "speed": 154,
       "types": [
         "poison"
@@ -13265,7 +13265,7 @@
       "name": "Whiscash",
       "number": 340,
       "special_attack": 188,
-      "special_defense": 156,
+      "special_defense": 178,
       "speed": 156,
       "types": [
         "water",
@@ -13290,7 +13290,7 @@
       "name": "Whismur",
       "number": 293,
       "special_attack": 221,
-      "special_defense": 108,
+      "special_defense": 98,
       "speed": 108,
       "types": [
         "normal"
@@ -13314,7 +13314,7 @@
       "name": "Wigglytuff",
       "number": 40,
       "special_attack": 167,
-      "special_defense": 126,
+      "special_defense": 157,
       "speed": 126,
       "types": [
         "normal"
@@ -13338,7 +13338,7 @@
       "name": "Wingull",
       "number": 278,
       "special_attack": 229,
-      "special_defense": 269,
+      "special_defense": 96,
       "speed": 269,
       "types": [
         "water",
@@ -13363,7 +13363,7 @@
       "name": "Wobbuffet",
       "number": 202,
       "special_attack": 134,
-      "special_defense": 181,
+      "special_defense": 136,
       "speed": 181,
       "types": [
         "psychic"
@@ -13387,7 +13387,7 @@
       "name": "Wobbuffet (Shiny)",
       "number": 202,
       "special_attack": 123,
-      "special_defense": 135,
+      "special_defense": 173,
       "speed": 135,
       "types": [
         "psychic"
@@ -13411,7 +13411,7 @@
       "name": "Wooper",
       "number": 194,
       "special_attack": 77,
-      "special_defense": 66,
+      "special_defense": 118,
       "speed": 66,
       "types": [
         "water",
@@ -13436,7 +13436,7 @@
       "name": "Wormadam (Plant)",
       "number": 413,
       "special_attack": 198,
-      "special_defense": 133,
+      "special_defense": 250,
       "speed": 133,
       "types": [
         "bug",
@@ -13461,7 +13461,7 @@
       "name": "Wormadam (Sandy)",
       "number": 413,
       "special_attack": 158,
-      "special_defense": 100,
+      "special_defense": 231,
       "speed": 100,
       "types": [
         "bug",
@@ -13486,7 +13486,7 @@
       "name": "Wormadam (Trash)",
       "number": 413,
       "special_attack": 178,
-      "special_defense": 100,
+      "special_defense": 253,
       "speed": 100,
       "types": [
         "bug",
@@ -13511,7 +13511,7 @@
       "name": "Wurmple",
       "number": 265,
       "special_attack": 68,
-      "special_defense": 92,
+      "special_defense": 112,
       "speed": 92,
       "types": [
         "bug"
@@ -13535,7 +13535,7 @@
       "name": "Wynaut",
       "number": 360,
       "special_attack": 102,
-      "special_defense": 102,
+      "special_defense": 152,
       "speed": 102,
       "types": [
         "psychic"
@@ -13559,7 +13559,7 @@
       "name": "Xatu",
       "number": 178,
       "special_attack": 203,
-      "special_defense": 226,
+      "special_defense": 176,
       "speed": 226,
       "types": [
         "psychic",
@@ -13584,7 +13584,7 @@
       "name": "Xatu (Shiny)",
       "number": 178,
       "special_attack": 271,
-      "special_defense": 247,
+      "special_defense": 197,
       "speed": 247,
       "types": [
         "psychic",
@@ -13609,7 +13609,7 @@
       "name": "Yanma",
       "number": 193,
       "special_attack": 174,
-      "special_defense": 234,
+      "special_defense": 134,
       "speed": 234,
       "types": [
         "bug",
@@ -13634,7 +13634,7 @@
       "name": "Yanmega",
       "number": 469,
       "special_attack": 264,
-      "special_defense": 222,
+      "special_defense": 144,
       "speed": 222,
       "types": [
         "bug",
@@ -13659,7 +13659,7 @@
       "name": "Zangoose",
       "number": 335,
       "special_attack": 157,
-      "special_defense": 217,
+      "special_defense": 157,
       "speed": 217,
       "types": [
         "normal"
@@ -13683,7 +13683,7 @@
       "name": "Zapdos",
       "number": 145,
       "special_attack": 229,
-      "special_defense": 238,
+      "special_defense": 185,
       "speed": 238,
       "types": [
         "electric",
@@ -13708,7 +13708,7 @@
       "name": "Zigzagoon",
       "number": 263,
       "special_attack": 86,
-      "special_defense": 156,
+      "special_defense": 119,
       "speed": 156,
       "types": [
         "normal"
@@ -13732,7 +13732,7 @@
       "name": "Zubat",
       "number": 41,
       "special_attack": 86,
-      "special_defense": 229,
+      "special_defense": 116,
       "speed": 229,
       "types": [
         "poison",
