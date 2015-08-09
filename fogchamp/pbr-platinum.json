@@ -1483,8 +1483,7 @@
       "special_defense": 183,
       "speed": 147,
       "types": [
-        "water",
-        "normal"
+        "water"
       ],
       "weight": 28.5
     },
@@ -4861,8 +4860,7 @@
       "special_defense": 261,
       "speed": 191,
       "types": [
-        "psychic",
-        "normal"
+        "psychic"
       ],
       "weight": 48.4
     },
@@ -6719,8 +6717,7 @@
       "special_defense": 164,
       "speed": 154,
       "types": [
-        "psychic",
-        "normal"
+        "psychic"
       ],
       "weight": 20.2
     },
@@ -8095,8 +8092,7 @@
       "special_defense": 157,
       "speed": 116,
       "types": [
-        "water",
-        "normal"
+        "water"
       ],
       "weight": 8.5
     },
@@ -8202,8 +8198,7 @@
       "special_defense": 155,
       "speed": 159,
       "types": [
-        "steel",
-        "normal"
+        "steel"
       ],
       "weight": 11.5
     },
@@ -8597,8 +8592,7 @@
       "special_defense": 231,
       "speed": 188,
       "types": [
-        "psychic",
-        "normal"
+        "psychic"
       ],
       "weight": 13.0
     },
@@ -8783,8 +8777,7 @@
       "special_defense": 277,
       "speed": 217,
       "types": [
-        "psychic",
-        "normal"
+        "psychic"
       ],
       "weight": 54.5
     },
@@ -10475,8 +10468,7 @@
       "special_defense": 106,
       "speed": 116,
       "types": [
-        "psychic",
-        "normal"
+        "psychic"
       ],
       "weight": 6.6
     },
