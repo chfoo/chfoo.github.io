@@ -767,7 +767,7 @@ visualizer_PokemonDataset.prototype = $extend(visualizer_Dataset.prototype,{
 			if(success) {
 				_g.datasetIndex += 1;
 				if(_g.datasetIndex < visualizer_PokemonDataset.DATASET_FILES.length) _g.loadOneDataset(originalCallback); else {
-					_g.datasetIndex -= 1;
+					if(visualizer_PokemonDataset.DEFAULT_INDEX >= 0) _g.datasetIndex = visualizer_PokemonDataset.DEFAULT_INDEX; else _g.datasetIndex -= 1;
 					originalCallback(success);
 				}
 			} else originalCallback(success);
@@ -886,7 +886,7 @@ visualizer_UI.prototype = {
 			optionElement.textContent = visualizer_PokemonDataset.DATASET_NAMES[index];
 			selectElement.add(optionElement);
 		}
-		selectElement.selectedIndex = visualizer_PokemonDataset.DATASET_FILES.length - 1;
+		if(visualizer_PokemonDataset.DEFAULT_INDEX >= 0) selectElement.selectedIndex = visualizer_PokemonDataset.DEFAULT_INDEX; else selectElement.selectedIndex = visualizer_PokemonDataset.DATASET_FILES.length - 1;
 		js.JQuery("#pokemonEditionSelect").change(function(event) {
 			_g.pokemonDataset.datasetIndex = selectElement.selectedIndex;
 			_g.renderAll(false);
@@ -1156,6 +1156,7 @@ visualizer_MatchupChart.POKEMON_MOVES_LABEL = 1;
 visualizer_MatchupChart.DIVIDER = 1;
 visualizer_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json","pbr-seel.json","pbr-gold-1.2.json"];
 visualizer_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum","TPPVisuals PBR Seel","Addarash1/Chaos_lord PBR Gold 1.2"];
+visualizer_PokemonDataset.DEFAULT_INDEX = 2;
 visualizer_UI.Mustache = Mustache;
 visualizer_UI.DEFAULT_POKEMON = (function($this) {
 	var $r;
