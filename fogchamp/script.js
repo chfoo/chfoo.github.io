@@ -1154,8 +1154,8 @@ visualizer_MatchupChart.NUM_MOVES_PER_POKEMON = 4;
 visualizer_MatchupChart.POKEMON_LABEL = 1;
 visualizer_MatchupChart.POKEMON_MOVES_LABEL = 1;
 visualizer_MatchupChart.DIVIDER = 1;
-visualizer_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json","pbr-seel.json"];
-visualizer_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum","TPPVisuals PBR Seel"];
+visualizer_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json","pbr-seel.json","pbr-gold-1.2.json"];
+visualizer_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum","TPPVisuals PBR Seel","Addarash1/Chaos_lord Gold 1.2"];
 visualizer_UI.Mustache = Mustache;
 visualizer_UI.DEFAULT_POKEMON = (function($this) {
 	var $r;
