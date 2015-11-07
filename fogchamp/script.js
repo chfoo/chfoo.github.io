@@ -1,4 +1,5 @@
-(function (console) { "use strict";
+(function (console, $global) { "use strict";
+var $estr = function() { return js_Boot.__string_rec(this,''); };
 function $extend(from, fields) {
 	function Inherit() {} Inherit.prototype = from; var proto = new Inherit();
 	for (var name in fields) proto[name] = fields[name];
@@ -110,6 +111,7 @@ haxe_ds_StringMap.__interfaces__ = [haxe_IMap];
 var js__$Boot_HaxeError = function(val) {
 	Error.call(this);
 	this.val = val;
+	this.message = String(val);
 	if(Error.captureStackTrace) Error.captureStackTrace(this,js__$Boot_HaxeError);
 };
 js__$Boot_HaxeError.__name__ = true;
@@ -252,7 +254,7 @@ js_Boot.__isNativeObj = function(o) {
 	return js_Boot.__nativeClassName(o) != null;
 };
 js_Boot.__resolveNativeClass = function(name) {
-	if(typeof window != "undefined") return window[name]; else return global[name];
+	return $global[name];
 };
 var visualizer_Dataset = function() {
 };
@@ -491,8 +493,10 @@ visualizer_Main.prototype = {
 };
 var visualizer_Orientation = { __ename__ : true, __constructs__ : ["Vertical","Horizontal"] };
 visualizer_Orientation.Vertical = ["Vertical",0];
+visualizer_Orientation.Vertical.toString = $estr;
 visualizer_Orientation.Vertical.__enum__ = visualizer_Orientation;
 visualizer_Orientation.Horizontal = ["Horizontal",1];
+visualizer_Orientation.Horizontal.toString = $estr;
 visualizer_Orientation.Horizontal.__enum__ = visualizer_Orientation;
 var visualizer_MatchupChart = function(pokemonDataset,movesDataset,descriptionsDataset,formulaOptions) {
 	this.pokemonDataset = pokemonDataset;
@@ -1154,9 +1158,9 @@ visualizer_MatchupChart.NUM_MOVES_PER_POKEMON = 4;
 visualizer_MatchupChart.POKEMON_LABEL = 1;
 visualizer_MatchupChart.POKEMON_MOVES_LABEL = 1;
 visualizer_MatchupChart.DIVIDER = 1;
-visualizer_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json","pbr-seel.json","pbr-gold-1.2.json"];
-visualizer_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum","TPPVisuals PBR Seel","Addarash1/Chaos_lord PBR Gold 1.2"];
-visualizer_PokemonDataset.DEFAULT_INDEX = 2;
+visualizer_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json","pbr-seel.json","pbr-gold-1.2.json","pbr-gold-1.2-2015-11-07.json"];
+visualizer_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum","TPPVisuals PBR Seel","Addarash1/Chaos_lord PBR Gold 1.2","Chauzu PBR Gold 1.2 2015-11-07"];
+visualizer_PokemonDataset.DEFAULT_INDEX = 4;
 visualizer_UI.Mustache = Mustache;
 visualizer_UI.DEFAULT_POKEMON = (function($this) {
 	var $r;
@@ -1179,4 +1183,4 @@ visualizer_UI.DEFAULT_POKEMON = (function($this) {
 	return $r;
 }(this));
 visualizer_Main.main();
-})(typeof console != "undefined" ? console : {log:function(){}});
+})(typeof console != "undefined" ? console : {log:function(){}}, typeof window != "undefined" ? window : typeof global != "undefined" ? global : typeof self != "undefined" ? self : this);
