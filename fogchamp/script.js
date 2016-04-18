@@ -286,10 +286,14 @@ visualizer_DescriptionsDataset.prototype = $extend(visualizer_Dataset.prototype,
 	,loadDone: function(data) {
 		this.abilities = data.abilities;
 		this.types_efficacy = data.types_efficacy;
+		this.items = data.items;
 		visualizer_Dataset.prototype.loadDone.call(this,data);
 	}
 	,getAbilityName: function(slug) {
 		return Reflect.field(this.abilities,slug).name;
+	}
+	,getItemName: function(slug) {
+		return Reflect.field(this.items,slug).name;
 	}
 	,getTypeEfficacy: function(user,foe,foeSecondary) {
 		var efficacy = Reflect.field(Reflect.field(this.types_efficacy,user),foe);
@@ -997,8 +1001,11 @@ visualizer_UI.prototype = {
 			var slug = this.getSlotSlug(slotNum);
 			var pokemonStats = this.pokemonDataset.getPokemonStats(slug);
 			var abilityName = this.descriptionsDataset.getAbilityName(pokemonStats.ability);
+			var itemName = "";
+			if(pokemonStats.item != "") itemName = this.descriptionsDataset.getItemName(pokemonStats.item);
 			var renderDoc = Reflect.copy(pokemonStats);
 			renderDoc.ability_name = abilityName;
+			renderDoc.item_name = itemName;
 			renderDoc.slot_number = slotNum;
 			statsList.push(renderDoc);
 		}
@@ -1071,6 +1078,10 @@ visualizer_UI.prototype = {
 			var ability = Reflect.field(this.descriptionsDataset.abilities,slug);
 			title = ability.name;
 			text = ability.description;
+		} else if(category == "item") {
+			var item = Reflect.field(this.descriptionsDataset.items,slug);
+			title = item.name;
+			text = item.description;
 		} else if(category == "move") {
 			var move = this.movesDataset.getMoveStats(slug);
 			title = move.name;
@@ -1158,9 +1169,9 @@ visualizer_MatchupChart.NUM_MOVES_PER_POKEMON = 4;
 visualizer_MatchupChart.POKEMON_LABEL = 1;
 visualizer_MatchupChart.POKEMON_MOVES_LABEL = 1;
 visualizer_MatchupChart.DIVIDER = 1;
-visualizer_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json","pbr-seel.json","pbr-gold-1.2.json","pbr-gold-1.2-2015-11-07.json"];
-visualizer_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum","TPPVisuals PBR Seel","Addarash1/Chaos_lord PBR Gold 1.2","Chauzu PBR Gold 1.2 2015-11-07"];
-visualizer_PokemonDataset.DEFAULT_INDEX = 4;
+visualizer_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json","pbr-seel.json","pbr-gold-1.2.json","pbr-gold-1.2-2015-11-07.json","pbr-2.0.json"];
+visualizer_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum","TPPVisuals PBR Seel","Addarash1/Chaos_lord PBR Gold 1.2","Chauzu PBR Gold 1.2 2015-11-07","Addarash1 PBR 2.0"];
+visualizer_PokemonDataset.DEFAULT_INDEX = 5;
 visualizer_UI.Mustache = Mustache;
 visualizer_UI.DEFAULT_POKEMON = (function($this) {
 	var $r;

@@ -528,7 +528,7 @@
       "happiness": null,
       "hp": 319,
       "item": "",
-      "iv": 460,
+      "iv": 8,
       "moves": [
         "seed-bomb",
         "icy-wind",
@@ -555,7 +555,7 @@
       "happiness": null,
       "hp": 206,
       "item": "",
-      "iv": 63,
+      "iv": 25,
       "moves": [
         "psychic",
         "energy-ball",
@@ -581,7 +581,7 @@
       "happiness": null,
       "hp": 271,
       "item": "",
-      "iv": 359,
+      "iv": 10,
       "moves": [
         "night-slash",
         "superpower",
@@ -607,7 +607,7 @@
       "happiness": null,
       "hp": 297,
       "item": "",
-      "iv": 142,
+      "iv": 6,
       "moves": [
         "rock-slide",
         "aerial-ace",
@@ -634,7 +634,7 @@
       "happiness": null,
       "hp": 286,
       "item": "",
-      "iv": 306,
+      "iv": 14,
       "moves": [
         "flash-cannon",
         "ancient-power",
@@ -661,7 +661,7 @@
       "happiness": null,
       "hp": 273,
       "item": "",
-      "iv": 190,
+      "iv": 31,
       "moves": [
         "double-slap",
         "brick-break",
@@ -687,7 +687,7 @@
       "happiness": null,
       "hp": 249,
       "item": "",
-      "iv": 65,
+      "iv": 8,
       "moves": [
         "psybeam",
         "signal-beam",
@@ -713,7 +713,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 334,
+      "iv": 0,
       "moves": [
         "sky-attack",
         "draco-meteor",
@@ -740,7 +740,7 @@
       "happiness": null,
       "hp": 290,
       "item": "",
-      "iv": 424,
+      "iv": 9,
       "moves": [
         "fake-out",
         "cut",
@@ -766,7 +766,7 @@
       "happiness": null,
       "hp": 330,
       "item": "",
-      "iv": 181,
+      "iv": 28,
       "moves": [
         "zap-cannon",
         "dynamic-punch",
@@ -792,7 +792,7 @@
       "happiness": null,
       "hp": 241,
       "item": "",
-      "iv": 347,
+      "iv": 21,
       "moves": [
         "x-scissor",
         "rock-slide",
@@ -819,7 +819,7 @@
       "happiness": null,
       "hp": 264,
       "item": "",
-      "iv": 24,
+      "iv": 13,
       "moves": [
         "poison-fang",
         "ice-fang",
@@ -845,7 +845,7 @@
       "happiness": null,
       "hp": 313,
       "item": "",
-      "iv": 59,
+      "iv": 2,
       "moves": [
         "flame-wheel",
         "crunch",
@@ -871,7 +871,7 @@
       "happiness": null,
       "hp": 350,
       "item": "insect-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -897,7 +897,7 @@
       "happiness": null,
       "hp": 350,
       "item": "dread-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -923,7 +923,7 @@
       "happiness": null,
       "hp": 350,
       "item": "draco-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -949,7 +949,7 @@
       "happiness": null,
       "hp": 350,
       "item": "zap-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -975,7 +975,7 @@
       "happiness": null,
       "hp": 350,
       "item": "fist-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1001,7 +1001,7 @@
       "happiness": null,
       "hp": 350,
       "item": "flame-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1027,7 +1027,7 @@
       "happiness": null,
       "hp": 350,
       "item": "sky-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1053,7 +1053,7 @@
       "happiness": null,
       "hp": 350,
       "item": "spooky-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1079,7 +1079,7 @@
       "happiness": null,
       "hp": 350,
       "item": "meadow-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1105,7 +1105,7 @@
       "happiness": null,
       "hp": 350,
       "item": "earth-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1131,7 +1131,7 @@
       "happiness": null,
       "hp": 350,
       "item": "icicle-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1157,7 +1157,7 @@
       "happiness": null,
       "hp": 350,
       "item": "",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1183,7 +1183,7 @@
       "happiness": null,
       "hp": 350,
       "item": "toxic-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1209,7 +1209,7 @@
       "happiness": null,
       "hp": 350,
       "item": "mind-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1235,7 +1235,7 @@
       "happiness": null,
       "hp": 350,
       "item": "stone-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1261,7 +1261,7 @@
       "happiness": null,
       "hp": 350,
       "item": "iron-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1287,7 +1287,7 @@
       "happiness": null,
       "hp": 350,
       "item": "splash-plate",
-      "iv": 493,
+      "iv": 0,
       "moves": [
         "judgment",
         "future-sight",
@@ -1313,7 +1313,7 @@
       "happiness": null,
       "hp": 289,
       "item": "",
-      "iv": 168,
+      "iv": 18,
       "moves": [
         "poison-jab",
         "bug-bite",
@@ -1340,7 +1340,7 @@
       "happiness": null,
       "hp": 289,
       "item": "",
-      "iv": 348,
+      "iv": 8,
       "moves": [
         "x-scissor",
         "rock-blast",
@@ -1367,7 +1367,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 304,
+      "iv": 31,
       "moves": [
         "head-smash",
         "iron-head",
@@ -1394,7 +1394,7 @@
       "happiness": null,
       "hp": 311,
       "item": "",
-      "iv": 144,
+      "iv": 0,
       "moves": [
         "blizzard",
         "pluck",
@@ -1421,7 +1421,7 @@
       "happiness": null,
       "hp": 265,
       "item": "",
-      "iv": 482,
+      "iv": 0,
       "moves": [
         "extrasensory",
         "fire-punch",
@@ -1447,7 +1447,7 @@
       "happiness": null,
       "hp": 319,
       "item": "",
-      "iv": 184,
+      "iv": 8,
       "moves": [
         "aqua-tail",
         "superpower",
@@ -1473,7 +1473,7 @@
       "happiness": null,
       "hp": 262,
       "item": "",
-      "iv": 298,
+      "iv": 31,
       "moves": [
         "body-slam",
         "waterfall",
@@ -1499,7 +1499,7 @@
       "happiness": null,
       "hp": 250,
       "item": "",
-      "iv": 371,
+      "iv": 31,
       "moves": [
         "dragon-claw",
         "fire-fang",
@@ -1525,7 +1525,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 343,
+      "iv": 31,
       "moves": [
         "earthquake",
         "psychic",
@@ -1552,7 +1552,7 @@
       "happiness": null,
       "hp": 270,
       "item": "",
-      "iv": 354,
+      "iv": 11,
       "moves": [
         "shadow-claw",
         "sucker-punch",
@@ -1578,7 +1578,7 @@
       "happiness": null,
       "hp": 258,
       "item": "",
-      "iv": 339,
+      "iv": 27,
       "moves": [
         "aqua-tail",
         "magnitude",
@@ -1605,7 +1605,7 @@
       "happiness": null,
       "hp": 298,
       "item": "",
-      "iv": 411,
+      "iv": 31,
       "moves": [
         "flash-cannon",
         "fire-blast",
@@ -1632,7 +1632,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 153,
+      "iv": 31,
       "moves": [
         "seed-bomb",
         "body-slam",
@@ -1658,7 +1658,7 @@
       "happiness": null,
       "hp": 324,
       "item": "",
-      "iv": 267,
+      "iv": 31,
       "moves": [
         "bug-buzz",
         "psychic",
@@ -1685,7 +1685,7 @@
       "happiness": null,
       "hp": 279,
       "item": "",
-      "iv": 15,
+      "iv": 18,
       "moves": [
         "poison-jab",
         "twineedle",
@@ -1712,7 +1712,7 @@
       "happiness": null,
       "hp": 237,
       "item": "",
-      "iv": 374,
+      "iv": 26,
       "moves": [
         "iron-head",
         "zen-headbutt",
@@ -1739,7 +1739,7 @@
       "happiness": null,
       "hp": 290,
       "item": "",
-      "iv": 182,
+      "iv": 9,
       "moves": [
         "petal-dance",
         "secret-power",
@@ -1765,7 +1765,7 @@
       "happiness": null,
       "hp": 242,
       "item": "",
-      "iv": 69,
+      "iv": 31,
       "moves": [
         "sludge-bomb",
         "weather-ball",
@@ -1792,7 +1792,7 @@
       "happiness": null,
       "hp": 317,
       "item": "",
-      "iv": 400,
+      "iv": 31,
       "moves": [
         "skull-bash",
         "water-pulse",
@@ -1819,7 +1819,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 399,
+      "iv": 31,
       "moves": [
         "super-fang",
         "quick-attack",
@@ -1845,7 +1845,7 @@
       "happiness": null,
       "hp": 293,
       "item": "",
-      "iv": 9,
+      "iv": 4,
       "moves": [
         "hydro-cannon",
         "zap-cannon",
@@ -1871,7 +1871,7 @@
       "happiness": null,
       "hp": 295,
       "item": "",
-      "iv": 257,
+      "iv": 0,
       "moves": [
         "blaze-kick",
         "double-kick",
@@ -1898,7 +1898,7 @@
       "happiness": null,
       "hp": 620,
       "item": "",
-      "iv": 242,
+      "iv": 0,
       "moves": [
         "hyper-beam",
         "blizzard",
@@ -1924,7 +1924,7 @@
       "happiness": null,
       "hp": 285,
       "item": "",
-      "iv": 438,
+      "iv": 31,
       "moves": [
         "rock-slide",
         "sucker-punch",
@@ -1950,7 +1950,7 @@
       "happiness": null,
       "hp": 262,
       "item": "",
-      "iv": 286,
+      "iv": 11,
       "moves": [
         "superpower",
         "giga-drain",
@@ -1977,7 +1977,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 437,
+      "iv": 9,
       "moves": [
         "confusion",
         "gyro-ball",
@@ -2004,7 +2004,7 @@
       "happiness": null,
       "hp": 287,
       "item": "",
-      "iv": 436,
+      "iv": 31,
       "moves": [
         "extrasensory",
         "gyro-ball",
@@ -2031,7 +2031,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 406,
+      "iv": 31,
       "moves": [
         "leaf-storm",
         "sludge-bomb",
@@ -2058,7 +2058,7 @@
       "happiness": null,
       "hp": 264,
       "item": "",
-      "iv": 418,
+      "iv": 23,
       "moves": [
         "waterfall",
         "ice-beam",
@@ -2084,7 +2084,7 @@
       "happiness": null,
       "hp": 245,
       "item": "",
-      "iv": 1,
+      "iv": 24,
       "moves": [
         "power-whip",
         "leech-seed",
@@ -2111,7 +2111,7 @@
       "happiness": 102,
       "hp": 252,
       "item": "",
-      "iv": 427,
+      "iv": 31,
       "moves": [
         "frustration",
         "jump-kick",
@@ -2137,7 +2137,7 @@
       "happiness": null,
       "hp": 221,
       "item": "",
-      "iv": 412,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "hidden-power",
@@ -2163,7 +2163,7 @@
       "happiness": null,
       "hp": 221,
       "item": "",
-      "iv": 412,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "hidden-power",
@@ -2189,7 +2189,7 @@
       "happiness": null,
       "hp": 221,
       "item": "",
-      "iv": 412,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "hidden-power",
@@ -2215,7 +2215,7 @@
       "happiness": null,
       "hp": 269,
       "item": "",
-      "iv": 12,
+      "iv": 18,
       "moves": [
         "bug-buzz",
         "psychic",
@@ -2242,7 +2242,7 @@
       "happiness": null,
       "hp": 254,
       "item": "",
-      "iv": 331,
+      "iv": 23,
       "moves": [
         "seed-bomb",
         "focus-punch",
@@ -2268,7 +2268,7 @@
       "happiness": null,
       "hp": 280,
       "item": "",
-      "iv": 332,
+      "iv": 9,
       "moves": [
         "needle-arm",
         "payback",
@@ -2295,7 +2295,7 @@
       "happiness": null,
       "hp": 282,
       "item": "",
-      "iv": 323,
+      "iv": 11,
       "moves": [
         "eruption",
         "flamethrower",
@@ -2322,7 +2322,7 @@
       "happiness": null,
       "hp": 290,
       "item": "",
-      "iv": 455,
+      "iv": 11,
       "moves": [
         "power-whip",
         "secret-power",
@@ -2348,7 +2348,7 @@
       "happiness": null,
       "hp": 231,
       "item": "",
-      "iv": 318,
+      "iv": 31,
       "moves": [
         "crunch",
         "waterfall",
@@ -2375,7 +2375,7 @@
       "happiness": null,
       "hp": 262,
       "item": "",
-      "iv": 268,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "poison-sting",
@@ -2401,7 +2401,7 @@
       "happiness": null,
       "hp": 286,
       "item": "",
-      "iv": 351,
+      "iv": 15,
       "moves": [
         "weather-ball",
         "hail",
@@ -2427,7 +2427,7 @@
       "happiness": null,
       "hp": 245,
       "item": "",
-      "iv": 10,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "tackle",
@@ -2453,7 +2453,7 @@
       "happiness": null,
       "hp": 330,
       "item": "",
-      "iv": 251,
+      "iv": 0,
       "moves": [
         "magical-leaf",
         "confusion",
@@ -2480,7 +2480,7 @@
       "happiness": null,
       "hp": 641,
       "item": "",
-      "iv": 113,
+      "iv": 31,
       "moves": [
         "ice-beam",
         "mud-bomb",
@@ -2506,7 +2506,7 @@
       "happiness": null,
       "hp": 323,
       "item": "",
-      "iv": 6,
+      "iv": 31,
       "moves": [
         "wing-attack",
         "ember",
@@ -2533,7 +2533,7 @@
       "happiness": null,
       "hp": 230,
       "item": "",
-      "iv": 4,
+      "iv": 31,
       "moves": [
         "flare-blitz",
         "outrage",
@@ -2559,7 +2559,7 @@
       "happiness": null,
       "hp": 320,
       "item": "",
-      "iv": 5,
+      "iv": 31,
       "moves": [
         "flamethrower",
         "dragon-pulse",
@@ -2585,7 +2585,7 @@
       "happiness": null,
       "hp": 299,
       "item": "",
-      "iv": 441,
+      "iv": 16,
       "moves": [
         "hyper-voice",
         "chatter",
@@ -2612,7 +2612,7 @@
       "happiness": 102,
       "hp": 306,
       "item": "",
-      "iv": 421,
+      "iv": 31,
       "moves": [
         "seed-bomb",
         "frustration",
@@ -2638,7 +2638,7 @@
       "happiness": null,
       "hp": 252,
       "item": "",
-      "iv": 420,
+      "iv": 31,
       "moves": [
         "solar-beam",
         "weather-ball",
@@ -2664,7 +2664,7 @@
       "happiness": null,
       "hp": 294,
       "item": "",
-      "iv": 152,
+      "iv": 31,
       "moves": [
         "energy-ball",
         "leech-seed",
@@ -2690,7 +2690,7 @@
       "happiness": null,
       "hp": 250,
       "item": "",
-      "iv": 390,
+      "iv": 31,
       "moves": [
         "fire-punch",
         "thunder-punch",
@@ -2716,7 +2716,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 358,
+      "iv": 14,
       "moves": [
         "psychic",
         "calm-mind",
@@ -2742,7 +2742,7 @@
       "happiness": null,
       "hp": 322,
       "item": "",
-      "iv": 170,
+      "iv": 31,
       "moves": [
         "thunder",
         "surf",
@@ -2769,7 +2769,7 @@
       "happiness": null,
       "hp": 294,
       "item": "",
-      "iv": 433,
+      "iv": 31,
       "moves": [
         "psychic",
         "signal-beam",
@@ -2795,7 +2795,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 366,
+      "iv": 31,
       "moves": [
         "muddy-water",
         "ice-beam",
@@ -2821,7 +2821,7 @@
       "happiness": null,
       "hp": 258,
       "item": "",
-      "iv": 344,
+      "iv": 7,
       "moves": [
         "earth-power",
         "zen-headbutt",
@@ -2848,7 +2848,7 @@
       "happiness": null,
       "hp": 313,
       "item": "",
-      "iv": 36,
+      "iv": 10,
       "moves": [
         "strength",
         "meteor-mash",
@@ -2874,7 +2874,7 @@
       "happiness": null,
       "hp": 313,
       "item": "",
-      "iv": 35,
+      "iv": 31,
       "moves": [
         "hyper-voice",
         "ice-beam",
@@ -2900,7 +2900,7 @@
       "happiness": null,
       "hp": 297,
       "item": "",
-      "iv": 173,
+      "iv": 31,
       "moves": [
         "seismic-toss",
         "shadow-ball",
@@ -2926,7 +2926,7 @@
       "happiness": null,
       "hp": 236,
       "item": "",
-      "iv": 91,
+      "iv": 5,
       "moves": [
         "surf",
         "icicle-spear",
@@ -2953,7 +2953,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 415,
+      "iv": 31,
       "moves": [
         "bug-buzz",
         "air-cutter",
@@ -2980,7 +2980,7 @@
       "happiness": null,
       "hp": 282,
       "item": "",
-      "iv": 256,
+      "iv": 31,
       "moves": [
         "flamethrower",
         "sky-uppercut",
@@ -3007,7 +3007,7 @@
       "happiness": null,
       "hp": 248,
       "item": "",
-      "iv": 341,
+      "iv": 31,
       "moves": [
         "crabhammer",
         "guillotine",
@@ -3033,7 +3033,7 @@
       "happiness": null,
       "hp": 260,
       "item": "",
-      "iv": 222,
+      "iv": 19,
       "moves": [
         "stone-edge",
         "surf",
@@ -3060,7 +3060,7 @@
       "happiness": null,
       "hp": 311,
       "item": "",
-      "iv": 346,
+      "iv": 8,
       "moves": [
         "giga-drain",
         "rock-slide",
@@ -3087,7 +3087,7 @@
       "happiness": null,
       "hp": 286,
       "item": "",
-      "iv": 408,
+      "iv": 21,
       "moves": [
         "head-smash",
         "earthquake",
@@ -3113,7 +3113,7 @@
       "happiness": null,
       "hp": 267,
       "item": "",
-      "iv": 342,
+      "iv": 10,
       "moves": [
         "crabhammer",
         "dark-pulse",
@@ -3140,7 +3140,7 @@
       "happiness": null,
       "hp": 350,
       "item": "",
-      "iv": 488,
+      "iv": 0,
       "moves": [
         "psychic",
         "aurora-beam",
@@ -3166,7 +3166,7 @@
       "happiness": null,
       "hp": 262,
       "item": "",
-      "iv": 453,
+      "iv": 31,
       "moves": [
         "cross-chop",
         "sludge-bomb",
@@ -3193,7 +3193,7 @@
       "happiness": null,
       "hp": 305,
       "item": "",
-      "iv": 169,
+      "iv": 4,
       "moves": [
         "fly",
         "poison-fang",
@@ -3220,7 +3220,7 @@
       "happiness": null,
       "hp": 272,
       "item": "",
-      "iv": 159,
+      "iv": 16,
       "moves": [
         "dive",
         "slash",
@@ -3246,7 +3246,7 @@
       "happiness": null,
       "hp": 240,
       "item": "",
-      "iv": 104,
+      "iv": 24,
       "moves": [
         "bonemerang",
         "icy-wind",
@@ -3272,7 +3272,7 @@
       "happiness": null,
       "hp": 241,
       "item": "",
-      "iv": 155,
+      "iv": 31,
       "moves": [
         "eruption",
         "blast-burn",
@@ -3298,7 +3298,7 @@
       "happiness": null,
       "hp": 250,
       "item": "",
-      "iv": 491,
+      "iv": 0,
       "moves": [
         "thief",
         "dark-void",
@@ -3324,7 +3324,7 @@
       "happiness": null,
       "hp": 281,
       "item": "",
-      "iv": 301,
+      "iv": 31,
       "moves": [
         "assist",
         "copycat",
@@ -3350,7 +3350,7 @@
       "happiness": null,
       "hp": 253,
       "item": "",
-      "iv": 225,
+      "iv": 31,
       "moves": [
         "ice-punch",
         "aerial-ace",
@@ -3377,7 +3377,7 @@
       "happiness": null,
       "hp": 210,
       "item": "",
-      "iv": 386,
+      "iv": 0,
       "moves": [
         "giga-impact",
         "zap-cannon",
@@ -3403,7 +3403,7 @@
       "happiness": null,
       "hp": 233,
       "item": "",
-      "iv": 386,
+      "iv": 0,
       "moves": [
         "psycho-boost",
         "signal-beam",
@@ -3429,7 +3429,7 @@
       "happiness": null,
       "hp": 250,
       "item": "",
-      "iv": 386,
+      "iv": 0,
       "moves": [
         "zen-headbutt",
         "hyper-beam",
@@ -3455,7 +3455,7 @@
       "happiness": null,
       "hp": 210,
       "item": "",
-      "iv": 386,
+      "iv": 0,
       "moves": [
         "psycho-boost",
         "focus-blast",
@@ -3481,7 +3481,7 @@
       "happiness": null,
       "hp": 320,
       "item": "",
-      "iv": 87,
+      "iv": 9,
       "moves": [
         "ice-beam",
         "brine",
@@ -3508,7 +3508,7 @@
       "happiness": null,
       "hp": 310,
       "item": "",
-      "iv": 483,
+      "iv": 0,
       "moves": [
         "metal-claw",
         "twister",
@@ -3535,7 +3535,7 @@
       "happiness": null,
       "hp": 162,
       "item": "",
-      "iv": 50,
+      "iv": 31,
       "moves": [
         "earthquake",
         "rock-slide",
@@ -3561,7 +3561,7 @@
       "happiness": null,
       "hp": 296,
       "item": "quick-powder",
-      "iv": 132,
+      "iv": 27,
       "moves": [
         "transform"
       ],
@@ -3584,7 +3584,7 @@
       "happiness": null,
       "hp": 263,
       "item": "",
-      "iv": 85,
+      "iv": 11,
       "moves": [
         "drill-peck",
         "tri-attack",
@@ -3611,7 +3611,7 @@
       "happiness": null,
       "hp": 232,
       "item": "",
-      "iv": 84,
+      "iv": 31,
       "moves": [
         "fly",
         "facade",
@@ -3638,7 +3638,7 @@
       "happiness": null,
       "hp": 318,
       "item": "",
-      "iv": 232,
+      "iv": 7,
       "moves": [
         "magnitude",
         "ice-shard",
@@ -3664,7 +3664,7 @@
       "happiness": null,
       "hp": 268,
       "item": "",
-      "iv": 148,
+      "iv": 15,
       "moves": [
         "draco-meteor",
         "fire-blast",
@@ -3690,7 +3690,7 @@
       "happiness": null,
       "hp": 292,
       "item": "",
-      "iv": 149,
+      "iv": 0,
       "moves": [
         "dragon-rush",
         "zap-cannon",
@@ -3717,7 +3717,7 @@
       "happiness": null,
       "hp": 278,
       "item": "",
-      "iv": 452,
+      "iv": 7,
       "moves": [
         "sludge-bomb",
         "night-slash",
@@ -3744,7 +3744,7 @@
       "happiness": null,
       "hp": 265,
       "item": "",
-      "iv": 147,
+      "iv": 31,
       "moves": [
         "outrage",
         "extreme-speed",
@@ -3770,7 +3770,7 @@
       "happiness": null,
       "hp": 410,
       "item": "",
-      "iv": 426,
+      "iv": 0,
       "moves": [
         "ominous-wind",
         "thunder",
@@ -3797,7 +3797,7 @@
       "happiness": null,
       "hp": 321,
       "item": "",
-      "iv": 425,
+      "iv": 31,
       "moves": [
         "shadow-ball",
         "air-cutter",
@@ -3824,7 +3824,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 96,
+      "iv": 23,
       "moves": [
         "shadow-ball",
         "dream-eater",
@@ -3850,7 +3850,7 @@
       "happiness": null,
       "hp": 217,
       "item": "",
-      "iv": 51,
+      "iv": 16,
       "moves": [
         "dig",
         "stone-edge",
@@ -3876,7 +3876,7 @@
       "happiness": null,
       "hp": 346,
       "item": "",
-      "iv": 206,
+      "iv": 15,
       "moves": [
         "strength",
         "dig",
@@ -3902,7 +3902,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 356,
+      "iv": 11,
       "moves": [
         "shadow-punch",
         "ice-punch",
@@ -3928,7 +3928,7 @@
       "happiness": null,
       "hp": 293,
       "item": "",
-      "iv": 477,
+      "iv": 31,
       "moves": [
         "astonish",
         "rock-smash",
@@ -3954,7 +3954,7 @@
       "happiness": null,
       "hp": 240,
       "item": "",
-      "iv": 355,
+      "iv": 27,
       "moves": [
         "night-shade",
         "confuse-ray",
@@ -3980,7 +3980,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 269,
+      "iv": 31,
       "moves": [
         "sludge-bomb",
         "psychic",
@@ -4007,7 +4007,7 @@
       "happiness": null,
       "hp": 298,
       "item": "",
-      "iv": 133,
+      "iv": 31,
       "moves": [
         "take-down",
         "iron-tail",
@@ -4033,7 +4033,7 @@
       "happiness": null,
       "hp": 232,
       "item": "",
-      "iv": 23,
+      "iv": 31,
       "moves": [
         "gunk-shot",
         "earthquake",
@@ -4059,7 +4059,7 @@
       "happiness": null,
       "hp": 269,
       "item": "",
-      "iv": 125,
+      "iv": 8,
       "moves": [
         "thunder-punch",
         "dynamic-punch",
@@ -4085,7 +4085,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 466,
+      "iv": 3,
       "moves": [
         "thunder-punch",
         "rolling-kick",
@@ -4111,7 +4111,7 @@
       "happiness": null,
       "hp": 242,
       "item": "",
-      "iv": 309,
+      "iv": 31,
       "moves": [
         "thunderbolt",
         "flamethrower",
@@ -4137,7 +4137,7 @@
       "happiness": null,
       "hp": 260,
       "item": "",
-      "iv": 101,
+      "iv": 9,
       "moves": [
         "thunder",
         "rollout",
@@ -4163,7 +4163,7 @@
       "happiness": null,
       "hp": 221,
       "item": "",
-      "iv": 239,
+      "iv": 20,
       "moves": [
         "thunderbolt",
         "ice-punch",
@@ -4189,7 +4189,7 @@
       "happiness": null,
       "hp": 303,
       "item": "",
-      "iv": 395,
+      "iv": 0,
       "moves": [
         "steel-wing",
         "aqua-jet",
@@ -4216,7 +4216,7 @@
       "happiness": null,
       "hp": 371,
       "item": "",
-      "iv": 244,
+      "iv": 0,
       "moves": [
         "ember",
         "stomp",
@@ -4242,7 +4242,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 196,
+      "iv": 5,
       "moves": [
         "psybeam",
         "swift",
@@ -4268,7 +4268,7 @@
       "happiness": null,
       "hp": 324,
       "item": "",
-      "iv": 102,
+      "iv": 31,
       "moves": [
         "giga-drain",
         "dream-eater",
@@ -4295,7 +4295,7 @@
       "happiness": null,
       "hp": 326,
       "item": "",
-      "iv": 103,
+      "iv": 5,
       "moves": [
         "wood-hammer",
         "psychic",
@@ -4322,7 +4322,7 @@
       "happiness": null,
       "hp": 370,
       "item": "",
-      "iv": 295,
+      "iv": 31,
       "moves": [
         "hammer-arm",
         "snore",
@@ -4348,7 +4348,7 @@
       "happiness": null,
       "hp": 252,
       "item": "",
-      "iv": 83,
+      "iv": 21,
       "moves": [
         "slash",
         "fly",
@@ -4375,7 +4375,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 22,
+      "iv": 13,
       "moves": [
         "drill-peck",
         "giga-impact",
@@ -4402,7 +4402,7 @@
       "happiness": 102,
       "hp": 182,
       "item": "",
-      "iv": 349,
+      "iv": 31,
       "moves": [
         "waterfall",
         "frustration",
@@ -4428,7 +4428,7 @@
       "happiness": null,
       "hp": 305,
       "item": "",
-      "iv": 160,
+      "iv": 4,
       "moves": [
         "aqua-tail",
         "dynamic-punch",
@@ -4454,7 +4454,7 @@
       "happiness": null,
       "hp": 261,
       "item": "",
-      "iv": 456,
+      "iv": 31,
       "moves": [
         "waterfall",
         "bounce",
@@ -4480,7 +4480,7 @@
       "happiness": null,
       "hp": 281,
       "item": "",
-      "iv": 180,
+      "iv": 31,
       "moves": [
         "thunder-punch",
         "focus-punch",
@@ -4506,7 +4506,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 136,
+      "iv": 5,
       "moves": [
         "fire-fang",
         "take-down",
@@ -4532,7 +4532,7 @@
       "happiness": null,
       "hp": 309,
       "item": "",
-      "iv": 419,
+      "iv": 8,
       "moves": [
         "aqua-tail",
         "crunch",
@@ -4558,7 +4558,7 @@
       "happiness": null,
       "hp": 296,
       "item": "",
-      "iv": 330,
+      "iv": 5,
       "moves": [
         "draco-meteor",
         "earthquake",
@@ -4585,7 +4585,7 @@
       "happiness": null,
       "hp": 323,
       "item": "",
-      "iv": 205,
+      "iv": 31,
       "moves": [
         "pin-missile",
         "spikes",
@@ -4612,7 +4612,7 @@
       "happiness": null,
       "hp": 296,
       "item": "",
-      "iv": 478,
+      "iv": 21,
       "moves": [
         "ominous-wind",
         "powder-snow",
@@ -4639,7 +4639,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 162,
+      "iv": 15,
       "moves": [
         "headbutt",
         "ice-punch",
@@ -4665,7 +4665,7 @@
       "happiness": null,
       "hp": 283,
       "item": "",
-      "iv": 444,
+      "iv": 16,
       "moves": [
         "dragon-rush",
         "dig",
@@ -4692,7 +4692,7 @@
       "happiness": null,
       "hp": 272,
       "item": "",
-      "iv": 475,
+      "iv": 5,
       "moves": [
         "psycho-cut",
         "drain-punch",
@@ -4719,7 +4719,7 @@
       "happiness": null,
       "hp": 343,
       "item": "",
-      "iv": 445,
+      "iv": 0,
       "moves": [
         "dragon-breath",
         "mud-shot",
@@ -4746,7 +4746,7 @@
       "happiness": null,
       "hp": 272,
       "item": "",
-      "iv": 282,
+      "iv": 5,
       "moves": [
         "psychic",
         "magical-leaf",
@@ -4772,7 +4772,7 @@
       "happiness": null,
       "hp": 216,
       "item": "",
-      "iv": 92,
+      "iv": 25,
       "moves": [
         "sludge-bomb",
         "shadow-ball",
@@ -4799,7 +4799,7 @@
       "happiness": null,
       "hp": 362,
       "item": "",
-      "iv": 423,
+      "iv": 9,
       "moves": [
         "earthquake",
         "waterfall",
@@ -4826,7 +4826,7 @@
       "happiness": null,
       "hp": 362,
       "item": "",
-      "iv": 423,
+      "iv": 9,
       "moves": [
         "earth-power",
         "muddy-water",
@@ -4853,7 +4853,7 @@
       "happiness": null,
       "hp": 258,
       "item": "",
-      "iv": 94,
+      "iv": 7,
       "moves": [
         "dark-pulse",
         "night-shade",
@@ -4880,7 +4880,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 74,
+      "iv": 31,
       "moves": [
         "earthquake",
         "stone-edge",
@@ -4907,7 +4907,7 @@
       "happiness": null,
       "hp": 279,
       "item": "",
-      "iv": 443,
+      "iv": 31,
       "moves": [
         "outrage",
         "earthquake",
@@ -4934,7 +4934,7 @@
       "happiness": null,
       "hp": 344,
       "item": "",
-      "iv": 203,
+      "iv": 31,
       "moves": [
         "psybeam",
         "double-hit",
@@ -4961,7 +4961,7 @@
       "happiness": null,
       "hp": 410,
       "item": "",
-      "iv": 487,
+      "iv": 0,
       "moves": [
         "shadow-claw",
         "twister",
@@ -4988,7 +4988,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 471,
+      "iv": 5,
       "moves": [
         "blizzard",
         "swift",
@@ -5014,7 +5014,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 362,
+      "iv": 9,
       "moves": [
         "earthquake",
         "weather-ball",
@@ -5040,7 +5040,7 @@
       "happiness": null,
       "hp": 247,
       "item": "",
-      "iv": 431,
+      "iv": 25,
       "moves": [
         "fake-out",
         "last-resort"
@@ -5064,7 +5064,7 @@
       "happiness": null,
       "hp": 334,
       "item": "",
-      "iv": 207,
+      "iv": 31,
       "moves": [
         "dig",
         "toxic",
@@ -5091,7 +5091,7 @@
       "happiness": null,
       "hp": 281,
       "item": "",
-      "iv": 472,
+      "iv": 0,
       "moves": [
         "dig",
         "aerial-ace",
@@ -5118,7 +5118,7 @@
       "happiness": null,
       "hp": 268,
       "item": "",
-      "iv": 44,
+      "iv": 17,
       "moves": [
         "energy-ball",
         "sludge-bomb",
@@ -5145,7 +5145,7 @@
       "happiness": null,
       "hp": 291,
       "item": "",
-      "iv": 42,
+      "iv": 31,
       "moves": [
         "air-slash",
         "giga-drain",
@@ -5172,7 +5172,7 @@
       "happiness": null,
       "hp": 245,
       "item": "",
-      "iv": 118,
+      "iv": 24,
       "moves": [
         "waterfall",
         "megahorn",
@@ -5198,7 +5198,7 @@
       "happiness": null,
       "hp": 298,
       "item": "",
-      "iv": 55,
+      "iv": 7,
       "moves": [
         "aqua-tail",
         "zen-headbutt",
@@ -5224,7 +5224,7 @@
       "happiness": null,
       "hp": 333,
       "item": "",
-      "iv": 76,
+      "iv": 31,
       "moves": [
         "magnitude",
         "rollout",
@@ -5251,7 +5251,7 @@
       "happiness": null,
       "hp": 244,
       "item": "",
-      "iv": 368,
+      "iv": 24,
       "moves": [
         "aqua-tail",
         "brine",
@@ -5277,7 +5277,7 @@
       "happiness": null,
       "hp": 323,
       "item": "",
-      "iv": 210,
+      "iv": 12,
       "moves": [
         "facade",
         "superpower",
@@ -5303,7 +5303,7 @@
       "happiness": null,
       "hp": 263,
       "item": "",
-      "iv": 75,
+      "iv": 18,
       "moves": [
         "dig",
         "rock-slide",
@@ -5330,7 +5330,7 @@
       "happiness": null,
       "hp": 315,
       "item": "",
-      "iv": 88,
+      "iv": 24,
       "moves": [
         "gunk-shot",
         "dig",
@@ -5356,7 +5356,7 @@
       "happiness": null,
       "hp": 313,
       "item": "",
-      "iv": 388,
+      "iv": 31,
       "moves": [
         "energy-ball",
         "earth-power",
@@ -5382,7 +5382,7 @@
       "happiness": null,
       "hp": 310,
       "item": "",
-      "iv": 383,
+      "iv": 0,
       "moves": [
         "earth-power",
         "lava-plume",
@@ -5408,7 +5408,7 @@
       "happiness": null,
       "hp": 262,
       "item": "",
-      "iv": 253,
+      "iv": 31,
       "moves": [
         "seed-bomb",
         "x-scissor",
@@ -5434,7 +5434,7 @@
       "happiness": null,
       "hp": 272,
       "item": "",
-      "iv": 58,
+      "iv": 31,
       "moves": [
         "flare-blitz",
         "close-combat",
@@ -5460,7 +5460,7 @@
       "happiness": null,
       "hp": 301,
       "item": "",
-      "iv": 326,
+      "iv": 10,
       "moves": [
         "focus-blast",
         "energy-ball",
@@ -5486,7 +5486,7 @@
       "happiness": null,
       "hp": 297,
       "item": "",
-      "iv": 316,
+      "iv": 26,
       "moves": [
         "gunk-shot",
         "dynamic-punch",
@@ -5512,7 +5512,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 130,
+      "iv": 0,
       "moves": [
         "aqua-tail",
         "hyper-beam",
@@ -5539,7 +5539,7 @@
       "happiness": null,
       "hp": 404,
       "item": "",
-      "iv": 440,
+      "iv": 31,
       "moves": [
         "water-pulse",
         "counter",
@@ -5565,7 +5565,7 @@
       "happiness": null,
       "hp": 408,
       "item": "",
-      "iv": 297,
+      "iv": 10,
       "moves": [
         "wake-up-slap",
         "smelling-salts",
@@ -5591,7 +5591,7 @@
       "happiness": null,
       "hp": 237,
       "item": "",
-      "iv": 93,
+      "iv": 16,
       "moves": [
         "night-shade",
         "dream-eater",
@@ -5618,7 +5618,7 @@
       "happiness": null,
       "hp": 292,
       "item": "grip-claw",
-      "iv": 485,
+      "iv": 0,
       "moves": [
         "magma-storm",
         "rock-smash",
@@ -5645,7 +5645,7 @@
       "happiness": null,
       "hp": 292,
       "item": "",
-      "iv": 214,
+      "iv": 0,
       "moves": [
         "megahorn",
         "arm-thrust",
@@ -5672,7 +5672,7 @@
       "happiness": null,
       "hp": 311,
       "item": "",
-      "iv": 449,
+      "iv": 31,
       "moves": [
         "earthquake",
         "rock-tomb",
@@ -5698,7 +5698,7 @@
       "happiness": null,
       "hp": 389,
       "item": "grip-claw",
-      "iv": 450,
+      "iv": 31,
       "moves": [
         "sand-tomb",
         "water-pulse",
@@ -5724,7 +5724,7 @@
       "happiness": null,
       "hp": 242,
       "item": "",
-      "iv": 107,
+      "iv": 11,
       "moves": [
         "mach-punch",
         "ice-punch",
@@ -5750,7 +5750,7 @@
       "happiness": null,
       "hp": 242,
       "item": "",
-      "iv": 106,
+      "iv": 11,
       "moves": [
         "high-jump-kick",
         "vacuum-wave",
@@ -5776,7 +5776,7 @@
       "happiness": null,
       "hp": 239,
       "item": "",
-      "iv": 237,
+      "iv": 29,
       "moves": [
         "triple-kick",
         "aerial-ace",
@@ -5802,7 +5802,7 @@
       "happiness": null,
       "hp": 322,
       "item": "",
-      "iv": 250,
+      "iv": 0,
       "moves": [
         "heat-wave",
         "weather-ball",
@@ -5829,7 +5829,7 @@
       "happiness": null,
       "hp": 331,
       "item": "",
-      "iv": 430,
+      "iv": 0,
       "moves": [
         "fly",
         "night-slash",
@@ -5856,7 +5856,7 @@
       "happiness": null,
       "hp": 262,
       "item": "",
-      "iv": 163,
+      "iv": 31,
       "moves": [
         "air-slash",
         "agility",
@@ -5883,7 +5883,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 187,
+      "iv": 31,
       "moves": [
         "solar-beam",
         "toxic",
@@ -5910,7 +5910,7 @@
       "happiness": null,
       "hp": 218,
       "item": "",
-      "iv": 116,
+      "iv": 27,
       "moves": [
         "hydro-pump",
         "ice-beam",
@@ -5936,7 +5936,7 @@
       "happiness": null,
       "hp": 288,
       "item": "",
-      "iv": 229,
+      "iv": 7,
       "moves": [
         "heat-wave",
         "bite",
@@ -5963,7 +5963,7 @@
       "happiness": null,
       "hp": 253,
       "item": "",
-      "iv": 228,
+      "iv": 31,
       "moves": [
         "overheat",
         "dark-pulse",
@@ -5990,7 +5990,7 @@
       "happiness": null,
       "hp": 314,
       "item": "grip-claw",
-      "iv": 367,
+      "iv": 31,
       "moves": [
         "clamp",
         "bind",
@@ -6016,7 +6016,7 @@
       "happiness": null,
       "hp": 317,
       "item": "",
-      "iv": 97,
+      "iv": 9,
       "moves": [
         "psywave",
         "nightmare",
@@ -6042,7 +6042,7 @@
       "happiness": null,
       "hp": 384,
       "item": "",
-      "iv": 174,
+      "iv": 31,
       "moves": [
         "seismic-toss",
         "shadow-ball",
@@ -6068,7 +6068,7 @@
       "happiness": null,
       "hp": 278,
       "item": "",
-      "iv": 314,
+      "iv": 17,
       "moves": [
         "bug-buzz",
         "shock-wave",
@@ -6094,7 +6094,7 @@
       "happiness": null,
       "hp": 272,
       "item": "",
-      "iv": 392,
+      "iv": 0,
       "moves": [
         "heat-wave",
         "brick-break",
@@ -6121,7 +6121,7 @@
       "happiness": null,
       "hp": 267,
       "item": "",
-      "iv": 2,
+      "iv": 16,
       "moves": [
         "energy-ball",
         "sludge-bomb",
@@ -6148,7 +6148,7 @@
       "happiness": null,
       "hp": 372,
       "item": "",
-      "iv": 39,
+      "iv": 31,
       "moves": [
         "seismic-toss",
         "perish-song",
@@ -6174,7 +6174,7 @@
       "happiness": null,
       "hp": 310,
       "item": "",
-      "iv": 385,
+      "iv": 0,
       "moves": [
         "doom-desire",
         "confusion",
@@ -6201,7 +6201,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 135,
+      "iv": 5,
       "moves": [
         "discharge",
         "last-resort",
@@ -6227,7 +6227,7 @@
       "happiness": null,
       "hp": 293,
       "item": "",
-      "iv": 189,
+      "iv": 8,
       "moves": [
         "bounce",
         "headbutt",
@@ -6254,7 +6254,7 @@
       "happiness": null,
       "hp": 272,
       "item": "",
-      "iv": 124,
+      "iv": 11,
       "moves": [
         "psychic",
         "icy-wind",
@@ -6281,7 +6281,7 @@
       "happiness": null,
       "hp": 243,
       "item": "",
-      "iv": 140,
+      "iv": 31,
       "moves": [
         "waterfall",
         "rock-slide",
@@ -6308,7 +6308,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 141,
+      "iv": 29,
       "moves": [
         "aqua-tail",
         "ancient-power",
@@ -6335,7 +6335,7 @@
       "happiness": null,
       "hp": 228,
       "item": "",
-      "iv": 64,
+      "iv": 17,
       "moves": [
         "psychic",
         "shock-wave",
@@ -6361,7 +6361,7 @@
       "happiness": null,
       "hp": 232,
       "item": "",
-      "iv": 14,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "poison-sting",
@@ -6388,7 +6388,7 @@
       "happiness": null,
       "hp": 349,
       "item": "",
-      "iv": 115,
+      "iv": 8,
       "moves": [
         "fake-out",
         "dizzy-punch",
@@ -6414,7 +6414,7 @@
       "happiness": null,
       "hp": 306,
       "item": "",
-      "iv": 352,
+      "iv": 13,
       "moves": [
         "shadow-claw",
         "drain-punch",
@@ -6440,7 +6440,7 @@
       "happiness": null,
       "hp": 325,
       "item": "",
-      "iv": 230,
+      "iv": 31,
       "moves": [
         "water-gun",
         "razor-wind",
@@ -6467,7 +6467,7 @@
       "happiness": null,
       "hp": 250,
       "item": "",
-      "iv": 99,
+      "iv": 9,
       "moves": [
         "crabhammer",
         "brick-break",
@@ -6493,7 +6493,7 @@
       "happiness": null,
       "hp": 235,
       "item": "",
-      "iv": 281,
+      "iv": 28,
       "moves": [
         "psychic",
         "shadow-ball",
@@ -6519,7 +6519,7 @@
       "happiness": null,
       "hp": 254,
       "item": "",
-      "iv": 109,
+      "iv": 22,
       "moves": [
         "sludge-bomb",
         "fire-blast",
@@ -6545,7 +6545,7 @@
       "happiness": null,
       "hp": 257,
       "item": "",
-      "iv": 98,
+      "iv": 24,
       "moves": [
         "crabhammer",
         "guillotine",
@@ -6571,7 +6571,7 @@
       "happiness": null,
       "hp": 278,
       "item": "",
-      "iv": 401,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "mud-slap",
@@ -6597,7 +6597,7 @@
       "happiness": null,
       "hp": 303,
       "item": "",
-      "iv": 402,
+      "iv": 18,
       "moves": [
         "x-scissor",
         "brick-break",
@@ -6623,7 +6623,7 @@
       "happiness": null,
       "hp": 310,
       "item": "grip-claw",
-      "iv": 382,
+      "iv": 0,
       "moves": [
         "whirlpool",
         "thunder",
@@ -6649,7 +6649,7 @@
       "happiness": null,
       "hp": 324,
       "item": "",
-      "iv": 305,
+      "iv": 31,
       "moves": [
         "iron-tail",
         "stone-edge",
@@ -6676,7 +6676,7 @@
       "happiness": null,
       "hp": 392,
       "item": "",
-      "iv": 171,
+      "iv": 11,
       "moves": [
         "bubble-beam",
         "spark",
@@ -6703,7 +6703,7 @@
       "happiness": null,
       "hp": 395,
       "item": "",
-      "iv": 131,
+      "iv": 4,
       "moves": [
         "surf",
         "avalanche",
@@ -6730,7 +6730,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 246,
+      "iv": 31,
       "moves": [
         "earthquake",
         "stone-edge",
@@ -6757,7 +6757,7 @@
       "happiness": null,
       "hp": 270,
       "item": "",
-      "iv": 380,
+      "iv": 0,
       "moves": [
         "mist-ball",
         "dragon-claw",
@@ -6784,7 +6784,7 @@
       "happiness": null,
       "hp": 270,
       "item": "",
-      "iv": 381,
+      "iv": 0,
       "moves": [
         "luster-purge",
         "dragon-breath",
@@ -6811,7 +6811,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 470,
+      "iv": 5,
       "moves": [
         "leaf-blade",
         "shadow-ball",
@@ -6837,7 +6837,7 @@
       "happiness": null,
       "hp": 283,
       "item": "",
-      "iv": 166,
+      "iv": 31,
       "moves": [
         "aerial-ace",
         "drain-punch",
@@ -6864,7 +6864,7 @@
       "happiness": null,
       "hp": 220,
       "item": "",
-      "iv": 165,
+      "iv": 29,
       "moves": [
         "bug-buzz",
         "air-cutter",
@@ -6891,7 +6891,7 @@
       "happiness": null,
       "hp": 357,
       "item": "",
-      "iv": 463,
+      "iv": 6,
       "moves": [
         "hyper-beam",
         "dynamic-punch",
@@ -6917,7 +6917,7 @@
       "happiness": null,
       "hp": 329,
       "item": "",
-      "iv": 108,
+      "iv": 18,
       "moves": [
         "mega-kick",
         "power-whip",
@@ -6943,7 +6943,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 345,
+      "iv": 21,
       "moves": [
         "energy-ball",
         "ancient-power",
@@ -6970,7 +6970,7 @@
       "happiness": null,
       "hp": 302,
       "item": "",
-      "iv": 264,
+      "iv": 15,
       "moves": [
         "headbutt",
         "pursuit",
@@ -6996,7 +6996,7 @@
       "happiness": null,
       "hp": 324,
       "item": "",
-      "iv": 271,
+      "iv": 31,
       "moves": [
         "hydro-pump",
         "leech-seed",
@@ -7023,7 +7023,7 @@
       "happiness": null,
       "hp": 263,
       "item": "",
-      "iv": 428,
+      "iv": 9,
       "moves": [
         "dizzy-punch",
         "jump-kick",
@@ -7049,7 +7049,7 @@
       "happiness": null,
       "hp": 243,
       "item": "",
-      "iv": 270,
+      "iv": 31,
       "moves": [
         "surf",
         "energy-ball",
@@ -7076,7 +7076,7 @@
       "happiness": null,
       "hp": 334,
       "item": "",
-      "iv": 294,
+      "iv": 31,
       "moves": [
         "hyper-voice",
         "overheat",
@@ -7102,7 +7102,7 @@
       "happiness": null,
       "hp": 276,
       "item": "",
-      "iv": 448,
+      "iv": 5,
       "moves": [
         "aura-sphere",
         "bone-rush",
@@ -7129,7 +7129,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 272,
+      "iv": 9,
       "moves": [
         "bubble-beam",
         "giga-drain",
@@ -7156,7 +7156,7 @@
       "happiness": null,
       "hp": 322,
       "item": "",
-      "iv": 249,
+      "iv": 0,
       "moves": [
         "aeroblast",
         "future-sight",
@@ -7183,7 +7183,7 @@
       "happiness": null,
       "hp": 293,
       "item": "",
-      "iv": 457,
+      "iv": 31,
       "moves": [
         "dive",
         "psybeam",
@@ -7209,7 +7209,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 337,
+      "iv": 13,
       "moves": [
         "psychic",
         "ancient-power",
@@ -7236,7 +7236,7 @@
       "happiness": null,
       "hp": 233,
       "item": "",
-      "iv": 370,
+      "iv": 23,
       "moves": [
         "waterfall",
         "bounce",
@@ -7262,7 +7262,7 @@
       "happiness": null,
       "hp": 286,
       "item": "",
-      "iv": 404,
+      "iv": 31,
       "moves": [
         "spark",
         "night-slash",
@@ -7288,7 +7288,7 @@
       "happiness": null,
       "hp": 285,
       "item": "",
-      "iv": 405,
+      "iv": 0,
       "moves": [
         "shock-wave",
         "superpower",
@@ -7314,7 +7314,7 @@
       "happiness": null,
       "hp": 318,
       "item": "",
-      "iv": 68,
+      "iv": 7,
       "moves": [
         "submission",
         "fire-blast",
@@ -7340,7 +7340,7 @@
       "happiness": null,
       "hp": 307,
       "item": "",
-      "iv": 67,
+      "iv": 16,
       "moves": [
         "cross-chop",
         "rock-slide",
@@ -7366,7 +7366,7 @@
       "happiness": null,
       "hp": 297,
       "item": "",
-      "iv": 66,
+      "iv": 26,
       "moves": [
         "dynamic-punch",
         "mega-kick",
@@ -7392,7 +7392,7 @@
       "happiness": null,
       "hp": 231,
       "item": "",
-      "iv": 240,
+      "iv": 20,
       "moves": [
         "flamethrower",
         "cross-chop",
@@ -7418,7 +7418,7 @@
       "happiness": null,
       "hp": 247,
       "item": "",
-      "iv": 219,
+      "iv": 16,
       "moves": [
         "fire-blast",
         "ancient-power",
@@ -7445,7 +7445,7 @@
       "happiness": null,
       "hp": 181,
       "item": "",
-      "iv": 129,
+      "iv": 31,
       "moves": [
         "splash",
         "hydro-pump",
@@ -7471,7 +7471,7 @@
       "happiness": null,
       "hp": 269,
       "item": "",
-      "iv": 126,
+      "iv": 8,
       "moves": [
         "flamethrower",
         "focus-blast",
@@ -7497,7 +7497,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 467,
+      "iv": 3,
       "moves": [
         "fire-punch",
         "psychic",
@@ -7523,7 +7523,7 @@
       "happiness": null,
       "hp": 205,
       "item": "",
-      "iv": 81,
+      "iv": 24,
       "moves": [
         "thunderbolt",
         "flash-cannon",
@@ -7550,7 +7550,7 @@
       "happiness": null,
       "hp": 241,
       "item": "",
-      "iv": 82,
+      "iv": 10,
       "moves": [
         "discharge",
         "mirror-shot",
@@ -7577,7 +7577,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 462,
+      "iv": 4,
       "moves": [
         "shock-wave",
         "mirror-shot",
@@ -7604,7 +7604,7 @@
       "happiness": null,
       "hp": 306,
       "item": "",
-      "iv": 296,
+      "iv": 31,
       "moves": [
         "revenge",
         "reversal",
@@ -7630,7 +7630,7 @@
       "happiness": null,
       "hp": 355,
       "item": "",
-      "iv": 473,
+      "iv": 4,
       "moves": [
         "earth-power",
         "ice-fang",
@@ -7657,7 +7657,7 @@
       "happiness": null,
       "hp": 341,
       "item": "",
-      "iv": 490,
+      "iv": 31,
       "moves": [
         "bubble",
         "uproar",
@@ -7683,7 +7683,7 @@
       "happiness": null,
       "hp": 296,
       "item": "",
-      "iv": 310,
+      "iv": 31,
       "moves": [
         "shock-wave",
         "fire-fang",
@@ -7709,7 +7709,7 @@
       "happiness": null,
       "hp": 237,
       "item": "",
-      "iv": 56,
+      "iv": 26,
       "moves": [
         "close-combat",
         "iron-tail",
@@ -7735,7 +7735,7 @@
       "happiness": null,
       "hp": 271,
       "item": "",
-      "iv": 226,
+      "iv": 10,
       "moves": [
         "bubble-beam",
         "bounce",
@@ -7762,7 +7762,7 @@
       "happiness": null,
       "hp": 243,
       "item": "",
-      "iv": 458,
+      "iv": 22,
       "moves": [
         "surf",
         "ice-beam",
@@ -7789,7 +7789,7 @@
       "happiness": null,
       "hp": 277,
       "item": "",
-      "iv": 179,
+      "iv": 28,
       "moves": [
         "thunderbolt",
         "signal-beam",
@@ -7815,7 +7815,7 @@
       "happiness": null,
       "hp": 302,
       "item": "",
-      "iv": 183,
+      "iv": 31,
       "moves": [
         "waterfall",
         "body-slam",
@@ -7841,7 +7841,7 @@
       "happiness": null,
       "hp": 289,
       "item": "",
-      "iv": 105,
+      "iv": 31,
       "moves": [
         "bone-club",
         "take-down",
@@ -7867,7 +7867,7 @@
       "happiness": null,
       "hp": 287,
       "item": "",
-      "iv": 259,
+      "iv": 16,
       "moves": [
         "muddy-water",
         "earthquake",
@@ -7894,7 +7894,7 @@
       "happiness": null,
       "hp": 286,
       "item": "",
-      "iv": 284,
+      "iv": 15,
       "moves": [
         "bug-buzz",
         "air-slash",
@@ -7921,7 +7921,7 @@
       "happiness": null,
       "hp": 250,
       "item": "",
-      "iv": 303,
+      "iv": 19,
       "moves": [
         "iron-head",
         "fire-fang",
@@ -7947,7 +7947,7 @@
       "happiness": null,
       "hp": 267,
       "item": "",
-      "iv": 308,
+      "iv": 16,
       "moves": [
         "fake-out",
         "psycho-cut",
@@ -7974,7 +7974,7 @@
       "happiness": null,
       "hp": 219,
       "item": "",
-      "iv": 307,
+      "iv": 28,
       "moves": [
         "high-jump-kick",
         "zen-headbutt",
@@ -8001,7 +8001,7 @@
       "happiness": null,
       "hp": 296,
       "item": "",
-      "iv": 154,
+      "iv": 5,
       "moves": [
         "frenzy-plant",
         "iron-tail",
@@ -8027,7 +8027,7 @@
       "happiness": null,
       "hp": 237,
       "item": "",
-      "iv": 52,
+      "iv": 27,
       "moves": [
         "flail",
         "bite",
@@ -8053,7 +8053,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 481,
+      "iv": 0,
       "moves": [
         "extrasensory",
         "thunder-punch",
@@ -8079,7 +8079,7 @@
       "happiness": null,
       "hp": 270,
       "item": "",
-      "iv": 376,
+      "iv": 0,
       "moves": [
         "psychic",
         "metal-claw",
@@ -8106,7 +8106,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 375,
+      "iv": 15,
       "moves": [
         "meteor-mash",
         "zen-headbutt",
@@ -8133,7 +8133,7 @@
       "happiness": null,
       "hp": 241,
       "item": "",
-      "iv": 11,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "tackle",
@@ -8159,7 +8159,7 @@
       "happiness": null,
       "hp": 330,
       "item": "",
-      "iv": 151,
+      "iv": 0,
       "moves": [
         "psychic",
         "me-first",
@@ -8185,7 +8185,7 @@
       "happiness": null,
       "hp": 334,
       "item": "",
-      "iv": 150,
+      "iv": 0,
       "moves": [
         "psycho-cut",
         "me-first",
@@ -8211,7 +8211,7 @@
       "happiness": null,
       "hp": 286,
       "item": "",
-      "iv": 262,
+      "iv": 15,
       "moves": [
         "crunch",
         "fire-fang",
@@ -8237,7 +8237,7 @@
       "happiness": null,
       "hp": 324,
       "item": "",
-      "iv": 350,
+      "iv": 3,
       "moves": [
         "water-pulse",
         "dragon-pulse",
@@ -8263,7 +8263,7 @@
       "happiness": null,
       "hp": 329,
       "item": "",
-      "iv": 241,
+      "iv": 8,
       "moves": [
         "present",
         "rollout",
@@ -8289,7 +8289,7 @@
       "happiness": null,
       "hp": 206,
       "item": "",
-      "iv": 439,
+      "iv": 31,
       "moves": [
         "psychic",
         "thunderbolt",
@@ -8315,7 +8315,7 @@
       "happiness": null,
       "hp": 267,
       "item": "",
-      "iv": 312,
+      "iv": 16,
       "moves": [
         "thunder",
         "grass-knot",
@@ -8341,7 +8341,7 @@
       "happiness": null,
       "hp": 264,
       "item": "",
-      "iv": 200,
+      "iv": 13,
       "moves": [
         "shadow-ball",
         "thunderbolt",
@@ -8367,7 +8367,7 @@
       "happiness": null,
       "hp": 259,
       "item": "",
-      "iv": 429,
+      "iv": 8,
       "moves": [
         "shadow-ball",
         "sucker-punch",
@@ -8393,7 +8393,7 @@
       "happiness": null,
       "hp": 311,
       "item": "",
-      "iv": 146,
+      "iv": 0,
       "moves": [
         "fire-blast",
         "wing-attack",
@@ -8420,7 +8420,7 @@
       "happiness": null,
       "hp": 294,
       "item": "",
-      "iv": 391,
+      "iv": 31,
       "moves": [
         "close-combat",
         "fire-blast",
@@ -8447,7 +8447,7 @@
       "happiness": null,
       "hp": 313,
       "item": "",
-      "iv": 414,
+      "iv": 31,
       "moves": [
         "air-slash",
         "bug-buzz",
@@ -8474,7 +8474,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 122,
+      "iv": 11,
       "moves": [
         "psybeam",
         "focus-blast",
@@ -8500,7 +8500,7 @@
       "happiness": null,
       "hp": 262,
       "item": "",
-      "iv": 258,
+      "iv": 0,
       "moves": [
         "waterfall",
         "superpower",
@@ -8526,7 +8526,7 @@
       "happiness": null,
       "hp": 348,
       "item": "",
-      "iv": 89,
+      "iv": 7,
       "moves": [
         "sludge",
         "thunder",
@@ -8552,7 +8552,7 @@
       "happiness": null,
       "hp": 419,
       "item": "",
-      "iv": 446,
+      "iv": 18,
       "moves": [
         "body-slam",
         "fire-punch",
@@ -8578,7 +8578,7 @@
       "happiness": null,
       "hp": 267,
       "item": "",
-      "iv": 198,
+      "iv": 16,
       "moves": [
         "fly",
         "sucker-punch",
@@ -8605,7 +8605,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 177,
+      "iv": 31,
       "moves": [
         "psychic",
         "night-shade",
@@ -8632,7 +8632,7 @@
       "happiness": null,
       "hp": 301,
       "item": "",
-      "iv": 34,
+      "iv": 8,
       "moves": [
         "earth-power",
         "poison-jab",
@@ -8659,7 +8659,7 @@
       "happiness": null,
       "hp": 319,
       "item": "",
-      "iv": 31,
+      "iv": 8,
       "moves": [
         "earthquake",
         "poison-jab",
@@ -8686,7 +8686,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 29,
+      "iv": 31,
       "moves": [
         "poison-jab",
         "dig",
@@ -8712,7 +8712,7 @@
       "happiness": null,
       "hp": 265,
       "item": "",
-      "iv": 32,
+      "iv": 31,
       "moves": [
         "poison-jab",
         "head-smash",
@@ -8738,7 +8738,7 @@
       "happiness": null,
       "hp": 291,
       "item": "",
-      "iv": 30,
+      "iv": 20,
       "moves": [
         "super-fang",
         "sludge-bomb",
@@ -8764,7 +8764,7 @@
       "happiness": null,
       "hp": 273,
       "item": "",
-      "iv": 33,
+      "iv": 20,
       "moves": [
         "sludge-bomb",
         "thunder",
@@ -8790,7 +8790,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 290,
+      "iv": 31,
       "moves": [
         "x-scissor",
         "dig",
@@ -8817,7 +8817,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 38,
+      "iv": 7,
       "moves": [
         "overheat",
         "dig",
@@ -8843,7 +8843,7 @@
       "happiness": null,
       "hp": 305,
       "item": "",
-      "iv": 291,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "aerial-ace",
@@ -8870,7 +8870,7 @@
       "happiness": null,
       "hp": 344,
       "item": "",
-      "iv": 164,
+      "iv": 13,
       "moves": [
         "air-cutter",
         "hyper-beam",
@@ -8897,7 +8897,7 @@
       "happiness": null,
       "hp": 264,
       "item": "",
-      "iv": 299,
+      "iv": 31,
       "moves": [
         "stone-edge",
         "zap-cannon",
@@ -8923,7 +8923,7 @@
       "happiness": null,
       "hp": 277,
       "item": "",
-      "iv": 322,
+      "iv": 31,
       "moves": [
         "flamethrower",
         "earthquake",
@@ -8950,7 +8950,7 @@
       "happiness": null,
       "hp": 293,
       "item": "",
-      "iv": 274,
+      "iv": 22,
       "moves": [
         "energy-ball",
         "dark-pulse",
@@ -8977,7 +8977,7 @@
       "happiness": null,
       "hp": 314,
       "item": "",
-      "iv": 224,
+      "iv": 31,
       "moves": [
         "octazooka",
         "rock-blast",
@@ -9003,7 +9003,7 @@
       "happiness": null,
       "hp": 290,
       "item": "",
-      "iv": 43,
+      "iv": 31,
       "moves": [
         "solar-beam",
         "sludge-bomb",
@@ -9030,7 +9030,7 @@
       "happiness": null,
       "hp": 230,
       "item": "",
-      "iv": 138,
+      "iv": 31,
       "moves": [
         "surf",
         "ancient-power",
@@ -9057,7 +9057,7 @@
       "happiness": null,
       "hp": 279,
       "item": "",
-      "iv": 139,
+      "iv": 8,
       "moves": [
         "muddy-water",
         "ancient-power",
@@ -9084,7 +9084,7 @@
       "happiness": null,
       "hp": 209,
       "item": "",
-      "iv": 95,
+      "iv": 18,
       "moves": [
         "earthquake",
         "stone-edge",
@@ -9111,7 +9111,7 @@
       "happiness": null,
       "hp": 267,
       "item": "",
-      "iv": 417,
+      "iv": 16,
       "moves": [
         "super-fang",
         "thunderbolt",
@@ -9137,7 +9137,7 @@
       "happiness": null,
       "hp": 290,
       "item": "",
-      "iv": 484,
+      "iv": 0,
       "moves": [
         "dive",
         "twister",
@@ -9164,7 +9164,7 @@
       "happiness": null,
       "hp": 212,
       "item": "",
-      "iv": 46,
+      "iv": 31,
       "moves": [
         "seed-bomb",
         "x-scissor",
@@ -9191,7 +9191,7 @@
       "happiness": null,
       "hp": 282,
       "item": "",
-      "iv": 47,
+      "iv": 31,
       "moves": [
         "seed-bomb",
         "slash",
@@ -9218,7 +9218,7 @@
       "happiness": null,
       "hp": 265,
       "item": "",
-      "iv": 279,
+      "iv": 14,
       "moves": [
         "brine",
         "air-cutter",
@@ -9245,7 +9245,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 53,
+      "iv": 13,
       "moves": [
         "fake-out",
         "headbutt",
@@ -9271,7 +9271,7 @@
       "happiness": null,
       "hp": 321,
       "item": "",
-      "iv": 231,
+      "iv": 31,
       "moves": [
         "earthquake",
         "body-slam",
@@ -9297,7 +9297,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 489,
+      "iv": 9,
       "moves": [
         "waterfall",
         "energy-ball",
@@ -9323,7 +9323,7 @@
       "happiness": null,
       "hp": 181,
       "item": "",
-      "iv": 172,
+      "iv": 31,
       "moves": [
         "volt-tackle",
         "reversal",
@@ -9349,7 +9349,7 @@
       "happiness": null,
       "hp": 307,
       "item": "",
-      "iv": 18,
+      "iv": 10,
       "moves": [
         "giga-impact",
         "sky-attack",
@@ -9376,7 +9376,7 @@
       "happiness": null,
       "hp": 268,
       "item": "",
-      "iv": 17,
+      "iv": 31,
       "moves": [
         "air-slash",
         "heat-wave",
@@ -9403,7 +9403,7 @@
       "happiness": 102,
       "hp": 222,
       "item": "",
-      "iv": 16,
+      "iv": 31,
       "moves": [
         "brave-bird",
         "return",
@@ -9430,7 +9430,7 @@
       "happiness": null,
       "hp": 229,
       "item": "",
-      "iv": 25,
+      "iv": 31,
       "moves": [
         "thunderbolt",
         "surf",
@@ -9456,7 +9456,7 @@
       "happiness": null,
       "hp": 401,
       "item": "",
-      "iv": 221,
+      "iv": 31,
       "moves": [
         "icy-wind",
         "mud-shot",
@@ -9483,7 +9483,7 @@
       "happiness": null,
       "hp": 260,
       "item": "",
-      "iv": 204,
+      "iv": 31,
       "moves": [
         "gyro-ball",
         "earthquake",
@@ -9509,7 +9509,7 @@
       "happiness": null,
       "hp": 268,
       "item": "",
-      "iv": 127,
+      "iv": 7,
       "moves": [
         "x-scissor",
         "vital-throw",
@@ -9535,7 +9535,7 @@
       "happiness": null,
       "hp": 268,
       "item": "",
-      "iv": 393,
+      "iv": 31,
       "moves": [
         "hydro-pump",
         "ice-beam",
@@ -9561,7 +9561,7 @@
       "happiness": null,
       "hp": 267,
       "item": "",
-      "iv": 311,
+      "iv": 16,
       "moves": [
         "discharge",
         "grass-knot",
@@ -9587,7 +9587,7 @@
       "happiness": null,
       "hp": 318,
       "item": "",
-      "iv": 186,
+      "iv": 7,
       "moves": [
         "water-pulse",
         "hyper-voice",
@@ -9613,7 +9613,7 @@
       "happiness": null,
       "hp": 230,
       "item": "",
-      "iv": 60,
+      "iv": 26,
       "moves": [
         "surf",
         "hypnosis",
@@ -9639,7 +9639,7 @@
       "happiness": null,
       "hp": 279,
       "item": "",
-      "iv": 61,
+      "iv": 18,
       "moves": [
         "dive",
         "wake-up-slap",
@@ -9665,7 +9665,7 @@
       "happiness": null,
       "hp": 318,
       "item": "",
-      "iv": 62,
+      "iv": 7,
       "moves": [
         "hydro-pump",
         "dynamic-punch",
@@ -9692,7 +9692,7 @@
       "happiness": null,
       "hp": 247,
       "item": "",
-      "iv": 77,
+      "iv": 16,
       "moves": [
         "flare-blitz",
         "iron-tail",
@@ -9718,7 +9718,7 @@
       "happiness": null,
       "hp": 232,
       "item": "",
-      "iv": 261,
+      "iv": 31,
       "moves": [
         "super-fang",
         "sucker-punch",
@@ -9744,7 +9744,7 @@
       "happiness": null,
       "hp": 240,
       "item": "",
-      "iv": 137,
+      "iv": 0,
       "moves": [
         "tri-attack",
         "iron-tail",
@@ -9770,7 +9770,7 @@
       "happiness": null,
       "hp": 305,
       "item": "",
-      "iv": 474,
+      "iv": 4,
       "moves": [
         "swift",
         "shadow-ball",
@@ -9796,7 +9796,7 @@
       "happiness": null,
       "hp": 307,
       "item": "",
-      "iv": 233,
+      "iv": 6,
       "moves": [
         "tri-attack",
         "discharge",
@@ -9822,7 +9822,7 @@
       "happiness": null,
       "hp": 272,
       "item": "",
-      "iv": 57,
+      "iv": 11,
       "moves": [
         "cross-chop",
         "overheat",
@@ -9848,7 +9848,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 394,
+      "iv": 16,
       "moves": [
         "surf",
         "headbutt",
@@ -9874,7 +9874,7 @@
       "happiness": null,
       "hp": 256,
       "item": "",
-      "iv": 476,
+      "iv": 5,
       "moves": [
         "power-gem",
         "magnet-bomb",
@@ -9901,7 +9901,7 @@
       "happiness": null,
       "hp": 255,
       "item": "",
-      "iv": 54,
+      "iv": 24,
       "moves": [
         "surf",
         "petal-dance",
@@ -9927,7 +9927,7 @@
       "happiness": null,
       "hp": 344,
       "item": "",
-      "iv": 247,
+      "iv": 31,
       "moves": [
         "dig",
         "rock-slide",
@@ -9954,7 +9954,7 @@
       "happiness": null,
       "hp": 285,
       "item": "",
-      "iv": 432,
+      "iv": 12,
       "moves": [
         "body-slam",
         "dig",
@@ -9980,7 +9980,7 @@
       "happiness": null,
       "hp": 335,
       "item": "",
-      "iv": 195,
+      "iv": 14,
       "moves": [
         "muddy-water",
         "dig",
@@ -10007,7 +10007,7 @@
       "happiness": null,
       "hp": 282,
       "item": "",
-      "iv": 156,
+      "iv": 31,
       "moves": [
         "flare-blitz",
         "reversal",
@@ -10033,7 +10033,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 211,
+      "iv": 14,
       "moves": [
         "waterfall",
         "poison-jab",
@@ -10060,7 +10060,7 @@
       "happiness": null,
       "hp": 260,
       "item": "",
-      "iv": 26,
+      "iv": 9,
       "moves": [
         "thunder",
         "fly",
@@ -10086,7 +10086,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 243,
+      "iv": 0,
       "moves": [
         "thunder-shock",
         "bite",
@@ -10112,7 +10112,7 @@
       "happiness": null,
       "hp": 198,
       "item": "",
-      "iv": 280,
+      "iv": 31,
       "moves": [
         "psychic",
         "signal-beam",
@@ -10138,7 +10138,7 @@
       "happiness": null,
       "hp": 334,
       "item": "",
-      "iv": 409,
+      "iv": 8,
       "moves": [
         "rock-slide",
         "rock-climb",
@@ -10164,7 +10164,7 @@
       "happiness": null,
       "hp": 268,
       "item": "",
-      "iv": 78,
+      "iv": 7,
       "moves": [
         "heat-wave",
         "iron-tail",
@@ -10190,7 +10190,7 @@
       "happiness": null,
       "hp": 260,
       "item": "",
-      "iv": 20,
+      "iv": 15,
       "moves": [
         "super-fang",
         "hyper-fang",
@@ -10216,7 +10216,7 @@
       "happiness": null,
       "hp": 202,
       "item": "",
-      "iv": 19,
+      "iv": 31,
       "moves": [
         "double-edge",
         "crunch",
@@ -10242,7 +10242,7 @@
       "happiness": null,
       "hp": 320,
       "item": "",
-      "iv": 384,
+      "iv": 0,
       "moves": [
         "dragon-claw",
         "uproar",
@@ -10269,7 +10269,7 @@
       "happiness": null,
       "hp": 280,
       "item": "",
-      "iv": 378,
+      "iv": 0,
       "moves": [
         "blizzard",
         "zap-cannon",
@@ -10295,7 +10295,7 @@
       "happiness": null,
       "hp": 361,
       "item": "",
-      "iv": 486,
+      "iv": 31,
       "moves": [
         "giga-impact",
         "zen-headbutt",
@@ -10321,7 +10321,7 @@
       "happiness": null,
       "hp": 280,
       "item": "",
-      "iv": 377,
+      "iv": 0,
       "moves": [
         "rock-throw",
         "hammer-arm",
@@ -10347,7 +10347,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 379,
+      "iv": 0,
       "moves": [
         "iron-head",
         "focus-blast",
@@ -10373,7 +10373,7 @@
       "happiness": null,
       "hp": 340,
       "item": "",
-      "iv": 369,
+      "iv": 9,
       "moves": [
         "head-smash",
         "brine",
@@ -10400,7 +10400,7 @@
       "happiness": null,
       "hp": 207,
       "item": "",
-      "iv": 223,
+      "iv": 26,
       "moves": [
         "water-spout",
         "brine",
@@ -10426,7 +10426,7 @@
       "happiness": null,
       "hp": 373,
       "item": "",
-      "iv": 112,
+      "iv": 31,
       "moves": [
         "rock-blast",
         "megahorn",
@@ -10453,7 +10453,7 @@
       "happiness": null,
       "hp": 322,
       "item": "",
-      "iv": 111,
+      "iv": 31,
       "moves": [
         "earthquake",
         "stone-edge",
@@ -10480,7 +10480,7 @@
       "happiness": null,
       "hp": 344,
       "item": "",
-      "iv": 464,
+      "iv": 4,
       "moves": [
         "rock-blast",
         "magnitude",
@@ -10507,7 +10507,7 @@
       "happiness": null,
       "hp": 246,
       "item": "",
-      "iv": 447,
+      "iv": 31,
       "moves": [
         "high-jump-kick",
         "blaze-kick",
@@ -10533,7 +10533,7 @@
       "happiness": null,
       "hp": 248,
       "item": "",
-      "iv": 315,
+      "iv": 17,
       "moves": [
         "petal-dance",
         "extrasensory",
@@ -10560,7 +10560,7 @@
       "happiness": null,
       "hp": 258,
       "item": "",
-      "iv": 407,
+      "iv": 7,
       "moves": [
         "petal-dance",
         "poison-jab",
@@ -10587,7 +10587,7 @@
       "happiness": null,
       "hp": 244,
       "item": "",
-      "iv": 479,
+      "iv": 13,
       "moves": [
         "shadow-ball",
         "charge-beam",
@@ -10614,7 +10614,7 @@
       "happiness": null,
       "hp": 304,
       "item": "",
-      "iv": 302,
+      "iv": 31,
       "moves": [
         "payback",
         "octazooka",
@@ -10641,7 +10641,7 @@
       "happiness": null,
       "hp": 300,
       "item": "",
-      "iv": 373,
+      "iv": 0,
       "moves": [
         "aerial-ace",
         "dragon-breath",
@@ -10668,7 +10668,7 @@
       "happiness": null,
       "hp": 251,
       "item": "",
-      "iv": 27,
+      "iv": 31,
       "moves": [
         "earthquake",
         "rock-slide",
@@ -10694,7 +10694,7 @@
       "happiness": null,
       "hp": 293,
       "item": "",
-      "iv": 28,
+      "iv": 12,
       "moves": [
         "earthquake",
         "strength",
@@ -10720,7 +10720,7 @@
       "happiness": null,
       "hp": 275,
       "item": "",
-      "iv": 254,
+      "iv": 4,
       "moves": [
         "leaf-blade",
         "dragon-claw",
@@ -10746,7 +10746,7 @@
       "happiness": null,
       "hp": 250,
       "item": "",
-      "iv": 212,
+      "iv": 0,
       "moves": [
         "x-scissor",
         "metal-claw",
@@ -10773,7 +10773,7 @@
       "happiness": null,
       "hp": 278,
       "item": "",
-      "iv": 123,
+      "iv": 7,
       "moves": [
         "x-scissor",
         "wing-attack",
@@ -10800,7 +10800,7 @@
       "happiness": null,
       "hp": 254,
       "item": "",
-      "iv": 117,
+      "iv": 13,
       "moves": [
         "muddy-water",
         "dragon-breath",
@@ -10826,7 +10826,7 @@
       "happiness": null,
       "hp": 303,
       "item": "",
-      "iv": 119,
+      "iv": 12,
       "moves": [
         "hydro-pump",
         "poison-jab",
@@ -10852,7 +10852,7 @@
       "happiness": null,
       "hp": 346,
       "item": "",
-      "iv": 364,
+      "iv": 31,
       "moves": [
         "aurora-beam",
         "water-pulse",
@@ -10879,7 +10879,7 @@
       "happiness": null,
       "hp": 221,
       "item": "",
-      "iv": 273,
+      "iv": 31,
       "moves": [
         "seed-bomb",
         "sunny-day",
@@ -10905,7 +10905,7 @@
       "happiness": null,
       "hp": 303,
       "item": "",
-      "iv": 86,
+      "iv": 31,
       "moves": [
         "surf",
         "icy-wind",
@@ -10931,7 +10931,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 161,
+      "iv": 31,
       "moves": [
         "double-edge",
         "aqua-tail",
@@ -10957,7 +10957,7 @@
       "happiness": null,
       "hp": 288,
       "item": "",
-      "iv": 336,
+      "iv": 11,
       "moves": [
         "poison-tail",
         "aqua-tail",
@@ -10983,7 +10983,7 @@
       "happiness": null,
       "hp": 282,
       "item": "",
-      "iv": 319,
+      "iv": 11,
       "moves": [
         "hydro-pump",
         "bite",
@@ -11010,7 +11010,7 @@
       "happiness": null,
       "hp": 310,
       "item": "",
-      "iv": 492,
+      "iv": 0,
       "moves": [
         "seed-flare",
         "swift",
@@ -11036,7 +11036,7 @@
       "happiness": null,
       "hp": 1,
       "item": "",
-      "iv": 292,
+      "iv": 31,
       "moves": [
         "x-scissor",
         "shadow-sneak",
@@ -11063,7 +11063,7 @@
       "happiness": null,
       "hp": 276,
       "item": "",
-      "iv": 372,
+      "iv": 15,
       "moves": [
         "dragon-rush",
         "crunch",
@@ -11089,7 +11089,7 @@
       "happiness": null,
       "hp": 259,
       "item": "",
-      "iv": 90,
+      "iv": 26,
       "moves": [
         "dive",
         "avalanche",
@@ -11115,7 +11115,7 @@
       "happiness": null,
       "hp": 318,
       "item": "",
-      "iv": 422,
+      "iv": 31,
       "moves": [
         "dive",
         "fissure",
@@ -11141,7 +11141,7 @@
       "happiness": null,
       "hp": 318,
       "item": "",
-      "iv": 422,
+      "iv": 31,
       "moves": [
         "surf",
         "earth-power",
@@ -11167,7 +11167,7 @@
       "happiness": null,
       "hp": 264,
       "item": "",
-      "iv": 410,
+      "iv": 31,
       "moves": [
         "iron-tail",
         "stone-edge",
@@ -11194,7 +11194,7 @@
       "happiness": null,
       "hp": 320,
       "item": "",
-      "iv": 275,
+      "iv": 9,
       "moves": [
         "leaf-storm",
         "feint-attack",
@@ -11221,7 +11221,7 @@
       "happiness": 102,
       "hp": 252,
       "item": "",
-      "iv": 403,
+      "iv": 31,
       "moves": [
         "thunder-fang",
         "return",
@@ -11247,7 +11247,7 @@
       "happiness": null,
       "hp": 321,
       "item": "",
-      "iv": 285,
+      "iv": 31,
       "moves": [
         "seed-bomb",
         "focus-punch",
@@ -11273,7 +11273,7 @@
       "happiness": null,
       "hp": 244,
       "item": "",
-      "iv": 213,
+      "iv": 31,
       "moves": [
         "stone-edge",
         "gyro-ball",
@@ -11300,7 +11300,7 @@
       "happiness": null,
       "hp": 230,
       "item": "",
-      "iv": 353,
+      "iv": 31,
       "moves": [
         "shadow-ball",
         "thunder",
@@ -11326,7 +11326,7 @@
       "happiness": null,
       "hp": 262,
       "item": "",
-      "iv": 266,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "poison-sting",
@@ -11352,7 +11352,7 @@
       "happiness": null,
       "hp": 271,
       "item": "",
-      "iv": 227,
+      "iv": 10,
       "moves": [
         "steel-wing",
         "toxic",
@@ -11379,7 +11379,7 @@
       "happiness": null,
       "hp": 243,
       "item": "",
-      "iv": 188,
+      "iv": 22,
       "moves": [
         "seed-bomb",
         "bounce",
@@ -11406,7 +11406,7 @@
       "happiness": null,
       "hp": 283,
       "item": "",
-      "iv": 300,
+      "iv": 31,
       "moves": [
         "zen-headbutt",
         "attract",
@@ -11432,7 +11432,7 @@
       "happiness": null,
       "hp": 243,
       "item": "",
-      "iv": 451,
+      "iv": 31,
       "moves": [
         "x-scissor",
         "cross-poison",
@@ -11459,7 +11459,7 @@
       "happiness": null,
       "hp": 346,
       "item": "",
-      "iv": 435,
+      "iv": 9,
       "moves": [
         "night-slash",
         "flamethrower",
@@ -11486,7 +11486,7 @@
       "happiness": null,
       "hp": 431,
       "item": "",
-      "iv": 289,
+      "iv": 0,
       "moves": [
         "strength",
         "punishment",
@@ -11512,7 +11512,7 @@
       "happiness": null,
       "hp": 283,
       "item": "",
-      "iv": 287,
+      "iv": 31,
       "moves": [
         "double-edge",
         "hammer-arm",
@@ -11538,7 +11538,7 @@
       "happiness": null,
       "hp": 329,
       "item": "",
-      "iv": 80,
+      "iv": 8,
       "moves": [
         "psychic",
         "water-pulse",
@@ -11565,7 +11565,7 @@
       "happiness": null,
       "hp": 329,
       "item": "",
-      "iv": 199,
+      "iv": 8,
       "moves": [
         "surf",
         "confusion",
@@ -11592,7 +11592,7 @@
       "happiness": null,
       "hp": 336,
       "item": "",
-      "iv": 79,
+      "iv": 25,
       "moves": [
         "aqua-tail",
         "zen-headbutt",
@@ -11619,7 +11619,7 @@
       "happiness": null,
       "hp": 238,
       "item": "",
-      "iv": 218,
+      "iv": 31,
       "moves": [
         "flamethrower",
         "yawn",
@@ -11645,7 +11645,7 @@
       "happiness": null,
       "hp": 252,
       "item": "",
-      "iv": 235,
+      "iv": 31,
       "moves": [
         "crush-grip",
         "shadow-force",
@@ -11671,7 +11671,7 @@
       "happiness": null,
       "hp": 263,
       "item": "",
-      "iv": 238,
+      "iv": 31,
       "moves": [
         "ice-beam",
         "psychic",
@@ -11698,7 +11698,7 @@
       "happiness": null,
       "hp": 255,
       "item": "",
-      "iv": 215,
+      "iv": 14,
       "moves": [
         "ice-punch",
         "bite",
@@ -11725,7 +11725,7 @@
       "happiness": null,
       "hp": 454,
       "item": "",
-      "iv": 143,
+      "iv": 24,
       "moves": [
         "pay-day",
         "rock-smash",
@@ -11751,7 +11751,7 @@
       "happiness": null,
       "hp": 263,
       "item": "",
-      "iv": 361,
+      "iv": 31,
       "moves": [
         "avalanche",
         "crunch",
@@ -11777,7 +11777,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 459,
+      "iv": 23,
       "moves": [
         "blizzard",
         "giga-drain",
@@ -11804,7 +11804,7 @@
       "happiness": null,
       "hp": 297,
       "item": "",
-      "iv": 209,
+      "iv": 31,
       "moves": [
         "smelling-salts",
         "bite",
@@ -11830,7 +11830,7 @@
       "happiness": null,
       "hp": 284,
       "item": "",
-      "iv": 338,
+      "iv": 13,
       "moves": [
         "stone-edge",
         "zen-headbutt",
@@ -11857,7 +11857,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 21,
+      "iv": 31,
       "moves": [
         "double-edge",
         "fly",
@@ -11884,7 +11884,7 @@
       "happiness": null,
       "hp": 298,
       "item": "",
-      "iv": 363,
+      "iv": 27,
       "moves": [
         "super-fang",
         "brine",
@@ -11911,7 +11911,7 @@
       "happiness": null,
       "hp": 289,
       "item": "",
-      "iv": 167,
+      "iv": 31,
       "moves": [
         "megahorn",
         "night-slash",
@@ -11938,7 +11938,7 @@
       "happiness": null,
       "hp": 303,
       "item": "",
-      "iv": 327,
+      "iv": 31,
       "moves": [
         "thrash",
         "sucker-punch",
@@ -11964,7 +11964,7 @@
       "happiness": null,
       "hp": 240,
       "item": "",
-      "iv": 442,
+      "iv": 9,
       "moves": [
         "dark-pulse",
         "shadow-sneak",
@@ -11991,7 +11991,7 @@
       "happiness": null,
       "hp": 283,
       "item": "",
-      "iv": 325,
+      "iv": 31,
       "moves": [
         "psychic",
         "signal-beam",
@@ -12017,7 +12017,7 @@
       "happiness": null,
       "hp": 292,
       "item": "",
-      "iv": 7,
+      "iv": 31,
       "moves": [
         "hydro-pump",
         "aura-sphere",
@@ -12043,7 +12043,7 @@
       "happiness": null,
       "hp": 287,
       "item": "",
-      "iv": 234,
+      "iv": 10,
       "moves": [
         "stomp",
         "shadow-ball",
@@ -12069,7 +12069,7 @@
       "happiness": null,
       "hp": 290,
       "item": "",
-      "iv": 398,
+      "iv": 0,
       "moves": [
         "take-down",
         "close-combat",
@@ -12096,7 +12096,7 @@
       "happiness": null,
       "hp": 276,
       "item": "",
-      "iv": 397,
+      "iv": 31,
       "moves": [
         "fly",
         "secret-power",
@@ -12123,7 +12123,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 396,
+      "iv": 31,
       "moves": [
         "brave-bird",
         "double-edge",
@@ -12150,7 +12150,7 @@
       "happiness": null,
       "hp": 256,
       "item": "",
-      "iv": 121,
+      "iv": 5,
       "moves": [
         "psychic",
         "water-pulse",
@@ -12177,7 +12177,7 @@
       "happiness": null,
       "hp": 201,
       "item": "",
-      "iv": 120,
+      "iv": 31,
       "moves": [
         "hydro-pump",
         "thunder",
@@ -12203,7 +12203,7 @@
       "happiness": null,
       "hp": 287,
       "item": "",
-      "iv": 208,
+      "iv": 6,
       "moves": [
         "iron-tail",
         "dig",
@@ -12230,7 +12230,7 @@
       "happiness": null,
       "hp": 291,
       "item": "",
-      "iv": 434,
+      "iv": 31,
       "moves": [
         "sucker-punch",
         "punishment",
@@ -12257,7 +12257,7 @@
       "happiness": null,
       "hp": 287,
       "item": "",
-      "iv": 185,
+      "iv": 16,
       "moves": [
         "stone-edge",
         "wood-hammer",
@@ -12283,7 +12283,7 @@
       "happiness": null,
       "hp": 344,
       "item": "",
-      "iv": 245,
+      "iv": 0,
       "moves": [
         "water-gun",
         "gust",
@@ -12309,7 +12309,7 @@
       "happiness": null,
       "hp": 312,
       "item": "",
-      "iv": 192,
+      "iv": 31,
       "moves": [
         "giga-drain",
         "earth-power",
@@ -12335,7 +12335,7 @@
       "happiness": null,
       "hp": 201,
       "item": "",
-      "iv": 191,
+      "iv": 31,
       "moves": [
         "energy-ball",
         "leech-seed",
@@ -12361,7 +12361,7 @@
       "happiness": null,
       "hp": 263,
       "item": "",
-      "iv": 283,
+      "iv": 31,
       "moves": [
         "hydro-pump",
         "signal-beam",
@@ -12388,7 +12388,7 @@
       "happiness": null,
       "hp": 273,
       "item": "",
-      "iv": 333,
+      "iv": 31,
       "moves": [
         "fly",
         "sing",
@@ -12415,7 +12415,7 @@
       "happiness": null,
       "hp": 341,
       "item": "",
-      "iv": 317,
+      "iv": 10,
       "moves": [
         "sludge-bomb",
         "seed-bomb",
@@ -12441,7 +12441,7 @@
       "happiness": null,
       "hp": 335,
       "item": "",
-      "iv": 260,
+      "iv": 4,
       "moves": [
         "dive",
         "mud-bomb",
@@ -12468,7 +12468,7 @@
       "happiness": null,
       "hp": 283,
       "item": "",
-      "iv": 277,
+      "iv": 31,
       "moves": [
         "air-slash",
         "hyper-beam",
@@ -12495,7 +12495,7 @@
       "happiness": null,
       "hp": 282,
       "item": "",
-      "iv": 220,
+      "iv": 31,
       "moves": [
         "earthquake",
         "avalanche",
@@ -12522,7 +12522,7 @@
       "happiness": 102,
       "hp": 243,
       "item": "",
-      "iv": 276,
+      "iv": 31,
       "moves": [
         "brave-bird",
         "return",
@@ -12549,7 +12549,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 114,
+      "iv": 13,
       "moves": [
         "mega-drain",
         "sleep-powder",
@@ -12575,7 +12575,7 @@
       "happiness": null,
       "hp": 339,
       "item": "",
-      "iv": 465,
+      "iv": 4,
       "moves": [
         "solar-beam",
         "ancient-power",
@@ -12601,7 +12601,7 @@
       "happiness": null,
       "hp": 289,
       "item": "",
-      "iv": 128,
+      "iv": 8,
       "moves": [
         "horn-attack",
         "zen-headbutt",
@@ -12627,7 +12627,7 @@
       "happiness": null,
       "hp": 286,
       "item": "",
-      "iv": 216,
+      "iv": 31,
       "moves": [
         "flail",
         "thunder-punch",
@@ -12653,7 +12653,7 @@
       "happiness": null,
       "hp": 234,
       "item": "",
-      "iv": 72,
+      "iv": 23,
       "moves": [
         "hydro-pump",
         "sludge-bomb",
@@ -12680,7 +12680,7 @@
       "happiness": null,
       "hp": 297,
       "item": "",
-      "iv": 73,
+      "iv": 6,
       "moves": [
         "muddy-water",
         "sludge-bomb",
@@ -12707,7 +12707,7 @@
       "happiness": null,
       "hp": 280,
       "item": "",
-      "iv": 468,
+      "iv": 0,
       "moves": [
         "extreme-speed",
         "air-cutter",
@@ -12734,7 +12734,7 @@
       "happiness": null,
       "hp": 274,
       "item": "",
-      "iv": 175,
+      "iv": 31,
       "moves": [
         "seismic-toss",
         "yawn",
@@ -12760,7 +12760,7 @@
       "happiness": null,
       "hp": 257,
       "item": "",
-      "iv": 176,
+      "iv": 16,
       "moves": [
         "tri-attack",
         "air-cutter",
@@ -12787,7 +12787,7 @@
       "happiness": null,
       "hp": 238,
       "item": "",
-      "iv": 255,
+      "iv": 31,
       "moves": [
         "overheat",
         "dig",
@@ -12813,7 +12813,7 @@
       "happiness": null,
       "hp": 344,
       "item": "grip-claw",
-      "iv": 324,
+      "iv": 31,
       "moves": [
         "fire-spin",
         "earthquake",
@@ -12839,7 +12839,7 @@
       "happiness": null,
       "hp": 363,
       "item": "",
-      "iv": 389,
+      "iv": 31,
       "moves": [
         "razor-leaf",
         "mud-slap",
@@ -12866,7 +12866,7 @@
       "happiness": null,
       "hp": 266,
       "item": "",
-      "iv": 158,
+      "iv": 31,
       "moves": [
         "waterfall",
         "ice-punch",
@@ -12892,7 +12892,7 @@
       "happiness": null,
       "hp": 305,
       "item": "",
-      "iv": 454,
+      "iv": 8,
       "moves": [
         "fake-out",
         "focus-blast",
@@ -12919,7 +12919,7 @@
       "happiness": null,
       "hp": 248,
       "item": "",
-      "iv": 328,
+      "iv": 27,
       "moves": [
         "earthquake",
         "crunch",
@@ -12945,7 +12945,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 252,
+      "iv": 31,
       "moves": [
         "leaf-storm",
         "energy-ball",
@@ -12971,7 +12971,7 @@
       "happiness": null,
       "hp": 340,
       "item": "",
-      "iv": 357,
+      "iv": 11,
       "moves": [
         "solar-beam",
         "air-slash",
@@ -12998,7 +12998,7 @@
       "happiness": null,
       "hp": 314,
       "item": "",
-      "iv": 387,
+      "iv": 31,
       "moves": [
         "seed-bomb",
         "crunch",
@@ -13024,7 +13024,7 @@
       "happiness": null,
       "hp": 295,
       "item": "",
-      "iv": 157,
+      "iv": 4,
       "moves": [
         "flame-wheel",
         "crush-claw",
@@ -13050,7 +13050,7 @@
       "happiness": null,
       "hp": 310,
       "item": "",
-      "iv": 248,
+      "iv": 0,
       "moves": [
         "bite",
         "rock-tomb",
@@ -13077,7 +13077,7 @@
       "happiness": null,
       "hp": 211,
       "item": "",
-      "iv": 236,
+      "iv": 31,
       "moves": [
         "high-jump-kick",
         "earthquake",
@@ -13103,7 +13103,7 @@
       "happiness": null,
       "hp": 320,
       "item": "",
-      "iv": 197,
+      "iv": 20,
       "moves": [
         "assurance",
         "psychic",
@@ -13129,7 +13129,7 @@
       "happiness": null,
       "hp": 244,
       "item": "choice-specs",
-      "iv": 201,
+      "iv": 22,
       "move_type_override": "psychic",
       "moves": [
         "hidden-power"
@@ -13153,7 +13153,7 @@
       "happiness": null,
       "hp": 343,
       "item": "",
-      "iv": 217,
+      "iv": 31,
       "moves": [
         "scratch",
         "lick",
@@ -13179,7 +13179,7 @@
       "happiness": null,
       "hp": 281,
       "item": "",
-      "iv": 480,
+      "iv": 0,
       "moves": [
         "zen-headbutt",
         "ice-punch",
@@ -13205,7 +13205,7 @@
       "happiness": null,
       "hp": 370,
       "item": "",
-      "iv": 134,
+      "iv": 0,
       "moves": [
         "muddy-water",
         "shadow-ball",
@@ -13231,7 +13231,7 @@
       "happiness": null,
       "hp": 283,
       "item": "",
-      "iv": 49,
+      "iv": 12,
       "moves": [
         "bug-buzz",
         "disable",
@@ -13258,7 +13258,7 @@
       "happiness": null,
       "hp": 257,
       "item": "",
-      "iv": 48,
+      "iv": 26,
       "moves": [
         "sludge-bomb",
         "psychic",
@@ -13285,7 +13285,7 @@
       "happiness": null,
       "hp": 296,
       "item": "",
-      "iv": 3,
+      "iv": 5,
       "moves": [
         "sludge",
         "mega-drain",
@@ -13312,7 +13312,7 @@
       "happiness": null,
       "hp": 282,
       "item": "",
-      "iv": 416,
+      "iv": 10,
       "moves": [
         "attack-order",
         "air-cutter",
@@ -13339,7 +13339,7 @@
       "happiness": null,
       "hp": 253,
       "item": "",
-      "iv": 329,
+      "iv": 22,
       "moves": [
         "outrage",
         "dig",
@@ -13366,7 +13366,7 @@
       "happiness": null,
       "hp": 322,
       "item": "",
-      "iv": 71,
+      "iv": 31,
       "moves": [
         "vine-whip",
         "slam",
@@ -13393,7 +13393,7 @@
       "happiness": null,
       "hp": 304,
       "item": "",
-      "iv": 288,
+      "iv": 13,
       "moves": [
         "slash",
         "shadow-claw",
@@ -13419,7 +13419,7 @@
       "happiness": null,
       "hp": 313,
       "item": "",
-      "iv": 45,
+      "iv": 31,
       "moves": [
         "mega-drain",
         "acid",
@@ -13446,7 +13446,7 @@
       "happiness": null,
       "hp": 278,
       "item": "",
-      "iv": 313,
+      "iv": 17,
       "moves": [
         "silver-wind",
         "zen-headbutt",
@@ -13472,7 +13472,7 @@
       "happiness": null,
       "hp": 234,
       "item": "",
-      "iv": 100,
+      "iv": 23,
       "moves": [
         "thunder",
         "light-screen",
@@ -13498,7 +13498,7 @@
       "happiness": null,
       "hp": 219,
       "item": "",
-      "iv": 37,
+      "iv": 31,
       "moves": [
         "fire-blast",
         "energy-ball",
@@ -13524,7 +13524,7 @@
       "happiness": null,
       "hp": 408,
       "item": "",
-      "iv": 320,
+      "iv": 17,
       "moves": [
         "water-spout",
         "blizzard",
@@ -13550,7 +13550,7 @@
       "happiness": null,
       "hp": 481,
       "item": "",
-      "iv": 321,
+      "iv": 31,
       "moves": [
         "water-spout",
         "bounce",
@@ -13576,7 +13576,7 @@
       "happiness": null,
       "hp": 355,
       "item": "",
-      "iv": 365,
+      "iv": 4,
       "moves": [
         "dive",
         "ice-ball",
@@ -13603,7 +13603,7 @@
       "happiness": null,
       "hp": 280,
       "item": "",
-      "iv": 8,
+      "iv": 31,
       "moves": [
         "dive",
         "dig",
@@ -13629,7 +13629,7 @@
       "happiness": null,
       "hp": 277,
       "item": "",
-      "iv": 461,
+      "iv": 6,
       "moves": [
         "ice-punch",
         "night-slash",
@@ -13656,7 +13656,7 @@
       "happiness": null,
       "hp": 235,
       "item": "",
-      "iv": 13,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "poison-sting",
@@ -13682,7 +13682,7 @@
       "happiness": null,
       "hp": 293,
       "item": "",
-      "iv": 70,
+      "iv": 31,
       "moves": [
         "power-whip",
         "wring-out",
@@ -13709,7 +13709,7 @@
       "happiness": null,
       "hp": 269,
       "item": "",
-      "iv": 110,
+      "iv": 8,
       "moves": [
         "sludge-bomb",
         "thunder",
@@ -13735,7 +13735,7 @@
       "happiness": null,
       "hp": 361,
       "item": "",
-      "iv": 340,
+      "iv": 10,
       "moves": [
         "muddy-water",
         "magnitude",
@@ -13762,7 +13762,7 @@
       "happiness": null,
       "hp": 285,
       "item": "",
-      "iv": 293,
+      "iv": 31,
       "moves": [
         "hyper-voice",
         "blizzard",
@@ -13788,7 +13788,7 @@
       "happiness": null,
       "hp": 442,
       "item": "",
-      "iv": 40,
+      "iv": 31,
       "moves": [
         "pound",
         "focus-punch",
@@ -13814,7 +13814,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 278,
+      "iv": 31,
       "moves": [
         "air-slash",
         "water-pulse",
@@ -13841,7 +13841,7 @@
       "happiness": null,
       "hp": 521,
       "item": "",
-      "iv": 202,
+      "iv": 31,
       "moves": [
         "counter",
         "mirror-coat",
@@ -13867,7 +13867,7 @@
       "happiness": null,
       "hp": 272,
       "item": "",
-      "iv": 194,
+      "iv": 31,
       "moves": [
         "earthquake",
         "aqua-tail",
@@ -13894,7 +13894,7 @@
       "happiness": null,
       "hp": 265,
       "item": "",
-      "iv": 413,
+      "iv": 14,
       "moves": [
         "leaf-storm",
         "signal-beam",
@@ -13921,7 +13921,7 @@
       "happiness": null,
       "hp": 265,
       "item": "",
-      "iv": 413,
+      "iv": 14,
       "moves": [
         "earthquake",
         "bug-bite",
@@ -13948,7 +13948,7 @@
       "happiness": null,
       "hp": 265,
       "item": "",
-      "iv": 413,
+      "iv": 14,
       "moves": [
         "flash-cannon",
         "gunk-shot",
@@ -13975,7 +13975,7 @@
       "happiness": null,
       "hp": 247,
       "item": "",
-      "iv": 265,
+      "iv": 31,
       "moves": [
         "bug-bite",
         "poison-sting",
@@ -14001,7 +14001,7 @@
       "happiness": null,
       "hp": 351,
       "item": "",
-      "iv": 360,
+      "iv": 30,
       "moves": [
         "counter",
         "mirror-coat",
@@ -14027,7 +14027,7 @@
       "happiness": null,
       "hp": 271,
       "item": "",
-      "iv": 178,
+      "iv": 10,
       "moves": [
         "drill-peck",
         "psychic",
@@ -14054,7 +14054,7 @@
       "happiness": null,
       "hp": 279,
       "item": "",
-      "iv": 193,
+      "iv": 18,
       "moves": [
         "bug-buzz",
         "air-slash",
@@ -14081,7 +14081,7 @@
       "happiness": null,
       "hp": 309,
       "item": "",
-      "iv": 469,
+      "iv": 6,
       "moves": [
         "air-slash",
         "silver-wind",
@@ -14108,7 +14108,7 @@
       "happiness": null,
       "hp": 288,
       "item": "",
-      "iv": 335,
+      "iv": 11,
       "moves": [
         "crush-claw",
         "shadow-claw",
@@ -14134,7 +14134,7 @@
       "happiness": null,
       "hp": 290,
       "item": "",
-      "iv": 145,
+      "iv": 0,
       "moves": [
         "thunder",
         "peck",
@@ -14161,7 +14161,7 @@
       "happiness": null,
       "hp": 279,
       "item": "",
-      "iv": 263,
+      "iv": 31,
       "moves": [
         "super-fang",
         "extreme-speed",
@@ -14187,7 +14187,7 @@
       "happiness": null,
       "hp": 222,
       "item": "",
-      "iv": 41,
+      "iv": 31,
       "moves": [
         "super-fang",
         "brave-bird",

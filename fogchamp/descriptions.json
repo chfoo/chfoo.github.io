@@ -993,6 +993,2992 @@
       "name": "Zen Mode"
     }
   },
+  "items": {
+    "ability-capsule": {
+      "description": "A capsule that allows a Pok\u00e9mon with\ntwo Abilities to switch between these\nAbilities when it is used.",
+      "name": "Ability Capsule"
+    },
+    "ability-urge": {
+      "description": "When used, it activates the\nAbility of an ally Pok\u00e9mon.",
+      "name": "Ability Urge"
+    },
+    "abomasite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Abomasnow hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Abomasite"
+    },
+    "absolite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Absol hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Absolite"
+    },
+    "absorb-bulb": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt boosts Sp. Atk if hit with a Water-\ntype attack. It can only be used once.",
+      "name": "Absorb Bulb"
+    },
+    "acro-bike": {
+      "description": "A folding bicycle that is capable\nof stunts like jumps and wheelies.",
+      "name": "Acro Bike"
+    },
+    "adamant-orb": {
+      "description": "A brightly gleaming orb to be held by\nDialga. It boosts the power of Dragon-\u200b\nand Steel-type moves when it is held.",
+      "name": "Adamant Orb"
+    },
+    "adventure-rules": {
+      "description": "This book contains all the points a new\nTrainer needs to know on a journey.\nIt was handmade by a kind friend.",
+      "name": "Adventure Rules"
+    },
+    "aerodactylite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Aerodactyl hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Aerodactylite"
+    },
+    "aggronite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Aggron hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Aggronite"
+    },
+    "aguav-berry": {
+      "description": "If held by a Pok\u00e9mon, it restores the\nuser\u2019s HP in a pinch, but it will cause\nconfusion if the user hates the taste.",
+      "name": "Aguav Berry"
+    },
+    "air-balloon": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThe holder will float in the air until hit.\nOnce hit, this item will burst.",
+      "name": "Air Balloon"
+    },
+    "air-mail": {
+      "description": "Stationery featuring a print of\ncolorful letter sets.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Air Mail"
+    },
+    "alakazite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Alakazam hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Alakazite"
+    },
+    "amaze-mulch": {
+      "description": "Mulch to be used in a Berry field.\nAn amazing Mulch with the effects\nof Rich, Surprise, and Boost Mulch.",
+      "name": "Amaze Mulch"
+    },
+    "ampharosite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Ampharos hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Ampharosite"
+    },
+    "amulet-coin": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt doubles any prize money received\nif the holding Pok\u00e9mon joins a battle.",
+      "name": "Amulet Coin"
+    },
+    "antidote": {
+      "description": "A spray-type medicine for poisoning.\nIt can be used once to lift the effects\nof being poisoned from a Pok\u00e9mon.",
+      "name": "Antidote"
+    },
+    "apicot-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, its Sp. Def\nstat will increase when it\u2019s in a pinch.",
+      "name": "Apicot Berry"
+    },
+    "apricorn-box": {
+      "description": "A handy box where you can store\nup to 99 of each kind of Apricorn.",
+      "name": "Apricorn Box"
+    },
+    "armor-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived on the land. It looks to\nbe from some kind of protective collar.",
+      "name": "Armor Fossil"
+    },
+    "aspear-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can recover\nfrom being frozen on its own in battle.",
+      "name": "Aspear Berry"
+    },
+    "assault-vest": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis offensive vest raises Sp. Def\nbut prevents the use of status moves.",
+      "name": "Assault Vest"
+    },
+    "auroraticket": {
+      "description": "A ticket required to board the ship\nto BIRTH ISLAND.\nIt glows beautifully.",
+      "name": "AuroraTicket"
+    },
+    "awakening": {
+      "description": "A spray-type medicine used against\nsleep. It can be used once to rouse a\nPok\u00e9mon from the clutches of sleep.",
+      "name": "Awakening"
+    },
+    "azure-flute": {
+      "description": "A flute that puts out echoing sounds\nthat do not seem to be of this world.\nNo one knows who made it.",
+      "name": "Azure Flute"
+    },
+    "babiri-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Steel-type attack.",
+      "name": "Babiri Berry"
+    },
+    "balm-mushroom": {
+      "description": "A rare mushroom that gives off\na nice fragrance. It can be sold at\na high price to shops.",
+      "name": "Balm Mushroom"
+    },
+    "banettite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Banette hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Banettite"
+    },
+    "basement-key": {
+      "description": "A key that opens a door in the\nGoldenrod Tunnel.",
+      "name": "Basement Key"
+    },
+    "bead-mail": {
+      "description": "A piece of MAIL to be held by a\nPOK\u00e9MON. It will bear the print of\nthe POK\u00e9MON holding it.",
+      "name": "Bead Mail"
+    },
+    "belue-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Belue Berry"
+    },
+    "berry-juice": {
+      "description": "A 100 percent pure juice made of Berries.\nWhen consumed, it restores\n20 HP to an injured Pok\u00e9mon.",
+      "name": "Berry Juice"
+    },
+    "berry-pots": {
+      "description": "Handy containers for cultivating\nBerries wherever you go.",
+      "name": "Berry Pots"
+    },
+    "berry-pouch": {
+      "description": "A pouch for carrying BERRIES.\nIt is attached to the BAG\u2019s\ncompartment for important items.",
+      "name": "Berry Pouch"
+    },
+    "bicycle": {
+      "description": "A folding Bicycle that enables a rider\nto get around much faster than a pair\nof Running Shoes will allow.",
+      "name": "Bicycle"
+    },
+    "big-mushroom": {
+      "description": "A very large and rare mushroom.\nIt\u2019s popular with a certain class of\ncollectors and sought out by them.",
+      "name": "Big Mushroom"
+    },
+    "big-nugget": {
+      "description": "A big nugget of pure gold that gives\noff a lustrous gleam. It can be sold\nat a high price to shops.",
+      "name": "Big Nugget"
+    },
+    "big-pearl": {
+      "description": "A rather large pearl that has a very nice silvery\nsheen. It can be sold to shops for a high price.",
+      "name": "Big Pearl"
+    },
+    "big-root": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt boosts the power of HP-stealing\nmoves so the holder recovers more HP.",
+      "name": "Big Root"
+    },
+    "bike-voucher": {
+      "description": "Take this voucher to the BIKE SHOP\nin CERULEAN CITY and exchange it\nfor a bicycle.",
+      "name": "Bike Voucher"
+    },
+    "binding-band": {
+      "description": "An item to be held by a Pok\u00e9mon.\nA band that increases the power of\nbinding moves used by the holder.",
+      "name": "Binding Band"
+    },
+    "black-apricorn": {
+      "description": "A black Apricorn.\nIt has a scent beyond one\u2019s experience.",
+      "name": "Black Apricorn"
+    },
+    "black-belt": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis belt helps the wearer to focus and\nboosts the power of Fighting-type moves.",
+      "name": "Black Belt"
+    },
+    "black-flute": {
+      "description": "A lovely toy flute to admire.\nIt\u2019s made from black glass.",
+      "name": "Black Flute"
+    },
+    "black-glasses": {
+      "description": "An item to be held by a Pok\u00e9mon.\nA pair of shady-looking glasses that\nboost the power of Dark-type moves.",
+      "name": "Black Glasses"
+    },
+    "black-sludge": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt gradually restores HP to Poison-type\nPok\u00e9mon. It damages any other type.",
+      "name": "Black Sludge"
+    },
+    "blastoisinite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Blastoise hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Blastoisinite"
+    },
+    "blazikenite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Blaziken hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Blazikenite"
+    },
+    "bloom-mail": {
+      "description": "Stationery featuring a print of pretty\nfloral patterns.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Bloom Mail"
+    },
+    "blue-apricorn": {
+      "description": "A blue Apricorn.\nIt smells a bit like grass.",
+      "name": "Blue Apricorn"
+    },
+    "blue-card": {
+      "description": "A card to save points for the\nBuena\u2019s Password show.",
+      "name": "Blue Card"
+    },
+    "blue-flute": {
+      "description": "A lovely toy flute to admire.\nIt\u2019s made from blue glass.",
+      "name": "Blue Flute"
+    },
+    "blue-orb": {
+      "description": "A shiny blue orb that is said to have\na legend tied to it. It\u2019s known to have a\ndeep connection with the Hoenn region.",
+      "name": "Blue Orb"
+    },
+    "blue-scarf": {
+      "description": "An item to be held by a Pok\u00e9mon.\nDuring a Contest, it raises the Beauty\naspect of the Pok\u00e9mon holding it.",
+      "name": "Blue Scarf"
+    },
+    "blue-shard": {
+      "description": "A small blue shard. It appears\nto be a fragment of some sort\nof implement made long ago.",
+      "name": "Blue Shard"
+    },
+    "bluk-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Bluk Berry"
+    },
+    "boost-mulch": {
+      "description": "Mulch to be used in a Berry field.\nIt increases the Berry harvest that\ncan be grown by diligent watering.",
+      "name": "Boost Mulch"
+    },
+    "brick-mail": {
+      "description": "Stationery featuring a print of a\ntough-looking brick pattern.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Brick Mail"
+    },
+    "bridge-mail-d": {
+      "description": "Stationery featuring an illustration of a bright-red\ndrawbridge. Have a Pok\u00e9mon hold it for delivery.",
+      "name": "Bridge Mail D"
+    },
+    "bridge-mail-m": {
+      "description": "Stationery featuring an illustration of\na majestically arched bridge.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Bridge Mail M"
+    },
+    "bridge-mail-s": {
+      "description": "Stationery featuring an illustration of\na bridge that seems to pierce the sky.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Bridge Mail S"
+    },
+    "bridge-mail-t": {
+      "description": "Stationery featuring an illustration of a\nhigh-tension steel suspension bridge.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Bridge Mail T"
+    },
+    "bridge-mail-v": {
+      "description": "Stationery featuring an illustration of\na vintage-looking brick bridge.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Bridge Mail V"
+    },
+    "bright-powder": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt casts a tricky glare that lowers\nthe opposing Pok\u00e9mon\u2019s accuracy.",
+      "name": "Bright Powder"
+    },
+    "bubble-mail": {
+      "description": "Stationery featuring a print of a blue\nworld underwater.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Bubble Mail"
+    },
+    "bug-gem": {
+      "description": "A gem with an insect-like essence.\nWhen held, it strengthens the power\nof a Bug-type move one time.",
+      "name": "Bug Gem"
+    },
+    "burn-drive": {
+      "description": "A cassette to be held by Genesect.\nIt changes Genesect\u2019s Techno Blast\nmove so it becomes Fire type.",
+      "name": "Burn Drive"
+    },
+    "burn-heal": {
+      "description": "A spray-type medicine for treating\nburns. It can be used once to heal\na Pok\u00e9mon suffering from a burn.",
+      "name": "Burn Heal"
+    },
+    "calcium": {
+      "description": "A nutritious drink for Pok\u00e9mon.\nWhen consumed, it raises the base\nSp. Atk stat of a single Pok\u00e9mon.",
+      "name": "Calcium"
+    },
+    "carbos": {
+      "description": "A nutritious drink for Pok\u00e9mon.\nWhen consumed, it raises the base\nSpeed stat of a single Pok\u00e9mon.",
+      "name": "Carbos"
+    },
+    "card-key": {
+      "description": "A card key that opens a shutter in the\nRadio Tower.",
+      "name": "Card Key"
+    },
+    "casteliacone": {
+      "description": "Castelia City\u2019s specialty, soft-serve\nice cream. It heals all the status\nproblems of a single Pok\u00e9mon.",
+      "name": "Casteliacone"
+    },
+    "cell-battery": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt boosts Attack if hit with an Electric-\ntype attack. It can only be used once.",
+      "name": "Cell Battery"
+    },
+    "charcoal": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a combustible fuel that boosts\nthe power of Fire-type moves.",
+      "name": "Charcoal"
+    },
+    "charizardite-x": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Charizard hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Charizardite X"
+    },
+    "charizardite-y": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Charizard hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Charizardite Y"
+    },
+    "charti-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Rock-type attack.",
+      "name": "Charti Berry"
+    },
+    "cheri-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can recover\nfrom paralysis on its own in battle.",
+      "name": "Cheri Berry"
+    },
+    "cherish-ball": {
+      "description": "A quite rare Pok\u00e9 Ball that has been\ncrafted in order to commemorate\na special occasion of some sort.",
+      "name": "Cherish Ball"
+    },
+    "chesto-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can recover\nfrom sleep on its own in battle.",
+      "name": "Chesto Berry"
+    },
+    "chilan-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry\nwill lessen the damage taken\nfrom one Normal-type attack.",
+      "name": "Chilan Berry"
+    },
+    "chill-drive": {
+      "description": "A cassette to be held by Genesect.\nIt changes Genesect\u2019s Techno Blast\nmove so it becomes Ice type.",
+      "name": "Chill Drive"
+    },
+    "choice-band": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis curious headband boosts Attack\nbut only allows the use of one move.",
+      "name": "Choice Band"
+    },
+    "choice-scarf": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis curious scarf boosts Speed\nbut only allows the use of one move.",
+      "name": "Choice Scarf"
+    },
+    "choice-specs": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThese curious glasses boost Sp. Atk\nbut only allow the use of one move.",
+      "name": "Choice Specs"
+    },
+    "chople-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Fighting-type attack.",
+      "name": "Chople Berry"
+    },
+    "claw-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived in the sea. It appears\nto be a fragment of a claw.",
+      "name": "Claw Fossil"
+    },
+    "cleanse-tag": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt helps keep wild Pok\u00e9mon away if\nthe holder is the head of the party.",
+      "name": "Cleanse Tag"
+    },
+    "clear-bell": {
+      "description": "A very old-fashioned bell that\nmakes a gentle ringing sound.",
+      "name": "Clear Bell"
+    },
+    "clever-wing": {
+      "description": "An item for use on a Pok\u00e9mon.\nIt slightly increases the base Sp. Def\nstat of a single Pok\u00e9mon.",
+      "name": "Clever Wing"
+    },
+    "coba-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Flying-type attack.",
+      "name": "Coba Berry"
+    },
+    "coin-case": {
+      "description": "A case for holding coins obtained\nat the Game Corner. It can hold up\nto 50,000 coins.",
+      "name": "Coin Case"
+    },
+    "colbur-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Dark-type attack.",
+      "name": "Colbur Berry"
+    },
+    "colress-machine": {
+      "description": "A special device that wrings out\nthe potential of Pok\u00e9mon.\nIt is an imperfect prototype.",
+      "name": "Colress Machine"
+    },
+    "comet-shard": {
+      "description": "A shard that fell to the ground\nwhen a comet approached. It can\nbe sold at a high price to shops.",
+      "name": "Comet Shard"
+    },
+    "contest-pass": {
+      "description": "A pass required for entering Pok\u00e9mon\nContests. It has a drawing of an award\nribbon on its front.",
+      "name": "Contest Pass"
+    },
+    "cornn-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Cornn Berry"
+    },
+    "coupon-1": {
+      "description": "A coupon to be exchanged for a\nPok\u00e9mon Watch--Pok\u00e9tch for short.\nThree coupons are needed.",
+      "name": "Coupon 1"
+    },
+    "coupon-2": {
+      "description": "A coupon to be exchanged for a\nPok\u00e9mon Watch--Pok\u00e9tch for short.\nThree coupons are needed.",
+      "name": "Coupon 2"
+    },
+    "coupon-3": {
+      "description": "A coupon to be exchanged for a\nPok\u00e9mon Watch--Pok\u00e9tch for short.\nThree coupons are needed.",
+      "name": "Coupon 3"
+    },
+    "cover-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived in the sea. It appears\nas though it could be part of its back.",
+      "name": "Cover Fossil"
+    },
+    "custap-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it will be able to\nmove first just once when it\u2019s in a pinch.",
+      "name": "Custap Berry"
+    },
+    "damp-mulch": {
+      "description": "A fertilizer to be spread on soft soil\nin regions where Berries are grown.",
+      "name": "Damp Mulch"
+    },
+    "damp-rock": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt extends the duration of the move\nRain Dance when used by the holder.",
+      "name": "Damp Rock"
+    },
+    "dark-gem": {
+      "description": "A gem with an essence of darkness.\nWhen held, it strengthens the power\nof a Dark-type move one time.",
+      "name": "Dark Gem"
+    },
+    "dark-stone": {
+      "description": "Zekrom\u2019s body was destroyed and\nchanged into this stone. It is said to\nbe waiting for the emergence of a hero.",
+      "name": "Dark Stone"
+    },
+    "data-card-01": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many victories\nyou have had in the Pok\u00e9athlon.",
+      "name": "Data Card 01"
+    },
+    "data-card-02": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many losses\nyou have had in the Pok\u00e9athlon.",
+      "name": "Data Card 02"
+    },
+    "data-card-03": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times your\nPok\u00e9mon dashed in the Pok\u00e9athlon.",
+      "name": "Data Card 03"
+    },
+    "data-card-04": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times your\nPok\u00e9mon jumped in the Pok\u00e9athlon.",
+      "name": "Data Card 04"
+    },
+    "data-card-05": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Hurdle Dash.",
+      "name": "Data Card 05"
+    },
+    "data-card-06": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Relay Run.",
+      "name": "Data Card 06"
+    },
+    "data-card-07": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Pennant Capture.",
+      "name": "Data Card 07"
+    },
+    "data-card-08": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Block Smash.",
+      "name": "Data Card 08"
+    },
+    "data-card-09": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Disc Catch.",
+      "name": "Data Card 09"
+    },
+    "data-card-10": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Snow Throw.",
+      "name": "Data Card 10"
+    },
+    "data-card-11": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many points your\nPok\u00e9mon scored in the Pok\u00e9athlon.",
+      "name": "Data Card 11"
+    },
+    "data-card-12": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times your\nPok\u00e9mon failed in the Pok\u00e9athlon.",
+      "name": "Data Card 12"
+    },
+    "data-card-13": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times\nyour Pok\u00e9mon impeded themselves.",
+      "name": "Data Card 13"
+    },
+    "data-card-14": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times your\nPok\u00e9mon tackled in the Pok\u00e9athlon.",
+      "name": "Data Card 14"
+    },
+    "data-card-15": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times your\nPok\u00e9mon fell down in the Pok\u00e9athlon.",
+      "name": "Data Card 15"
+    },
+    "data-card-16": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Ring Drop.",
+      "name": "Data Card 16"
+    },
+    "data-card-17": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Lamp Jump.",
+      "name": "Data Card 17"
+    },
+    "data-card-18": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Circle Push.",
+      "name": "Data Card 18"
+    },
+    "data-card-19": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many Link\nPok\u00e9athlon wins you have had.",
+      "name": "Data Card 19"
+    },
+    "data-card-20": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many Link\nPok\u00e9athlon losses you have had.",
+      "name": "Data Card 20"
+    },
+    "data-card-21": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times\nyou have won a Pok\u00e9athlon event.",
+      "name": "Data Card 21"
+    },
+    "data-card-22": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times\nyou have lost a Pok\u00e9athlon event.",
+      "name": "Data Card 22"
+    },
+    "data-card-23": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nswitched Pok\u00e9mon in the Pok\u00e9athlon.",
+      "name": "Data Card 23"
+    },
+    "data-card-24": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\nwon the Pok\u00e9athlon\u2019s Goal Roll.",
+      "name": "Data Card 24"
+    },
+    "data-card-25": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times your\nPok\u00e9mon won individual prizes.",
+      "name": "Data Card 25"
+    },
+    "data-card-26": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how many times you\ninstructed your Pok\u00e9mon.",
+      "name": "Data Card 26"
+    },
+    "data-card-27": {
+      "description": "It holds Pok\u00e9athlon records. It is a\ncard that shows how much time you\nspent participating in the Pok\u00e9athlon.",
+      "name": "Data Card 27"
+    },
+    "dawn-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt sparkles like a glittering eye.",
+      "name": "Dawn Stone"
+    },
+    "deep-sea-scale": {
+      "description": "An item to be held by Clamperl.\nThis scale shines with a faint pink and\nraises the holder\u2019s Sp. Def stat.",
+      "name": "Deep Sea Scale"
+    },
+    "deep-sea-tooth": {
+      "description": "An item to be held by Clamperl.\nThis fang gleams a sharp silver and\nraises the holder\u2019s Sp. Atk stat.",
+      "name": "Deep Sea Tooth"
+    },
+    "destiny-knot": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIf the holder becomes infatuated,\nthe opposing Pok\u00e9mon will be, too.",
+      "name": "Destiny Knot"
+    },
+    "devon-goods": {
+      "description": "A package that contains mechanical\nparts of some sort made by the\nDEVON CORPORATION.",
+      "name": "Devon Goods"
+    },
+    "devon-scope": {
+      "description": "A scope that signals the presence\nof any unseeable POK\u00e9MON.\nIt is made by the DEVON CORP.",
+      "name": "Devon Scope"
+    },
+    "dire-hit": {
+      "description": "An item that raises the critical-hit ratio\ngreatly. It can be used only once and\nwears off if the Pok\u00e9mon is withdrawn.",
+      "name": "Dire Hit"
+    },
+    "dire-hit-2": {
+      "description": "It can be used many times to raise the\ncritical-hit ratio of one Pok\u00e9mon. It\nwears off if the Pok\u00e9mon is withdrawn.",
+      "name": "Dire Hit 2"
+    },
+    "dire-hit-3": {
+      "description": "It can be used many times to greatly\nraise a Pok\u00e9mon\u2019s critical-hit ratio. It\nwears off if the Pok\u00e9mon is withdrawn.",
+      "name": "Dire Hit 3"
+    },
+    "discount-coupon": {
+      "description": "This special coupon allows you to\nbuy items at a discount when you\nare shopping at a boutique.",
+      "name": "Discount Coupon"
+    },
+    "dive-ball": {
+      "description": "A somewhat different Pok\u00e9 Ball that\nworks especially well when catching\nPok\u00e9mon that live underwater.",
+      "name": "Dive Ball"
+    },
+    "dna-splicers": {
+      "description": "A splicer that fuses Kyurem and a\ncertain Pok\u00e9mon. They are said to\nhave been one in the beginning.",
+      "name": "DNA Splicers"
+    },
+    "dome-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived in the sea. It could\nbe a shell or carapace.",
+      "name": "Dome Fossil"
+    },
+    "douse-drive": {
+      "description": "A cassette to be held by Genesect.\nIt changes Genesect\u2019s Techno Blast\nmove so it becomes Water type.",
+      "name": "Douse Drive"
+    },
+    "dowsing-machine": {
+      "description": "It searches for hidden items in the\narea and emits different lights and\nsounds when it detects something.",
+      "name": "Dowsing Machine"
+    },
+    "draco-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Dragon-type moves.",
+      "name": "Draco Plate"
+    },
+    "dragon-fang": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis hard and sharp fang boosts\nthe power of Dragon-type moves.",
+      "name": "Dragon Fang"
+    },
+    "dragon-gem": {
+      "description": "A gem with a draconic essence.\nWhen held, it strengthens the power\nof a Dragon-type move one time.",
+      "name": "Dragon Gem"
+    },
+    "dragon-scale": {
+      "description": "A very tough and inflexible scale.\nDragon-type Pok\u00e9mon may be\nholding this item when caught.",
+      "name": "Dragon Scale"
+    },
+    "dragon-skull": {
+      "description": "A skull of a Pok\u00e9mon which was said\nto have braved the angry waters to\nfly around the world.",
+      "name": "Dragon Skull"
+    },
+    "dread-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Dark-type moves.",
+      "name": "Dread Plate"
+    },
+    "dream-ball": {
+      "description": "A special Pok\u00e9 Ball that appears in your\nBag out of nowhere in the Entree Forest.\nIt can catch any Pok\u00e9mon.",
+      "name": "Dream Ball"
+    },
+    "dream-mail": {
+      "description": "A piece of MAIL to be held by a\nPOK\u00e9MON. It will bear the print of\nthe POK\u00e9MON holding it.",
+      "name": "Dream Mail"
+    },
+    "dropped-item": {
+      "description": "The Xtransceiver found at the\nNimbasa City amusement park.\nIt seems it belongs to a boy.",
+      "name": "Dropped Item"
+    },
+    "dubious-disc": {
+      "description": "A transparent device\noverflowing with dubious data.\nIts producer is unknown.",
+      "name": "Dubious Disc"
+    },
+    "durin-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Durin Berry"
+    },
+    "dusk-ball": {
+      "description": "A somewhat different Pok\u00e9 Ball that\nmakes it easier to catch wild Pok\u00e9mon\nat night or in dark places like caves.",
+      "name": "Dusk Ball"
+    },
+    "dusk-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt holds shadows as dark as can be.",
+      "name": "Dusk Stone"
+    },
+    "earth-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Ground-type moves.",
+      "name": "Earth Plate"
+    },
+    "eject-button": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIf the holder is hit by an attack, it\nwill be switched out of battle.",
+      "name": "Eject Button"
+    },
+    "electirizer": {
+      "description": "A box packed with a tremendous\namount of electric energy.\nIt\u2019s loved by a certain Pok\u00e9mon.",
+      "name": "Electirizer"
+    },
+    "electric-gem": {
+      "description": "A gem with an essence of electricity.\nWhen held, it strengthens the power of\nan Electric-type move one time.",
+      "name": "Electric Gem"
+    },
+    "elevator-key": {
+      "description": "A card key that activates the elevator\nin Lysandre Labs.\nIt is emblazoned with Team Flare\u2019s logo.",
+      "name": "Elevator Key"
+    },
+    "elixir": {
+      "description": "This medicine can restore 10 PP\nto each of the moves that have\nbeen learned by a Pok\u00e9mon.",
+      "name": "Elixir"
+    },
+    "energy-powder": {
+      "description": "A bitter medicine powder.\nWhen consumed, it restores\n50 HP to an injured Pok\u00e9mon.",
+      "name": "Energy Powder"
+    },
+    "energy-root": {
+      "description": "An extremely bitter medicinal root.\nWhen consumed, it restores\n200 HP to an injured Pok\u00e9mon.",
+      "name": "Energy Root"
+    },
+    "enigma-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, being hit by a\nsupereffective attack will restore its HP.",
+      "name": "Enigma Berry"
+    },
+    "enigma-stone": {
+      "description": "A crystal ball that was excavated from\nthe ground. It\u2019s a very beautiful stone that\nis covered with bits of rock and earth.",
+      "name": "Enigma Stone"
+    },
+    "eon-ticket": {
+      "description": "The ticket required for sailing on a\nferry to a distant southern island.\nIt features a drawing of an island.",
+      "name": "Eon Ticket"
+    },
+    "escape-rope": {
+      "description": "A long and durable rope.\nUse it to escape instantly\nfrom a cave or a dungeon.",
+      "name": "Escape Rope"
+    },
+    "ether": {
+      "description": "This medicine can restore 10 PP\nto a single selected move that\nhas been learned by a Pok\u00e9mon.",
+      "name": "Ether"
+    },
+    "everstone": {
+      "description": "An item to be held by a Pok\u00e9mon.\nA Pok\u00e9mon holding this peculiar\nstone is prevented from evolving.",
+      "name": "Everstone"
+    },
+    "eviolite": {
+      "description": "A mysterious Evolutionary lump. When\nheld by a Pok\u00e9mon that can still evolve,\nit raises both Defense and Sp. Def.",
+      "name": "Eviolite"
+    },
+    "exp-share": {
+      "description": "Turning on this special device will\nallow all the Pok\u00e9mon on your team\nto receive Exp. Points from battles.",
+      "name": "Exp. Share"
+    },
+    "expert-belt": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a well-worn belt that slightly boosts\nthe power of supereffective moves.",
+      "name": "Expert Belt"
+    },
+    "explorer-kit": {
+      "description": "A bag filled with convenient tools for\nexploring. It provides access to the\nUnderground in the Sinnoh region.",
+      "name": "Explorer Kit"
+    },
+    "fab-mail": {
+      "description": "A piece of MAIL featuring a\ngorgeous, extravagant print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Fab Mail"
+    },
+    "fairy-gem": {
+      "description": "A gem with an essence of the fey.\nWhen held, it strengthens the power\nof a Fairy-type move one time.",
+      "name": "Fairy Gem"
+    },
+    "fame-checker": {
+      "description": "A device that enables you to\nrecall what you\u2019ve heard and seen\nabout famous people.",
+      "name": "Fame Checker"
+    },
+    "fashion-case": {
+      "description": "A lovely case to store colorful Props\nfor your Pok\u00e9mon to wear in a musical.",
+      "name": "Fashion Case"
+    },
+    "fast-ball": {
+      "description": "A Pok\u00e9 Ball that makes it easier to\ncatch Pok\u00e9mon that are usually\nvery quick to run away.",
+      "name": "Fast Ball"
+    },
+    "favored-mail": {
+      "description": "Stationery designed to make it easier\nto write about your favorite things.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Favored Mail"
+    },
+    "fighting-gem": {
+      "description": "A gem with an essence of combat.\nWhen held, it strengthens the power\nof a Fighting-type move one time.",
+      "name": "Fighting Gem"
+    },
+    "figy-berry": {
+      "description": "If held by a Pok\u00e9mon, it restores the\nuser\u2019s HP in a pinch, but it will cause\nconfusion if the user hates the taste.",
+      "name": "Figy Berry"
+    },
+    "fire-gem": {
+      "description": "A gem with an essence of fire.\nWhen held, it strengthens the power\nof a Fire-type move one time.",
+      "name": "Fire Gem"
+    },
+    "fire-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nThe stone has a fiery orange heart.",
+      "name": "Fire Stone"
+    },
+    "fist-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Fighting-type moves.",
+      "name": "Fist Plate"
+    },
+    "flame-mail": {
+      "description": "Stationery featuring a print of flames\nin blazing red.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Flame Mail"
+    },
+    "flame-orb": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a bizarre orb that will afflict the\nholder with a burn during battle.",
+      "name": "Flame Orb"
+    },
+    "flame-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Fire-type moves.",
+      "name": "Flame Plate"
+    },
+    "float-stone": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis very light stone reduces the\nweight of a Pok\u00e9mon when held.",
+      "name": "Float Stone"
+    },
+    "fluffy-tail": {
+      "description": "A toy that attracts the attention of a\nPok\u00e9mon. It guarantees escape from\nany battle with wild Pok\u00e9mon.",
+      "name": "Fluffy Tail"
+    },
+    "flying-gem": {
+      "description": "A gem with an essence of air.\nWhen held, it strengthens the power\nof a Flying-type move one time.",
+      "name": "Flying Gem"
+    },
+    "focus-band": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThe holder may endure a potential\nKO attack, leaving it with just 1 HP.",
+      "name": "Focus Band"
+    },
+    "focus-sash": {
+      "description": "An item to be held by a Pok\u00e9mon. If the holder\nhas full HP, it will endure a potential KO\nattack with 1 HP. The item then disappears.",
+      "name": "Focus Sash"
+    },
+    "fresh-water": {
+      "description": "Water with a high mineral content.\nWhen consumed, it restores\n50 HP to an injured Pok\u00e9mon.",
+      "name": "Fresh Water"
+    },
+    "friend-ball": {
+      "description": "A strange Pok\u00e9 Ball that will make\nthe wild Pok\u00e9mon caught with it more\nfriendly toward you immediately.",
+      "name": "Friend Ball"
+    },
+    "full-heal": {
+      "description": "A spray-type medicine that is broadly\neffective. It can be used once to heal\nall the status conditions of a Pok\u00e9mon.",
+      "name": "Full Heal"
+    },
+    "full-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis exotic-smelling incense makes\nthe holder bloated and slow moving.",
+      "name": "Full Incense"
+    },
+    "full-restore": {
+      "description": "A medicine that can be used to fully\nrestore the HP of a single Pok\u00e9mon\nand heal any status conditions it has.",
+      "name": "Full Restore"
+    },
+    "galactic-key": {
+      "description": "A card key for disengaging the security\nsystems in the Galactic HQ. Losing it\ncan result in punishment, apparently.",
+      "name": "Galactic Key"
+    },
+    "ganlon-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, its Defense\nstat will increase when it\u2019s in a pinch.",
+      "name": "Ganlon Berry"
+    },
+    "garchompite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Garchomp hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Garchompite"
+    },
+    "gardevoirite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Gardevoir hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Gardevoirite"
+    },
+    "gb-sounds": {
+      "description": "A music player that allows you to listen\nto nostalgic songs. It\u2019s operated with\nthe flip of a single switch.",
+      "name": "GB Sounds"
+    },
+    "gengarite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Gengar hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Gengarite"
+    },
+    "genius-wing": {
+      "description": "An item for use on a Pok\u00e9mon.\nIt slightly increases the base Sp. Atk\nstat of a single Pok\u00e9mon.",
+      "name": "Genius Wing"
+    },
+    "ghost-gem": {
+      "description": "A gem with a spectral essence.\nWhen held, it strengthens the power\nof a Ghost-type move one time.",
+      "name": "Ghost Gem"
+    },
+    "glitter-mail": {
+      "description": "A piece of MAIL featuring a cute\nPIKACHU print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Glitter Mail"
+    },
+    "go-goggles": {
+      "description": "A pair of protective goggles.\nThey enable a TRAINER to travel\nthrough even desert sandstorms.",
+      "name": "Go-Goggles"
+    },
+    "god-stone": {
+      "description": "A rare stone.",
+      "name": "god stone"
+    },
+    "gold-teeth": {
+      "description": "A set of false teeth lost by the\nSAFARI ZONE\u2019S WARDEN. It makes his\nsmile sparkle.",
+      "name": "Gold Teeth"
+    },
+    "good-rod": {
+      "description": "A new, good-quality fishing rod.\nUse it at any body of water to\nfish for wild aquatic Pok\u00e9mon.",
+      "name": "Good Rod"
+    },
+    "gooey-mulch": {
+      "description": "A fertilizer to be spread on soft soil\nin regions where Berries are grown.",
+      "name": "Gooey Mulch"
+    },
+    "gracidea": {
+      "description": "A flower sometimes bundled in\nbouquets to convey gratitude on\nspecial occasions like birthdays.",
+      "name": "Gracidea"
+    },
+    "gram-1": {
+      "description": "An important letter that\nWingull delivers.",
+      "name": "Gram 1"
+    },
+    "gram-2": {
+      "description": "An important letter that\nWingull delivers.",
+      "name": "Gram 2"
+    },
+    "gram-3": {
+      "description": "An important letter that\nWingull delivers.",
+      "name": "Gram 3"
+    },
+    "grass-gem": {
+      "description": "A gem with an essence of nature.\nWhen held, it strengthens the power\nof a Grass-type move one time.",
+      "name": "Grass Gem"
+    },
+    "grass-mail": {
+      "description": "Stationery featuring a print of a\nrefreshingly green field.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Grass Mail"
+    },
+    "great-ball": {
+      "description": "A good, high-performance Pok\u00e9 Ball\nthat provides a higher Pok\u00e9mon catch\nrate than a standard Pok\u00e9 Ball can.",
+      "name": "Great Ball"
+    },
+    "green-apricorn": {
+      "description": "A green Apricorn.\nIt has a mysterious, aromatic scent.",
+      "name": "Green Apricorn"
+    },
+    "green-scarf": {
+      "description": "An item to be held by a Pok\u00e9mon.\nDuring a Contest, it raises the Smart\naspect of the Pok\u00e9mon holding it.",
+      "name": "Green Scarf"
+    },
+    "green-shard": {
+      "description": "A small green shard. It appears\nto be a fragment of some sort\nof implement made long ago.",
+      "name": "Green Shard"
+    },
+    "greet-mail": {
+      "description": "Stationery designed to be easy to use\nwhen writing someone for the first time.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Greet Mail"
+    },
+    "grepa-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nUsing it on a Pok\u00e9mon makes it more\nfriendly but lowers its base Sp. Def.",
+      "name": "Grepa Berry"
+    },
+    "grip-claw": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt extends the duration of multi-turn\nattacks like Bind and Wrap.",
+      "name": "Grip Claw"
+    },
+    "griseous-orb": {
+      "description": "A glowing orb to be held by Giratina.\nIt boosts the power of Dragon- and\nGhost-type moves when it is held.",
+      "name": "Griseous Orb"
+    },
+    "ground-gem": {
+      "description": "A gem with an essence of land.\nWhen held, it strengthens the power\nof a Ground-type move one time.",
+      "name": "Ground Gem"
+    },
+    "growth-mulch": {
+      "description": "A fertilizer to be spread on soft soil\nin regions where Berries are grown.",
+      "name": "Growth Mulch"
+    },
+    "grubby-hanky": {
+      "description": "A handkerchief dropped by\na regular at Caf\u00e9 Warehouse.\nIt smells faintly like a Pok\u00e9mon.",
+      "name": "Grubby Hanky"
+    },
+    "guard-spec": {
+      "description": "An item that prevents stat reduction\namong the Trainer\u2019s party Pok\u00e9mon\nfor five turns after it is used in battle.",
+      "name": "Guard Spec."
+    },
+    "gyaradosite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Gyarados hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Gyaradosite"
+    },
+    "haban-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Dragon-type attack.",
+      "name": "Haban Berry"
+    },
+    "harbor-mail": {
+      "description": "A piece of MAIL featuring a cute\nWINGULL print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Harbor Mail"
+    },
+    "hard-stone": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a durable stone that boosts\nthe power of Rock-type moves.",
+      "name": "Hard Stone"
+    },
+    "heal-ball": {
+      "description": "A remedial Pok\u00e9 Ball that restores\nthe HP of a Pok\u00e9mon caught with it\nand eliminates any status conditions.",
+      "name": "Heal Ball"
+    },
+    "heal-powder": {
+      "description": "A very bitter medicine powder.\nWhen consumed, it heals all of\na Pok\u00e9mon\u2019s status conditions.",
+      "name": "Heal Powder"
+    },
+    "health-wing": {
+      "description": "An item for use on a Pok\u00e9mon.\nIt slightly increases the base\nHP of a single Pok\u00e9mon.",
+      "name": "Health Wing"
+    },
+    "heart-mail": {
+      "description": "Stationery featuring a print of giant\nheart patterns.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Heart Mail"
+    },
+    "heart-scale": {
+      "description": "A pretty, heart-shaped scale that is\nextremely rare. It glows faintly with\nall of the colors of the rainbow.",
+      "name": "Heart Scale"
+    },
+    "heat-rock": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt extends the duration of the move\nSunny Day when used by the holder.",
+      "name": "Heat Rock"
+    },
+    "heavy-ball": {
+      "description": "A Pok\u00e9 Ball that is better than usual\nat catching very heavy Pok\u00e9mon.",
+      "name": "Heavy Ball"
+    },
+    "helix-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived in the sea. It might be\na piece of a seashell.",
+      "name": "Helix Fossil"
+    },
+    "heracronite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Heracross hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Heracronite"
+    },
+    "hm01": {
+      "description": "The target is cut with a scythe or claw.\nThis can also be used to cut down thin trees.",
+      "name": "HM01"
+    },
+    "hm02": {
+      "description": "The user soars and then strikes\nits target on the next turn. This can\nalso be used to fly to any familiar town.",
+      "name": "HM02"
+    },
+    "hm03": {
+      "description": "The user attacks everything around it by\nswamping its surroundings with a giant wave.\nThis can also be used for crossing water.",
+      "name": "HM03"
+    },
+    "hm04": {
+      "description": "The target is slugged with a punch thrown\nat maximum power. This can also be used\nto move heavy boulders.",
+      "name": "HM04"
+    },
+    "hm05": {
+      "description": "The user charges at the target and may make it\nflinch. This can also be used to climb a waterfall.",
+      "name": "HM05"
+    },
+    "hm06": {
+      "description": "Diving on the first turn, the user floats\nup and attacks on the next turn.",
+      "name": "HM06"
+    },
+    "hm07": {
+      "description": "The user charges the foe at an\nawesome speed. It can also be used\nto climb a waterfall.",
+      "name": "HM07"
+    },
+    "hm08": {
+      "description": "A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.",
+      "name": "HM08"
+    },
+    "holo-caster": {
+      "description": "A device that allows users to receive\nand view hologram clips at any time.\nIt is also used to chat with others.",
+      "name": "Holo Caster"
+    },
+    "hondew-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nUsing it on a Pok\u00e9mon makes it more\nfriendly but lowers its base Sp. Atk.",
+      "name": "Hondew Berry"
+    },
+    "honey": {
+      "description": "A sweet honey with a lush aroma that\nattracts wild Pok\u00e9mon when it is used\nin tall grass, in caves, or on special trees.",
+      "name": "Honey"
+    },
+    "honor-of-kalos": {
+      "description": "A precious symbol that is awarded\nonly to an individual who has done\ngreat things for the Kalos region.",
+      "name": "Honor of Kalos"
+    },
+    "houndoominite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Houndoom hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Houndoominite"
+    },
+    "hp-up": {
+      "description": "A nutritious drink for Pok\u00e9mon.\nWhen consumed, it raises the\nbase HP of a single Pok\u00e9mon.",
+      "name": "HP Up"
+    },
+    "hyper-potion": {
+      "description": "A spray-type medicine for treating\nwounds. It can be used to restore\n200 HP to an injured Pok\u00e9mon.",
+      "name": "Hyper Potion"
+    },
+    "iapapa-berry": {
+      "description": "If held by a Pok\u00e9mon, it restores the\nuser\u2019s HP in a pinch, but it will cause\nconfusion if the user hates the taste.",
+      "name": "Iapapa Berry"
+    },
+    "ice-gem": {
+      "description": "A gem with an essence of ice.\nWhen held, it strengthens the power\nof an Ice-type move one time.",
+      "name": "Ice Gem"
+    },
+    "ice-heal": {
+      "description": "A spray-type medicine for freezing.\nIt can be used once to defrost a\nPok\u00e9mon that has been frozen solid.",
+      "name": "Ice Heal"
+    },
+    "icicle-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Ice-type moves.",
+      "name": "Icicle Plate"
+    },
+    "icy-rock": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt extends the duration of the move\nHail when it\u2019s used by the holder.",
+      "name": "Icy Rock"
+    },
+    "inquiry-mail": {
+      "description": "Stationery designed to make it easier\nto pose a question about something.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Inquiry Mail"
+    },
+    "insect-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Bug-type moves.",
+      "name": "Insect Plate"
+    },
+    "intriguing-stone": {
+      "description": "A rather curious stone that might\nappear to be valuable to some.\nIt\u2019s all in the eye of the beholder.",
+      "name": "Intriguing Stone"
+    },
+    "iron": {
+      "description": "A nutritious drink for Pok\u00e9mon.\nWhen consumed, it raises the base\nDefense stat of a single Pok\u00e9mon.",
+      "name": "Iron"
+    },
+    "iron-ball": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt lowers Speed and allows Ground-type\nmoves to hit Flying-type and levitating holders.",
+      "name": "Iron Ball"
+    },
+    "iron-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Steel-type moves.",
+      "name": "Iron Plate"
+    },
+    "item-drop": {
+      "description": "When used, it causes an ally\nPok\u00e9mon to drop a held item.",
+      "name": "Item Drop"
+    },
+    "item-urge": {
+      "description": "When used, it causes an ally\nPok\u00e9mon to use its held item.",
+      "name": "Item Urge"
+    },
+    "jaboca-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a physical attack hits the Pok\u00e9mon\nholding it, the attacker will also be hurt.",
+      "name": "Jaboca Berry"
+    },
+    "jade-orb": {
+      "description": "A shiny green orb that is said to have\na legend tied to it. It\u2019s known to have a\ndeep connection with the Hoenn region.",
+      "name": "Jade Orb"
+    },
+    "jaw-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived on the land. It looks as\nif it could be a piece of a large jaw.",
+      "name": "Jaw Fossil"
+    },
+    "journal": {
+      "description": "A notebook that keeps a day-to-day\nrecord of your adventure so far.",
+      "name": "Journal"
+    },
+    "kangaskhanite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Kangaskhan hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Kangaskhanite"
+    },
+    "kasib-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Ghost-type attack.",
+      "name": "Kasib Berry"
+    },
+    "kebia-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Poison-type attack.",
+      "name": "Kebia Berry"
+    },
+    "kee-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry\nwill increase the holder\u2019s Defense\nif it\u2019s hit with a physical move.",
+      "name": "Kee Berry"
+    },
+    "kelpsy-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nUsing it on a Pok\u00e9mon makes it more\nfriendly but lowers its base Attack.",
+      "name": "Kelpsy Berry"
+    },
+    "kings-rock": {
+      "description": "An item to be held by a Pok\u00e9mon.\nWhen the holder successfully inflicts\ndamage, the target may also flinch.",
+      "name": "King's Rock"
+    },
+    "lagging-tail": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is tremendously heavy and makes\nthe holder move slower than usual.",
+      "name": "Lagging Tail"
+    },
+    "lansat-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, its critical-hit\nratio will increase when it\u2019s in a pinch.",
+      "name": "Lansat Berry"
+    },
+    "lava-cookie": {
+      "description": "Lavaridge Town\u2019s local specialty.\nIt can be used once to heal all the\nstatus conditions of a Pok\u00e9mon.",
+      "name": "Lava Cookie"
+    },
+    "lax-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThe beguiling aroma of this incense\nmay cause attacks to miss its holder.",
+      "name": "Lax Incense"
+    },
+    "leaf-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt has an unmistakable leaf pattern.",
+      "name": "Leaf Stone"
+    },
+    "leftovers": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThe holder\u2019s HP is slowly but steadily\nrestored throughout every battle.",
+      "name": "Leftovers"
+    },
+    "lemonade": {
+      "description": "A very sweet and refreshing drink.\nWhen consumed, it restores\n80 HP to an injured Pok\u00e9mon.",
+      "name": "Lemonade"
+    },
+    "lens-case": {
+      "description": "A rather chic-looking case\nfor carrying contact lenses.",
+      "name": "Lens Case"
+    },
+    "leppa-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can restore\n10 PP to a depleted move during battle.",
+      "name": "Leppa Berry"
+    },
+    "letter": {
+      "description": "An extremely important letter to\nSTEVEN from the PRESIDENT of the\nDEVON CORPORATION.",
+      "name": "Letter"
+    },
+    "level-ball": {
+      "description": "A Pok\u00e9 Ball that makes it easier to\ncatch Pok\u00e9mon that are at a lower\nlevel than your own Pok\u00e9mon.",
+      "name": "Level Ball"
+    },
+    "liberty-pass": {
+      "description": "A special pass to go to Liberty Garden.\nBoard the ship in Castelia City.",
+      "name": "Liberty Pass"
+    },
+    "liechi-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, its Attack\nstat will increase when it\u2019s in a pinch.",
+      "name": "Liechi Berry"
+    },
+    "life-orb": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt boosts the power of moves, but\nat the cost of some HP on each hit.",
+      "name": "Life Orb"
+    },
+    "lift-key": {
+      "description": "A key that operates the elevator\nin TEAM ROCKET\u2019s HIDEOUT.\nIt bears the TEAM ROCKET logo.",
+      "name": "Lift Key"
+    },
+    "light-ball": {
+      "description": "An item to be held by Pikachu.\nIt\u2019s a puzzling orb that boosts\nits Attack and Sp. Atk stats.",
+      "name": "Light Ball"
+    },
+    "light-clay": {
+      "description": "An item to be held by a Pok\u00e9mon.\nProtective moves like Light Screen\nand Reflect will be effective longer.",
+      "name": "Light Clay"
+    },
+    "light-stone": {
+      "description": "Reshiram\u2019s body was destroyed and\nchanged into this stone. It is said to\nbe waiting for the emergence of a hero.",
+      "name": "Light Stone"
+    },
+    "like-mail": {
+      "description": "Stationery designed to allow you to\nrecommend something to the reader.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Like Mail"
+    },
+    "lock-capsule": {
+      "description": "A sturdy Capsule that can only\nbe opened with a special key.",
+      "name": "Lock Capsule"
+    },
+    "looker-ticket": {
+      "description": "A ticket that was handmade by\nLooker. It\u2019s decorated with a\nliberal amount of glittery paint.",
+      "name": "Looker Ticket"
+    },
+    "loot-sack": {
+      "description": "A sturdy, spacious bag that is\nused to carry any treasures or\nloot obtained in the coal mine.",
+      "name": "Loot Sack"
+    },
+    "lost-item": {
+      "description": "The Mime Jr. doll that was lost by\nthe Copycat.",
+      "name": "Lost Item"
+    },
+    "love-ball": {
+      "description": "A Pok\u00e9 Ball that works best when\ncatching a Pok\u00e9mon that is of the\nopposite gender of your Pok\u00e9mon.",
+      "name": "Love Ball"
+    },
+    "lucarionite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Lucario hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Lucarionite"
+    },
+    "luck-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt doubles any prize money received\nif the holding Pok\u00e9mon joins a battle.",
+      "name": "Luck Incense"
+    },
+    "lucky-egg": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s an egg filled with happiness that\nearns extra Exp. Points in battle.",
+      "name": "Lucky Egg"
+    },
+    "lucky-punch": {
+      "description": "An item to be held by Chansey.\nThis pair of lucky boxing gloves will\nboost Chansey\u2019s critical-hit ratio.",
+      "name": "Lucky Punch"
+    },
+    "lum-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can recover\nfrom any status condition during battle.",
+      "name": "Lum Berry"
+    },
+    "luminous-moss": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt boosts Sp. Def if hit with a Water-\ntype attack. It can only be used once.",
+      "name": "Luminous Moss"
+    },
+    "lumiose-galette": {
+      "description": "A popular treat in Lumiose City.\nIt can be used once to heal all the\nstatus conditions of a Pok\u00e9mon.",
+      "name": "Lumiose Galette"
+    },
+    "lunar-wing": {
+      "description": "A feather that glows like the moon.\nIt\u2019s said to possess the power to\ndispel nightmares.",
+      "name": "Lunar Wing"
+    },
+    "lure-ball": {
+      "description": "A Pok\u00e9 Ball that is good for catching\nPok\u00e9mon that you reel in with a Rod\nwhile out fishing.",
+      "name": "Lure Ball"
+    },
+    "lustrous-orb": {
+      "description": "A beautifully glowing orb to be held by\nPalkia. It boosts the power of Dragon-\u200b\nand Water-type moves when it is held.",
+      "name": "Lustrous Orb"
+    },
+    "luxury-ball": {
+      "description": "A particularly comfortable Pok\u00e9 Ball\nthat makes a wild Pok\u00e9mon quickly\ngrow friendlier after being caught.",
+      "name": "Luxury Ball"
+    },
+    "mach-bike": {
+      "description": "A folding bicycle that is at least\ntwice as fast as walking.",
+      "name": "Mach Bike"
+    },
+    "machine-part": {
+      "description": "An important part of a machine that\nwas stolen from the Power Plant.",
+      "name": "Machine Part"
+    },
+    "macho-brace": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis stiff, heavy brace helps Pok\u00e9mon\ngrow strong but cuts Speed in battle.",
+      "name": "Macho Brace"
+    },
+    "magma-emblem": {
+      "description": "A medal-like item in\nthe same shape as\nTEAM MAGMA\u2019s mark.",
+      "name": "Magma Emblem"
+    },
+    "magma-stone": {
+      "description": "A stone formed by boulders melting in\nintensely hot magma, then hardening.\nMagma remains sealed inside it.",
+      "name": "Magma Stone"
+    },
+    "magmarizer": {
+      "description": "A box packed with a tremendous\namount of magma energy.\nIt\u2019s loved by a certain Pok\u00e9mon.",
+      "name": "Magmarizer"
+    },
+    "magnet": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a powerful magnet that boosts\nthe power of Electric-type moves.",
+      "name": "Magnet"
+    },
+    "mago-berry": {
+      "description": "If held by a Pok\u00e9mon, it restores the\nuser\u2019s HP in a pinch, but it will cause\nconfusion if the user hates the taste.",
+      "name": "Mago Berry"
+    },
+    "magost-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Magost Berry"
+    },
+    "manectite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Manectric hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Manectite"
+    },
+    "maranga-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nincrease the holder\u2019s Sp. Def\nif it\u2019s hit with a special move.",
+      "name": "Maranga Berry"
+    },
+    "master-ball": {
+      "description": "The best Pok\u00e9 Ball with the ultimate\nlevel of performance. With it, you will\ncatch any wild Pok\u00e9mon without fail.",
+      "name": "Master Ball"
+    },
+    "mawilite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Mawile hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Mawilite"
+    },
+    "max-elixir": {
+      "description": "This medicine can fully restore the\nPP of all of the moves that have\nbeen learned by a Pok\u00e9mon.",
+      "name": "Max Elixir"
+    },
+    "max-ether": {
+      "description": "This medicine can fully restore the\nPP of a single selected move that\nhas been learned by a Pok\u00e9mon.",
+      "name": "Max Ether"
+    },
+    "max-potion": {
+      "description": "A spray-type medicine for treating\nwounds. It will completely restore\nthe max HP of a single Pok\u00e9mon.",
+      "name": "Max Potion"
+    },
+    "max-repel": {
+      "description": "An item that prevents any low-level\nwild Pok\u00e9mon from jumping out at\nyou for 250 steps after its use.",
+      "name": "Max Repel"
+    },
+    "max-revive": {
+      "description": "A medicine that can revive fainted\nPok\u00e9mon. It also fully restores a\nfainted Pok\u00e9mon\u2019s maximum HP.",
+      "name": "Max Revive"
+    },
+    "meadow-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Grass-type moves.",
+      "name": "Meadow Plate"
+    },
+    "mech-mail": {
+      "description": "A piece of MAIL featuring a cute\nMAGNEMITE print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Mech Mail"
+    },
+    "medal-box": {
+      "description": "A box-shaped machine\nthat stores Medals and\nMedal information.",
+      "name": "Medal Box"
+    },
+    "medichamite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Medicham hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Medichamite"
+    },
+    "mega-ring": {
+      "description": "This ring contains an untold power that\nsomehow enables Pok\u00e9mon carrying\nMega Stones to Mega Evolve in battle.",
+      "name": "Mega Ring"
+    },
+    "member-card": {
+      "description": "A card needed for entering the inn in\nCanalave City. Oddly, the last date\nmarked on it was 50 years ago.",
+      "name": "Member Card"
+    },
+    "mental-herb": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt snaps the holder out of infatuation.\nIt can be used only once.",
+      "name": "Mental Herb"
+    },
+    "metal-coat": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a special metallic film that can\nboost the power of Steel-type moves.",
+      "name": "Metal Coat"
+    },
+    "metal-powder": {
+      "description": "An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.",
+      "name": "Metal Powder"
+    },
+    "meteorite": {
+      "description": "A meteorite that fell from space\nonto MT. MOON long ago.\nIt is very lumpy and hard.",
+      "name": "Meteorite"
+    },
+    "metronome": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt boosts moves used consecutively,\nbut only until a different move is used.",
+      "name": "Metronome"
+    },
+    "mewtwonite-x": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Mewtwo hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Mewtwonite X"
+    },
+    "mewtwonite-y": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Mewtwo hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Mewtwonite Y"
+    },
+    "micle-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, its accuracy will\nincrease just once when it\u2019s in a pinch.",
+      "name": "Micle Berry"
+    },
+    "mind-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Psychic-type moves.",
+      "name": "Mind Plate"
+    },
+    "miracle-seed": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a seed imbued with life force that\nboosts the power of Grass-type moves.",
+      "name": "Miracle Seed"
+    },
+    "moomoo-milk": {
+      "description": "A bottle of highly nutritious milk.\nWhen consumed, it restores\n100 HP to an injured Pok\u00e9mon.",
+      "name": "Moomoo Milk"
+    },
+    "moon-ball": {
+      "description": "A Pok\u00e9 Ball that will make it easier\nto catch Pok\u00e9mon that can evolve\nusing a Moon Stone.",
+      "name": "Moon Ball"
+    },
+    "moon-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt is as black as the night sky.",
+      "name": "Moon Stone"
+    },
+    "mosaic-mail": {
+      "description": "Stationery featuring a print of a vivid\nrainbow pattern.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Mosaic Mail"
+    },
+    "muscle-band": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis headband exudes strength, slightly\nboosting the power of physical moves.",
+      "name": "Muscle Band"
+    },
+    "muscle-wing": {
+      "description": "An item for use on a Pok\u00e9mon.\nIt slightly increases the base Attack\nstat of a single Pok\u00e9mon.",
+      "name": "Muscle Wing"
+    },
+    "mystery-egg": {
+      "description": "A mysterious Egg obtained from Mr. Pok\u00e9mon.\nWhat is in the Egg is unknown.",
+      "name": "Mystery Egg"
+    },
+    "mystic-water": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis teardrop-shaped gem boosts\nthe power of Water-type moves.",
+      "name": "Mystic Water"
+    },
+    "mysticticket": {
+      "description": "A ticket required to board the ship\nto NAVEL ROCK.\nIt glows with a mystic light.",
+      "name": "MysticTicket"
+    },
+    "nanab-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Nanab Berry"
+    },
+    "nest-ball": {
+      "description": "A somewhat different Pok\u00e9 Ball that\nbecomes more effective the lower\nthe level of the wild Pok\u00e9mon.",
+      "name": "Nest Ball"
+    },
+    "net-ball": {
+      "description": "A somewhat different Pok\u00e9 Ball that\nis more effective when attempting\nto catch Water- or Bug-type Pok\u00e9mon.",
+      "name": "Net Ball"
+    },
+    "never-melt-ice": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a piece of ice that repels heat\neffects and boosts Ice-type moves.",
+      "name": "Never-Melt Ice"
+    },
+    "nomel-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Nomel Berry"
+    },
+    "normal-gem": {
+      "description": "A gem with an ordinary essence.\nWhen held, it strengthens the power\nof a Normal-type move one time.",
+      "name": "Normal Gem"
+    },
+    "nugget": {
+      "description": "A nugget of the purest gold that gives\noff a lustrous gleam in direct light.\nIt can be sold at a high price to shops.",
+      "name": "Nugget"
+    },
+    "oaks-letter": {
+      "description": "A letter from Professor Oak.\nWritten in it is a request for you\nto go to Route 224.",
+      "name": "Oak's Letter"
+    },
+    "oaks-parcel": {
+      "description": "A parcel to be delivered to PROF.\nOAK from VIRIDIAN CITY\u2019s POK\u00e9MON\nMART.",
+      "name": "Oak's Parcel"
+    },
+    "occa-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Fire-type attack.",
+      "name": "Occa Berry"
+    },
+    "odd-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis exotic-smelling incense boosts\nthe power of Psychic-type moves.",
+      "name": "Odd Incense"
+    },
+    "odd-keystone": {
+      "description": "A vital item that is needed to keep a\nstone tower from collapsing. Voices\ncan be heard from it occasionally.",
+      "name": "Odd Keystone"
+    },
+    "old-amber": {
+      "description": "A piece of amber that still contains the\ngenetic material of an ancient Pok\u00e9mon.\nIt\u2019s clear with a tawny, reddish tint.",
+      "name": "Old Amber"
+    },
+    "old-charm": {
+      "description": "An ancient good-luck charm made\nof Pok\u00e9mon bones to be taken to\nthe elder of Celestic Town.",
+      "name": "Old Charm"
+    },
+    "old-gateau": {
+      "description": "The Old Chateau\u2019s hidden specialty.\nIt can be used once to heal all the\nstatus conditions of a Pok\u00e9mon.",
+      "name": "Old Gateau"
+    },
+    "old-rod": {
+      "description": "An old and beat-up fishing rod.\nUse it at any body of water to\nfish for wild aquatic Pok\u00e9mon.",
+      "name": "Old Rod"
+    },
+    "old-sea-map": {
+      "description": "A faded sea chart\nthat shows the way\nto a certain island.",
+      "name": "Old Sea Map"
+    },
+    "oran-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can restore its\nown HP by 10 points during battle.",
+      "name": "Oran Berry"
+    },
+    "orange-mail": {
+      "description": "A piece of MAIL featuring a cute\nZIGZAGOON print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Orange Mail"
+    },
+    "oval-charm": {
+      "description": "An oval charm said to increase\nthe chance of Pok\u00e9mon Eggs\nbeing found at the Day Care.",
+      "name": "Oval Charm"
+    },
+    "oval-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt\u2019s as round as a Pok\u00e9mon Egg.",
+      "name": "Oval Stone"
+    },
+    "pal-pad": {
+      "description": "A convenient notepad that is used to\nregister your Friends and friend codes\nand keep a record of your gameplay.",
+      "name": "Pal Pad"
+    },
+    "pamtre-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Pamtre Berry"
+    },
+    "paralyze-heal": {
+      "description": "A spray-type medicine for paralysis.\nIt can be used once to free a\nPok\u00e9mon that has been paralyzed.",
+      "name": "Paralyze Heal"
+    },
+    "parcel": {
+      "description": "A parcel entrusted into your care.\nYou are supposed to deliver it to your\nchildhood friend who left Twinleaf Town.",
+      "name": "Parcel"
+    },
+    "park-ball": {
+      "description": "A special Pok\u00e9 Ball for the Pal Park.",
+      "name": "Park Ball"
+    },
+    "pass": {
+      "description": "A pass required for riding the Magnet\nTrain. It allows you to ride whenever\nand however much you\u2019d like.",
+      "name": "Pass"
+    },
+    "pass-orb": {
+      "description": "A mysterious orb containing the power\nof the Unova region, to be used when\ngenerating Pass Power.",
+      "name": "Pass Orb"
+    },
+    "passho-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Water-type attack.",
+      "name": "Passho Berry"
+    },
+    "payapa-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Psychic-type attack.",
+      "name": "Payapa Berry"
+    },
+    "pearl": {
+      "description": "A rather small pearl that has a\nvery nice silvery sheen to it.\nIt can be sold cheaply to shops.",
+      "name": "Pearl"
+    },
+    "pearl-string": {
+      "description": "Very large pearls that sparkle in\na pretty silver color. They can be\nsold at a high price to shops.",
+      "name": "Pearl String"
+    },
+    "pecha-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can recover\nfrom poisoning on its own in battle.",
+      "name": "Pecha Berry"
+    },
+    "permit": {
+      "description": "A permit that is needed to\nenter the Nature Preserve.\nNot many know about it.",
+      "name": "Permit"
+    },
+    "persim-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can recover\nfrom confusion on its own in battle.",
+      "name": "Persim Berry"
+    },
+    "petaya-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, its Sp. Atk\nstat will increase when it\u2019s in a pinch.",
+      "name": "Petaya Berry"
+    },
+    "photo-album": {
+      "description": "A nice photo album for storing all the\nphotos taken along your adventure.",
+      "name": "Photo Album"
+    },
+    "pinap-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Pinap Berry"
+    },
+    "pink-apricorn": {
+      "description": "A pink Apricorn.\nIt has a nice, sweet scent.",
+      "name": "Pink Apricorn"
+    },
+    "pink-scarf": {
+      "description": "An item to be held by a Pok\u00e9mon.\nDuring a Contest, it raises the Cute\naspect of the Pok\u00e9mon holding it.",
+      "name": "Pink Scarf"
+    },
+    "pinsirite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Pinsir hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Pinsirite"
+    },
+    "pixie-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a stone tablet that boosts the\npower of Fairy-type moves.",
+      "name": "Pixie Plate"
+    },
+    "plasma-card": {
+      "description": "A card key needed to enter the\npassword inside the Plasma Frigate.",
+      "name": "Plasma Card"
+    },
+    "plume-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived in the sky. It looks as\nif it could come from part of its wing.",
+      "name": "Plume Fossil"
+    },
+    "poffin-case": {
+      "description": "A case for storing Poffins cooked from Berries.",
+      "name": "Poffin Case"
+    },
+    "point-card": {
+      "description": "A card that lists how many\nBattle Points you have earned.",
+      "name": "Point Card"
+    },
+    "poison-barb": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis small, poisonous barb boosts\nthe power of Poison-type moves.",
+      "name": "Poison Barb"
+    },
+    "poison-gem": {
+      "description": "A gem with an essence of poison.\nWhen held, it strengthens the power\nof a Poison-type move one time.",
+      "name": "Poison Gem"
+    },
+    "poke-ball": {
+      "description": "A device for catching wild Pok\u00e9mon.\nIt\u2019s thrown like a ball at a Pok\u00e9mon,\ncomfortably encapsulating its target.",
+      "name": "Pok\u00e9 Ball"
+    },
+    "poke-doll": {
+      "description": "A doll that attracts the attention of a\nPok\u00e9mon. It guarantees escape from\nany battle with wild Pok\u00e9mon.",
+      "name": "Pok\u00e9 Doll"
+    },
+    "poke-flute": {
+      "description": "A flute which can play with such a\nbeautiful tone that even sleeping\nPok\u00e9mon find themselves roused.",
+      "name": "Pok\u00e9 Flute"
+    },
+    "poke-radar": {
+      "description": "A tool that can search out Pok\u00e9mon\nthat are hiding in the tall grass. Its\nbattery is recharged as you walk.",
+      "name": "Pok\u00e9 Radar"
+    },
+    "poke-toy": {
+      "description": "A toy that attracts the attention of a\nPok\u00e9mon. It guarantees escape from\nany battle with a wild Pok\u00e9mon.",
+      "name": "Pok\u00e9 Toy"
+    },
+    "pokeblock-case": {
+      "description": "A case for holding POK\u00e9BLOCKS made\nwith a BERRY BLENDER. It releases\none POK\u00e9BLOCK when shaken.",
+      "name": "Pok\u00e9block Case"
+    },
+    "pomeg-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nUsing it on a Pok\u00e9mon makes it more\nfriendly but lowers its base HP.",
+      "name": "Pomeg Berry"
+    },
+    "potion": {
+      "description": "A spray-type medicine for treating\nwounds. It can be used to restore\n20 HP to an injured Pok\u00e9mon.",
+      "name": "Potion"
+    },
+    "powder-jar": {
+      "description": "A jar for storing BERRY POWDER\nmade using a BERRY CRUSHER.",
+      "name": "Powder Jar"
+    },
+    "power-anklet": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt reduces Speed but allows the holder\u2019s\nSpeed stat to grow more after battling.",
+      "name": "Power Anklet"
+    },
+    "power-band": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt reduces Speed but allows the holder\u2019s\nSp. Def stat to grow more after battling.",
+      "name": "Power Band"
+    },
+    "power-belt": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt reduces Speed but allows the holder\u2019s\nDefense stat to grow more after battling.",
+      "name": "Power Belt"
+    },
+    "power-bracer": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt reduces Speed but allows the holder\u2019s\nAttack stat to grow more after battling.",
+      "name": "Power Bracer"
+    },
+    "power-herb": {
+      "description": "A single-use item to be held by a Pok\u00e9mon.\nIt allows the holder to immediately use a\nmove that normally requires a turn to charge.",
+      "name": "Power Herb"
+    },
+    "power-lens": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt reduces Speed but allows the holder\u2019s\nSp. Atk stat to grow more after battling.",
+      "name": "Power Lens"
+    },
+    "power-plant-pass": {
+      "description": "This pass serves as an ID card\nfor gaining access to the power\nplant that lies along Route 13.",
+      "name": "Power Plant Pass"
+    },
+    "power-weight": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt reduces Speed but allows the holder\u2019s\nmaximum HP to grow more after battling.",
+      "name": "Power Weight"
+    },
+    "pp-max": {
+      "description": "A medicine that can optimally raise the\nmaximum PP of a single move that has\nbeen learned by the target Pok\u00e9mon.",
+      "name": "PP Max"
+    },
+    "pp-up": {
+      "description": "A medicine that can slightly raise the\nmaximum PP of a single move that has\nbeen learned by the target Pok\u00e9mon.",
+      "name": "PP Up"
+    },
+    "premier-ball": {
+      "description": "A somewhat rare Pok\u00e9 Ball that was\nmade as a commemorative item used\nto celebrate an event of some sort.",
+      "name": "Premier Ball"
+    },
+    "pretty-wing": {
+      "description": "Though this feather is beautiful,\nit\u2019s just a regular feather and\nhas no effect on Pok\u00e9mon.",
+      "name": "Pretty Wing"
+    },
+    "prism-scale": {
+      "description": "A mysterious scale that causes\na certain Pok\u00e9mon to evolve.\nIt shines in rainbow colors.",
+      "name": "Prism Scale"
+    },
+    "profs-letter": {
+      "description": "A letter that Professor Sycamore wrote\nto your mother. A faint but pleasant\nperfume seems to cling to the paper.",
+      "name": "Prof's Letter"
+    },
+    "prop-case": {
+      "description": "A lovely case to store colorful Props\nfor your Pok\u00e9mon to wear in a musical.",
+      "name": "Prop Case"
+    },
+    "protector": {
+      "description": "A protective item of some sort.\nIt is extremely stiff and heavy.\nIt\u2019s loved by a certain Pok\u00e9mon.",
+      "name": "Protector"
+    },
+    "protein": {
+      "description": "A nutritious drink for Pok\u00e9mon.\nWhen consumed, it raises the base\nAttack stat of a single Pok\u00e9mon.",
+      "name": "Protein"
+    },
+    "psychic-gem": {
+      "description": "A gem with an essence of the mind.\nWhen held, it strengthens the power\nof a Psychic-type move one time.",
+      "name": "Psychic Gem"
+    },
+    "pure-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt helps keep wild Pok\u00e9mon away if\nthe holder is the head of the party.",
+      "name": "Pure Incense"
+    },
+    "qualot-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nUsing it on a Pok\u00e9mon makes it more\nfriendly but lowers its base Defense.",
+      "name": "Qualot Berry"
+    },
+    "quick-ball": {
+      "description": "A somewhat different Pok\u00e9 Ball that\nhas a more successful catch rate if\nused at the start of a wild encounter.",
+      "name": "Quick Ball"
+    },
+    "quick-claw": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis light, sharp claw lets the\nbearer move first occasionally.",
+      "name": "Quick Claw"
+    },
+    "quick-powder": {
+      "description": "An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.",
+      "name": "Quick Powder"
+    },
+    "rabuta-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Rabuta Berry"
+    },
+    "rage-candy-bar": {
+      "description": "Mahogany Town\u2019s famous candy.\nWhen consumed, it restores\n20 HP to an injured Pok\u00e9mon.",
+      "name": "Rage Candy Bar"
+    },
+    "rainbow-pass": {
+      "description": "A pass for ferries between\nVERMILION and the SEVII ISLANDS.\nIt features a drawing of a rainbow.",
+      "name": "Rainbow Pass"
+    },
+    "rainbow-wing": {
+      "description": "A mystical rainbow feather\nthat sparkles.",
+      "name": "Rainbow Wing"
+    },
+    "rare-bone": {
+      "description": "A rare bone that is extremely valuable\nfor the study of Pok\u00e9mon archeology.\nIt can be sold for a high price to shops.",
+      "name": "Rare Bone"
+    },
+    "rare-candy": {
+      "description": "A candy that is packed with energy.\nWhen consumed, it will instantly raise\nthe level of a single Pok\u00e9mon by one.",
+      "name": "Rare Candy"
+    },
+    "rawst-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can recover\nfrom a burn on its own in battle.",
+      "name": "Rawst Berry"
+    },
+    "razor-claw": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis sharply hooked claw increases\nthe holder\u2019s critical-hit ratio.",
+      "name": "Razor Claw"
+    },
+    "razor-fang": {
+      "description": "An item to be held by a Pok\u00e9mon.\nWhen the holder successfully inflicts\ndamage, the target may also flinch.",
+      "name": "Razor Fang"
+    },
+    "razz-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Razz Berry"
+    },
+    "reaper-cloth": {
+      "description": "A cloth imbued with horrifyingly\nstrong spiritual energy.\nIt\u2019s loved by a certain Pok\u00e9mon.",
+      "name": "Reaper Cloth"
+    },
+    "red-apricorn": {
+      "description": "A red Apricorn.\nIt assails your nostrils.",
+      "name": "Red Apricorn"
+    },
+    "red-card": {
+      "description": "An item to be held by a Pok\u00e9mon.\nWhen the holder is hit by an attack,\nthe attacker is removed from battle.",
+      "name": "Red Card"
+    },
+    "red-chain": {
+      "description": "A mythical chain that is said to link\nthe Legendary Pok\u00e9mon that created\nthe Sinnoh region.",
+      "name": "Red Chain"
+    },
+    "red-flute": {
+      "description": "A lovely toy flute to admire.\nIt\u2019s made from red glass.",
+      "name": "Red Flute"
+    },
+    "red-orb": {
+      "description": "A shiny red orb that is said to have\na legend tied to it. It\u2019s known to have a\ndeep connection with the Hoenn region.",
+      "name": "Red Orb"
+    },
+    "red-scale": {
+      "description": "A scale from a red Gyarados.\nIt glows red like a flame.",
+      "name": "Red Scale"
+    },
+    "red-scarf": {
+      "description": "An item to be held by a Pok\u00e9mon.\nDuring a Contest, it raises the Cool\naspect of the Pok\u00e9mon holding it.",
+      "name": "Red Scarf"
+    },
+    "red-shard": {
+      "description": "A small red shard. It appears\nto be a fragment of some sort\nof implement made long ago.",
+      "name": "Red Shard"
+    },
+    "relic-band": {
+      "description": "A heavy bracelet made by an ancient\ncivilization about 3,000 years ago.",
+      "name": "Relic Band"
+    },
+    "relic-copper": {
+      "description": "A copper coin used by an ancient\ncivilization about 3,000 years ago.",
+      "name": "Relic Copper"
+    },
+    "relic-crown": {
+      "description": "A heavy crown made by an ancient\ncivilization about 3,000 years ago.",
+      "name": "Relic Crown"
+    },
+    "relic-gold": {
+      "description": "A gold coin used by an ancient\ncivilization about 3,000 years ago.",
+      "name": "Relic Gold"
+    },
+    "relic-silver": {
+      "description": "A silver coin used by an ancient\ncivilization about 3,000 years ago.",
+      "name": "Relic Silver"
+    },
+    "relic-statue": {
+      "description": "A stone figurine made by an ancient\ncivilization about 3,000 years ago.",
+      "name": "Relic Statue"
+    },
+    "relic-vase": {
+      "description": "A fragile vase made by an ancient\ncivilization about 3,000 years ago.",
+      "name": "Relic Vase"
+    },
+    "repeat-ball": {
+      "description": "A somewhat different Pok\u00e9 Ball that\nworks especially well on a Pok\u00e9mon\nspecies that has been caught before.",
+      "name": "Repeat Ball"
+    },
+    "repel": {
+      "description": "An item that prevents any low-level\nwild Pok\u00e9mon from jumping out at\nyou for 100 steps after its use.",
+      "name": "Repel"
+    },
+    "reply-mail": {
+      "description": "Stationery designed to make it easy\nto respond to a letter you received.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "Reply Mail"
+    },
+    "reset-urge": {
+      "description": "When used, it restores any stat\nchanges of an ally Pok\u00e9mon.",
+      "name": "Reset Urge"
+    },
+    "resist-wing": {
+      "description": "An item for use on a Pok\u00e9mon.\nIt slightly increases the base Defense\nstat of a single Pok\u00e9mon.",
+      "name": "Resist Wing"
+    },
+    "retro-mail": {
+      "description": "A piece of MAIL featuring a print\nof three cute POK\u00e9MON.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Retro Mail"
+    },
+    "reveal-glass": {
+      "description": "A looking glass that reveals the truth.\nIt\u2019s a mysterious glass that returns\na Pok\u00e9mon to its original shape.",
+      "name": "Reveal Glass"
+    },
+    "revival-herb": {
+      "description": "A terribly bitter medicinal herb.\nIt revives a fainted Pok\u00e9mon and\nfully restores its maximum HP.",
+      "name": "Revival Herb"
+    },
+    "revive": {
+      "description": "A medicine that can revive fainted\nPok\u00e9mon. It also restores half of\na fainted Pok\u00e9mon\u2019s maximum HP.",
+      "name": "Revive"
+    },
+    "rich-mulch": {
+      "description": "Mulch to be used in a Berry field.\nIt increases the Berry harvest without\nthe need for particularly diligent care.",
+      "name": "Rich Mulch"
+    },
+    "rindo-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Grass-type attack.",
+      "name": "Rindo Berry"
+    },
+    "ring-target": {
+      "description": "An item to be held by a Pok\u00e9mon.\nMoves that normally have no effect\nwill land on a Pok\u00e9mon holding it.",
+      "name": "Ring Target"
+    },
+    "rm-1-key": {
+      "description": "A key that opens the door to Room\n1 inside the ABANDONED SHIP.\nIt is old and looks easily broken.",
+      "name": "Rm. 1 Key"
+    },
+    "rm-2-key": {
+      "description": "A key that opens the door to Room\n2 inside the ABANDONED SHIP.\nIt is old and looks easily broken.",
+      "name": "Rm. 2 Key"
+    },
+    "rm-4-key": {
+      "description": "A key that opens the door to Room\n4 inside the ABANDONED SHIP.\nIt is old and looks easily broken.",
+      "name": "Rm. 4 Key"
+    },
+    "rm-6-key": {
+      "description": "A key that opens the door to Room\n6 inside the ABANDONED SHIP.\nIt is old and looks easily broken.",
+      "name": "Rm. 6 Key"
+    },
+    "rock-gem": {
+      "description": "A gem with an essence of rock.\nWhen held, it strengthens the power\nof a Rock-type move one time.",
+      "name": "Rock Gem"
+    },
+    "rock-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis exotic-smelling incense boosts\nthe power of Rock-type moves.",
+      "name": "Rock Incense"
+    },
+    "rocky-helmet": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIf the holder is hit, the attacker will\nalso be damaged upon contact.",
+      "name": "Rocky Helmet"
+    },
+    "roller-skates": {
+      "description": "Attaches roller skates to the bottom\nof your shoes, allowing you to glide\nquickly around and perform tricks.",
+      "name": "Roller Skates"
+    },
+    "root-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived in the sea. It looks as\nif it could be part of a plant\u2019s root.",
+      "name": "Root Fossil"
+    },
+    "rose-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis exotic-smelling incense boosts\nthe power of Grass-type moves.",
+      "name": "Rose Incense"
+    },
+    "roseli-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Fairy-type attack.",
+      "name": "Roseli Berry"
+    },
+    "rowap-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a special attack hits the Pok\u00e9mon\nholding it, the attacker will also be hurt.",
+      "name": "Rowap Berry"
+    },
+    "rsvp-mail": {
+      "description": "Stationery designed to allow you to\nextend an invitation to the recipient.\nHave a Pok\u00e9mon hold it for delivery.",
+      "name": "RSVP Mail"
+    },
+    "ruby": {
+      "description": "An exquisitely beautiful gem that\nhas a red glow.\nIt symbolizes passion.",
+      "name": "Ruby"
+    },
+    "rule-book": {
+      "description": "It lists the rules for holding battles.\nFor Link Battles, you may choose\nwhich set of rules you wish to use.",
+      "name": "Rule Book"
+    },
+    "sachet": {
+      "description": "A sachet filled with fragrant perfumes\nthat are just slightly too overwhelming.\nYet it\u2019s loved by a certain Pok\u00e9mon.",
+      "name": "Sachet"
+    },
+    "sacred-ash": {
+      "description": "This rare ash can revive all fainted\nPok\u00e9mon in a party. In doing so, it\nalso fully restores their maximum HP.",
+      "name": "Sacred Ash"
+    },
+    "safari-ball": {
+      "description": "A special Pok\u00e9 Ball that is used only in\nthe Great Marsh. It is recognizable by\nthe camouflage pattern decorating it.",
+      "name": "Safari Ball"
+    },
+    "safety-goggles": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThese goggles protect the holder from\nboth weather-related damage and powder.",
+      "name": "Safety Goggles"
+    },
+    "sail-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived on the land. It looks\nlike the impression from a skin sail.",
+      "name": "Sail Fossil"
+    },
+    "salac-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, its Speed\nstat will increase when it\u2019s in a pinch.",
+      "name": "Salac Berry"
+    },
+    "sapphire": {
+      "description": "An exquisitely beautiful gem that\nhas a blue glow.\nIt symbolizes honesty.",
+      "name": "Sapphire"
+    },
+    "scanner": {
+      "description": "A device used to search for\nlife-forms in water.\nIt looks too difficult to use.",
+      "name": "Scanner"
+    },
+    "scizorite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Scizor hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Scizorite"
+    },
+    "scope-lens": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a lens for scoping out weak points.\nIt boosts the holder\u2019s critical-hit ratio.",
+      "name": "Scope Lens"
+    },
+    "sea-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis incense has a curious aroma that\nboosts the power of Water-type moves.",
+      "name": "Sea Incense"
+    },
+    "seal-bag": {
+      "description": "A tiny bag that can hold 10 Seals\nfor decorating Pok\u00e9 Balls.",
+      "name": "Seal Bag"
+    },
+    "seal-case": {
+      "description": "A case for storing Seals that can be\napplied to the exteriors of Pok\u00e9 Balls.",
+      "name": "Seal Case"
+    },
+    "secret-key": {
+      "description": "A high-tech key that has to be used at\na specific location. It emits a special\nelectronic signal to open a door.",
+      "name": "Secret Key"
+    },
+    "secret-potion": {
+      "description": "A fantastic medicine dispensed by the\npharmacy in Cianwood City. It fully\nheals a Pok\u00e9mon of any ailment.",
+      "name": "Secret Potion"
+    },
+    "shadow-mail": {
+      "description": "A piece of MAIL featuring a cute\nDUSKULL print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Shadow Mail"
+    },
+    "sharp-beak": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a long, sharp beak that boosts\nthe power of Flying-type moves.",
+      "name": "Sharp Beak"
+    },
+    "shed-shell": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis discarded carapace enables the\nholder to switch out of battle without fail.",
+      "name": "Shed Shell"
+    },
+    "shell-bell": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThe holder regains a little HP every\ntime it inflicts damage on others.",
+      "name": "Shell Bell"
+    },
+    "shiny-charm": {
+      "description": "A shiny charm said to increase\nthe chance of finding a Shiny\nPok\u00e9mon in the wild.",
+      "name": "Shiny Charm"
+    },
+    "shiny-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt shines with a dazzling light.",
+      "name": "Shiny Stone"
+    },
+    "shoal-salt": {
+      "description": "Pure salt that can be discovered\nonly deep inside the Shoal Cave.",
+      "name": "Shoal Salt"
+    },
+    "shoal-shell": {
+      "description": "A pretty seashell that can be\nfound deep inside the Shoal Cave.",
+      "name": "Shoal Shell"
+    },
+    "shock-drive": {
+      "description": "A cassette to be held by Genesect.\nIt changes Genesect\u2019s Techno Blast\nmove so it becomes Electric type.",
+      "name": "Shock Drive"
+    },
+    "shuca-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Ground-type attack.",
+      "name": "Shuca Berry"
+    },
+    "silk-scarf": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a sumptuous scarf that boosts\nthe power of Normal-type moves.",
+      "name": "Silk Scarf"
+    },
+    "silph-scope": {
+      "description": "A scope that makes unseeable\nPOK\u00e9MON visible.\nIt is made by SILPH CO.",
+      "name": "Silph Scope"
+    },
+    "silver-powder": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a shiny, silver powder that will\nboost the power of Bug-type moves.",
+      "name": "Silver Powder"
+    },
+    "silver-wing": {
+      "description": "A strange, silvery feather\nthat sparkles.",
+      "name": "Silver Wing"
+    },
+    "sitrus-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it can restore its\nown HP by a small amount during battle.",
+      "name": "Sitrus Berry"
+    },
+    "skull-fossil": {
+      "description": "A fossil from a prehistoric Pok\u00e9mon\nthat once lived on the land. It appears\nas though it\u2019s part of a head.",
+      "name": "Skull Fossil"
+    },
+    "sky-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Flying-type moves.",
+      "name": "Sky Plate"
+    },
+    "slowpoke-tail": {
+      "description": "A very tasty tail of something.\nIt can be sold at a high price to shops.",
+      "name": "Slowpoke Tail"
+    },
+    "smoke-ball": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt enables the holder to flee from any\nwild Pok\u00e9mon encounter without fail.",
+      "name": "Smoke Ball"
+    },
+    "smooth-rock": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt extends the duration of the move\nSandstorm when used by the holder.",
+      "name": "Smooth Rock"
+    },
+    "snow-mail": {
+      "description": "Stationery featuring a print of a\nchilly, snow-covered world.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Snow Mail"
+    },
+    "snowball": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt boosts Attack if hit with an Ice-type\nattack. It can only be used once.",
+      "name": "Snowball"
+    },
+    "soda-pop": {
+      "description": "A highly carbonated soda drink.\nWhen consumed, it restores\n60 HP to an injured Pok\u00e9mon.",
+      "name": "Soda Pop"
+    },
+    "soft-sand": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a loose, silky sand that boosts\nthe power of Ground-type moves.",
+      "name": "Soft Sand"
+    },
+    "soot-sack": {
+      "description": "A sack used to collect volcanic\nash automatically during walks\nover deep ash.",
+      "name": "Soot Sack"
+    },
+    "soothe-bell": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThe comforting chime of this bell\ncalms the holder, making it friendly.",
+      "name": "Soothe Bell"
+    },
+    "soul-dew": {
+      "description": "A wondrous orb to be held by either\nLatios or Latias. It raises both the\nSp. Atk and Sp. Def stats.",
+      "name": "Soul Dew"
+    },
+    "space-mail": {
+      "description": "Stationery featuring a print depicting\nthe huge expanse of space.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Space Mail"
+    },
+    "spell-tag": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a sinister, eerie tag that boosts\nthe power of Ghost-type moves.",
+      "name": "Spell Tag"
+    },
+    "spelon-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Spelon Berry"
+    },
+    "splash-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Water-type moves.",
+      "name": "Splash Plate"
+    },
+    "spooky-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Ghost-type moves.",
+      "name": "Spooky Plate"
+    },
+    "sport-ball": {
+      "description": "A special Pok\u00e9 Ball that is used\nduring the Bug-Catching Contest.",
+      "name": "Sport Ball"
+    },
+    "sprayduck": {
+      "description": "A watering can shaped like a Psyduck.\nIt helps promote the healthy growth of\nany Berries planted in good, soft soil.",
+      "name": "Sprayduck"
+    },
+    "sprinklotad": {
+      "description": "A watering can shaped like a Lotad.\nIt helps promote the healthy growth of\nany Berries planted in good, soft soil.",
+      "name": "Sprinklotad"
+    },
+    "squirt-bottle": {
+      "description": "A bottle used for watering plants in the\nBerry Pots.",
+      "name": "Squirt Bottle"
+    },
+    "ss-ticket": {
+      "description": "A ticket required for sailing on the\nferry S.S. Aqua. It has a drawing\nof a ship on its front.",
+      "name": "S.S. Ticket"
+    },
+    "stable-mulch": {
+      "description": "A fertilizer to be spread on soft soil\nin regions where Berries are grown.",
+      "name": "Stable Mulch"
+    },
+    "star-piece": {
+      "description": "A small shard of a beautiful gem that\ndemonstrates a distinctly red sparkle.\nIt can be sold at a high price to shops.",
+      "name": "Star Piece"
+    },
+    "stardust": {
+      "description": "Lovely, red sand that flows between\nthe fingers with a loose, silky feel.\nIt can be sold at a high price to shops.",
+      "name": "Stardust"
+    },
+    "starf-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, one of its stats\nwill sharply increase when it\u2019s in a pinch.",
+      "name": "Starf Berry"
+    },
+    "steel-gem": {
+      "description": "A gem with an essence of steel.\nWhen held, it strengthens the power\nof a Steel-type move one time.",
+      "name": "Steel Gem"
+    },
+    "steel-mail": {
+      "description": "Stationery featuring a print of cool\nmechanical designs.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Steel Mail"
+    },
+    "stick": {
+      "description": "An item to be held by Farfetch\u2019d.\nThis very long and stiff stalk of\nleek boosts its critical-hit ratio.",
+      "name": "Stick"
+    },
+    "sticky-barb": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt damages the holder every turn and may\nlatch on to Pok\u00e9mon that touch the holder.",
+      "name": "Sticky Barb"
+    },
+    "stone-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Rock-type moves.",
+      "name": "Stone Plate"
+    },
+    "storage-key": {
+      "description": "The key to Team Galactic\u2019s sinister\nwarehouse located at the edge of\nVeilstone City.",
+      "name": "Storage Key"
+    },
+    "strange-souvenir": {
+      "description": "An ornament depicting a Pok\u00e9mon\nthat is venerated as a protector\nin some region far from Kalos.",
+      "name": "Strange Souvenir"
+    },
+    "suite-key": {
+      "description": "A key to one of the suites at a certain\nluxury hotel by a lake. For some odd\nreason, it often disappears.",
+      "name": "Suite Key"
+    },
+    "sun-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt burns as red as the evening sun.",
+      "name": "Sun Stone"
+    },
+    "super-potion": {
+      "description": "A spray-type medicine for treating\nwounds. It can be used to restore\n50 HP to an injured Pok\u00e9mon.",
+      "name": "Super Potion"
+    },
+    "super-repel": {
+      "description": "An item that prevents any low-level\nwild Pok\u00e9mon from jumping out at\nyou for 200 steps after its use.",
+      "name": "Super Repel"
+    },
+    "super-rod": {
+      "description": "An awesome, high-tech fishing rod.\nUse it at any body of water to\nfish for wild aquatic Pok\u00e9mon.",
+      "name": "Super Rod"
+    },
+    "surprise-mulch": {
+      "description": "Mulch to be used in a Berry field.\nIt causes strange, sudden mutations\nbased on the combination of Berries.",
+      "name": "Surprise Mulch"
+    },
+    "sweet-heart": {
+      "description": "A piece of cloyingly sweet chocolate.\nWhen consumed, it restores\n20 HP to an injured Pok\u00e9mon.",
+      "name": "Sweet Heart"
+    },
+    "swift-wing": {
+      "description": "An item for use on a Pok\u00e9mon.\nIt slightly increases the base Speed\nstat of a single Pok\u00e9mon.",
+      "name": "Swift Wing"
+    },
+    "tamato-berry": {
+      "description": "A Berry to be consumed by Pok\u00e9mon.\nUsing it on a Pok\u00e9mon makes it more\nfriendly but lowers its base Speed.",
+      "name": "Tamato Berry"
+    },
+    "tanga-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Bug-type attack.",
+      "name": "Tanga Berry"
+    },
+    "tea": {
+      "description": "An aromatic tea prepared by an old\nlady. It will slake even the worst\nthirst.",
+      "name": "Tea"
+    },
+    "teachy-tv": {
+      "description": "A television set that is tuned to\na program with useful tips for\nnovice TRAINERS.",
+      "name": "Teachy TV"
+    },
+    "thanks-mail": {
+      "description": "Stationery designed to make it easy\nfor you to express thanks. Have a\nPok\u00e9mon hold it for delivery.",
+      "name": "Thanks Mail"
+    },
+    "thick-club": {
+      "description": "An item to be held by Cubone or\nMarowak. It is a hard bone of some\nsort that boosts the Attack stat.",
+      "name": "Thick Club"
+    },
+    "thunder-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt has a distinct thunderbolt pattern.",
+      "name": "Thunder Stone"
+    },
+    "tidal-bell": {
+      "description": "A very old-fashioned bell that\nmakes a gentle ringing sound.",
+      "name": "Tidal Bell"
+    },
+    "timer-ball": {
+      "description": "A somewhat different Pok\u00e9 Ball that\nbecomes progressively more effective\nthe more turns that are taken in battle.",
+      "name": "Timer Ball"
+    },
+    "tiny-mushroom": {
+      "description": "A very small and rare mushroom.\nIt\u2019s popular with a certain class of\ncollectors and sought out by them.",
+      "name": "Tiny Mushroom"
+    },
+    "tm-case": {
+      "description": "A case that holds TMs and HMs.\nIt is attached to the BAG\u2019s\ncompartment for important items.",
+      "name": "TM Case"
+    },
+    "tm01": {
+      "description": "The user sharpens its claws to\nboost its Attack stat and accuracy.",
+      "name": "TM01"
+    },
+    "tm02": {
+      "description": "The user slashes the target with huge,\nsharp claws.",
+      "name": "TM02"
+    },
+    "tm03": {
+      "description": "The user materializes an odd\npsychic wave to attack the target.\nThis attack does physical damage.",
+      "name": "TM03"
+    },
+    "tm04": {
+      "description": "The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk and\nSp. Def stats.",
+      "name": "TM04"
+    },
+    "tm05": {
+      "description": "The target is scared off and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
+      "name": "TM05"
+    },
+    "tm06": {
+      "description": "A move that leaves the target\nbadly poisoned. Its poison\ndamage worsens every turn.",
+      "name": "TM06"
+    },
+    "tm07": {
+      "description": "The user summons a hailstorm lasting five\nturns. It damages all Pok\u00e9mon except the\nIce type.",
+      "name": "TM07"
+    },
+    "tm08": {
+      "description": "The user tenses its muscles to bulk up\nits body, raising both its Attack and\nDefense stats.",
+      "name": "TM08"
+    },
+    "tm09": {
+      "description": "The user drenches the target in a special\npoisonous liquid. This move\u2019s power is\ndoubled if the target is poisoned.",
+      "name": "TM09"
+    },
+    "tm10": {
+      "description": "A unique attack that varies in type\ndepending on the Pok\u00e9mon using it.",
+      "name": "TM10"
+    },
+    "tm100": {
+      "description": "The user tells the target a secret, and\nthe target loses its ability to concentrate.\nThis lowers the target\u2019s Sp. Atk stat.",
+      "name": "TM100"
+    },
+    "tm11": {
+      "description": "The user intensifies the sun\nfor five turns, powering up\nFire-type moves.",
+      "name": "TM11"
+    },
+    "tm12": {
+      "description": "The target is taunted into a rage\nthat allows it to use only attack\nmoves for three turns.",
+      "name": "TM12"
+    },
+    "tm13": {
+      "description": "The target is struck with an icy-\ncold beam of energy. This may\nalso leave the target frozen.",
+      "name": "TM13"
+    },
+    "tm14": {
+      "description": "A howling blizzard is summoned to strike\nopposing Pok\u00e9mon. This may also leave\nthe opposing Pok\u00e9mon frozen.",
+      "name": "TM14"
+    },
+    "tm15": {
+      "description": "The target is attacked with a powerful beam.\nThe user can\u2019t move on the next turn.",
+      "name": "TM15"
+    },
+    "tm16": {
+      "description": "A wondrous wall of light is put up to\nreduce damage from special attacks\nfor five turns.",
+      "name": "TM16"
+    },
+    "tm17": {
+      "description": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
+      "name": "TM17"
+    },
+    "tm18": {
+      "description": "The user summons a heavy rain\nthat falls for five turns, powering\nup Water-type moves.",
+      "name": "TM18"
+    },
+    "tm19": {
+      "description": "The user lands and rests its body.\nIt restores the user\u2019s HP by up to\nhalf of its max HP.",
+      "name": "TM19"
+    },
+    "tm20": {
+      "description": "The user creates a protective field\nthat prevents status conditions\nfor five turns.",
+      "name": "TM20"
+    },
+    "tm21": {
+      "description": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
+      "name": "TM21"
+    },
+    "tm22": {
+      "description": "A two-turn attack. The user gathers\nlight, then blasts a bundled beam on\nthe next turn.",
+      "name": "TM22"
+    },
+    "tm23": {
+      "description": "The user throws a stone or similar projectile\nto attack an opponent. A flying Pok\u00e9mon\nwill fall to the ground when it\u2019s hit.",
+      "name": "TM23"
+    },
+    "tm24": {
+      "description": "A strong electric blast crashes down on\nthe target. This may also leave the target\nwith paralysis.",
+      "name": "TM24"
+    },
+    "tm25": {
+      "description": "A wicked thunderbolt is dropped on\nthe target to inflict damage. This may\nalso leave the target with paralysis.",
+      "name": "TM25"
+    },
+    "tm26": {
+      "description": "The user sets off an earthquake that\nstrikes every Pok\u00e9mon around it.",
+      "name": "TM26"
+    },
+    "tm27": {
+      "description": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
+      "name": "TM27"
+    },
+    "tm28": {
+      "description": "The user burrows, then attacks\non the next turn. It can also\nbe used to exit dungeons.",
+      "name": "TM28"
+    },
+    "tm29": {
+      "description": "The target is hit by a strong telekinetic\nforce. This may also lower the target\u2019s\nSp. Def stat.",
+      "name": "TM29"
+    },
+    "tm30": {
+      "description": "The user hurls a shadowy blob at the\ntarget. This may also lower the target\u2019s\nSp. Def stat.",
+      "name": "TM30"
+    },
+    "tm31": {
+      "description": "The user attacks with a swift chop.\nIt can also break barriers, such as\nLight Screen and Reflect.",
+      "name": "TM31"
+    },
+    "tm32": {
+      "description": "By moving rapidly, the user makes illusory\ncopies of itself to raise its evasiveness.",
+      "name": "TM32"
+    },
+    "tm33": {
+      "description": "A wondrous wall of light is put up to\nreduce damage from physical attacks\nfor five turns.",
+      "name": "TM33"
+    },
+    "tm34": {
+      "description": "The user strikes everything around it by\nswamping the area with a giant sludge wave.\nThis may also poison those hit.",
+      "name": "TM34"
+    },
+    "tm35": {
+      "description": "The target is scorched with an intense\nblast of fire. This may also leave the\ntarget with a burn.",
+      "name": "TM35"
+    },
+    "tm36": {
+      "description": "Unsanitary sludge is hurled at the target.\nThis may also poison the target.",
+      "name": "TM36"
+    },
+    "tm37": {
+      "description": "A five-turn sandstorm is summoned\nto hurt all combatants except for\nRock, Ground, and Steel types.",
+      "name": "TM37"
+    },
+    "tm38": {
+      "description": "The target is attacked with an intense\nblast of all-consuming fire. This may\nalso leave the target with a burn.",
+      "name": "TM38"
+    },
+    "tm39": {
+      "description": "Boulders are hurled at the target.\nThis also lowers the target\u2019s Speed\nstat by preventing its movement.",
+      "name": "TM39"
+    },
+    "tm40": {
+      "description": "The user confounds the target with\nspeed, then slashes.\nThis attack never misses.",
+      "name": "TM40"
+    },
+    "tm41": {
+      "description": "The user torments and enrages the\ntarget, making it incapable of using\nthe same move twice in a row.",
+      "name": "TM41"
+    },
+    "tm42": {
+      "description": "An attack move that doubles its power if\nthe user is poisoned, burned, or\nhas paralysis.",
+      "name": "TM42"
+    },
+    "tm43": {
+      "description": "Cloaking itself in flame, the user attacks.\nThen, building up more power,\nthe user raises its Speed stat.",
+      "name": "TM43"
+    },
+    "tm44": {
+      "description": "The user goes to sleep for two turns.\nThis fully restores the user\u2019s HP and\nheals any status conditions.",
+      "name": "TM44"
+    },
+    "tm45": {
+      "description": "If it is the opposite gender of the user,\nthe target becomes infatuated and less\nlikely to attack.",
+      "name": "TM45"
+    },
+    "tm46": {
+      "description": "The user attacks and steals the target\u2019s\nheld item simultaneously. The user can\u2019t\nsteal anything if it already holds an item.",
+      "name": "TM46"
+    },
+    "tm47": {
+      "description": "The user makes a swift attack on\nthe target\u2019s legs, which lowers the\ntarget\u2019s Speed stat.",
+      "name": "TM47"
+    },
+    "tm48": {
+      "description": "The user attacks the target with a song.\nOthers can join in the Round and make\nthe attack do greater damage.",
+      "name": "TM48"
+    },
+    "tm49": {
+      "description": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
+      "name": "TM49"
+    },
+    "tm50": {
+      "description": "The user attacks the target at full power.\nThe attack\u2019s recoil harshly lowers the\nuser\u2019s Sp. Atk stat.",
+      "name": "TM50"
+    },
+    "tm51": {
+      "description": "The target is hit with wings of steel.\nThis may also raise the user\u2019s Defense stat.",
+      "name": "TM51"
+    },
+    "tm52": {
+      "description": "The user heightens its mental focus and\nunleashes its power.\nThis may also lower the target\u2019s Sp. Def.",
+      "name": "TM52"
+    },
+    "tm53": {
+      "description": "The user draws power from nature and\nfires it at the target. This may also\nlower the target\u2019s Sp. Def.",
+      "name": "TM53"
+    },
+    "tm54": {
+      "description": "A restrained attack that prevents the\ntarget from fainting. The target is left\nwith at least 1 HP.",
+      "name": "TM54"
+    },
+    "tm55": {
+      "description": "The user shoots boiling hot water at\nits target. This may also leave the\ntarget with a burn.",
+      "name": "TM55"
+    },
+    "tm56": {
+      "description": "The user flings its held item at the target\nto attack. This move\u2019s power and effects\ndepend on the item.",
+      "name": "TM56"
+    },
+    "tm57": {
+      "description": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+      "name": "TM57"
+    },
+    "tm58": {
+      "description": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
+      "name": "TM58"
+    },
+    "tm59": {
+      "description": "The user attacks opposing Pok\u00e9mon with fire.\nIf a Pok\u00e9mon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
+      "name": "TM59"
+    },
+    "tm60": {
+      "description": "The user suppresses the target and\nmakes its move go last.",
+      "name": "TM60"
+    },
+    "tm61": {
+      "description": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
+      "name": "TM61"
+    },
+    "tm62": {
+      "description": "The user nimbly strikes the target.\nIf the user is not holding an item,\nthis attack inflicts massive damage.",
+      "name": "TM62"
+    },
+    "tm63": {
+      "description": "This move prevents the target from\nusing its held item. Its Trainer is\nalso prevented from using items on it.",
+      "name": "TM63"
+    },
+    "tm64": {
+      "description": "The user attacks everything around it\nby causing a tremendous explosion.\nThe user faints upon using this move.",
+      "name": "TM64"
+    },
+    "tm65": {
+      "description": "The user slashes with a sharp claw\nmade from shadows.\nCritical hits land more easily.",
+      "name": "TM65"
+    },
+    "tm66": {
+      "description": "The user stores power, then attacks.\nIf the user moves after the target,\nthis attack\u2019s power will be doubled.",
+      "name": "TM66"
+    },
+    "tm67": {
+      "description": "The user gets revenge for a fainted ally.\nIf an ally fainted in the previous turn,\nthis move becomes more powerful.",
+      "name": "TM67"
+    },
+    "tm68": {
+      "description": "The user charges at the target using\nevery bit of its power.\nThe user can\u2019t move on the next turn.",
+      "name": "TM68"
+    },
+    "tm69": {
+      "description": "The user polishes its body to reduce drag.\nThis can sharply raise the Speed stat.",
+      "name": "TM69"
+    },
+    "tm70": {
+      "description": "The user flashes a bright light that cuts\nthe target\u2019s accuracy.",
+      "name": "TM70"
+    },
+    "tm71": {
+      "description": "The user stabs the target with\nsharpened stones from below.\nCritical hits land more easily.",
+      "name": "TM71"
+    },
+    "tm72": {
+      "description": "After making its attack, the user\nrushes back to switch places with\na party Pok\u00e9mon in waiting.",
+      "name": "TM72"
+    },
+    "tm73": {
+      "description": "The user launches a weak jolt of\nelectricity that paralyzes the target.",
+      "name": "TM73"
+    },
+    "tm74": {
+      "description": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move\u2019s power.",
+      "name": "TM74"
+    },
+    "tm75": {
+      "description": "A frenetic dance to uplift the fighting\nspirit. This sharply raises the user\u2019s\nAttack stat.",
+      "name": "TM75"
+    },
+    "tm76": {
+      "description": "While resisting, the user attacks the\nopposing Pok\u00e9mon. This lowers the\nSp. Atk stat of those hit.",
+      "name": "TM76"
+    },
+    "tm77": {
+      "description": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
+      "name": "TM77"
+    },
+    "tm78": {
+      "description": "The user strikes everything around it\nby stomping down on the ground.\nThis lowers the Speed stat of those hit.",
+      "name": "TM78"
+    },
+    "tm79": {
+      "description": "The user blows its cold breath on the\ntarget. This attack always results in\na critical hit.",
+      "name": "TM79"
+    },
+    "tm80": {
+      "description": "Large boulders are hurled at the opposing\nPok\u00e9mon to inflict damage. This may also\nmake the opposing Pok\u00e9mon flinch.",
+      "name": "TM80"
+    },
+    "tm81": {
+      "description": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
+      "name": "TM81"
+    },
+    "tm82": {
+      "description": "The target is knocked away, and a different\nPok\u00e9mon is dragged out. In the wild, this\nends a battle against a single Pok\u00e9mon.",
+      "name": "TM82"
+    },
+    "tm83": {
+      "description": "The target is infested and attacked\nfor four to five turns.\nThe target can\u2019t flee during this time.",
+      "name": "TM83"
+    },
+    "tm84": {
+      "description": "The target is stabbed with a tentacle\nor arm steeped in poison. This may also\npoison the target.",
+      "name": "TM84"
+    },
+    "tm85": {
+      "description": "The user eats the dreams of a sleeping\ntarget. It absorbs half the damage\ncaused to heal its own HP.",
+      "name": "TM85"
+    },
+    "tm86": {
+      "description": "The user snares the target with grass and\ntrips it. The heavier the target, the greater\nthe move\u2019s power.",
+      "name": "TM86"
+    },
+    "tm87": {
+      "description": "The user enrages and confuses the\ntarget. However, this also sharply raises\nthe target\u2019s Attack stat.",
+      "name": "TM87"
+    },
+    "tm88": {
+      "description": "While it is asleep, the user randomly uses\none of the moves it knows.",
+      "name": "TM88"
+    },
+    "tm89": {
+      "description": "After making its attack, the user\nrushes back to switch places with a\nparty Pok\u00e9mon in waiting.",
+      "name": "TM89"
+    },
+    "tm90": {
+      "description": "The user makes a copy of itself using\nsome of its HP. The copy serves as\nthe user\u2019s decoy.",
+      "name": "TM90"
+    },
+    "tm91": {
+      "description": "The user gathers all its light energy\nand releases it at once. This may also\nlower the target\u2019s Sp. Def stat.",
+      "name": "TM91"
+    },
+    "tm92": {
+      "description": "The user creates a bizarre area in\nwhich slower Pok\u00e9mon get to move\nfirst for five turns.",
+      "name": "TM92"
+    },
+    "tm93": {
+      "description": "The user shrouds itself in electricity\nand smashes into its target.\nThis also damages the user a little.",
+      "name": "TM93"
+    },
+    "tm94": {
+      "description": "The user attacks with a punch. This may\nalso lower the target\u2019s Defense stat. This\nmove can also shatter rocks in the field.",
+      "name": "TM94"
+    },
+    "tm95": {
+      "description": "The user yells as if it\u2019s ranting about\nsomething, which lowers the Sp. Atk stat\nof opposing Pok\u00e9mon.",
+      "name": "TM95"
+    },
+    "tm96": {
+      "description": "An attack that makes use of nature\u2019s\npower. Its effects vary depending on\nthe user\u2019s environment.",
+      "name": "TM96"
+    },
+    "tm97": {
+      "description": "The user releases a horrible aura\nimbued with dark thoughts. This\nmay also make the target flinch.",
+      "name": "TM97"
+    },
+    "tm98": {
+      "description": "Striking opponents over and over\nmakes the user\u2019s fists harder.\nHitting a target raises the Attack stat.",
+      "name": "TM98"
+    },
+    "tm99": {
+      "description": "The user damages opposing Pok\u00e9mon\nby emitting a powerful flash.",
+      "name": "TM99"
+    },
+    "tmv-pass": {
+      "description": "A commuter pass that allows the\nholder to ride the TMV between Lumiose\nCity and Kiloude City at any time.",
+      "name": "TMV Pass"
+    },
+    "town-map": {
+      "description": "A very convenient map that can be\nviewed anytime. It even shows you\nyour present location in the region.",
+      "name": "Town Map"
+    },
+    "toxic-orb": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt is a bizarre orb that will badly\npoison the holder during battle.",
+      "name": "Toxic Orb"
+    },
+    "toxic-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Poison-type moves.",
+      "name": "Toxic Plate"
+    },
+    "tri-pass": {
+      "description": "A pass for ferries between ONE,\nTWO, and THREE ISLAND.\nIt has a drawing of three islands.",
+      "name": "Tri-Pass"
+    },
+    "tropic-mail": {
+      "description": "A piece of MAIL featuring a cute\nBELLOSSOM print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Tropic Mail"
+    },
+    "tunnel-mail": {
+      "description": "Stationery featuring a print of a dimly\nlit coal mine.\nLet a Pok\u00e9mon hold it for delivery.",
+      "name": "Tunnel Mail"
+    },
+    "twisted-spoon": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis spoon is imbued with telekinetic\npower and boosts Psychic-type moves.",
+      "name": "Twisted Spoon"
+    },
+    "tyranitarite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Tyranitar hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Tyranitarite"
+    },
+    "ultra-ball": {
+      "description": "An ultra-high-performance Pok\u00e9 Ball\nthat provides a higher success rate for\ncatching Pok\u00e9mon than a Great Ball.",
+      "name": "Ultra Ball"
+    },
+    "unown-report": {
+      "description": "A report of all the discovered kinds\nof Unown.",
+      "name": "Unown Report"
+    },
+    "up-grade": {
+      "description": "A transparent device somehow\nfilled with all sorts of data.\nIt was produced by Silph Co.",
+      "name": "Up-Grade"
+    },
+    "venusaurite": {
+      "description": "One variety of the mysterious Mega Stones.\nHave Venusaur hold it, and this stone will\nenable it to Mega Evolve during battle.",
+      "name": "Venusaurite"
+    },
+    "vs-recorder": {
+      "description": "An amazing device that can record a\nbattle between friends or the battles\nat certain special battle facilities.",
+      "name": "Vs. Recorder"
+    },
+    "vs-seeker": {
+      "description": "A device that indicates Trainers who\nwant to battle. Its battery charges\nwhile you walk.",
+      "name": "Vs. Seeker"
+    },
+    "wacan-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Electric-type attack.",
+      "name": "Wacan Berry"
+    },
+    "wailmer-pail": {
+      "description": "A nifty watering pail.\nUse it to promote strong growth in\nBERRIES planted in soft soil.",
+      "name": "Wailmer Pail"
+    },
+    "water-gem": {
+      "description": "A gem with an essence of water.\nWhen held, it strengthens the power\nof a Water-type move one time.",
+      "name": "Water Gem"
+    },
+    "water-stone": {
+      "description": "A peculiar stone that can make\ncertain species of Pok\u00e9mon evolve.\nIt is the blue of a pool of clear water.",
+      "name": "Water Stone"
+    },
+    "watmel-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Watmel Berry"
+    },
+    "wave-incense": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis exotic-smelling incense boosts\nthe power of Water-type moves.",
+      "name": "Wave Incense"
+    },
+    "wave-mail": {
+      "description": "A piece of MAIL featuring a cute\nWAILMER print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Wave Mail"
+    },
+    "weakness-policy": {
+      "description": "An item to be held by a Pok\u00e9mon.\nAttack and Sp. Atk sharply increase\nif the holder is hit with a move it\u2019s weak to.",
+      "name": "Weakness Policy"
+    },
+    "wepear-berry": {
+      "description": "A Berry to be used in cooking.\nThis Berry is very rare and hard\nto obtain in the Unova region.",
+      "name": "Wepear Berry"
+    },
+    "whipped-dream": {
+      "description": "A soft and sweet treat made of fluffy,\npuffy, whipped and whirled cream.\nIt\u2019s loved by a certain Pok\u00e9mon.",
+      "name": "Whipped Dream"
+    },
+    "white-apricorn": {
+      "description": "A white Apricorn.\nIt doesn\u2019t smell like anything.",
+      "name": "White Apricorn"
+    },
+    "white-flute": {
+      "description": "A lovely toy flute to admire.\nIt\u2019s made from white glass.",
+      "name": "White Flute"
+    },
+    "white-herb": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt will restore any lowered stat in\nbattle. It can be used only once.",
+      "name": "White Herb"
+    },
+    "wide-lens": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a magnifying lens that slightly\nboosts the accuracy of moves.",
+      "name": "Wide Lens"
+    },
+    "wiki-berry": {
+      "description": "If held by a Pok\u00e9mon, it restores the\nuser\u2019s HP in a pinch, but it will cause\nconfusion if the user hates the taste.",
+      "name": "Wiki Berry"
+    },
+    "wise-glasses": {
+      "description": "An item to be held by a Pok\u00e9mon.\nThis thick pair of glasses slightly\nboosts the power of special moves.",
+      "name": "Wise Glasses"
+    },
+    "wood-mail": {
+      "description": "A piece of MAIL featuring a cute\nSLAKOTH print.\nIt is to be held by a POK\u00e9MON.",
+      "name": "Wood Mail"
+    },
+    "works-key": {
+      "description": "A large key for operating the doors of\nthe Valley Windworks in the canyon.\nIt was held by a Team Galactic Grunt.",
+      "name": "Works Key"
+    },
+    "x-accuracy": {
+      "description": "An item that boosts the accuracy of\na Pok\u00e9mon during a battle. It wears\noff once the Pok\u00e9mon is withdrawn.",
+      "name": "X Accuracy"
+    },
+    "x-accuracy-2": {
+      "description": "It sharply raises the accuracy of a\nPok\u00e9mon in battle. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Accuracy 2"
+    },
+    "x-accuracy-3": {
+      "description": "It drastically raises the accuracy of a\nPok\u00e9mon in battle. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Accuracy 3"
+    },
+    "x-accuracy-6": {
+      "description": "It raises the accuracy of a Pok\u00e9mon\nin battle immensely. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Accuracy 6"
+    },
+    "x-attack": {
+      "description": "An item that boosts the Attack stat\nof a Pok\u00e9mon during a battle. It wears\noff once the Pok\u00e9mon is withdrawn.",
+      "name": "X Attack"
+    },
+    "x-attack-2": {
+      "description": "It sharply raises the Attack stat of a\nPok\u00e9mon in battle. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Attack 2"
+    },
+    "x-attack-3": {
+      "description": "It drastically raises the Attack stat\nof a Pok\u00e9mon in battle. It wears off if\nthe Pok\u00e9mon is withdrawn.",
+      "name": "X Attack 3"
+    },
+    "x-attack-6": {
+      "description": "It raises the Attack stat of a Pok\u00e9mon\nin battle immensely. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Attack 6"
+    },
+    "x-defense": {
+      "description": "An item that boosts the Defense stat\nof a Pok\u00e9mon during a battle. It wears\noff once the Pok\u00e9mon is withdrawn.",
+      "name": "X Defense"
+    },
+    "x-defense-2": {
+      "description": "It sharply raises the Defense stat\nof a Pok\u00e9mon in battle. It wears off\nif the Pok\u00e9mon is withdrawn.",
+      "name": "X Defense 2"
+    },
+    "x-defense-3": {
+      "description": "It drastically raises the Defense stat\nof a Pok\u00e9mon in battle. It wears off if\nthe Pok\u00e9mon is withdrawn.",
+      "name": "X Defense 3"
+    },
+    "x-defense-6": {
+      "description": "It raises the Defense stat of a Pok\u00e9mon\nin battle immensely. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Defense 6"
+    },
+    "x-sp-atk": {
+      "description": "An item that boosts the Sp. Atk stat\nof a Pok\u00e9mon during a battle. It wears\noff once the Pok\u00e9mon is withdrawn.",
+      "name": "X Sp. Atk"
+    },
+    "x-sp-atk-2": {
+      "description": "It sharply raises the Sp. Atk stat of a\nPok\u00e9mon in battle. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Sp. Atk 2"
+    },
+    "x-sp-atk-3": {
+      "description": "It drastically raises the Sp. Atk stat\nof a Pok\u00e9mon in battle. It wears off if\nthe Pok\u00e9mon is withdrawn.",
+      "name": "X Sp. Atk 3"
+    },
+    "x-sp-atk-6": {
+      "description": "It raises the Sp. Atk stat of a Pok\u00e9mon\nin battle immensely. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Sp. Atk 6"
+    },
+    "x-sp-def": {
+      "description": "An item that boosts the Sp. Def stat\nof a Pok\u00e9mon during a battle. It wears\noff once the Pok\u00e9mon is withdrawn.",
+      "name": "X Sp. Def"
+    },
+    "x-sp-def-2": {
+      "description": "It sharply raises the Sp. Def stat of a\nPok\u00e9mon in battle. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Sp. Def 2"
+    },
+    "x-sp-def-3": {
+      "description": "It drastically raises the Sp. Def stat\nof a Pok\u00e9mon in battle. It wears off if\nthe Pok\u00e9mon is withdrawn.",
+      "name": "X Sp. Def 3"
+    },
+    "x-sp-def-6": {
+      "description": "It raises the Sp. Def stat of a Pok\u00e9mon\nin battle immensely. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Sp. Def 6"
+    },
+    "x-speed": {
+      "description": "An item that boosts the Speed stat\nof a Pok\u00e9mon during a battle. It wears\noff once the Pok\u00e9mon is withdrawn.",
+      "name": "X Speed"
+    },
+    "x-speed-2": {
+      "description": "It sharply raises the Speed stat of a\nPok\u00e9mon in battle. It wears off if\nthe Pok\u00e9mon is withdrawn.",
+      "name": "X Speed 2"
+    },
+    "x-speed-3": {
+      "description": "It drastically raises the Speed stat of\na Pok\u00e9mon in battle. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Speed 3"
+    },
+    "x-speed-6": {
+      "description": "It raises the Speed stat of a Pok\u00e9mon\nin battle immensely. It wears off if the\nPok\u00e9mon is withdrawn.",
+      "name": "X Speed 6"
+    },
+    "xtransceiver": {
+      "description": "A high-tech transceiver with a\ncamera function. It allows up to\nfour-way calls.",
+      "name": "Xtransceiver"
+    },
+    "yache-berry": {
+      "description": "If held by a Pok\u00e9mon, this Berry will\nlessen the damage taken from one\nsupereffective Ice-type attack.",
+      "name": "Yache Berry"
+    },
+    "yellow-apricorn": {
+      "description": "A yellow Apricorn.\nIt has an invigorating scent.",
+      "name": "Yellow Apricorn"
+    },
+    "yellow-flute": {
+      "description": "A lovely toy flute to admire.\nIt\u2019s made from yellow glass.",
+      "name": "Yellow Flute"
+    },
+    "yellow-scarf": {
+      "description": "An item to be held by a Pok\u00e9mon.\nDuring a Contest, it raises the Tough\naspect of the Pok\u00e9mon holding it.",
+      "name": "Yellow Scarf"
+    },
+    "yellow-shard": {
+      "description": "A small yellow shard. It appears\nto be a fragment of some sort\nof implement made long ago.",
+      "name": "Yellow Shard"
+    },
+    "zap-plate": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIt\u2019s a stone tablet that boosts the\npower of Electric-type moves.",
+      "name": "Zap Plate"
+    },
+    "zinc": {
+      "description": "A nutritious drink for Pok\u00e9mon.\nWhen consumed, it raises the base\nSp. Def stat of a single Pok\u00e9mon.",
+      "name": "Zinc"
+    },
+    "zoom-lens": {
+      "description": "An item to be held by a Pok\u00e9mon.\nIf the holder moves after its target\nmoves, its accuracy will be boosted.",
+      "name": "Zoom Lens"
+    }
+  },
   "types_efficacy": {
     "bug": {
       "bug": 100,
