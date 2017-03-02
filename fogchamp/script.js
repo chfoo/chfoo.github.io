@@ -389,9 +389,16 @@ visualizer_APIFacade.prototype = {
 			if(Object.prototype.hasOwnProperty.call(jsonResult,"message")) {
 				callback(false,Reflect.field(jsonResult,"message"),null);
 			} else {
-				callback(true,null,_gthis.parseMatchPokemon(jsonResult));
+				var pokemonResults;
+				try {
+					pokemonResults = _gthis.parseMatchPokemon(jsonResult);
+				} catch( error ) {
+					callback(false,null,null);
+					return;
+				}
+				callback(true,null,pokemonResults);
 			}
-		},function(xhr1,textStatus1,error) {
+		},function(xhr1,textStatus1,error1) {
 			var jsonResult1 = xhr1.responseJSON;
 			if(jsonResult1 != null && Object.prototype.hasOwnProperty.call(jsonResult1,"message")) {
 				callback(false,Reflect.field(jsonResult1,"message"),null);
@@ -933,7 +940,7 @@ visualizer_MatchupChart.prototype = {
 		var span = window.document.createElement("span");
 		span.classList.add("matchupChartMoveLabelRotate-" + position);
 		var typeIcon = window.document.createElement("span");
-		typeIcon.classList.add("pokemonType-" + Std.string(moveStats.move_type));
+		typeIcon.classList.add("pokemonType-" + moveStats.moveType);
 		typeIcon.classList.add("miniPokemonTypeIcon");
 		typeIcon.textContent = " ";
 		span.appendChild(typeIcon);
@@ -1111,32 +1118,41 @@ visualizer_PokemonDataset.prototype = $extend(visualizer_Dataset.prototype,{
 	,get_stats: function() {
 		return this.datasets[this.datasetIndex].stats;
 	}
-	,getPokemonStats: function(slug) {
+	,getPokemonStats: function(slug,slotNum) {
+		if(slotNum == null) {
+			slotNum = 0;
+		}
 		var tmp;
 		if(this.datasetIndex == visualizer_PokemonDataset.CUSTOMIZABLE_INDEX) {
 			var _this = this.customStats;
-			if(__map_reserved[slug] != null) {
-				tmp = _this.existsReserved(slug);
+			var key = "" + slug + "*" + slotNum;
+			if(__map_reserved[key] != null) {
+				tmp = _this.existsReserved(key);
 			} else {
-				tmp = _this.h.hasOwnProperty(slug);
+				tmp = _this.h.hasOwnProperty(key);
 			}
 		} else {
 			tmp = false;
 		}
 		if(tmp) {
 			var _this1 = this.customStats;
-			return (__map_reserved[slug] != null?_this1.getReserved(slug):_this1.h[slug]).clone();
+			var key1 = "" + slug + "*" + slotNum;
+			return (__map_reserved[key1] != null?_this1.getReserved(key1):_this1.h[key1]).clone();
 		} else {
 			return visualizer_PokemonStats.fromJson(slug,Reflect.field(this.get_stats(),slug));
 		}
 	}
-	,setPokemonStats: function(slug,stats) {
+	,setPokemonStats: function(slug,stats,slotNum) {
+		if(slotNum == null) {
+			slotNum = 0;
+		}
 		var value = stats.clone();
 		var _this = this.customStats;
-		if(__map_reserved[slug] != null) {
-			_this.setReserved(slug,value);
+		var key = "" + slug + "*" + slotNum;
+		if(__map_reserved[key] != null) {
+			_this.setReserved(key,value);
 		} else {
-			_this.h[slug] = value;
+			_this.h[key] = value;
 		}
 	}
 	,getSlug: function(pokemonNum) {
@@ -1331,8 +1347,10 @@ visualizer_UI.prototype = {
 			js.JQuery("#fetchMatchFromAPIButton").prop("disabled",false);
 			if(success) {
 				_gthis.applyCustomPokemonList(pokemonStatsList);
-			} else {
+			} else if(errorMessage != null) {
 				_gthis.userMessage.showMessage("An error occurred fetching current match: \"" + errorMessage + "\". Complain to Felk if error persists.");
+			} else {
+				_gthis.userMessage.showMessage("An error occured while attempting to parse the data. File a bug report if this persists.");
 			}
 		});
 	}
@@ -1401,7 +1419,7 @@ visualizer_UI.prototype = {
 		while(_g < slotNums.length) {
 			var slotNum = slotNums[_g];
 			++_g;
-			statsList.push(this.pokemonDataset.getPokemonStats(this.getSlotSlug(slotNum)));
+			statsList.push(this.pokemonDataset.getPokemonStats(this.getSlotSlug(slotNum),slotNum));
 		}
 		return statsList;
 	}
@@ -1415,7 +1433,7 @@ visualizer_UI.prototype = {
 		while(_g < slotNums.length) {
 			var slotNum = slotNums[_g];
 			++_g;
-			var pokemonStats = this.pokemonDataset.getPokemonStats(this.getSlotSlug(slotNum));
+			var pokemonStats = this.pokemonDataset.getPokemonStats(this.getSlotSlug(slotNum),slotNum);
 			var abilityName = "";
 			var _this = this.descriptionsDataset.abilities;
 			var key = pokemonStats.ability;
@@ -1447,7 +1465,7 @@ visualizer_UI.prototype = {
 		while(_g < _g1.length) {
 			var slotNum = _g1[_g];
 			++_g;
-			var pokemonStat = this.pokemonDataset.getPokemonStats(this.getSlotSlug(slotNum));
+			var pokemonStat = this.pokemonDataset.getPokemonStats(this.getSlotSlug(slotNum),slotNum);
 			var name = pokemonStat.name;
 			var moveSlugs = pokemonStat.moves;
 			var moves = [];
@@ -1542,7 +1560,7 @@ visualizer_UI.prototype = {
 	}
 	,clickedEdit: function(slotNum) {
 		var slug = this.getSlotSlug(slotNum);
-		var pokemonStats = this.pokemonDataset.getPokemonStats(slug);
+		var pokemonStats = this.pokemonDataset.getPokemonStats(slug,slotNum);
 		var template = js.JQuery("#pokemonEditTemplate").html();
 		var html = visualizer_UI.renderTemplate(template,{ 'gender' : this.buildEditGenderRenderDoc(pokemonStats), 'ability' : this.buildEditAbilityRenderDoc(pokemonStats), 'item' : this.buildEditItemRenderDoc(pokemonStats), 'hp' : pokemonStats.hp, 'attack' : pokemonStats.attack, 'defense' : pokemonStats.defense, 'special_attack' : pokemonStats.specialAttack, 'special_defense' : pokemonStats.specialDefense, 'speed' : pokemonStats.speed, 'move1' : this.buildEditMoveRenderDoc(pokemonStats,0), 'move2' : this.buildEditMoveRenderDoc(pokemonStats,1), 'move3' : this.buildEditMoveRenderDoc(pokemonStats,2), 'move4' : this.buildEditMoveRenderDoc(pokemonStats,3)});
 		var jquery = js.JQuery("#editDialog").html(html);
@@ -1551,7 +1569,7 @@ visualizer_UI.prototype = {
 		if(!inViewport) {
 			jquery.dialog({ position : { my : "center top", at : "center top", of : window}});
 		}
-		this.attachEditFormListeners(pokemonStats);
+		this.attachEditFormListeners(pokemonStats,slotNum);
 		jquery.dialog("option","title","Editing " + slug);
 	}
 	,buildEditGenderRenderDoc: function(pokemonStats) {
@@ -1595,7 +1613,7 @@ visualizer_UI.prototype = {
 		}
 		return moveRenderList;
 	}
-	,attachEditFormListeners: function(pokemonStats) {
+	,attachEditFormListeners: function(pokemonStats,slotNum) {
 		var _gthis = this;
 		var genderInput = js.JQuery("#pokemonEditGender");
 		var abilityInput = js.JQuery("#pokemonEditAbility");
@@ -1611,9 +1629,9 @@ visualizer_UI.prototype = {
 		var move3Input = js.JQuery("#pokemonEditMove3");
 		var move4Input = js.JQuery("#pokemonEditMove4");
 		var readValues = function(event) {
-			pokemonStats.gender = genderInput.val();
-			pokemonStats.ability = abilityInput.val();
-			pokemonStats.item = itemInput.val();
+			pokemonStats.gender = genderInput.find("option:selected").attr("name");
+			pokemonStats.ability = abilityInput.find("option:selected").attr("name");
+			pokemonStats.item = itemInput.find("option:selected").attr("name");
 			pokemonStats.hp = Std.parseInt(hpInput.val());
 			pokemonStats.attack = Std.parseInt(attackInput.val());
 			pokemonStats.defense = Std.parseInt(defenseInput.val());
@@ -1625,8 +1643,7 @@ visualizer_UI.prototype = {
 				return item != "";
 			});
 			pokemonStats.moves = moves;
-			console.log(pokemonStats);
-			_gthis.applyCustomPokemon(pokemonStats);
+			_gthis.applyCustomPokemon(pokemonStats,slotNum);
 		};
 		genderInput.change(readValues);
 		abilityInput.change(readValues);
@@ -1642,8 +1659,8 @@ visualizer_UI.prototype = {
 		move3Input.change(readValues);
 		move4Input.change(readValues);
 	}
-	,applyCustomPokemon: function(pokemonStats) {
-		this.pokemonDataset.setPokemonStats(pokemonStats.slug,pokemonStats);
+	,applyCustomPokemon: function(pokemonStats,slotNum) {
+		this.pokemonDataset.setPokemonStats(pokemonStats.slug,pokemonStats,slotNum);
 		this.renderAll(false);
 	}
 	,applyCustomPokemonList: function(pokemonStatsList) {
@@ -1654,7 +1671,7 @@ visualizer_UI.prototype = {
 			var slotNum = _g++;
 			var pokemonStats = pokemonStatsList[slotNum];
 			js.JQuery("#selectionSelect" + slotNum).val(pokemonStats.slug);
-			this.pokemonDataset.setPokemonStats(pokemonStats.slug,pokemonStats);
+			this.pokemonDataset.setPokemonStats(pokemonStats.slug,pokemonStats,slotNum);
 		}
 		this.renderAll();
 	}
