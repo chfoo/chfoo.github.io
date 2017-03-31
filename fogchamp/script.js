@@ -116,6 +116,36 @@ StringTools.replace = function(s,sub,by) {
 };
 var haxe_IMap = function() { };
 haxe_IMap.__name__ = true;
+var haxe_ds_IntMap = function() {
+	this.h = { };
+};
+haxe_ds_IntMap.__name__ = true;
+haxe_ds_IntMap.__interfaces__ = [haxe_IMap];
+haxe_ds_IntMap.prototype = {
+	__class__: haxe_ds_IntMap
+};
+var haxe_ds__$StringMap_StringMapIterator = function(map,keys) {
+	this.map = map;
+	this.keys = keys;
+	this.index = 0;
+	this.count = keys.length;
+};
+haxe_ds__$StringMap_StringMapIterator.__name__ = true;
+haxe_ds__$StringMap_StringMapIterator.prototype = {
+	hasNext: function() {
+		return this.index < this.count;
+	}
+	,next: function() {
+		var _this = this.map;
+		var key = this.keys[this.index++];
+		if(__map_reserved[key] != null) {
+			return _this.getReserved(key);
+		} else {
+			return _this.h[key];
+		}
+	}
+	,__class__: haxe_ds__$StringMap_StringMapIterator
+};
 var haxe_ds_StringMap = function() {
 	this.h = { };
 };
@@ -990,7 +1020,7 @@ visualizer_UI.prototype = {
 		var _gthis = this;
 		this.userMessage.showMessage("Loading Movesets from TPP. This may take a while...");
 		var showProgressCallback = function(value) {
-			_gthis.userMessage.showMessage("Loading Movesets from TPP. Progress: " + value);
+			_gthis.userMessage.showMessage("Loading Movesets from TPP. Progress: " + value + " movesets loaded");
 		};
 		this.database.apiPokemonDataset.clearStorage();
 		this.database.apiPokemonDataset.apiFacade.progressCallback = showProgressCallback;
@@ -1261,7 +1291,7 @@ visualizer_UI.prototype = {
 		if(!inViewport) {
 			jquery.dialog({ position : { my : "center top", at : "center top", of : window}});
 		}
-		this.attachEditFormListeners(pokemonStats,slotNum);
+		this.attachEditFormListeners(slotNum);
 		jquery.dialog("option","title","Editing " + pokemonStats.name);
 	}
 	,buildEditGenderRenderDoc: function(pokemonStats) {
@@ -1277,7 +1307,13 @@ visualizer_UI.prototype = {
 	}
 	,buildEditAbilityRenderDoc: function(pokemonStats) {
 		var abilityRenderList = [{ "slug" : "", "label" : "-", "selected" : ""}];
-		var abilitySlug = this.database.descriptionsDataset.abilities.keys();
+		var setList;
+		if(pokemonStats.abilitySet != null) {
+			setList = HxOverrides.iter(pokemonStats.abilitySet);
+		} else {
+			setList = this.database.descriptionsDataset.abilities.keys();
+		}
+		var abilitySlug = setList;
 		while(abilitySlug.hasNext()) {
 			var abilitySlug1 = abilitySlug.next();
 			var _this = this.database.descriptionsDataset.abilities;
@@ -1287,7 +1323,13 @@ visualizer_UI.prototype = {
 	}
 	,buildEditItemRenderDoc: function(pokemonStats) {
 		var itemRenderList = [{ "slug" : "", "label" : "-", "selected" : ""}];
-		var itemSlug = this.database.descriptionsDataset.items.keys();
+		var setList;
+		if(pokemonStats.itemSet != null) {
+			setList = HxOverrides.iter(pokemonStats.itemSet);
+		} else {
+			setList = this.database.descriptionsDataset.items.keys();
+		}
+		var itemSlug = setList;
 		while(itemSlug.hasNext()) {
 			var itemSlug1 = itemSlug.next();
 			var _this = this.database.descriptionsDataset.items;
@@ -1297,7 +1339,13 @@ visualizer_UI.prototype = {
 	}
 	,buildEditMoveRenderDoc: function(pokemonStats,slot) {
 		var moveRenderList = [{ "slug" : "", "label" : "-", "selected" : ""}];
-		var moveSlug = this.database.movesDataset.moves.keys();
+		var setList;
+		if(pokemonStats.itemSet != null && slot <= pokemonStats.moveSets.length - 1) {
+			setList = HxOverrides.iter(pokemonStats.moveSets[slot]);
+		} else {
+			setList = this.database.movesDataset.moves.keys();
+		}
+		var moveSlug = setList;
 		while(moveSlug.hasNext()) {
 			var moveSlug1 = moveSlug.next();
 			var tmp = moveSlug1 == pokemonStats.moves[slot] ? "selected" : "";
@@ -1305,7 +1353,7 @@ visualizer_UI.prototype = {
 		}
 		return moveRenderList;
 	}
-	,attachEditFormListeners: function(pokemonStats,slotNum) {
+	,attachEditFormListeners: function(slotNum) {
 		var _gthis = this;
 		var genderInput = $("#pokemonEditGender");
 		var abilityInput = $("#pokemonEditAbility");
@@ -1321,21 +1369,16 @@ visualizer_UI.prototype = {
 		var move3Input = $("#pokemonEditMove3");
 		var move4Input = $("#pokemonEditMove4");
 		var readValues = function(event) {
+			var pokemonStats = _gthis.currentPokemon[slotNum];
 			pokemonStats.gender = genderInput.find("option:selected").attr("name");
 			pokemonStats.ability = abilityInput.find("option:selected").attr("name");
 			pokemonStats.item = itemInput.find("option:selected").attr("name");
-			var readValues1 = hpInput.val();
-			pokemonStats.hp = Std.parseInt(readValues1);
-			var readValues2 = attackInput.val();
-			pokemonStats.attack = Std.parseInt(readValues2);
-			var readValues3 = defenseInput.val();
-			pokemonStats.defense = Std.parseInt(readValues3);
-			var readValues4 = specialAttackInput.val();
-			pokemonStats.specialAttack = Std.parseInt(readValues4);
-			var readValues5 = specialDefenseInput.val();
-			pokemonStats.specialDefense = Std.parseInt(readValues5);
-			var readValues6 = speedInput.val();
-			pokemonStats.speed = Std.parseInt(readValues6);
+			pokemonStats.hp = Std.parseInt(hpInput.val());
+			pokemonStats.attack = Std.parseInt(attackInput.val());
+			pokemonStats.defense = Std.parseInt(defenseInput.val());
+			pokemonStats.specialAttack = Std.parseInt(specialAttackInput.val());
+			pokemonStats.specialDefense = Std.parseInt(specialDefenseInput.val());
+			pokemonStats.speed = Std.parseInt(speedInput.val());
 			var moves = [move1Input.find("option:selected").attr("name"),move2Input.find("option:selected").attr("name"),move3Input.find("option:selected").attr("name"),move4Input.find("option:selected").attr("name")];
 			moves = moves.filter(function(item) {
 				return item != "";
@@ -1606,29 +1649,40 @@ visualizer_api_APIFacade.prototype = {
 		var abilitiesDoc = Reflect.field(jsonDoc,"ability");
 		var itemsDoc = Reflect.field(jsonDoc,"item");
 		var movesDoc = Reflect.field(jsonDoc,"moves");
+		var genders = Reflect.field(jsonDoc,"gender");
 		stats.movesetName = Reflect.field(jsonDoc,"setname");
+		stats.gender = null;
+		stats.genderSet = [];
 		var _g = 0;
-		while(_g < abilitiesDoc.length) {
-			var doc = abilitiesDoc[_g];
+		while(_g < genders.length) {
+			var gender = genders[_g];
 			++_g;
+			if(gender != null) {
+				stats.genderSet.push(gender);
+			}
+		}
+		var _g1 = 0;
+		while(_g1 < abilitiesDoc.length) {
+			var doc = abilitiesDoc[_g1];
+			++_g1;
 			var rawName = Reflect.field(doc,"name");
 			if(rawName != null) {
 				stats.abilitySet.push(visualizer_api_APIFacade.slugify(rawName));
 			}
 		}
-		var _g1 = 0;
-		while(_g1 < itemsDoc.length) {
-			var doc1 = itemsDoc[_g1];
-			++_g1;
+		var _g2 = 0;
+		while(_g2 < itemsDoc.length) {
+			var doc1 = itemsDoc[_g2];
+			++_g2;
 			var rawName1 = Reflect.field(doc1,"name");
 			if(rawName1 != null) {
 				stats.itemSet.push(visualizer_api_APIFacade.slugify(rawName1));
 			}
 		}
-		var _g2 = 0;
-		while(_g2 < movesDoc.length) {
-			var slotDoc = movesDoc[_g2];
-			++_g2;
+		var _g3 = 0;
+		while(_g3 < movesDoc.length) {
+			var slotDoc = movesDoc[_g3];
+			++_g3;
 			var slotMoves = [];
 			var _g11 = 0;
 			while(_g11 < slotDoc.length) {
@@ -1680,6 +1734,7 @@ var visualizer_dataset_APIPokemonDataset = function() {
 	visualizer_dataset_Dataset.call(this);
 	this.slugs = [];
 	this.stats = new haxe_ds_StringMap();
+	this.speciesIdToSlugMap = new haxe_ds_IntMap();
 	this.apiFacade = new visualizer_api_APIFacade();
 };
 visualizer_dataset_APIPokemonDataset.__name__ = true;
@@ -1705,15 +1760,8 @@ visualizer_dataset_APIPokemonDataset.prototype = $extend(visualizer_dataset_Data
 		}
 	}
 	,getSlug: function(pokemonNum) {
-		var _g = 0;
-		var _g1 = this.slugs;
-		while(_g < _g1.length) {
-			var slug = _g1[_g];
-			++_g;
-			var stats = this.getPokemonStats(slug);
-			if(stats.number == pokemonNum) {
-				return slug;
-			}
+		if(this.speciesIdToSlugMap.h.hasOwnProperty(pokemonNum)) {
+			return this.speciesIdToSlugMap.h[pokemonNum];
 		}
 		throw new js__$Boot_HaxeError(new visualizer_dataset_DatasetItemNotFoundError());
 	}
@@ -1732,8 +1780,17 @@ visualizer_dataset_APIPokemonDataset.prototype = $extend(visualizer_dataset_Data
 				_this.h[key] = pokemonStats;
 			}
 		}
+		this.buildSpeciesIdSlugMap();
 	}
 	,loadFromStorage: function() {
+		var versionStr = window.localStorage.getItem("" + visualizer_dataset_APIPokemonDataset.STORAGE_KEY + ":version");
+		if(versionStr == null) {
+			throw new js__$Boot_HaxeError(new visualizer_dataset_StorageEmpty());
+		}
+		var version = JSON.parse(versionStr);
+		if(version < visualizer_dataset_APIPokemonDataset.MIN_STORAGE_VERSION) {
+			throw new js__$Boot_HaxeError(new visualizer_dataset_StorageEmpty());
+		}
 		var slugs = JSON.parse(window.localStorage.getItem("" + visualizer_dataset_APIPokemonDataset.STORAGE_KEY + ":slugs"));
 		if(slugs == null) {
 			throw new js__$Boot_HaxeError(new visualizer_dataset_StorageEmpty());
@@ -1753,6 +1810,7 @@ visualizer_dataset_APIPokemonDataset.prototype = $extend(visualizer_dataset_Data
 			}
 		}
 		this.slugs = slugs;
+		this.buildSpeciesIdSlugMap();
 	}
 	,saveToStorage: function() {
 		var slug = this.stats.keys();
@@ -1763,6 +1821,7 @@ visualizer_dataset_APIPokemonDataset.prototype = $extend(visualizer_dataset_Data
 			window.localStorage.setItem("" + visualizer_dataset_APIPokemonDataset.STORAGE_KEY + ":pokemon:" + slug1,JSON.stringify(pokemonStats.toJsonObject()));
 		}
 		window.localStorage.setItem("" + visualizer_dataset_APIPokemonDataset.STORAGE_KEY + ":slugs",JSON.stringify(this.slugs));
+		window.localStorage.setItem("" + visualizer_dataset_APIPokemonDataset.STORAGE_KEY + ":version",JSON.stringify(visualizer_dataset_APIPokemonDataset.STORAGE_VERISON));
 	}
 	,clearStorage: function() {
 		var deleteKeys = [];
@@ -1780,6 +1839,14 @@ visualizer_dataset_APIPokemonDataset.prototype = $extend(visualizer_dataset_Data
 			var key1 = deleteKeys[_g2];
 			++_g2;
 			window.localStorage.removeItem(key1);
+		}
+	}
+	,buildSpeciesIdSlugMap: function() {
+		var _this = this.stats;
+		var pokemonStats = new haxe_ds__$StringMap_StringMapIterator(_this,_this.arrayKeys());
+		while(pokemonStats.hasNext()) {
+			var pokemonStats1 = pokemonStats.next();
+			this.speciesIdToSlugMap.h[pokemonStats1.number] = pokemonStats1.slug;
 		}
 	}
 	,__class__: visualizer_dataset_APIPokemonDataset
@@ -2019,6 +2086,7 @@ var visualizer_dataset_PokemonDataset = function() {
 	this.datasetIndex = 0;
 	visualizer_dataset_Dataset.call(this);
 	this.datasets = [];
+	this.speciesIdToSlugMap = new haxe_ds_IntMap();
 };
 visualizer_dataset_PokemonDataset.__name__ = true;
 visualizer_dataset_PokemonDataset.__super__ = visualizer_dataset_Dataset;
@@ -2050,7 +2118,21 @@ visualizer_dataset_PokemonDataset.prototype = $extend(visualizer_dataset_Dataset
 	}
 	,loadDone: function(data) {
 		var slugs = Reflect.field(data,"pokemon_slugs");
-		var stats = Reflect.field(data,"stats");
+		var statsDoc = Reflect.field(data,"stats");
+		var stats = new haxe_ds_StringMap();
+		var _g = 0;
+		while(_g < slugs.length) {
+			var slug = slugs[_g];
+			++_g;
+			var pokemonStats = new visualizer_datastruct_PokemonStats(slug);
+			pokemonStats.fromJsonObject(Reflect.field(statsDoc,slug));
+			if(__map_reserved[slug] != null) {
+				stats.setReserved(slug,pokemonStats);
+			} else {
+				stats.h[slug] = pokemonStats;
+			}
+			this.speciesIdToSlugMap.h[pokemonStats.number] = slug;
+		}
 		var datasetDoc = { slugs : slugs, stats : stats};
 		this.datasets.push(datasetDoc);
 		visualizer_dataset_Dataset.prototype.loadDone.call(this,data);
@@ -2062,25 +2144,19 @@ visualizer_dataset_PokemonDataset.prototype = $extend(visualizer_dataset_Dataset
 		return this.datasets[this.datasetIndex].stats;
 	}
 	,getPokemonStats: function(slug) {
-		var o = this.get_stats();
-		if(!Object.prototype.hasOwnProperty.call(o,slug)) {
+		var _this = this.get_stats();
+		if(!(__map_reserved[slug] != null ? _this.existsReserved(slug) : _this.h.hasOwnProperty(slug))) {
 			throw new js__$Boot_HaxeError(new visualizer_dataset_DatasetItemNotFoundError());
 		}
 		var pokemonStat = new visualizer_datastruct_PokemonStats();
 		pokemonStat.slug = slug;
-		pokemonStat.fromJsonObject(Reflect.field(this.get_stats(),slug));
+		var _this1 = this.get_stats();
+		pokemonStat.update(__map_reserved[slug] != null ? _this1.getReserved(slug) : _this1.h[slug]);
 		return pokemonStat;
 	}
 	,getSlug: function(pokemonNum) {
-		var _g = 0;
-		var _g1 = this.get_slugs();
-		while(_g < _g1.length) {
-			var slug = _g1[_g];
-			++_g;
-			var stats = this.getPokemonStats(slug);
-			if(stats.number == pokemonNum) {
-				return slug;
-			}
+		if(this.speciesIdToSlugMap.h.hasOwnProperty(pokemonNum)) {
+			return this.speciesIdToSlugMap.h[pokemonNum];
 		}
 		throw new js__$Boot_HaxeError(new visualizer_dataset_DatasetItemNotFoundError());
 	}
@@ -2177,6 +2253,9 @@ visualizer_datastruct_MovesetPokemonStats.prototype = $extend(visualizer_datastr
 		if(this.ability == null && this.abilitySet != null && this.abilitySet.length > 0) {
 			this.ability = this.abilitySet[0];
 		}
+		if(this.gender == null && this.genderSet != null && this.genderSet.length > 0) {
+			this.gender = this.genderSet[0];
+		}
 		if(this.item == null && this.itemSet != null && this.itemSet.length > 0) {
 			this.item = this.itemSet[0];
 		}
@@ -2194,6 +2273,7 @@ visualizer_datastruct_MovesetPokemonStats.prototype = $extend(visualizer_datastr
 	,fromJsonObject: function(doc) {
 		visualizer_datastruct_PokemonStats.prototype.fromJsonObject.call(this,doc);
 		this.abilitySet = Reflect.field(doc,"ability_set");
+		this.genderSet = Reflect.field(doc,"gender_set");
 		this.itemSet = Reflect.field(doc,"item_set");
 		this.moveSets = Reflect.field(doc,"move_sets");
 		this.movesetName = Reflect.field(doc,"set_name");
@@ -2201,6 +2281,7 @@ visualizer_datastruct_MovesetPokemonStats.prototype = $extend(visualizer_datastr
 	,toJsonObject: function() {
 		var doc = visualizer_datastruct_PokemonStats.prototype.toJsonObject.call(this);
 		doc["ability_set"] = this.abilitySet;
+		doc["gender_set"] = this.genderSet;
 		doc["item_set"] = this.itemSet;
 		doc["move_sets"] = this.moveSets;
 		doc["set_name"] = this.movesetName;
@@ -2414,6 +2495,8 @@ visualizer_api_APIFacade.CURRENT_MATCH_API_URL = "https://twitchplayspokemon.tv/
 visualizer_api_APIFacade.POKEMON_SETS_API_URL = "https://twitchplayspokemon.tv/api/pokemon_sets?id&limit=100";
 visualizer_api_APIFacade.CONSUME_CURSOR_API_URL = "https://twitchplayspokemon.tv/api/cursor/";
 visualizer_dataset_APIPokemonDataset.STORAGE_KEY = "tpp-api-moveset";
+visualizer_dataset_APIPokemonDataset.STORAGE_VERISON = 1;
+visualizer_dataset_APIPokemonDataset.MIN_STORAGE_VERSION = 1;
 visualizer_dataset_PokemonDataset.DATASET_FILES = ["pbr-gold.json","pbr-platinum.json","pbr-seel.json","pbr-gold-1.2.json","pbr-gold-1.2-2015-11-07.json","pbr-2.0.json"];
 visualizer_dataset_PokemonDataset.DATASET_NAMES = ["Nkekev PBR Gold","Nkekev PBR Platinum","TPPVisuals PBR Seel","Addarash1/Chaos_lord PBR Gold 1.2","Chauzu PBR Gold 1.2 2015-11-07","Addarash1 PBR 2.0"];
 visualizer_dataset_PokemonDataset.DEFAULT_INDEX = 5;
