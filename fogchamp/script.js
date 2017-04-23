@@ -800,7 +800,7 @@ visualizer_MatchupChart.prototype = {
 		var abilityText = window.document.createElement("span");
 		this.renderAbilityText(abilityText,pokemonStats);
 		subContainer.appendChild(abilityText);
-		subContainer.appendChild(window.document.createTextNode(" · "));
+		subContainer.appendChild(window.document.createElement("br"));
 		var itemText = window.document.createElement("span");
 		this.renderItemText(itemText,pokemonStats);
 		subContainer.appendChild(itemText);
@@ -854,7 +854,7 @@ visualizer_MatchupChart.prototype = {
 			subContainer.classList.add("damageEfficacy-" + factor);
 		} else {
 			var damageResultPercent = visualizer_Formula.resultsToPercentages(damageResult,foePokemonStat.hp);
-			subContainer.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <span class=matchupChartSubEfficacy\n                data-help-slug=\"damage:\n                " + userPokemonStat.name + " " + userMoveStat.name + ":\n                " + damageResultPercent.minHPPercent + ":" + damageResultPercent.maxHPPercent + ":" + damageResultPercent.critHPPercent + "\"\n                >" + damageResultPercent.maxHPPercent + "<span class=dimLabel>%</span>\n                </span>";
+			subContainer.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <br>\n                <span class=matchupChartSubEfficacy\n                data-help-slug=\"damage:\n                " + userPokemonStat.name + " " + userMoveStat.name + ":" + ("" + damageResultPercent.minHPPercent + ":") + ("" + damageResultPercent.maxHPPercent + ":") + ("" + damageResultPercent.critHPPercent + ":") + ("" + damageResultPercent.minHP + ":") + ("" + damageResultPercent.maxHP + ":") + ("" + damageResultPercent.critHP + "\"\n                >" + damageResultPercent.maxHPPercent + "<span class=dimLabel>%</span>\n                </span>");
 		}
 		container.appendChild(subContainer);
 		cell.appendChild(container);
@@ -1303,7 +1303,7 @@ visualizer_UI.prototype = {
 			title = move.name;
 			text = move.description;
 		} else if(category == "damage") {
-			text = "HP damage against foe (min, max, crit):" + parts[2] + "–" + parts[3] + "–" + parts[4] + "%";
+			text = "HP damage against foe (min, max, crit):\n                " + parts[2] + "–" + parts[3] + "–" + parts[4] + "%\n                " + parts[5] + "–" + parts[6] + "–" + parts[7] + "pts";
 		}
 		if(text == null || text.length == 0) {
 			text = "(no help available for this item)";
