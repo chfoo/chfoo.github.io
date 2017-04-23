@@ -596,8 +596,8 @@ var visualizer_MatchupChart = function(pokemonDatabase,formulaOptions) {
 };
 visualizer_MatchupChart.__name__ = true;
 visualizer_MatchupChart.prototype = {
-	setPokemon: function(pokemonStats) {
-		this.pokemonStats = pokemonStats;
+	setPokemon: function(pokemonStatsList) {
+		this.pokemonStatsList = pokemonStatsList;
 	}
 	,renderTable: function() {
 		this.tableElement = window.document.createElement("table");
@@ -621,10 +621,10 @@ visualizer_MatchupChart.prototype = {
 		while(_g < _g1.length) {
 			var slotNum = _g1[_g];
 			++_g;
-			var pokemonStat = this.pokemonStats[slotNum];
+			var pokemonStat = this.pokemonStatsList[slotNum];
 			var labelCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
 			labelCell.colSpan = visualizer_MatchupChart.DIVIDER + visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
-			this.processPokemonLabelCell(pokemonStat,labelCell,"top");
+			this.processPokemonLabelCell(pokemonStat,labelCell,"top",slotNum);
 		}
 	}
 	,renderTopPokemonMovesRow: function(rowElement) {
@@ -633,8 +633,8 @@ visualizer_MatchupChart.prototype = {
 		while(_g < _g1.length) {
 			var slotNum = _g1[_g];
 			++_g;
-			var pokemonStat = this.pokemonStats[slotNum];
-			this.renderDividerCell(rowElement);
+			var pokemonStat = this.pokemonStatsList[slotNum];
+			this.renderMoveDividerCell(rowElement,pokemonStat,"top");
 			var _g3 = 0;
 			var _g2 = visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
 			while(_g3 < _g2) {
@@ -647,10 +647,11 @@ visualizer_MatchupChart.prototype = {
 		var cellLength = visualizer_MatchupChart.DIVIDER + visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
 		var leftSlotNum = rowIndex / cellLength | 0;
 		var leftMoveIndex = (rowIndex % cellLength | 0) - 1;
-		var leftPokemonStat = this.pokemonStats[leftSlotNum];
+		var leftPokemonStat = this.pokemonStatsList[leftSlotNum];
 		if(rowIndex % cellLength == 0) {
-			this.renderLeftPokemonLabel(leftPokemonStat,rowElement);
-			this.renderDividerCell(rowElement);
+			var slotNum = rowIndex / cellLength | 0;
+			this.renderLeftPokemonLabel(leftPokemonStat,rowElement,slotNum);
+			this.renderMoveDividerCell(rowElement,leftPokemonStat,"left");
 		}
 		if(leftMoveIndex >= 0) {
 			this.renderMoveLabelCell(leftPokemonStat,leftMoveIndex,rowElement,"left");
@@ -658,7 +659,7 @@ visualizer_MatchupChart.prototype = {
 		var _g = 3;
 		while(_g < 6) {
 			var topSlotNum = _g++;
-			var topPokemonStat = this.pokemonStats[topSlotNum];
+			var topPokemonStat = this.pokemonStatsList[topSlotNum];
 			this.renderVersusMatrix(rowElement,leftMoveIndex,leftPokemonStat,topPokemonStat);
 		}
 	}
@@ -684,6 +685,8 @@ visualizer_MatchupChart.prototype = {
 				if(topMoveIndex < topPokemonMoveSlugs.length) {
 					var moveStat = this.database.movesDataset.getMoveStats(topPokemonMoveSlugs[topMoveIndex],topPokemonStat);
 					this.processCellEfficacy(cell,moveStat,topPokemonStat,leftPokemonStat,"top");
+				} else {
+					this.processCellEfficacy(cell,null,topPokemonStat,leftPokemonStat,"top");
 				}
 			}
 		} else {
@@ -693,6 +696,8 @@ visualizer_MatchupChart.prototype = {
 			if(leftMoveIndex < leftPokemonMoveSlugs.length) {
 				var moveStat1 = this.database.movesDataset.getMoveStats(leftPokemonMoveSlugs[leftMoveIndex],leftPokemonStat);
 				this.processCellEfficacy(cell1,moveStat1,leftPokemonStat,topPokemonStat,"left");
+			} else {
+				this.processCellEfficacy(cell1,null,leftPokemonStat,topPokemonStat,"left");
 			}
 			if(leftMoveIndex == 3) {
 				this.renderDividerCell(rowElement,"last");
@@ -701,10 +706,10 @@ visualizer_MatchupChart.prototype = {
 			}
 		}
 	}
-	,renderLeftPokemonLabel: function(pokemonStat,rowElement) {
+	,renderLeftPokemonLabel: function(pokemonStat,rowElement,slotNum) {
 		var labelCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
 		labelCell.rowSpan = visualizer_MatchupChart.DIVIDER + visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
-		this.processPokemonLabelCell(pokemonStat,labelCell,"left");
+		this.processPokemonLabelCell(pokemonStat,labelCell,"left",slotNum);
 	}
 	,renderMoveLabelCell: function(pokemonStat,moveIndex,rowElement,position) {
 		var labelCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
@@ -713,45 +718,66 @@ visualizer_MatchupChart.prototype = {
 			var moveSlug = moveSlugs[moveIndex];
 			var moveStats = this.database.movesDataset.getMoveStats(moveSlug,pokemonStat);
 			this.processMoveLabelCell(moveStats,labelCell,position);
+		} else {
+			this.processMoveLabelCell(null,labelCell,position);
 		}
 	}
-	,processPokemonLabelCell: function(pokemonStat,cell,position) {
+	,processPokemonLabelCell: function(pokemonStats,cell,position,slotNum) {
 		var container = window.document.createElement("div");
-		container.classList.add("matchupChartLabel-" + position);
-		var span = window.document.createElement("span");
-		span.classList.add("matchupChartLabelRotate-" + position);
-		var pokemonTypes = pokemonStat.types;
+		container.classList.add("matchupChartPokemonLabelContainer-" + position);
+		var subContainer = window.document.createElement("div");
+		subContainer.classList.add("matchupChartPokemonLabelSubContainer-" + position);
+		subContainer.classList.add("matchupChartPokemonLabel");
+		this.renderPokemonIcon(subContainer,pokemonStats,slotNum);
 		var _g = 0;
-		while(_g < pokemonTypes.length) {
-			var pokemonType = pokemonTypes[_g];
+		var _g1 = pokemonStats.types;
+		while(_g < _g1.length) {
+			var pokemonType = _g1[_g];
 			++_g;
 			var typeIcon = window.document.createElement("span");
-			typeIcon.classList.add("pokemonType-" + pokemonType);
-			typeIcon.classList.add("miniPokemonTypeIcon");
-			typeIcon.textContent = " ";
-			span.appendChild(typeIcon);
+			this.renderMiniTypeIcon(typeIcon,pokemonType);
+			subContainer.appendChild(typeIcon);
 		}
 		var labelText = window.document.createElement("span");
-		labelText.textContent = pokemonStat.name;
-		span.appendChild(labelText);
-		container.appendChild(span);
+		this.renderPokemonName(labelText,pokemonStats);
+		subContainer.appendChild(labelText);
+		subContainer.appendChild(window.document.createTextNode(" "));
+		var editText = window.document.createElement("span");
+		editText.textContent = "✏";
+		editText.title = "Edit";
+		editText.setAttribute("data-edit-slot",slotNum == null ? "null" : "" + slotNum);
+		subContainer.appendChild(editText);
+		subContainer.appendChild(window.document.createElement("br"));
+		this.renderAttackStats(subContainer,pokemonStats);
+		container.appendChild(subContainer);
 		cell.appendChild(container);
 	}
 	,processMoveLabelCell: function(moveStats,cell,position) {
-		cell.classList.add("matchupChartMoveCell-" + position);
+		cell.classList.add("matchupChartMoveLabelCell-" + position);
 		var container = window.document.createElement("div");
-		container.classList.add("matchupChartMoveLabel-" + position);
-		var span = window.document.createElement("span");
-		span.classList.add("matchupChartMoveLabelRotate-" + position);
-		var typeIcon = window.document.createElement("span");
-		typeIcon.classList.add("pokemonType-" + moveStats.moveType);
-		typeIcon.classList.add("miniPokemonTypeIcon");
-		typeIcon.textContent = " ";
-		span.appendChild(typeIcon);
-		var moveLabelText = window.document.createElement("span");
-		moveLabelText.textContent = moveStats.name;
-		span.appendChild(moveLabelText);
-		container.appendChild(span);
+		container.classList.add("matchupChartMoveLabelContainer-" + position);
+		var subContainer = window.document.createElement("div");
+		subContainer.classList.add("matchupChartMoveLabelSubContainer-" + position);
+		subContainer.classList.add("matchupChartMoveLabel");
+		if(moveStats != null) {
+			var typeIcon = window.document.createElement("span");
+			this.renderMiniTypeIcon(typeIcon,moveStats.moveType);
+			subContainer.appendChild(typeIcon);
+			var moveLabelText = window.document.createElement("span");
+			this.renderMoveText(moveLabelText,moveStats);
+			subContainer.appendChild(moveLabelText);
+			var moveCategoryText = window.document.createElement("sup");
+			this.renderMoveCategoryShortText(moveCategoryText,moveStats);
+			subContainer.appendChild(moveCategoryText);
+			subContainer.appendChild(window.document.createElement("br"));
+			var accuracyText = moveStats.accuracy != null ? moveStats.accuracy == null ? "null" : "" + moveStats.accuracy : "-";
+			var ppText = moveStats.pp != null ? moveStats.pp == null ? "null" : "" + moveStats.pp : "-";
+			var powerText = moveStats.power != null ? moveStats.power == null ? "null" : "" + moveStats.power : "-";
+			var moveAccText = window.document.createElement("span");
+			moveAccText.innerHTML = "\n            " + accuracyText + "<span class=\"dimLabel\">%</span>\n            " + ppText + "<span class=\"dimLabel\">pp</span>\n            " + powerText + "<span class=\"dimLabel\">pwr</span>\n            ";
+			subContainer.appendChild(moveAccText);
+		}
+		container.appendChild(subContainer);
 		cell.appendChild(container);
 	}
 	,renderDividerCell: function(rowElement,classSuffix) {
@@ -762,15 +788,34 @@ visualizer_MatchupChart.prototype = {
 		}
 		return dividerCell;
 	}
+	,renderMoveDividerCell: function(rowElement,pokemonStats,classSuffix) {
+		var dividerCell = this.renderDividerCell(rowElement,classSuffix);
+		var container = window.document.createElement("div");
+		container.classList.add("matchupChartMoveDividerContainer-" + classSuffix);
+		dividerCell.appendChild(container);
+		var subContainer = window.document.createElement("div");
+		subContainer.classList.add("matchupChartMoveDividerSubContainer-" + classSuffix);
+		subContainer.classList.add("matchupChartMoveDivider");
+		container.appendChild(subContainer);
+		var abilityText = window.document.createElement("span");
+		this.renderAbilityText(abilityText,pokemonStats);
+		subContainer.appendChild(abilityText);
+		subContainer.appendChild(window.document.createTextNode(" · "));
+		var itemText = window.document.createElement("span");
+		this.renderItemText(itemText,pokemonStats);
+		subContainer.appendChild(itemText);
+		return dividerCell;
+	}
 	,processCellEfficacy: function(cell,userMoveStat,userPokemonStat,foePokemonStat,position) {
 		cell.classList.add("matchupChartEfficacyCell-" + position);
-		if(userMoveStat.accuracy == null && userMoveStat.power == null) {
+		if(userMoveStat == null || userMoveStat.accuracy == null && userMoveStat.power == null) {
 			return;
 		}
 		var container = window.document.createElement("div");
-		container.classList.add("matchupChartEfficacy-" + position);
-		var span = window.document.createElement("span");
-		span.classList.add("matchupChartEfficacyRotate-" + position);
+		container.classList.add("matchupChartEfficacyContainer-" + position);
+		var subContainer = window.document.createElement("div");
+		subContainer.classList.add("matchupChartEfficacySubContainer-" + position);
+		subContainer.classList.add("matchupChartEfficacy");
 		var damageResult = visualizer_Formula.computeResult(userPokemonStat,foePokemonStat,userMoveStat,this.database.descriptionsDataset,this.formulaOptions);
 		var factor = damageResult.factor;
 		var factorString;
@@ -799,20 +844,105 @@ visualizer_MatchupChart.prototype = {
 		if(damageResult.maxHP == null) {
 			if(userMoveStat.damageCategory == "status") {
 				if(factor == 0) {
-					span.textContent = "✕";
+					subContainer.textContent = "✕";
 				} else {
-					span.textContent = "○";
+					subContainer.textContent = "○";
 				}
 			} else {
-				span.textContent = "×" + factorString;
+				subContainer.textContent = "×" + factorString;
 			}
-			span.classList.add("damageEfficacy-" + factor);
+			subContainer.classList.add("damageEfficacy-" + factor);
 		} else {
 			var damageResultPercent = visualizer_Formula.resultsToPercentages(damageResult,foePokemonStat.hp);
-			span.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <span class=matchupChartSubEfficacy\n                data-help-slug=\"damage:\n                " + userPokemonStat.name + " " + userMoveStat.name + ":\n                " + damageResultPercent.minHPPercent + ":" + damageResultPercent.maxHPPercent + ":" + damageResultPercent.critHPPercent + "\"\n                >" + damageResultPercent.maxHPPercent + "<span class=dimLabel>%</span>\n                </span>";
+			subContainer.innerHTML = "<span class=\"damageEfficacy-" + factor + " matchupChartSubEfficacy\">×" + factorString + "</span>\n                <span class=matchupChartSubEfficacy\n                data-help-slug=\"damage:\n                " + userPokemonStat.name + " " + userMoveStat.name + ":\n                " + damageResultPercent.minHPPercent + ":" + damageResultPercent.maxHPPercent + ":" + damageResultPercent.critHPPercent + "\"\n                >" + damageResultPercent.maxHPPercent + "<span class=dimLabel>%</span>\n                </span>";
 		}
-		container.appendChild(span);
+		container.appendChild(subContainer);
 		cell.appendChild(container);
+	}
+	,renderMiniTypeIcon: function(element,pokemonType) {
+		element.classList.add("pokemonType-" + pokemonType);
+		element.classList.add("miniPokemonTypeIcon");
+		element.textContent = pokemonType.charAt(0);
+		element.setAttribute("aria-label",pokemonType);
+		element.setAttribute("title",pokemonType);
+	}
+	,renderPokemonName: function(element,pokemonStats) {
+		element.textContent = pokemonStats.name;
+		element.classList.add("pokemonStatsName");
+	}
+	,renderAbilityText: function(element,pokemonStats) {
+		if(pokemonStats.ability != null && pokemonStats.ability != "") {
+			var key = pokemonStats.ability;
+			var _this = this.database.descriptionsDataset.abilities;
+			element.textContent = (__map_reserved[key] != null ? _this.getReserved(key) : _this.h[key]).name;
+			element.setAttribute("data-help-slug","ability:" + pokemonStats.ability);
+		} else {
+			element.textContent = "-";
+		}
+	}
+	,renderItemText: function(element,pokemonStats) {
+		if(pokemonStats.item != null && pokemonStats.item != "") {
+			var key = pokemonStats.item;
+			var _this = this.database.descriptionsDataset.items;
+			element.textContent = (__map_reserved[key] != null ? _this.getReserved(key) : _this.h[key]).name;
+			element.setAttribute("data-help-slug","item:" + pokemonStats.item);
+		} else {
+			element.textContent = "-";
+		}
+	}
+	,renderMoveText: function(element,moveStats) {
+		element.textContent = moveStats.name;
+		element.setAttribute("data-help-slug","move:" + moveStats.slug);
+	}
+	,renderMoveCategoryShortText: function(element,moveStats) {
+		element.textContent = HxOverrides.substr(moveStats.damageCategory,0,2);
+		element.classList.add("damageCategory-" + moveStats.damageCategory);
+		element.title = moveStats.damageCategory;
+	}
+	,renderAttackStats: function(element,pokemonStats) {
+		var subElement = element.ownerDocument.createElement("span");
+		subElement.classList.add("pokemonHP");
+		subElement.textContent = pokemonStats.hp == null ? "null" : "" + pokemonStats.hp;
+		subElement.title = "HP";
+		element.appendChild(subElement);
+		element.appendChild(element.ownerDocument.createTextNode(" "));
+		subElement = element.ownerDocument.createElement("span");
+		subElement.classList.add("pokemonAttack");
+		subElement.textContent = pokemonStats.attack == null ? "null" : "" + pokemonStats.attack;
+		subElement.title = "Attack";
+		element.appendChild(subElement);
+		element.appendChild(element.ownerDocument.createTextNode("·"));
+		subElement = element.ownerDocument.createElement("span");
+		subElement.classList.add("pokemonDefense");
+		subElement.textContent = pokemonStats.defense == null ? "null" : "" + pokemonStats.defense;
+		subElement.title = "Defense";
+		element.appendChild(subElement);
+		element.appendChild(element.ownerDocument.createTextNode(" "));
+		subElement = element.ownerDocument.createElement("span");
+		subElement.classList.add("pokemonSpecialAttack");
+		subElement.textContent = pokemonStats.specialAttack == null ? "null" : "" + pokemonStats.specialAttack;
+		subElement.title = "Special Attack";
+		element.appendChild(subElement);
+		element.appendChild(element.ownerDocument.createTextNode("·"));
+		subElement = element.ownerDocument.createElement("span");
+		subElement.classList.add("pokemonSpecialDefense");
+		subElement.textContent = pokemonStats.specialDefense == null ? "null" : "" + pokemonStats.specialDefense;
+		subElement.title = "Special Defense";
+		element.appendChild(subElement);
+		element.appendChild(element.ownerDocument.createTextNode(" "));
+		subElement = element.ownerDocument.createElement("span");
+		subElement.classList.add("pokemonSpeed");
+		subElement.textContent = pokemonStats.speed == null ? "null" : "" + pokemonStats.speed;
+		subElement.title = "Speed";
+		element.appendChild(subElement);
+	}
+	,renderPokemonIcon: function(element,pokemonStats,slotNum) {
+		var img = element.ownerDocument.createElement("img");
+		img.classList.add("pokemonIcon");
+		img.classList.add("pokemonIconChart");
+		img.classList.add("pokemonIconSlot-" + slotNum);
+		img.src = "static/veekun/icons/" + pokemonStats.number + ".png";
+		element.appendChild(img);
 	}
 	,__class__: visualizer_MatchupChart
 };
@@ -1103,8 +1233,6 @@ visualizer_UI.prototype = {
 		}
 		try {
 			this.renderMatchCommand();
-			this.renderPokemonStats();
-			this.renderPokemonMoves();
 			this.renderChart();
 			this.attachHelpListeners();
 			$(".pokemonEditContainer").show();
@@ -1134,80 +1262,6 @@ visualizer_UI.prototype = {
 			numbers.push(pokemonNum);
 		}
 		return numbers;
-	}
-	,renderPokemonStats: function() {
-		var template = $("#pokemonStatsTemplate").html();
-		var rendered = visualizer_UI.renderTemplate(template,{ pokemonStats : this.buildPokemonStatsRenderDocs(true)});
-		$("#pokemonStats").html(rendered);
-	}
-	,buildPokemonStatsRenderDocs: function(visualBlueHorizontalOrder) {
-		var slotNums = [0,1,2,3,4,5];
-		if(visualBlueHorizontalOrder) {
-			slotNums = [2,1,0,3,4,5];
-		}
-		var statsList = [];
-		var _g = 0;
-		while(_g < slotNums.length) {
-			var slotNum = slotNums[_g];
-			++_g;
-			var pokemonStats = this.currentPokemon[slotNum];
-			var abilityName = "";
-			var key = pokemonStats.ability;
-			var _this = this.database.descriptionsDataset.abilities;
-			if(__map_reserved[key] != null ? _this.existsReserved(key) : _this.h.hasOwnProperty(key)) {
-				abilityName = this.database.descriptionsDataset.getAbilityName(pokemonStats.ability);
-			}
-			var itemName = "";
-			var key1 = pokemonStats.item;
-			var _this1 = this.database.descriptionsDataset.items;
-			if(__map_reserved[key1] != null ? _this1.existsReserved(key1) : _this1.h.hasOwnProperty(key1)) {
-				itemName = this.database.descriptionsDataset.getItemName(pokemonStats.item);
-			}
-			var renderDoc = pokemonStats.toJsonObject();
-			renderDoc["ability_name"] = abilityName;
-			renderDoc["item_name"] = itemName;
-			renderDoc["slot_number"] = slotNum;
-			statsList.push(renderDoc);
-		}
-		return statsList;
-	}
-	,renderPokemonMoves: function() {
-		var template = $("#pokemonMovesTemplate").html();
-		var rendered = visualizer_UI.renderTemplate(template,{ pokemonMoves : this.buildMovesRenderDocs()});
-		$("#pokemonMoves").html(rendered);
-	}
-	,buildMovesRenderDocs: function() {
-		var movesList = [];
-		var _g = 0;
-		var _g1 = [2,1,0,3,4,5];
-		while(_g < _g1.length) {
-			var slotNum = _g1[_g];
-			++_g;
-			var pokemonStat = this.currentPokemon[slotNum];
-			var name = pokemonStat.name;
-			var moveSlugs = pokemonStat.moves;
-			var moves = [];
-			var _g2 = 0;
-			while(_g2 < moveSlugs.length) {
-				var moveSlug = moveSlugs[_g2];
-				++_g2;
-				var moveStats = this.database.movesDataset.getMoveStats(moveSlug,pokemonStat);
-				var moveRenderDoc = moveStats.toJsonObject();
-				moveRenderDoc["move_slug"] = moveSlug;
-				moveRenderDoc["move_name"] = moveStats.name;
-				var damageCategory = moveStats.damageCategory;
-				moveRenderDoc["damage_category_short"] = HxOverrides.substr(damageCategory,0,2);
-				if(moveStats.power == null) {
-					moveRenderDoc["power"] = "--";
-				}
-				if(moveStats.accuracy == null) {
-					moveRenderDoc["accuracy"] = "--";
-				}
-				moves.push(moveRenderDoc);
-			}
-			movesList.push({ name : name, moves : moves});
-		}
-		return movesList;
 	}
 	,attachHelpListeners: function() {
 		var _gthis = this;
@@ -1417,8 +1471,7 @@ visualizer_UI.prototype = {
 	}
 	,renderChart: function() {
 		var matchupChart = new visualizer_MatchupChart(this.database,this.formulaOptions);
-		var array = this.currentPokemon.slice(0);
-		matchupChart.setPokemon(array);
+		matchupChart.setPokemon(this.currentPokemon.slice(0));
 		var tableElement = matchupChart.renderTable();
 		$("#pokemonDiamond").empty().append(tableElement);
 	}
