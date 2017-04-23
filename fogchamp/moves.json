@@ -2893,9 +2893,9 @@
     "pp": 5
   },
   "hypnosis": {
-    "accuracy": 60,
+    "accuracy": 70,
     "damage_category": "status",
-    "description": "The user employs hypnotic suggestion\nto make the target fall into a deep sleep.",
+    "description": "The user employs hypnotic suggestion\nto make the target fall into a deep sleep.\n\u273b In PBR, accuracy is 70%.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",
@@ -3621,7 +3621,7 @@
   "metronome": {
     "accuracy": null,
     "damage_category": "status",
-    "description": "The user waggles a finger and stimulates\nits brain into randomly using nearly\nany move.",
+    "description": "The user waggles a finger and stimulates\nits brain into randomly using nearly\nany move.\n\u273b In PBR, the user is locked into the selected move until it fully executes either by hitting, missing, or failing. In other words, if the game says it can't be used or there is no target, it will keep trying to use the move.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "normal",
@@ -4413,7 +4413,7 @@
   "psycho-cut": {
     "accuracy": 100,
     "damage_category": "physical",
-    "description": "The user tears at the target with blades\nformed by psychic power.\nCritical hits land more easily.",
+    "description": "The user tears at the target with blades\nformed by psychic power.\nCritical hits land more easily.\n\u273b In PBR, there is an obscure but unconfirmed glitch (which may not necessarily related to this move) where the critical hit multiplier is passed onto the user's next move. If the user uses this move and it is intended to be a critical hit but misses, the user's next move (any damage move) will deal critical damage.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "psychic",

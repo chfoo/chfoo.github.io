@@ -872,9 +872,7 @@ visualizer_MatchupChart.prototype = {
 	}
 	,renderAbilityText: function(element,pokemonStats) {
 		if(pokemonStats.ability != null && pokemonStats.ability != "") {
-			var key = pokemonStats.ability;
-			var _this = this.database.descriptionsDataset.abilities;
-			element.textContent = (__map_reserved[key] != null ? _this.getReserved(key) : _this.h[key]).name;
+			element.textContent = this.database.descriptionsDataset.getAbilityName(pokemonStats.ability);
 			element.setAttribute("data-help-slug","ability:" + pokemonStats.ability);
 		} else {
 			element.textContent = "-";
@@ -882,9 +880,7 @@ visualizer_MatchupChart.prototype = {
 	}
 	,renderItemText: function(element,pokemonStats) {
 		if(pokemonStats.item != null && pokemonStats.item != "") {
-			var key = pokemonStats.item;
-			var _this = this.database.descriptionsDataset.items;
-			element.textContent = (__map_reserved[key] != null ? _this.getReserved(key) : _this.h[key]).name;
+			element.textContent = this.database.descriptionsDataset.getItemName(pokemonStats.item);
 			element.setAttribute("data-help-slug","item:" + pokemonStats.item);
 		} else {
 			element.textContent = "-";
@@ -966,11 +962,13 @@ visualizer_UI.prototype = {
 		this.attachUrlFragmentChangeListener();
 		this.attachFetchFromAPIButtonListener();
 		this.attachMovesetDownloadButtonLisenter();
-		this.setSelectionByNumbers(visualizer_UI.DEFAULT_POKEMON);
+		this.readUrlFragment();
+		if(this.currentPokemon[0] == null) {
+			this.setSelectionByNumbers(visualizer_UI.DEFAULT_POKEMON);
+		}
 		var editions = this.database.getEditionNames();
 		this.selectEdition(editions[editions.length - 2]);
 		this.attachOptionsListeners();
-		this.readUrlFragment();
 		this.renderAll();
 		this.promptToDownloadMovesets();
 	}
@@ -1289,13 +1287,11 @@ visualizer_UI.prototype = {
 		var title = slug;
 		var text = "";
 		if(category == "ability") {
-			var _this = this.database.descriptionsDataset.abilities;
-			var ability = __map_reserved[slug] != null ? _this.getReserved(slug) : _this.h[slug];
+			var ability = this.database.descriptionsDataset.getAbility(slug);
 			title = ability.name;
 			text = ability.description;
 		} else if(category == "item") {
-			var _this1 = this.database.descriptionsDataset.items;
-			var item = __map_reserved[slug] != null ? _this1.getReserved(slug) : _this1.h[slug];
+			var item = this.database.descriptionsDataset.getItem(slug);
 			title = item.name;
 			text = item.description;
 		} else if(category == "move") {
@@ -1308,6 +1304,7 @@ visualizer_UI.prototype = {
 		if(text == null || text.length == 0) {
 			text = "(no help available for this item)";
 		}
+		text = StringTools.replace(text,"✻","\n✻");
 		var jquery = $("#helpDialog").text(text);
 		jquery.dialog();
 		var inViewport = jquery.visible();
@@ -1370,8 +1367,8 @@ visualizer_UI.prototype = {
 		var abilitySlug = setList;
 		while(abilitySlug.hasNext()) {
 			var abilitySlug1 = abilitySlug.next();
-			var _this = this.database.descriptionsDataset.abilities;
-			abilityRenderList.push({ "slug" : abilitySlug1, "label" : (__map_reserved[abilitySlug1] != null ? _this.getReserved(abilitySlug1) : _this.h[abilitySlug1]).name, "selected" : abilitySlug1 == pokemonStats.ability ? "selected" : ""});
+			var tmp = abilitySlug1 == pokemonStats.ability ? "selected" : "";
+			abilityRenderList.push({ "slug" : abilitySlug1, "label" : this.database.descriptionsDataset.getAbilityName(abilitySlug1), "selected" : tmp});
 		}
 		return abilityRenderList;
 	}
@@ -1386,8 +1383,8 @@ visualizer_UI.prototype = {
 		var itemSlug = setList;
 		while(itemSlug.hasNext()) {
 			var itemSlug1 = itemSlug.next();
-			var _this = this.database.descriptionsDataset.items;
-			itemRenderList.push({ "slug" : itemSlug1, "label" : (__map_reserved[itemSlug1] != null ? _this.getReserved(itemSlug1) : _this.h[itemSlug1]).name, "selected" : itemSlug1 == pokemonStats.item ? "selected" : ""});
+			var tmp = itemSlug1 == pokemonStats.item ? "selected" : "";
+			itemRenderList.push({ "slug" : itemSlug1, "label" : this.database.descriptionsDataset.getItemName(itemSlug1), "selected" : tmp});
 		}
 		return itemRenderList;
 	}
@@ -1960,6 +1957,7 @@ visualizer_dataset_LoadEvent.prototype = {
 };
 var visualizer_dataset_DescriptionsDataset = function() {
 	visualizer_dataset_Dataset.call(this);
+	this.dashlessSlugMap = new haxe_ds_StringMap();
 };
 visualizer_dataset_DescriptionsDataset.__name__ = true;
 visualizer_dataset_DescriptionsDataset.__super__ = visualizer_dataset_Dataset;
@@ -2023,15 +2021,58 @@ visualizer_dataset_DescriptionsDataset.prototype = $extend(visualizer_dataset_Da
 				_this2.h[slug1] = value1;
 			}
 		}
+		this.buildDashlessSlugMap();
 		visualizer_dataset_Dataset.prototype.loadDone.call(this,data);
 	}
-	,getAbilityName: function(slug) {
+	,getAbility: function(slug) {
 		var _this = this.abilities;
-		return (__map_reserved[slug] != null ? _this.getReserved(slug) : _this.h[slug]).name;
+		if(!(__map_reserved[slug] != null ? _this.existsReserved(slug) : _this.h.hasOwnProperty(slug))) {
+			var _this1 = this.dashlessSlugMap;
+			if(__map_reserved[slug] != null) {
+				slug = _this1.getReserved(slug);
+			} else {
+				slug = _this1.h[slug];
+			}
+		}
+		var _this2 = this.abilities;
+		if(__map_reserved[slug] != null) {
+			return _this2.getReserved(slug);
+		} else {
+			return _this2.h[slug];
+		}
+	}
+	,getAbilityName: function(slug) {
+		return this.getAbility(slug).name;
+	}
+	,getItem: function(slug) {
+		var _this = this.items;
+		if(!(__map_reserved[slug] != null ? _this.existsReserved(slug) : _this.h.hasOwnProperty(slug))) {
+			var _this1 = this.dashlessSlugMap;
+			if(__map_reserved[slug] != null) {
+				slug = _this1.getReserved(slug);
+			} else {
+				slug = _this1.h[slug];
+			}
+		}
+		var _this2 = this.items;
+		if(__map_reserved[slug] != null) {
+			return _this2.getReserved(slug);
+		} else {
+			return _this2.h[slug];
+		}
 	}
 	,getItemName: function(slug) {
 		var _this = this.items;
-		return (__map_reserved[slug] != null ? _this.getReserved(slug) : _this.h[slug]).name;
+		if(!(__map_reserved[slug] != null ? _this.existsReserved(slug) : _this.h.hasOwnProperty(slug))) {
+			var _this1 = this.dashlessSlugMap;
+			if(__map_reserved[slug] != null) {
+				slug = _this1.getReserved(slug);
+			} else {
+				slug = _this1.h[slug];
+			}
+		}
+		var _this2 = this.items;
+		return (__map_reserved[slug] != null ? _this2.getReserved(slug) : _this2.h[slug]).name;
 	}
 	,getTypeEfficacy: function(user,foe,foeSecondary) {
 		var _this = this.types_efficacy;
@@ -2093,6 +2134,32 @@ visualizer_dataset_DescriptionsDataset.prototype = $extend(visualizer_dataset_Da
 				return 0;
 			} else {
 				return 100;
+			}
+		}
+	}
+	,buildDashlessSlugMap: function() {
+		var key = this.items.keys();
+		while(key.hasNext()) {
+			var key1 = key.next();
+			var this1 = this.dashlessSlugMap;
+			var key2 = visualizer_api_APIFacade.slugify(key1,true);
+			var _this = this1;
+			if(__map_reserved[key2] != null) {
+				_this.setReserved(key2,key1);
+			} else {
+				_this.h[key2] = key1;
+			}
+		}
+		var key3 = this.abilities.keys();
+		while(key3.hasNext()) {
+			var key4 = key3.next();
+			var this2 = this.dashlessSlugMap;
+			var key5 = visualizer_api_APIFacade.slugify(key4,true);
+			var _this1 = this2;
+			if(__map_reserved[key5] != null) {
+				_this1.setReserved(key5,key4);
+			} else {
+				_this1.h[key5] = key4;
 			}
 		}
 	}

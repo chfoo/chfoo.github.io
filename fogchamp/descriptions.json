@@ -233,7 +233,7 @@
       "name": "Flower Veil"
     },
     "forecast": {
-      "description": "Castform transforms with\nthe weather.",
+      "description": "Castform transforms with\nthe weather.\n\u273b In PBR, sandstorm changes the user's type to the rock type and not normal type.",
       "name": "Forecast"
     },
     "forewarn": {
@@ -457,7 +457,7 @@
       "name": "Magic Bounce"
     },
     "magic-guard": {
-      "description": "The Pok\u00e9mon only takes\ndamage from attacks.",
+      "description": "The Pok\u00e9mon only takes\ndamage from attacks.\n\u273b Fun fact: Bulbapedia says 'induced' which means calculations are still being done. For example, badly poisoned will stack and can be fatal if the ability is removed.",
       "name": "Magic Guard"
     },
     "magician": {
@@ -833,7 +833,7 @@
       "name": "Sticky Hold"
     },
     "storm-drain": {
-      "description": "Draws in all Water-type moves\nto boost its Sp. Atk stat.",
+      "description": "Draws in all Water-type moves\nto boost its Sp. Atk stat.\n\u273b In generation 4, storm drain does not provide water absorb ability.",
       "name": "Storm Drain"
     },
     "strong-jaw": {
@@ -841,7 +841,7 @@
       "name": "Strong Jaw"
     },
     "sturdy": {
-      "description": "It cannot be knocked\nout with one hit.",
+      "description": "It cannot be knocked\nout with one hit.\n\u273b In generation 4, sturdy only protects against OHKO moves like fissure. It does not behave like focus slash.",
       "name": "Sturdy"
     },
     "suction-cups": {
