@@ -783,7 +783,7 @@
   "chatter": {
     "accuracy": 100,
     "damage_category": "special",
-    "description": "The user attacks using a sound wave\nbased on words it has learned.\nThis confuses the target.",
+    "description": "The user attacks using a sound wave\nbased on words it has learned.\nThis confuses the target.\n\u273b In TPP's PBR, the confuse rate is 1%.",
     "max_hits": null,
     "min_hits": null,
     "move_type": "flying",
