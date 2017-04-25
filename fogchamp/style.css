@@ -78,6 +78,10 @@ a:active, a:hover {
 }
 
 #helpDialog {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.moveDescriptionEffectLong {
     white-space: pre-line;
 }
 
@@ -396,6 +400,14 @@ span[class|="pokemonType"] {
 
 .damageEfficacy-200, .damageEfficacy-400 {
     color: #BFE6BC;
+}
+
+.movePriority-high {
+    color: #BFE6BC;
+}
+
+.movePriority-low {
+    color: #E6DC8A;
 }
 
 .pokemonEditContainer {

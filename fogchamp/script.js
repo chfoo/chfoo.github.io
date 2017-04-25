@@ -531,7 +531,7 @@ visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,
 	damage *= modifier;
 	var minDamage = damage * visualizer_Formula.RANDOM_MIN_MODIFIER;
 	var critDamage = damage * visualizer_Formula.CRIT_MODIFIER;
-	return { factor : damageFactor, minHP : minDamage, maxHP : damage, critHP : critDamage};
+	return { factor : damageFactor, minHP : Math.max(1,minDamage) | 0, maxHP : Math.max(1,damage) | 0, critHP : Math.max(1,critDamage) | 0};
 };
 visualizer_Formula.modifyHits = function(damageResult,minHits,maxHits) {
 	var minDamage = damageResult.minHP * minHits;
@@ -819,6 +819,9 @@ visualizer_MatchupChart.prototype = {
 			var moveAccText = window.document.createElement("span");
 			moveAccText.innerHTML = "\n            " + accuracyText + "<span class=\"dimLabel\">%</span>\n            " + ppText + "<span class=\"dimLabel\">pp</span>\n            " + powerText + "<span class=\"dimLabel\">pwr</span>\n            ";
 			subContainer.appendChild(moveAccText);
+			var priorityElement = window.document.createElement("span");
+			this.renderMovePriority(priorityElement,moveStats);
+			subContainer.appendChild(priorityElement);
 		}
 		container.appendChild(subContainer);
 		cell.appendChild(container);
@@ -937,6 +940,18 @@ visualizer_MatchupChart.prototype = {
 		element.textContent = HxOverrides.substr(moveStats.damageCategory,0,2);
 		element.classList.add("damageCategory-" + moveStats.damageCategory);
 		element.title = moveStats.damageCategory;
+	}
+	,renderMovePriority: function(element,moveStats) {
+		if(moveStats.priority != 0) {
+			if(moveStats.priority > 0) {
+				element.textContent = "+" + moveStats.priority;
+				element.classList.add("movePriority-high");
+			} else {
+				element.textContent = moveStats.priority == null ? "null" : "" + moveStats.priority;
+				element.classList.add("movePriority-low");
+			}
+			element.title = "Priority";
+		}
 	}
 	,renderAttackStats: function(element,pokemonStats) {
 		var subElement = element.ownerDocument.createElement("span");
@@ -1229,7 +1244,15 @@ visualizer_UI.prototype = {
 					movesetName = movesetNames[i];
 				}
 			}
-			var slug = this.database.getPokemonSlugByID(pokemonNums[i],movesetName);
+			var slug;
+			try {
+				slug = this.database.getPokemonSlugByID(pokemonNums[i],movesetName);
+			} catch( error ) {
+				if (error instanceof js__$Boot_HaxeError) error = error.val;
+				if( js_Boot.__instanceof(error,visualizer_model_StatsNotFoundError) ) {
+					slug = this.database.getPokemonSlugByID(pokemonNums[i]);
+				} else throw(error);
+			}
 			this.currentPokemon[i] = this.database.getPokemonStats(slug);
 		}
 		this.syncSelectionListToCurrent();
@@ -1365,27 +1388,38 @@ visualizer_UI.prototype = {
 		var slug = parts[1];
 		var title = slug;
 		var text = "";
+		var html = "";
 		if(category == "ability") {
 			var ability = this.database.descriptionsDataset.getAbility(slug);
 			title = ability.name;
 			text = ability.description;
+			if(ability.editor_note != null) {
+				text += "\n\n✻ " + ability.editor_note;
+			}
 		} else if(category == "item") {
 			var item = this.database.descriptionsDataset.getItem(slug);
 			title = item.name;
 			text = item.description;
 		} else if(category == "move") {
+			var template = $("#moveDescriptionTemplate").html();
 			var move = this.database.movesDataset.getMoveStats(slug);
 			title = move.name;
-			text = move.description;
+			html = visualizer_UI.renderTemplate(template,{ "simple" : move.description, "short" : StringTools.replace(move.effectShort,"$effect_chance%","" + move.effectChance + "%"), "long" : StringTools.replace(move.effectLong,"$effect_chance%","" + move.effectChance + "%"), "note" : move.editorNote});
 		} else if(category == "damage") {
-			text = "HP damage against foe (min, max, crit):\n                " + parts[2] + "–" + parts[3] + "–" + parts[4] + "%\n                " + parts[5] + "–" + parts[6] + "–" + parts[7] + "pts";
+			var template1 = $("#moveDamageTemplate").html();
+			title = "" + parts[1] + " Damage";
+			html = visualizer_UI.renderTemplate(template1,{ min_percent : parts[2], max_percent : parts[3], crit_percent : parts[4], min_points : parts[5], max_points : parts[6], crit_points : parts[7]});
 		}
-		if(text == null || text.length == 0) {
+		var jquery = $("#helpDialog");
+		if(html != "") {
+			jquery.html(html);
+		} else if(text != "") {
+			jquery.text(text);
+		} else {
 			text = "(no help available for this item)";
+			jquery.text(text);
 		}
-		text = StringTools.replace(text,"✻","\n✻");
-		var jquery = $("#helpDialog").text(text);
-		jquery.dialog();
+		jquery.dialog({ maxHeight : window.innerHeight, width : 400});
 		var inViewport = jquery.visible();
 		if(!inViewport) {
 			jquery.dialog({ position : { my : "center top", at : "center top", of : window}});
@@ -2426,18 +2460,23 @@ visualizer_datastruct_MoveStats.prototype = {
 		this.accuracy = Reflect.field(doc,"accuracy");
 		this.damageCategory = Reflect.field(doc,"damage_category");
 		this.description = Reflect.field(doc,"description");
+		this.editorNote = Reflect.field(doc,"editor_note");
+		this.effectChance = Reflect.field(doc,"effect_chance");
+		this.effectShort = Reflect.field(doc,"effect_short");
+		this.effectLong = Reflect.field(doc,"effect_long");
 		this.maxHits = Reflect.field(doc,"max_hits");
 		this.minHits = Reflect.field(doc,"min_hits");
 		this.moveType = Reflect.field(doc,"move_type");
 		this.name = Reflect.field(doc,"name");
 		this.power = Reflect.field(doc,"power");
 		this.pp = Reflect.field(doc,"pp");
+		this.priority = Reflect.field(doc,"priority");
 		if(Object.prototype.hasOwnProperty.call(doc,"slug")) {
 			this.slug = Reflect.field(doc,"slug");
 		}
 	}
 	,toJsonObject: function() {
-		return { "slug" : this.slug, "accuracy" : this.accuracy, "damage_category" : this.damageCategory, "description" : this.description, "max_hits" : this.maxHits, "min_hits" : this.minHits, "move_type" : this.moveType, "name" : this.name, "power" : this.power, "pp" : this.pp};
+		return { "slug" : this.slug, "accuracy" : this.accuracy, "damage_category" : this.damageCategory, "description" : this.description, "editor_note" : this.editorNote, "effect_chance" : this.effectChance, "effect_short" : this.effectShort, "effect_long" : this.effectLong, "max_hits" : this.maxHits, "min_hits" : this.minHits, "move_type" : this.moveType, "name" : this.name, "power" : this.power, "pp" : this.pp, "priority" : this.priority};
 	}
 	,copy: function() {
 		var stats = new visualizer_datastruct_MoveStats();
