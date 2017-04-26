@@ -167,6 +167,7 @@
     <p class="moveDescriptionSimple">{{ simple }}</p>
     <h3>Details</h3>
     <p class="moveDescriptionEffectLong">{{ long }}</p>
+    <p class="moveDescriptionFlags">{{ flags }} </p>
     <h3>Note</h3>
     <p class="moveDescriptionNote">{{ note }}</p>
 </script>
@@ -193,6 +194,24 @@
             <td>{{ crit_points }}</td>
         </tr>
     </table>
+</script>
+
+<script id="abilityDescriptionTemplate" type="x-tmpl-mustache">
+    <h3>Summary</h3>
+    <p class="moveDescriptionSimple">{{ simple }}</p>
+    <h3>Details</h3>
+    <p class="moveDescriptionEffectLong">{{ long }}</p>
+    <h3>Note</h3>
+    <p class="moveDescriptionNote">{{ note }}</p>
+</script>
+
+<script id="itemDescriptionTemplate" type="x-tmpl-mustache">
+    <h3>Summary</h3>
+    <p class="moveDescriptionSimple">{{ simple }}</p>
+    <h3>Details</h3>
+    <p class="moveDescriptionEffectLong">{{ long }}</p>
+    <h3>Note</h3>
+    <p class="moveDescriptionNote">{{ note }}</p>
 </script>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

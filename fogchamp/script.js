@@ -531,7 +531,15 @@ visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,
 	damage *= modifier;
 	var minDamage = damage * visualizer_Formula.RANDOM_MIN_MODIFIER;
 	var critDamage = damage * visualizer_Formula.CRIT_MODIFIER;
-	return { factor : damageFactor, minHP : Math.max(1,minDamage) | 0, maxHP : Math.max(1,damage) | 0, critHP : Math.max(1,critDamage) | 0};
+	damage = Math.floor(damage);
+	minDamage = Math.floor(minDamage);
+	critDamage = Math.floor(critDamage);
+	if(damageFactor != 0) {
+		damage = Math.max(1,damage);
+		minDamage = Math.max(1,minDamage);
+		critDamage = Math.max(1,critDamage);
+	}
+	return { factor : damageFactor, minHP : minDamage, maxHP : damage, critHP : critDamage};
 };
 visualizer_Formula.modifyHits = function(damageResult,minHits,maxHits) {
 	var minDamage = damageResult.minHP * minHits;
@@ -1390,25 +1398,24 @@ visualizer_UI.prototype = {
 		var text = "";
 		var html = "";
 		if(category == "ability") {
+			var template = $("#abilityDescriptionTemplate").html();
 			var ability = this.database.descriptionsDataset.getAbility(slug);
 			title = ability.name;
-			text = ability.description;
-			if(ability.editor_note != null) {
-				text += "\n\n✻ " + ability.editor_note;
-			}
+			html = visualizer_UI.renderTemplate(template,{ "simple" : ability.description, "short" : ability.effectShort, "long" : ability.effectLong, "note" : ability.editorNote});
 		} else if(category == "item") {
+			var template1 = $("#itemDescriptionTemplate").html();
 			var item = this.database.descriptionsDataset.getItem(slug);
 			title = item.name;
-			text = item.description;
+			html = visualizer_UI.renderTemplate(template1,{ "simple" : item.description, "short" : item.effectShort, "long" : item.effectLong});
 		} else if(category == "move") {
-			var template = $("#moveDescriptionTemplate").html();
+			var template2 = $("#moveDescriptionTemplate").html();
 			var move = this.database.movesDataset.getMoveStats(slug);
 			title = move.name;
-			html = visualizer_UI.renderTemplate(template,{ "simple" : move.description, "short" : StringTools.replace(move.effectShort,"$effect_chance%","" + move.effectChance + "%"), "long" : StringTools.replace(move.effectLong,"$effect_chance%","" + move.effectChance + "%"), "note" : move.editorNote});
+			html = visualizer_UI.renderTemplate(template2,{ "simple" : move.description, "short" : StringTools.replace(move.effectShort,"$effect_chance%","" + move.effectChance + "%"), "long" : StringTools.replace(move.effectLong,"$effect_chance%","" + move.effectChance + "%"), "flags" : move.flags != null ? "🗹 " + move.flags.join(", 🗹 ") : "", "note" : move.editorNote});
 		} else if(category == "damage") {
-			var template1 = $("#moveDamageTemplate").html();
+			var template3 = $("#moveDamageTemplate").html();
 			title = "" + parts[1] + " Damage";
-			html = visualizer_UI.renderTemplate(template1,{ min_percent : parts[2], max_percent : parts[3], crit_percent : parts[4], min_points : parts[5], max_points : parts[6], crit_points : parts[7]});
+			html = visualizer_UI.renderTemplate(template3,{ min_percent : parts[2], max_percent : parts[3], crit_percent : parts[4], min_points : parts[5], max_points : parts[6], crit_points : parts[7]});
 		}
 		var jquery = $("#helpDialog");
 		if(html != "") {
@@ -2135,8 +2142,9 @@ visualizer_dataset_DescriptionsDataset.prototype = $extend(visualizer_dataset_Da
 		while(_g < _g1.length) {
 			var slug = _g1[_g];
 			++_g;
+			var doc = Reflect.field(abilitiesDoc,slug);
 			var this1 = this.abilities;
-			var value = Reflect.field(abilitiesDoc,slug);
+			var value = { name : Reflect.field(doc,"name"), description : Reflect.field(doc,"description"), effectShort : Reflect.field(doc,"effect_short"), effectLong : Reflect.field(doc,"effect_long"), editorNote : Reflect.field(doc,"editor_note")};
 			var _this = this1;
 			if(__map_reserved[slug] != null) {
 				_this.setReserved(slug,value);
@@ -2175,8 +2183,9 @@ visualizer_dataset_DescriptionsDataset.prototype = $extend(visualizer_dataset_Da
 		while(_g4 < _g12.length) {
 			var slug1 = _g12[_g4];
 			++_g4;
+			var doc1 = Reflect.field(itemsDoc,slug1);
 			var this2 = this.items;
-			var value1 = Reflect.field(itemsDoc,slug1);
+			var value1 = { name : Reflect.field(doc1,"name"), description : Reflect.field(doc1,"description"), effectShort : Reflect.field(doc1,"effect_short"), effectLong : Reflect.field(doc1,"effect_long")};
 			var _this2 = this2;
 			if(__map_reserved[slug1] != null) {
 				_this2.setReserved(slug1,value1);
@@ -2452,6 +2461,7 @@ visualizer_datastruct_Copyable.prototype = {
 };
 var visualizer_datastruct_MoveStats = function(slug) {
 	this.slug = slug;
+	this.flags = [];
 };
 visualizer_datastruct_MoveStats.__name__ = true;
 visualizer_datastruct_MoveStats.__interfaces__ = [visualizer_datastruct_Copyable];
@@ -2464,6 +2474,7 @@ visualizer_datastruct_MoveStats.prototype = {
 		this.effectChance = Reflect.field(doc,"effect_chance");
 		this.effectShort = Reflect.field(doc,"effect_short");
 		this.effectLong = Reflect.field(doc,"effect_long");
+		this.flags = Reflect.field(doc,"flags");
 		this.maxHits = Reflect.field(doc,"max_hits");
 		this.minHits = Reflect.field(doc,"min_hits");
 		this.moveType = Reflect.field(doc,"move_type");
@@ -2476,7 +2487,7 @@ visualizer_datastruct_MoveStats.prototype = {
 		}
 	}
 	,toJsonObject: function() {
-		return { "slug" : this.slug, "accuracy" : this.accuracy, "damage_category" : this.damageCategory, "description" : this.description, "editor_note" : this.editorNote, "effect_chance" : this.effectChance, "effect_short" : this.effectShort, "effect_long" : this.effectLong, "max_hits" : this.maxHits, "min_hits" : this.minHits, "move_type" : this.moveType, "name" : this.name, "power" : this.power, "pp" : this.pp, "priority" : this.priority};
+		return { "slug" : this.slug, "accuracy" : this.accuracy, "damage_category" : this.damageCategory, "description" : this.description, "editor_note" : this.editorNote, "effect_chance" : this.effectChance, "effect_short" : this.effectShort, "effect_long" : this.effectLong, "flags" : this.flags != null ? this.flags.slice() : null, "max_hits" : this.maxHits, "min_hits" : this.minHits, "move_type" : this.moveType, "name" : this.name, "power" : this.power, "pp" : this.pp, "priority" : this.priority};
 	}
 	,copy: function() {
 		var stats = new visualizer_datastruct_MoveStats();
