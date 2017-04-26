@@ -2649,7 +2649,7 @@ visualizer_model_PokemonDatabase.prototype = {
 	,getPokemonSlugs: function() {
 		var slugs;
 		if(this.edition == visualizer_model_PokemonDatabase.API_EDITION) {
-			slugs = this.apiPokemonDataset.slugs;
+			slugs = this.apiPokemonDataset.slugs.slice();
 		} else {
 			slugs = this.pokemonDataset.get_slugs().slice(0);
 		}
