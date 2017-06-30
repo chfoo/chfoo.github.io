@@ -457,90 +457,10 @@ visualizer_FormulaOptions.__name__ = true;
 visualizer_FormulaOptions.prototype = {
 	__class__: visualizer_FormulaOptions
 };
-var visualizer_Formula = function() { };
+var visualizer_Formula = function(descriptionsDataset) {
+	this.descriptionsDataset = descriptionsDataset;
+};
 visualizer_Formula.__name__ = true;
-visualizer_Formula.computeResult = function(userPokemonStat,foePokemonStat,userMoveStat,descriptionsDataset,formulaOptions) {
-	var userMoveType = userMoveStat.moveType;
-	var userTypes = userPokemonStat.types;
-	var foeTypes = foePokemonStat.types;
-	var factor = descriptionsDataset.getTypeEfficacy(userMoveType,foeTypes[0],foeTypes[1]);
-	var userBasePower = visualizer_Formula.computeBasePower(userPokemonStat,foePokemonStat,userMoveStat);
-	var isVariableBasePower = visualizer_Formula.VARIABLE_POWER_MOVE.indexOf(userMoveStat.slug) != -1;
-	var isFixedDamageMove = visualizer_Formula.FIXED_DAMAGE_MOVE.indexOf(userMoveStat.slug) != -1;
-	if(!formulaOptions.typeImmunities && factor == 0) {
-		factor = 100;
-	}
-	if(userBasePower == null && !isFixedDamageMove && !isVariableBasePower) {
-		return { factor : factor, minHP : null, maxHP : null, critHP : null};
-	}
-	var userAttack;
-	var foeDefense;
-	if(userMoveStat.damageCategory == "physical") {
-		userAttack = userPokemonStat.attack;
-	} else {
-		userAttack = userPokemonStat.specialAttack;
-	}
-	if(userMoveStat.damageCategory == "physical") {
-		foeDefense = foePokemonStat.defense;
-	} else {
-		foeDefense = foePokemonStat.specialDefense;
-	}
-	var stab = userTypes.indexOf(userMoveType) != -1;
-	var damageResult;
-	if(isFixedDamageMove) {
-		damageResult = { factor : factor, minHP : visualizer_Formula.LEVEL, maxHP : visualizer_Formula.LEVEL, critHP : visualizer_Formula.LEVEL};
-	} else if(isVariableBasePower) {
-		var damageResultLow = visualizer_Formula.computeDamage(userAttack,foeDefense,10,stab,factor);
-		var damageResultHigh = visualizer_Formula.computeDamage(userAttack,foeDefense,150,stab,factor);
-		damageResult = { factor : factor, minHP : damageResultLow.minHP, maxHP : damageResultHigh.maxHP, critHP : damageResultHigh.critHP};
-	} else {
-		damageResult = visualizer_Formula.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
-	}
-	if(userMoveStat.maxHits != null) {
-		damageResult = visualizer_Formula.modifyHits(damageResult,userMoveStat.minHits,userMoveStat.maxHits);
-	}
-	return damageResult;
-};
-visualizer_Formula.computeBasePower = function(userPokemonStat,foePokemonStat,userMoveStat) {
-	var _g = userMoveStat.slug;
-	switch(_g) {
-	case "frustration":
-		if(userPokemonStat.happiness != null) {
-			return Math.max(1,(255 - userPokemonStat.happiness) / 2.5) | 0;
-		}
-		break;
-	case "grass-knot":case "low-kick":
-		if(foePokemonStat.weight != null) {
-			return visualizer_Formula.weightToPower(foePokemonStat.weight);
-		}
-		break;
-	case "return":
-		if(userPokemonStat.happiness != null) {
-			return Math.max(1,userPokemonStat.happiness / 2.5) | 0;
-		}
-		break;
-	}
-	return userMoveStat.power;
-};
-visualizer_Formula.computeDamage = function(userAttack,foeDefense,userBasePower,stab,damageFactor) {
-	var modifier = damageFactor / 100;
-	if(stab) {
-		modifier *= 1.5;
-	}
-	var damage = (2 * visualizer_Formula.LEVEL + 10) / 250 * (userAttack / foeDefense) * userBasePower + 2;
-	damage *= modifier;
-	var minDamage = damage * visualizer_Formula.RANDOM_MIN_MODIFIER;
-	var critDamage = damage * visualizer_Formula.CRIT_MODIFIER;
-	damage = Math.floor(damage);
-	minDamage = Math.floor(minDamage);
-	critDamage = Math.floor(critDamage);
-	if(damageFactor != 0) {
-		damage = Math.max(1,damage);
-		minDamage = Math.max(1,minDamage);
-		critDamage = Math.max(1,critDamage);
-	}
-	return { factor : damageFactor, minHP : minDamage, maxHP : damage, critHP : critDamage};
-};
 visualizer_Formula.modifyHits = function(damageResult,minHits,maxHits) {
 	var minDamage = damageResult.minHP * minHits;
 	var maxDamage = damageResult.maxHP * maxHits;
@@ -565,6 +485,112 @@ visualizer_Formula.weightToPower = function(weight) {
 		return 120;
 	}
 };
+visualizer_Formula.prototype = {
+	computeResult: function(userPokemonStat,foePokemonStat,userMoveStat,formulaOptions) {
+		var userMoveType = this.computeUserMoveType(userPokemonStat,userMoveStat);
+		var userTypes = userPokemonStat.types;
+		var foeTypes = foePokemonStat.types;
+		var factor = this.descriptionsDataset.getTypeEfficacy(userMoveType,foeTypes[0],foeTypes[1]);
+		var userBasePower = this.computeBasePower(userPokemonStat,foePokemonStat,userMoveStat);
+		var isVariableBasePower = visualizer_Formula.VARIABLE_POWER_MOVE.indexOf(userMoveStat.slug) != -1;
+		var isFixedDamageMove = visualizer_Formula.FIXED_DAMAGE_MOVE.indexOf(userMoveStat.slug) != -1;
+		if(!formulaOptions.typeImmunities && factor == 0) {
+			factor = 100;
+		}
+		if(userBasePower == null && !isFixedDamageMove && !isVariableBasePower) {
+			return { factor : factor, minHP : null, maxHP : null, critHP : null};
+		}
+		var userAttack;
+		var foeDefense;
+		if(userMoveStat.damageCategory == "physical") {
+			userAttack = userPokemonStat.attack;
+		} else {
+			userAttack = userPokemonStat.specialAttack;
+		}
+		if(userMoveStat.damageCategory == "physical") {
+			foeDefense = foePokemonStat.defense;
+		} else {
+			foeDefense = foePokemonStat.specialDefense;
+		}
+		var stab = userTypes.indexOf(userMoveType) != -1;
+		var damageResult;
+		if(isFixedDamageMove) {
+			damageResult = { factor : factor, minHP : visualizer_Formula.LEVEL, maxHP : visualizer_Formula.LEVEL, critHP : visualizer_Formula.LEVEL};
+		} else if(isVariableBasePower) {
+			var damageResultLow = this.computeDamage(userAttack,foeDefense,10,stab,factor);
+			var damageResultHigh = this.computeDamage(userAttack,foeDefense,150,stab,factor);
+			damageResult = { factor : factor, minHP : damageResultLow.minHP, maxHP : damageResultHigh.maxHP, critHP : damageResultHigh.critHP};
+		} else {
+			damageResult = this.computeDamage(userAttack,foeDefense,userBasePower,stab,factor);
+		}
+		if(userMoveStat.maxHits != null) {
+			damageResult = visualizer_Formula.modifyHits(damageResult,userMoveStat.minHits,userMoveStat.maxHits);
+		}
+		return damageResult;
+	}
+	,computeUserMoveType: function(pokemonStat,moveStats) {
+		if(moveStats.slug == "natural-gift") {
+			var itemInfo = this.descriptionsDataset.getItem(pokemonStat.item);
+			if(itemInfo.naturalGiftType != null) {
+				return itemInfo.naturalGiftType;
+			}
+		}
+		return moveStats.moveType;
+	}
+	,computeBasePower: function(userPokemonStat,foePokemonStat,userMoveStat) {
+		var _g = userMoveStat.slug;
+		switch(_g) {
+		case "fling":
+			var itemInfo = this.descriptionsDataset.getItem(userPokemonStat.item);
+			if(itemInfo != null) {
+				return itemInfo.flingPower;
+			}
+			break;
+		case "frustration":
+			if(userPokemonStat.happiness != null) {
+				return Math.max(1,(255 - userPokemonStat.happiness) / 2.5) | 0;
+			}
+			break;
+		case "grass-knot":case "low-kick":
+			if(foePokemonStat.weight != null) {
+				return visualizer_Formula.weightToPower(foePokemonStat.weight);
+			}
+			break;
+		case "natural-gift":
+			var itemInfo1 = this.descriptionsDataset.getItem(userPokemonStat.item);
+			if(itemInfo1 != null && itemInfo1.naturalGiftType != null) {
+				return itemInfo1.naturalGiftPower;
+			}
+			break;
+		case "return":
+			if(userPokemonStat.happiness != null) {
+				return Math.max(1,userPokemonStat.happiness / 2.5) | 0;
+			}
+			break;
+		}
+		return userMoveStat.power;
+	}
+	,computeDamage: function(userAttack,foeDefense,userBasePower,stab,damageFactor) {
+		var modifier = damageFactor / 100;
+		if(stab) {
+			modifier *= 1.5;
+		}
+		var damage = (2 * visualizer_Formula.LEVEL + 10) / 250 * (userAttack / foeDefense) * userBasePower + 2;
+		damage *= modifier;
+		var minDamage = damage * visualizer_Formula.RANDOM_MIN_MODIFIER;
+		var critDamage = damage * visualizer_Formula.CRIT_MODIFIER;
+		damage = Math.floor(damage);
+		minDamage = Math.floor(minDamage);
+		critDamage = Math.floor(critDamage);
+		if(damageFactor != 0) {
+			damage = Math.max(1,damage);
+			minDamage = Math.max(1,minDamage);
+			critDamage = Math.max(1,critDamage);
+		}
+		return { factor : damageFactor, minHP : minDamage, maxHP : damage, critHP : critDamage};
+	}
+	,__class__: visualizer_Formula
+};
 var visualizer_Main = function() {
 	this.userMessage = new visualizer_UserMessage();
 	this.pokemonDataset = new visualizer_dataset_PokemonDataset();
@@ -579,6 +605,7 @@ visualizer_Main.main = function() {
 	$(window.document.body).ready(function(event) {
 		app.run();
 	});
+	window["runTests"] = $bind(app,app.runTests);
 };
 visualizer_Main.prototype = {
 	run: function() {
@@ -634,6 +661,9 @@ visualizer_Main.prototype = {
 		this.ui = new visualizer_UI(this.database);
 		this.ui.setup();
 	}
+	,runTests: function() {
+		this.ui.testAll();
+	}
 	,__class__: visualizer_Main
 };
 var visualizer_Orientation = { __ename__ : true, __constructs__ : ["Vertical","Horizontal"] };
@@ -644,6 +674,7 @@ visualizer_Orientation.Horizontal.__enum__ = visualizer_Orientation;
 var visualizer_MatchupChart = function(pokemonDatabase,formulaOptions) {
 	this.database = pokemonDatabase;
 	this.formulaOptions = formulaOptions;
+	this.formula = new visualizer_Formula(this.database.descriptionsDataset);
 };
 visualizer_MatchupChart.__name__ = true;
 visualizer_MatchupChart.prototype = {
@@ -762,15 +793,15 @@ visualizer_MatchupChart.prototype = {
 		labelCell.rowSpan = visualizer_MatchupChart.DIVIDER + visualizer_MatchupChart.NUM_MOVES_PER_POKEMON;
 		this.processPokemonLabelCell(pokemonStat,labelCell,"left",slotNum);
 	}
-	,renderMoveLabelCell: function(pokemonStat,moveIndex,rowElement,position) {
+	,renderMoveLabelCell: function(userPokemonStat,moveIndex,rowElement,position) {
 		var labelCell = js_Boot.__cast(rowElement.insertCell(-1) , HTMLTableCellElement);
-		var moveSlugs = pokemonStat.moves;
+		var moveSlugs = userPokemonStat.moves;
 		if(moveIndex < moveSlugs.length) {
 			var moveSlug = moveSlugs[moveIndex];
-			var moveStats = this.database.movesDataset.getMoveStats(moveSlug,pokemonStat);
-			this.processMoveLabelCell(moveStats,labelCell,position);
+			var moveStats = this.database.movesDataset.getMoveStats(moveSlug,userPokemonStat);
+			this.processMoveLabelCell(userPokemonStat,moveStats,labelCell,position);
 		} else {
-			this.processMoveLabelCell(null,labelCell,position);
+			this.processMoveLabelCell(null,null,labelCell,position);
 		}
 	}
 	,processPokemonLabelCell: function(pokemonStats,cell,position,slotNum) {
@@ -803,7 +834,7 @@ visualizer_MatchupChart.prototype = {
 		container.appendChild(subContainer);
 		cell.appendChild(container);
 	}
-	,processMoveLabelCell: function(moveStats,cell,position) {
+	,processMoveLabelCell: function(userPokemonStat,moveStats,cell,position) {
 		cell.classList.add("matchupChartMoveLabelCell-" + position);
 		var container = window.document.createElement("div");
 		container.classList.add("matchupChartMoveLabelContainer-" + position);
@@ -812,7 +843,7 @@ visualizer_MatchupChart.prototype = {
 		subContainer.classList.add("matchupChartMoveLabel");
 		if(moveStats != null) {
 			var typeIcon = window.document.createElement("span");
-			this.renderMiniTypeIcon(typeIcon,moveStats.moveType);
+			this.renderMiniTypeIcon(typeIcon,this.formula.computeUserMoveType(userPokemonStat,moveStats));
 			subContainer.appendChild(typeIcon);
 			var moveLabelText = window.document.createElement("span");
 			this.renderMoveText(moveLabelText,moveStats);
@@ -870,7 +901,7 @@ visualizer_MatchupChart.prototype = {
 		var subContainer = window.document.createElement("div");
 		subContainer.classList.add("matchupChartEfficacySubContainer-" + position);
 		subContainer.classList.add("matchupChartEfficacy");
-		var damageResult = visualizer_Formula.computeResult(userPokemonStat,foePokemonStat,userMoveStat,this.database.descriptionsDataset,this.formulaOptions);
+		var damageResult = this.formula.computeResult(userPokemonStat,foePokemonStat,userMoveStat,this.formulaOptions);
 		var factor = damageResult.factor;
 		var factorString;
 		switch(factor) {
@@ -1082,7 +1113,7 @@ visualizer_UI.prototype = {
 				return function(event) {
 					var i2 = i1[0];
 					var tmp1 = jquery1[0].val();
-					_gthis.selectChanged(i2,tmp1);
+					_gthis.selectChangedCallback(i2,tmp1);
 				};
 			})(jquery,i);
 			jquery[0].change(tmp);
@@ -1304,9 +1335,15 @@ visualizer_UI.prototype = {
 		this.syncSelectionListToCurrent();
 		this.renderAll();
 	}
-	,selectChanged: function(slotNum,slug) {
+	,setSelectionBySlug: function(slotNum,slug,updateUrlFragment) {
+		if(updateUrlFragment == null) {
+			updateUrlFragment = true;
+		}
 		this.currentPokemon[slotNum] = this.database.getPokemonStats(slug);
-		this.renderAll();
+		this.renderAll(updateUrlFragment);
+	}
+	,selectChangedCallback: function(slotNum,slug) {
+		this.setSelectionBySlug(slotNum,slug);
 	}
 	,reloadSelectionList: function() {
 		this.renderSelectionList();
@@ -1625,6 +1662,26 @@ visualizer_UI.prototype = {
 	,renderExtraUrls: function() {
 		var numbers = this.getMatchNumbers();
 		$("#extraUrls").html("\n            View\n            <a href=\"http://www.tppvisuals.com/pbr/visualizer.htm#" + numbers[0] + "-" + numbers[1] + "-" + numbers[2] + "-" + numbers[3] + "-" + numbers[4] + "-" + numbers[5] + "\">\n            Dhason</a> /\n            <a href=\"http://fe1k.de/tpp/visualize#" + numbers[0] + "-" + numbers[1] + "-" + numbers[2] + "-" + numbers[3] + "-" + numbers[4] + "-" + numbers[5] + "\">\n            FelkCraft</a>\n            visualizer\n        ");
+	}
+	,testAll: function() {
+		var editions = this.database.getEditionNames();
+		this.selectEdition(editions[editions.length - 1]);
+		var slugs = this.database.getPokemonSlugs();
+		this.testOne(slugs);
+	}
+	,testOne: function(slugs) {
+		if(slugs.length > 0) {
+			var slug = slugs.pop();
+			haxe_Log.trace(slug,{ fileName : "UI.hx", lineNumber : 829, className : "visualizer.UI", methodName : "testOne"});
+			this.setSelectionBySlug(0,slug,false);
+			this.syncSelectionListToCurrent();
+			var f = $bind(this,this.testOne);
+			var a1 = slugs;
+			window.setTimeout(function() {
+				f(a1);
+				return;
+			},10);
+		}
 	}
 	,__class__: visualizer_UI
 };
@@ -2185,12 +2242,27 @@ visualizer_dataset_DescriptionsDataset.prototype = $extend(visualizer_dataset_Da
 			++_g4;
 			var doc1 = Reflect.field(itemsDoc,slug1);
 			var this2 = this.items;
-			var value1 = { name : Reflect.field(doc1,"name"), description : Reflect.field(doc1,"description"), effectShort : Reflect.field(doc1,"effect_short"), effectLong : Reflect.field(doc1,"effect_long")};
+			var value1 = { name : Reflect.field(doc1,"name"), description : Reflect.field(doc1,"description"), effectShort : Reflect.field(doc1,"effect_short"), effectLong : Reflect.field(doc1,"effect_long"), flingEffectShort : Reflect.field(doc1,"fling_effect_short"), flingEffectLong : Reflect.field(doc1,"fling_effect_long"), flingPower : Reflect.field(doc1,"fling_power"), naturalGiftPower : Reflect.field(doc1,"natural_gift_power"), naturalGiftType : Reflect.field(doc1,"natural_gift_type")};
 			var _this2 = this2;
 			if(__map_reserved[slug1] != null) {
 				_this2.setReserved(slug1,value1);
 			} else {
 				_this2.h[slug1] = value1;
+			}
+		}
+		this.itemRenames = new haxe_ds_StringMap();
+		var itemRenamesDoc = Reflect.field(data,"item_renames");
+		var _g5 = 0;
+		var _g13 = Reflect.fields(itemRenamesDoc);
+		while(_g5 < _g13.length) {
+			var oldName = _g13[_g5];
+			++_g5;
+			var newName = Reflect.field(itemRenamesDoc,oldName);
+			var _this3 = this.itemRenames;
+			if(__map_reserved[oldName] != null) {
+				_this3.setReserved(oldName,newName);
+			} else {
+				_this3.h[oldName] = newName;
 			}
 		}
 		this.buildDashlessSlugMap();
@@ -2218,33 +2290,49 @@ visualizer_dataset_DescriptionsDataset.prototype = $extend(visualizer_dataset_Da
 	}
 	,getItem: function(slug) {
 		var _this = this.items;
-		if(!(__map_reserved[slug] != null ? _this.existsReserved(slug) : _this.h.hasOwnProperty(slug))) {
-			var _this1 = this.dashlessSlugMap;
+		if(__map_reserved[slug] != null ? _this.existsReserved(slug) : _this.h.hasOwnProperty(slug)) {
+			var _this1 = this.items;
 			if(__map_reserved[slug] != null) {
-				slug = _this1.getReserved(slug);
+				return _this1.getReserved(slug);
 			} else {
-				slug = _this1.h[slug];
+				return _this1.h[slug];
 			}
 		}
-		var _this2 = this.items;
-		if(__map_reserved[slug] != null) {
-			return _this2.getReserved(slug);
-		} else {
-			return _this2.h[slug];
+		var candidateSlugs = [];
+		var _this2 = this.itemRenames;
+		if(__map_reserved[slug] != null ? _this2.existsReserved(slug) : _this2.h.hasOwnProperty(slug)) {
+			var _this3 = this.itemRenames;
+			candidateSlugs.push(__map_reserved[slug] != null ? _this3.getReserved(slug) : _this3.h[slug]);
 		}
+		var _this4 = this.dashlessSlugMap;
+		if(__map_reserved[slug] != null ? _this4.existsReserved(slug) : _this4.h.hasOwnProperty(slug)) {
+			var _this5 = this.dashlessSlugMap;
+			var dashless = __map_reserved[slug] != null ? _this5.getReserved(slug) : _this5.h[slug];
+			candidateSlugs.push(dashless);
+			var _this6 = this.itemRenames;
+			if(__map_reserved[dashless] != null ? _this6.existsReserved(dashless) : _this6.h.hasOwnProperty(dashless)) {
+				var _this7 = this.itemRenames;
+				candidateSlugs.push(__map_reserved[dashless] != null ? _this7.getReserved(dashless) : _this7.h[dashless]);
+			}
+		}
+		var _g = 0;
+		while(_g < candidateSlugs.length) {
+			var candidate = candidateSlugs[_g];
+			++_g;
+			var _this8 = this.items;
+			if(__map_reserved[candidate] != null ? _this8.existsReserved(candidate) : _this8.h.hasOwnProperty(candidate)) {
+				var _this9 = this.items;
+				if(__map_reserved[candidate] != null) {
+					return _this9.getReserved(candidate);
+				} else {
+					return _this9.h[candidate];
+				}
+			}
+		}
+		return null;
 	}
 	,getItemName: function(slug) {
-		var _this = this.items;
-		if(!(__map_reserved[slug] != null ? _this.existsReserved(slug) : _this.h.hasOwnProperty(slug))) {
-			var _this1 = this.dashlessSlugMap;
-			if(__map_reserved[slug] != null) {
-				slug = _this1.getReserved(slug);
-			} else {
-				slug = _this1.h[slug];
-			}
-		}
-		var _this2 = this.items;
-		return (__map_reserved[slug] != null ? _this2.getReserved(slug) : _this2.h[slug]).name;
+		return this.getItem(slug).name;
 	}
 	,getTypeEfficacy: function(user,foe,foeSecondary) {
 		var _this = this.types_efficacy;
@@ -2332,6 +2420,18 @@ visualizer_dataset_DescriptionsDataset.prototype = $extend(visualizer_dataset_Da
 				_this1.setReserved(key5,key4);
 			} else {
 				_this1.h[key5] = key4;
+			}
+		}
+		var key6 = this.itemRenames.keys();
+		while(key6.hasNext()) {
+			var key7 = key6.next();
+			var this3 = this.dashlessSlugMap;
+			var key8 = visualizer_api_APIFacade.slugify(key7,true);
+			var _this2 = this3;
+			if(__map_reserved[key8] != null) {
+				_this2.setReserved(key8,key7);
+			} else {
+				_this2.h[key8] = key7;
 			}
 		}
 	}
