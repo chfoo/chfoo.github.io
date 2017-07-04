@@ -1783,14 +1783,14 @@ visualizer_api_APIFacade.prototype = {
 			}
 			_gthis.progressCallback(pokemonResults.length);
 			window.setTimeout(function() {
-				_gthis.callAPI(visualizer_api_APIFacade.CONSUME_CURSOR_API_URL + token,cursorPaginateSuccessHandler,cursorErrorHandler,true);
+				_gthis.callAPI(visualizer_api_APIFacade.CONSUME_CURSOR_API_URL + token + "?limit=100",cursorPaginateSuccessHandler,cursorErrorHandler,true);
 			},1);
 		};
 		var cursorPaginateSuccessHandler1 = cursorPaginateSuccessHandler;
 		var cursorCreateSuccessHandler = function(jsonResult2,textStatus3,xhr3) {
 			token = jsonResult2;
 			window.setTimeout(function() {
-				_gthis.callAPI(visualizer_api_APIFacade.CONSUME_CURSOR_API_URL + token,cursorPaginateSuccessHandler1,cursorErrorHandler,true);
+				_gthis.callAPI(visualizer_api_APIFacade.CONSUME_CURSOR_API_URL + token + "?limit=100",cursorPaginateSuccessHandler1,cursorErrorHandler,true);
 			},1);
 		};
 		this.callAPI(visualizer_api_APIFacade.POKEMON_SETS_API_URL + "&create_cursor=true",cursorCreateSuccessHandler,errorHandler);
