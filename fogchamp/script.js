@@ -1661,7 +1661,7 @@ visualizer_UI.prototype = {
 	}
 	,renderExtraUrls: function() {
 		var numbers = this.getMatchNumbers();
-		$("#extraUrls").html("\n            View\n            <a href=\"http://www.tppvisuals.com/pbr/visualizer.htm#" + numbers[0] + "-" + numbers[1] + "-" + numbers[2] + "-" + numbers[3] + "-" + numbers[4] + "-" + numbers[5] + "\">\n            Dhason</a> /\n            <a href=\"http://fe1k.de/tpp/visualize#" + numbers[0] + "-" + numbers[1] + "-" + numbers[2] + "-" + numbers[3] + "-" + numbers[4] + "-" + numbers[5] + "\">\n            FelkCraft</a>\n            visualizer\n        ");
+		$("#extraUrls").html("\n            <s>View\n            <a href=\"http://www.tppvisuals.com/pbr/visualizer.htm#" + numbers[0] + "-" + numbers[1] + "-" + numbers[2] + "-" + numbers[3] + "-" + numbers[4] + "-" + numbers[5] + "\">\n            Dhason</a> /\n            <a href=\"http://fe1k.de/tpp/visualize#" + numbers[0] + "-" + numbers[1] + "-" + numbers[2] + "-" + numbers[3] + "-" + numbers[4] + "-" + numbers[5] + "\">\n            FelkCraft</a>\n            visualizer</s>\n        ");
 	}
 	,testAll: function() {
 		var editions = this.database.getEditionNames();
