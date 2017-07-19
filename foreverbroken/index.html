@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TPP/PBR Forever Broken Simulator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <style>
+    html, body {
+        color: white;
+        background: black;
+        font-family: sans-serif;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    #container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #offline_image {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+    #live_label {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        color: white;
+    }
+    #live_icon {
+        color: red;
+    }
+    #waveform {
+        object-fit: contain;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    #play_overlay_container {
+        position: absolute;
+        top: 0px;
+    }
+    #play_overlay {
+        display: none;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    #play_button {
+        padding: 2em;
+        background: rgba(127, 127, 127, 0.5);
+        font-size: 2em;
+        border-radius: 0.5em;
+    }
+    </style>
+</head>
+<body>
+<noscript>Please enable JavaScript to experience this thing.</noscript>
+<div id="container">
+<div id="live_label"><span id="live_icon">●</span> LIVE</div>
+<img id="offline_image" src="twitchplayspokemon-channel_offline_image.png">
+<canvas id="waveform" width="1920" height="1080"></canvas>
+</div>
+<audio id="music_player" loop="loop">
+    <source src="1-4- Trunk Twister (Underwater)_loop.ogg" type="audio/ogg">
+    <source src="1-4- Trunk Twister (Underwater)_loop.mp3" type="audio/mpeg">
+</audio>
+<div id="play_overlay_container">
+    <div id="play_overlay">
+        <span id="play_button">Play</span>
+    </div>
+</div>
+<script>
+    var liveLabel = document.getElementById("live_label");
+    var audioElement = document.getElementById("music_player");
+    var offlineImage = document.getElementById("offline_image");
+    var playOverlay = document.getElementById("play_overlay");
+    
+    audioElement.pause();
+
+    liveLabel.style.display = "none";
+    playOverlay.style.display = "table-cell";
+
+    offline_image.addEventListener("load", function () {
+        playOverlay.style.height = offline_image.height + 'px';
+    });
+
+    playOverlay.addEventListener("click", function() {
+        liveLabel.style.display = "block";
+        playOverlay.style.display = "none";
+        audioElement.play();
+        draw();
+    });
+
+    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
+  
+    var audioContext = new(window.AudioContext || window.webkitAudioContext)();
+    var analyser = audioContext.createAnalyser();
+    var source = audioContext.createMediaElementSource(audioElement);
+    source.connect(analyser);
+    analyser.connect(audioContext.destination);
+    
+    analyser.fftSize = 1024;
+    var bufferLength = analyser.frequencyBinCount;
+    var dataArray = new Uint8Array(bufferLength);
+    
+    var canvas = document.getElementById("waveform");
+    var canvasContext = canvas.getContext("2d");
+    
+    var waveformWidth = 140;
+    var waveformHeight = 30;
+    var waveformX = 175;
+    var waveformY = 970;
+    
+    var lineWidth = 1.5;
+    
+    function draw() {
+        drawVisual = requestAnimationFrame(draw);
+        
+        analyser.getByteTimeDomainData(dataArray);
+        
+        canvasContext.clearRect(waveformX - lineWidth, waveformY - lineWidth, waveformWidth + lineWidth * 2, waveformHeight + lineWidth * 2);
+        canvasContext.save();
+        canvasContext.translate(waveformX, waveformY);
+        
+        canvasContext.lineWidth = lineWidth;
+        canvasContext.strokeStyle = 'rgb(255, 255, 255)';
+
+        canvasContext.beginPath();
+        
+        var sliceWidth = waveformWidth * 1.0 / bufferLength;
+        var x = 0;
+        
+        for(var i = 0; i < bufferLength; i++) {
+            var v = dataArray[i] / 128.0;
+            var y = v * waveformHeight / 2;
+
+            if (i === 0) {
+                canvasContext.moveTo(x, y);
+            } else {
+                canvasContext.lineTo(x, y);
+            }
+
+            x += sliceWidth;
+        }
+        
+        canvasContext.lineTo(waveformWidth, waveformHeight / 2);
+        canvasContext.stroke();
+        canvasContext.restore();
+    };
+</script>
+
+</body>
+</html>
