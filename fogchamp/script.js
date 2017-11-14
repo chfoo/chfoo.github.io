@@ -1243,7 +1243,7 @@ visualizer_UI.prototype = {
 	,promptToDownloadMovesets: function() {
 		var _gthis = this;
 		if(this.database.apiPokemonDataset.slugs.length == 0) {
-			$("#promptDialog").html("\n            <p>\n            <big><strong>Download the latest movesets from TPP?</strong></big>\n            </p>\n            <p>Downloading will take a while but this only has to be done infrequently.</p>\n            ").dialog({ modal : true, buttons : { "Skip" : function() {
+			$("#promptDialog").html("\n            <p>\n            <big><strong>Download the latest movesets from TPP's API website?</strong></big>\n            </p>\n            <p>Downloading will take a while but this only has to be done infrequently.</p>\n            <p>The API website may collect your IP address and other browser details.</p>\n            ").dialog({ modal : true, buttons : { "Skip" : function() {
 				$("#promptDialog").dialog("close");
 			}, "Download" : function() {
 				$("#downloadMovesetsButton").prop("disabled","disabled");
@@ -1672,7 +1672,7 @@ visualizer_UI.prototype = {
 	,testOne: function(slugs) {
 		if(slugs.length > 0) {
 			var slug = slugs.pop();
-			haxe_Log.trace(slug,{ fileName : "UI.hx", lineNumber : 835, className : "visualizer.UI", methodName : "testOne"});
+			haxe_Log.trace(slug,{ fileName : "UI.hx", lineNumber : 836, className : "visualizer.UI", methodName : "testOne"});
 			this.setSelectionBySlug(0,slug,false);
 			this.syncSelectionListToCurrent();
 			var f = $bind(this,this.testOne);
