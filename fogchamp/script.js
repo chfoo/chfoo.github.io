@@ -572,18 +572,18 @@ visualizer_Formula.prototype = {
 	}
 	,computeDamage: function(userAttack,foeDefense,userBasePower,stab,damageFactor) {
 		var modifier = damageFactor / 100;
+		var damage = Math.floor(Math.floor(Math.floor(2 * visualizer_Formula.LEVEL / 5 + 2) * userBasePower * userAttack / foeDefense) / 50 + 2);
 		if(stab) {
-			modifier *= 1.5;
+			damage = Math.floor(damage * 1.5);
 		}
-		var damage = (2 * visualizer_Formula.LEVEL + 10) / 250 * (userAttack / foeDefense) * userBasePower + 2;
-		damage *= modifier;
+		damage = Math.floor(damage * modifier);
 		var minDamage = damage * visualizer_Formula.RANDOM_MIN_MODIFIER;
 		var critDamage = damage * visualizer_Formula.CRIT_MODIFIER;
 		damage = Math.floor(damage);
 		minDamage = Math.floor(minDamage);
 		critDamage = Math.floor(critDamage);
 		if(damageFactor != 0) {
-			damage = Math.max(1,damage);
+			damage = Math.max(1,damage) | 0;
 			minDamage = Math.max(1,minDamage);
 			critDamage = Math.max(1,critDamage);
 		}
