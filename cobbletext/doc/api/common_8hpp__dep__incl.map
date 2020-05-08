@@ -1,11 +1,12 @@
 <map id="cobbletext/common.hpp" name="cobbletext/common.hpp">
-<area shape="rect" id="node2" href="$AdvanceInfo_8hpp.html" title="cobbletext/AdvanceInfo.hpp" alt="" coords="23,155,207,181"/>
-<area shape="rect" id="node3" href="$cobbletext_8hpp.html" title="Cobbletext C++ API. " alt="" coords="424,304,595,331"/>
-<area shape="rect" id="node4" href="$Engine_8hpp.html" title="cobbletext/Engine.hpp" alt="" coords="434,229,585,256"/>
-<area shape="rect" id="node5" href="$FontInfo_8hpp.html" title="cobbletext/FontInfo.hpp" alt="" coords="225,80,383,107"/>
-<area shape="rect" id="node6" href="$Library_8hpp.html" title="cobbletext/Library.hpp" alt="" coords="333,155,483,181"/>
-<area shape="rect" id="node7" href="$GlyphInfo_8hpp.html" title="cobbletext/GlyphInfo.hpp" alt="" coords="539,80,706,107"/>
-<area shape="rect" id="node8" href="$OutputInfo_8hpp.html" title="cobbletext/OutputInfo.hpp" alt="" coords="661,155,833,181"/>
-<area shape="rect" id="node9" href="$TileInfo_8hpp.html" title="cobbletext/TileInfo.hpp" alt="" coords="857,155,1012,181"/>
-<area shape="rect" id="node10" href="$Exception_8hpp.html" title="cobbletext/Exception.hpp" alt="" coords="922,229,1091,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="418,5,579,32"/>
+<area shape="rect" id="node2" href="$AdvanceInfo_8hpp.html" title=" " alt="" coords="23,155,207,181"/>
+<area shape="rect" id="node3" href="$cobbletext_8hpp.html" title=" " alt="" coords="421,304,592,331"/>
+<area shape="rect" id="node4" href="$Engine_8hpp.html" title=" " alt="" coords="431,229,582,256"/>
+<area shape="rect" id="node5" href="$FontInfo_8hpp.html" title=" " alt="" coords="225,80,383,107"/>
+<area shape="rect" id="node6" href="$Library_8hpp.html" title=" " alt="" coords="333,155,481,181"/>
+<area shape="rect" id="node7" href="$GlyphInfo_8hpp.html" title=" " alt="" coords="537,80,703,107"/>
+<area shape="rect" id="node8" href="$OutputInfo_8hpp.html" title=" " alt="" coords="658,155,830,181"/>
+<area shape="rect" id="node9" href="$TileInfo_8hpp.html" title=" " alt="" coords="855,155,1009,181"/>
+<area shape="rect" id="node10" href="$Exception_8hpp.html" title=" " alt="" coords="919,229,1089,256"/>
 </map>

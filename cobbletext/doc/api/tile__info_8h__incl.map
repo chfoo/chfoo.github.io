@@ -1,4 +1,6 @@
 <map id="cobbletext/tile_info.h" name="cobbletext/tile_info.h">
-<area shape="rect" id="node2" href="$common_8h.html" title="common.h" alt="" coords="43,80,126,107"/>
-<area shape="rect" id="node4" href="$macros_8h.html" title="macros.h" alt="" coords="95,155,171,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="13,5,156,32"/>
+<area shape="rect" id="node2" href="$common_8h.html" title=" " alt="" coords="43,80,126,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,71,181"/>
+<area shape="rect" id="node4" href="$macros_8h.html" title=" " alt="" coords="95,155,171,181"/>
 </map>

@@ -1,9 +1,10 @@
 <map id="cobbletext/common.h" name="cobbletext/common.h">
-<area shape="rect" id="node2" href="$advance__info_8h.html" title="cobbletext/advance\l_info.h" alt="" coords="5,155,140,196"/>
-<area shape="rect" id="node3" href="$cobbletext_8h.html" title="Cobbletext C API. " alt="" coords="310,244,467,271"/>
-<area shape="rect" id="node4" href="$engine_8h.html" title="cobbletext/engine.h" alt="" coords="216,162,351,189"/>
-<area shape="rect" id="node5" href="$text__properties_8h.html" title="cobbletext/text_properties.h" alt="" coords="269,80,452,107"/>
-<area shape="rect" id="node6" href="$font__info_8h.html" title="cobbletext/font_info.h" alt="" coords="426,162,573,189"/>
-<area shape="rect" id="node7" href="$glyph__info_8h.html" title="cobbletext/glyph_info.h" alt="" coords="528,80,684,107"/>
-<area shape="rect" id="node8" href="$tile__info_8h.html" title="cobbletext/tile_info.h" alt="" coords="708,80,851,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="287,5,434,32"/>
+<area shape="rect" id="node2" href="$advance__info_8h.html" title=" " alt="" coords="5,155,140,196"/>
+<area shape="rect" id="node3" href="$cobbletext_8h.html" title=" " alt="" coords="310,244,467,271"/>
+<area shape="rect" id="node4" href="$engine_8h.html" title=" " alt="" coords="216,162,351,189"/>
+<area shape="rect" id="node5" href="$text__properties_8h.html" title=" " alt="" coords="269,80,452,107"/>
+<area shape="rect" id="node6" href="$font__info_8h.html" title=" " alt="" coords="426,162,573,189"/>
+<area shape="rect" id="node7" href="$glyph__info_8h.html" title=" " alt="" coords="528,80,684,107"/>
+<area shape="rect" id="node8" href="$tile__info_8h.html" title=" " alt="" coords="708,80,851,107"/>
 </map>
