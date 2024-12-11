@@ -1,9 +1,25 @@
-function createCookie(name, value, days) {
+function createCookie(name, value) {
 	localStorage.setItem(name, value);
 }
 
 function readCookie(name) {
 	return localStorage.getItem(name);
+}
+
+function isDarkTheme() {
+	return document.querySelector("html").classList.contains("dark-theme");
+}
+
+function toggleTheme() {
+	const htmlTag = document.querySelector("html");
+	let isDark = isDarkTheme();
+	if (isDark) {
+		htmlTag.classList.remove("dark-theme");
+	} else {
+		htmlTag.classList.add("dark-theme");
+	}
+	isDark = isDarkTheme();
+	localStorage.theme = isDark ? "dark" : "light";
 }
 
 function toggleInherited(el) {
@@ -39,12 +55,6 @@ function updateTreeState() {
 	createCookie("treeState", treeState);
 }
 
-var filters = {};
-
-function selectVersion(e) {
-	setVersion($(e.target).parent().attr("data"));
-}
-
 function setPlatform(platform) {
 	createCookie("platform", platform);
 	$("#select-platform").val(platform);
@@ -74,11 +84,6 @@ function setPlatform(platform) {
 
 	$("#dynamicStylesheet").text(styles);
 }
-/*
-function setVersion(version) {
-	createCookie("version", version);
-}
-*/
 
 $(document).ready(function () {
 	$("#nav").html(navContent);
@@ -104,7 +109,6 @@ $(document).ready(function () {
 	$("head").append("<style id='dynamicStylesheet'></style>");
 
 	setPlatform(readCookie("platform") == null ? "all" : readCookie("platform"));
-	//setVersion(readCookie("version") == null ? "3_0" : readCookie("version"));
 
 	$("#search").on("input", function (e) {
 		searchQuery(e.target.value);
